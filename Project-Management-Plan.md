@@ -9,4 +9,6 @@ This page describes the procedures we'll adhere to in carrying out the project.
 
 
 
+# Documentation
 
+These wiki pages should serve as working documents that are updated as the project progresses.  Some material will be moved from the wiki to the project site as it matures.
