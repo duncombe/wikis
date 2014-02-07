@@ -26,4 +26,4 @@ Steps for portals and application clients to support the GEOSS User in searching
 ## Use Case: Exploit Data Visually and Analytically
 
 # Theme 3:  TBD, Ecosystem, Water Quality, Biology, Climate Change
-##As a starting point for thinking about energy siting within CMSP as a potential third theme, here's a short [paper](https://drive.google.com/file/d/0B8p4sUXIeKn1WVFhaGo0UzBnWjQ/edit?usp=sharing) emphasizing that the driver behind many state based CMSP has been the siting of energy.
+As a starting point for thinking about energy siting within CMSP as a potential third theme, here's a short [paper](https://drive.google.com/file/d/0B8p4sUXIeKn1WVFhaGo0UzBnWjQ/edit?usp=sharing) emphasizing that the driver behind many state based CMSP has been the siting of energy.
