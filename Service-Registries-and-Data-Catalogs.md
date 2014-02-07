@@ -5,7 +5,7 @@
 * IOOS [Service Registry](https://geo-ide.noaa.gov/wiki/index.php?title=ESRI_Geoportal#IOOS_WAFs) at NGDC
 * data.noaa.gov
 * N*DC Geoportals
-
+* NODC/UAF Geoportal http://www.nodc.noaa.gov/geoportal/
 * data.gov
 * Others
 
