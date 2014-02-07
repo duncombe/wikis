@@ -1,10 +1,16 @@
-* IOOS Service Registry at NGDC
+1. List all of the catalog/registries we will include as part of the test.
+2. List the service interfaces they provide.
+3. Are the registries domain specific?
+
+* IOOS [Service Registry](https://geo-ide.noaa.gov/wiki/index.php?title=ESRI_Geoportal#IOOS_WAFs) at NGDC
 * data.noaa.gov
 * N*DC Geoportals
+
 * data.gov
 * Others
 
-
+List each catalog/registry and the interfaces they provide.
+How many other registries are out there?  
 Taken from Rich's blog: http://rsignell-usgs.github.io/blog/blog/2014/01/15/csw_ngdc_dap/
 endpoint = 'http://www.ngdc.noaa.gov/geoportal/csw' # NGDC Geoportal
 endpoint = 'http://www.nodc.noaa.gov/geoportal/csw'   # NODC Geoportal: granule level
