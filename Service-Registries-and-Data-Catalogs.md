@@ -16,6 +16,6 @@ endpoint = 'http://cmgds.marine.usgs.gov/geonetwork/srv/en/csw' # USGS Coastal a
 endpoint = 'http://geoport.whoi.edu/geoportal/csw' # USGS Woods Hole Geoportal 
 endpoint = 'http://geo.gov.ckan.org/csw'  # CKAN testing site for new Data.gov
 endpoint = 'https://edg.epa.gov/metadata/csw'  # EPA
-#endpoint = 'http://cwic.csiss.gmu.edu/cwicv1/discovery'  # CWIC
+endpoint = 'http://cwic.csiss.gmu.edu/cwicv1/discovery'  # CWIC
 
 Look at this article for suggestions on how to structure our initial baseline phase.  [Empirical Study of Sensor Observation Services Server Instances](http://arxiv.org/ftp/arxiv/papers/1109/1109.4503.pdf)
