@@ -12,6 +12,9 @@ Use Cases are taken from the GEOSS Architecture Implementation Pilot, Phase 3, [
 Editors note: we will note be testing or deploying any push technologies so Alerts are out of scope for DMAC and for this project.
 
 ## Use Case: Search for Resources
+What are the essential elements that dictate whether a search was successful or not?
+
+* List the interfaces that a catalog provides (html page with forms, csw, opensearch, ckan etc)
 
 # Theme 2: Extreme Events 
 
