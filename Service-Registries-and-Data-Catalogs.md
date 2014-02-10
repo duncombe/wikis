@@ -1,9 +1,9 @@
 1. List all of the catalog/registries we will include as part of the test.
 2. List the service interfaces they provide.
 3. Are the registries domain specific?
-TODO: List each catalog/registry and the interfaces they provide.
-TODO: List a short description of each for inclusion in the final report.  What is the registry?  Who sponsors it?  Any domain specific issues?  
-Some of these are taken from Rich's blog: http://rsignell-usgs.github.io/blog/blog/2014/01/15/csw_ngdc_dap/
+4. List a short description of each for inclusion in the final report.  What is the registry?  Who sponsors it?  Any domain specific issues?  
+
+Some of these are taken from Rich's [blog](http://rsignell-usgs.github.io/blog/blog/2014/01/15/csw_ngdc_dap/)
 
 * IOOS [Service Registry](https://geo-ide.noaa.gov/wiki/index.php?title=ESRI_Geoportal#IOOS_WAFs) at NGDC
   * csw: http://www.ngdc.noaa.gov/geoportal/csw
