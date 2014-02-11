@@ -11,7 +11,8 @@
 The baseline assessment theme will concentrate on use cases that aren't science focused but instead are focused on a basic assessment of the tools we have to apply to the Discovery/Access/Use paradigm.  Basic statistics on the number of data sets in each chosen registry, the standards advertised, the dialects of the metadata within the registries etc.  
 
 Use Cases may be taken from the GEOSS Architecture Implementation Pilot, Phase 3, [Use Case Engineering Report](http://www.ogcnetwork.net/pub/ogcnetwork/GEOSS/AIP3/documents/AIP-3_Use_Cases_ER110210.pdf).
-Editors note: we will note be testing or deploying any push technologies so Alerts are out of scope for DMAC and for this project.
+
+*_Editors note: we will note be testing or deploying any push technologies so Alerts are out of scope for DMAC and for this project._*
 
 ## Use Case: Search for Resources
 What are the essential elements that dictate whether a search was successful or not?
