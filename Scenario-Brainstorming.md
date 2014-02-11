@@ -29,3 +29,8 @@ Steps for portals and application clients to support the GEOSS User in searching
 As a starting point for thinking about energy siting within CMSP as a potential third theme, here's a short [paper](https://drive.google.com/file/d/0B8p4sUXIeKn1WVFhaGo0UzBnWjQ/edit?usp=sharing) emphasizing that the driver behind many state based CMSP has been the siting of energy.
 
 The [InVEST Model for Wind Energy Siting](http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/wind_energy.html#required-inputs) might be a good place to gather required data sets (See, "Required input" section in the link).  Looking through, however, I might argue that it could be additionally useful to add data sets required for permitting (e.g. migratory birds, marine mammals, fish abundance/species).
+
+
+# Scenarios for consideration in the integrated DATE and Systems Integration Test activities (DMAC-ST Input)
+
+Insert raw material from https://docs.google.com/a/noaa.gov/document/d/1veNhCt8Tk_0kedMXnHPWBj9SOcJ8y4zwXPBIdnQ1NFs/edit#heading=h.vzggr24i8e93
