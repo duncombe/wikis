@@ -25,7 +25,7 @@ Steps for portals and application clients to support the GEOSS User in searching
 
 ## Use Case: Exploit Data Visually and Analytically
 
-# Theme 3:  TBD, Ecosystem, Water Quality, Biology, Climate Change
+# Theme 3:  TBD (Considering Ecosystem, Water Quality, Biology, Climate Change, CMSP)
 As a starting point for thinking about energy siting within CMSP as a potential third theme, here's a short [paper](https://drive.google.com/file/d/0B8p4sUXIeKn1WVFhaGo0UzBnWjQ/edit?usp=sharing) emphasizing that the driver behind many state based CMSP has been the siting of energy.
 
 The [InVEST Model for Wind Energy Siting](http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/wind_energy.html#required-inputs) might be a good place to gather required data sets (See, "Required input" section in the link).  Looking through, however, I might argue that it could be additionally useful to add data sets required for permitting (e.g. migratory birds, marine mammals, fish abundance/species).
