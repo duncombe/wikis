@@ -4,3 +4,24 @@ CSW
 
 OpenSearch
 
+GEOSS AIP-6 Architecture Document http://www.earthobservations.org/documents/cfp/201302_geoss_cfp_aip6_architecture.pdf
+
+GEOSS AIP-3 Use Cases Engineering Report GEOSS Architecture Implementation Pilot, Phase3, http://www.ogcnetwork.net/pub/ogcnetwork/GEOSS/AIP3/documents/AIP-3_Use_Cases_ER110210.pdf
+
+
+Paper on DMAC technologies in support of modeling: https://docs.google.com/a/noaa.gov/file/d/0B8Z5uQGdxxJBcGk2UFlKU1IzOEpfS2NrMHV5M3k0dUlRM1dr/edit
+
+Karl Benedicts presentation to the DMAC ST on 2013-11-19.
+
+Here are links to the DATE project presentation materials for tomorrow morning's session:
+
+    Presentation (self-contained web page. arrow-keys advance):  https://www.dropbox.com/s/ehlu0p3s7caxp8i/presentation.slides.html
+    Notes (just an alternative format for the same content):  https://www.dropbox.com/s/0spmxekonaivneu/presentation.html 
+
+Rich Signell's  presentation at the same meeting.
+
+    The presentation I gave at the DMAC ST meeting is at: https://drive.google.com/file/d/0BzAHlPEEP_ujTHo2MHN0akdPLTA/edit?usp=sharing
+    And here is one of the IPython Notebooks I showed that demonstrates  a simple example of Search, Access and Use using IOOS services:  https://www.wakari.io/sharing/bundle/rsignell/NGDC-CSW-DAP  It looks for temperature data in a specified geographic and temporal range from data that has been registered with the IOOS Catalog, accesses the data, and plots them up!  You can try it yourself by clicking the green "Run/Edit" button.   I recorded a 5 min youtube of how you do this here: https://www.youtube.com/watch?v=4NyMWK4as-U
+
+
+Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/documents/33772
