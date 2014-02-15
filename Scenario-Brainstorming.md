@@ -5,7 +5,7 @@
 * Second is Use Case ?
   * These are high level descriptions of functionality that aren't specific to a topic area or need.  Search, Access, Visualize etc.
 * Third is Test Case ?
-  * This is a specific example of a use case within a Scenario.  (e.g. a type of plot or a specific query against a specific metadata registry)
+  * This is a specific example of a use case within a Scenario.  (e.g. a type of plot or a specific query against a specific metadata registry).  A test case is executed in well-defined, sequential steps, using specified data, variable parameters and search criteria.  Each step in a test case includes criteria to evaluate whether that test step passed, and if not, what effect the failure might have on the oveall success of the test case.
 
 # Theme 1: Baseline Assessment
 The baseline assessment theme will concentrate on use cases that aren't science focused but instead are focused on a basic assessment of the tools we have to apply to the Discovery/Access/Use paradigm.  Basic statistics on the number of data sets in each chosen registry, the standards advertised, the dialects of the metadata within the registries etc.  
