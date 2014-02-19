@@ -17,6 +17,7 @@ Develop a vision statement and supporting objectives.  For example, we need a ge
 The scope of the test can be thought of along several different categories.  First is the subject matter scope and we’ve thus far defined that to be represented by the three larger themes.  Second is the data content scope and we’ve limited that by choosing the number of service registries to consider (Our current draft of that is on the wiki).  Third is the technology scope which we’ve limited by selecting Python as our primary computing environment.  This has the effect of limiting our clients which in turn limits the type of data service we can access.
 
 * Using python clients exclusively (TODO: Provide a list of the packages and links to the conda.spec file that we'll use)
+*_Editors note: we will note be testing or deploying any push technologies so Alerts are out of scope for DMAC and for this project._*
 
 # Schedule
 The current official end date for this project is approximately Sep 2014.  Tight timeline to fit it all in!!!
