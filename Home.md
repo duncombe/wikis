@@ -1,4 +1,5 @@
 The DMAC integration testing project will  assesses the maturity of DMAC implementation across IOOS Regional Associations and partner federal agencies.  The DMAC System Integration Test will:
+
 1. Create test cases that illustrate how data consumers can use the DMAC data discovery and access services
 2. Apply these test cases to real world problems related to Extreme Events and Environmental Impacts associated with Energy Facility Siting (TBD?)
 3. Compile a set of prioritized fixes and enhancements to DMAC data discovery and access services
