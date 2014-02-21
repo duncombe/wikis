@@ -7,6 +7,8 @@ I continued to review the full sweet of systems integration documentation and wo
 # Week 3
 I drafted a baseline theme notebook that runs through a series of elements for each data registry and developed the language needed to test a web mapped services.  This will provide a ground level means and processes for testing particular data layers required during a test scenario.  I presented the notebook during my weekly meeting with the IOOS office, and got valuable feedback on how to structure the notebook and next steps in terms of how to handle the output of each notebook so that the information is presentable to a wider audience.  During the meeting, we also clarified next steps for finalizing a scenario and creating corresponding notebooks and outputs.  It was decided that rather than create standalone notebooks, it would be valuable to create bundles with notebooks and output files so that these could be gathered into a report at the completion of the project.
 
+I made some progress on the master notebook, and just wanted to share that. I'm basically working through gathering different types of portals from the OWSLib and going through what can be looked at for each type, keeping a list at the top that is hashed, and coming up with some simple loops that will feed out the results. Here's the notebook so far: Testing Catalog Interfaces.
+
 # Week 4
 
 # Week 5
