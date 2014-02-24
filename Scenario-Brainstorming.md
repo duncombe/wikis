@@ -255,4 +255,4 @@ Users: Agency scientists and managers
 Data to target to answer these questions: NANOOS POST/OTN Animal Acoustic Telemetry data.
 Place to look for the data: IOOS Catalog, NANOOS ERDDAP and GEOSERVER.
 
-[Raw Material from DMAC Steering Team Brainstorming (https://docs.google.com/a/noaa.gov/document/d/1veNhCt8Tk_0kedMXnHPWBj9SOcJ8y4zwXPBIdnQ1NFs/edit#heading=h.vzggr24i8e93)
+[Raw Material from DMAC Steering Team Brainstorming] (https://docs.google.com/a/noaa.gov/document/d/1veNhCt8Tk_0kedMXnHPWBj9SOcJ8y4zwXPBIdnQ1NFs/edit#heading=h.vzggr24i8e93)
