@@ -1,4 +1,3 @@
-
 # Introduction
 The entire project is organized into phases or focus areas called themes.  Themes will focus on a large scientific problem area and will be used to identify common problems or needs commonly encountered by  data consumers who work within these theme areas.  These theme areas are similar to the GEOSS societal benefit areas.  Within each theme there is a top level problem statement, which contains the overall objective of the theme.  The problem theme and its objectives are articulated in one or more are one or more Questions To Be Answered.  One or more step-by-step procedures will use DMAC resources to answer the Questions.  The procedures will employ iPython scripts that interrogate DMAC registries and repositories, and analyze the returned data against expected results.
 
@@ -8,14 +7,11 @@ Each test case is executed in sequential steps, following a baseline flow of dis
 
 # Source for Test Cases
 
-The the GEOSS Architecture Implementation Pilot, Phase 3, [Use Case Engineering Report](http://www.ogcnetwork.net/pub/ogcnetwork/GEOSS/AIP3/documents/AIP-3_Use_Cases_ER110210.pdf) provides a set of use cases that are relevant to DMAC and distributed data networks in general but are not science focused.   They may be useful as templates for building procedures for various DMAC test cases.  These so called transverse use cases may be useful in helping us standardize the data we will collect from each test case. [Note that the term "transverse use case' is not defined in systems testing literature and seems to be particular to the GEOSS Architecture Implementation Pilot project.]   This section is included currently, just as a placeholder for future elaboration/consideration.  It's not clear if included the somewhat dense language of system engineering use case principles will make for a better publication in the end.  Nevertheless there is some useful information in these references.  The structure and style of the GEOSS use cases should not be lifted ans used without revision in DMAC testing. Rather, the GEOSS use cases can suggest procedures that can be easily adapted to test DMAC functionality.
+The the GEOSS Architecture Implementation Pilot, Phase 3, [Use Case Engineering Report](http://www.ogcnetwork.net/pub/ogcnetwork/GEOSS/AIP3/documents/AIP-3_Use_Cases_ER110210.pdf) provides a set of use cases that are relevant to DMAC and distributed data networks in general but are not science focused.   They may be useful as templates for building procedures for various DMAC test cases.  These so called transverse use cases may be useful in helping us standardize the data we will collect from each test case. [Note that the term "transverse use case' is not defined in systems testing literature and seems to be particular to the GEOSS Architecture Implementation Pilot project.]   This section is included currently, just as a placeholder for future elaboration/consideration.  It's not clear if included the somewhat dense language of system engineering use case principles will make for a better publication in the end.  Nevertheless there is some useful information in these references.  The structure and style of the GEOSS use cases should not be lifted ans used without revision in DMAC testing. Rather, the GEOSS use cases can suggest procedures that can be easily adapted to test DMAC functionality.  Of particular interest to DMAC are three GEOSS general use cases:
 
-## Use Case: Search for Resources 
-Steps for portals and application clients to support the GEOSS User in searching for resources of interest via Community Catalogs and Registries
-
-## Use Case: Present Services
-
-## Use Case: Exploit Data Visually and Analytically
+* Search for Resources
+* Present Services
+* Exploit Data Visually and Analytically
 
 # Theme 1: Baseline Assessment
 The baseline assessment theme will concentrate on use cases that aren't necessarily science focused but instead are focused on a basic assessment of the tools we have to apply to the Discovery/Access/Use paradigm.  Basic statistics on the number of data sets in each chosen registry, the standards advertised, the dialects of the metadata within the registries etc.  
