@@ -38,5 +38,7 @@ Some of these are taken from Rich's [blog](http://rsignell-usgs.github.io/blog/b
 
 Look at this article for suggestions on how to structure our initial baseline phase.  [Empirical Study of Sensor Observation Services Server Instances](http://arxiv.org/ftp/arxiv/papers/1109/1109.4503.pdf)
 
+[Reference Document for Accessing and Examining CSWs](https://drive.google.com/file/d/0B8p4sUXIeKn1WFdYOXhqRFNUZXc/edit?usp=sharing)
+
 
 Reference: The NOAA/NGDC supported customizations for the ESRI Geoportal Server are available on the [NOAA EDM wiki](https://geo-ide.noaa.gov/wiki/index.php?title=ESRI_Geoportal#ISO_19115-2_support).  Check with Dave N to make certain they are up to date.
