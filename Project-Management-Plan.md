@@ -1,18 +1,37 @@
-This page describes the procedures we'll adhere to in carrying out the project.
+This document describes the procedures we'll adhere to in carrying out the project.  It is comprehensive in that it includes management of all relevant knowledge areas, with the exception of cost management. Areas addressed by this document include the following:
+* Scope Management
+* Time Management
+* Quality Management
+* Human Resource Management
+* Communication Management
+* Risk Management 
+* Integration Management
+
+This document does not address procurement management, as there are no procurement actions planned for the project.
+
 
 # Goals and Objectives
 
-Develop a vision statement and supporting objectives.  For example, we need a general statement of what we're doing and why.  We also need a statement on how others can participate.  _Use this space to develop the material or link to it from here._
+The Integrated Ocean Observing System (IOOS) is a federal, regional, private sector, and academic partnership that tracks, predicts, manages, and adapts to changes in our marine environments. The Data Management and Communications (DMAC) project of IOOS strives to deliver real-time, delayed-mode, and historical data from physical, chemical and biological data. Those data may be stored in repositories or come directly from sensors operated by academic, state, regional and federal members of IOOS.  The DMAC project has three objectives:
+1. Standardize data structure and syntax across sensors and repositories to make data discovery and retrieval easier for researchers and policy makers.
+2. Enhance open source search and retrieval software to provide a library of tools that have been tested and proven to work in discovering and retrieving IOOS data.
+3. Improve the accessibility of IOOS data to multiple scientific disciplines, including, but not limited to, oceanography, meteorology, marine biology and climatology.
+
+The Data Management and Communications (DMAC) System Integration Test project is instrumental to the DMAC program’s overall objectives.  It represents the means by which the DMAC program defines its objectives and tracks its progress towards them.  The DMAC System Integration Test will:
+1.	Create test cases that demonstrate that data consumers can use the DMAC data discovery and access services to get data in a repeatable way.  This is considered the baseline.
+2. Apply these test cases to real world problems related to Extreme Events and Environmental Impacts associated with Energy Facility Siting (TBD?)
+3. Publish an overall maturity percent as measured against XXXXX.  
+4. Compile a set of prioritized fixes and enhancements to DMAC data discovery and access services
+5. Complete highest  priority fixes and enhancements
+6. Publish the test cases in an open collaborative environment to encourage community education and involvement in IOOS
+7. Ensure that we can repeat the assessment easily to measure progress over time
 
 
 
-
-* Phase 1 will focus on an assessment of the known service registries and the client capabilities.  It will develop the basic documentation framework including the static web site, the blog/IPython notebook publication, and the dynamic reporting engine that we'll use to summarize various aspects of the project during the project execution.   This phase will be known as the Baseline Assessment theme.
-* Phase 2 will elaborate on the baseline assessment and begin to focus on the scientific themes that form the core of the System Test.
-* At least one theme will focus on an extreme event such as severe storms or coastal inundation
-* Remaining themes will be selected based on input from the project team or anyone else in the community. See [Scenario Brainstorming](Scenario-Brainstorming) for a list of potential scenarios. 
 
 # Scope
+
+The Scope of the Systems Integration Test includes several 
 
 The scope of the test can be thought of along several different categories.  First is the subject matter scope and we’ve thus far defined that to be represented by the three larger themes.  Second is the data content scope and we’ve limited that by choosing the number of service registries to consider (Our current draft of that is on the wiki).  Third is the technology scope which we’ve limited by selecting Python as our primary computing environment.  This has the effect of limiting our clients which in turn limits the type of data service we can access.
 
