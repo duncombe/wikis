@@ -40,6 +40,6 @@ Look at this article for suggestions on how to structure our initial baseline ph
 
 [Reference Document for Accessing and Examining CSWs](https://drive.google.com/file/d/0B8p4sUXIeKn1WFdYOXhqRFNUZXc/edit?usp=sharing)
 
-[A Useful Slideshow about using Python to harvest CWS metadata](http://pycsw.org/publications/foss4g2013/#/)
+[A Useful Slideshow about using Python to harvest CWS metadata](http://pycsw.org/publications/foss4g2013/#/) and [Associated Wiki Page](https://github.com/geopython/pycsw/wiki)
 
 Reference: The NOAA/NGDC supported customizations for the ESRI Geoportal Server are available on the [NOAA EDM wiki](https://geo-ide.noaa.gov/wiki/index.php?title=ESRI_Geoportal#ISO_19115-2_support).  Check with Dave N to make certain they are up to date.
