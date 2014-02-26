@@ -14,7 +14,7 @@ The the GEOSS Architecture Implementation Pilot, Phase 3, [Use Case Engineering 
 * Exploit Data Visually and Analytically
 
 # Theme 1: Baseline Assessment
-The baseline assessment theme will concentrate on use cases that aren't necessarily science focused but instead are focused on a basic assessment of the tools we have to apply to the Discovery/Access/Use paradigm.  Basic statistics on the number of data sets in each chosen registry, the standards advertised, the dialects of the metadata within the registries etc.  
+The baseline assessment theme includes test cases that, as the name of theme states, assess the basic functionality of the Data Management and Communications system. While the test cases for this theme have no slant towards a particular scientific endeavor, the functionality to be tested underlies all subsequent test themes.  To put it simply, the Baseline Assessment theme tests whether registries, catalogs, metadata sets and data sets that are known to meet IOOS certification can be discovered, accessed and used. Results include information such as basic statistics on the number of data sets in each chosen registry, the standards advertised, and the dialects of the metadata within the registries. Information obtained through the use of iPython scripts will be compared against corresponding information retained by a registry, catalog, or data repository owner to answer the question below.
 
 
 *_Editors note: we will note be testing or deploying any push technologies so Alerts are out of scope for DMAC and for this project._*
