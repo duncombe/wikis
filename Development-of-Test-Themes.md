@@ -55,16 +55,16 @@ The [InVEST Model for Wind Energy Siting](http://ncp-dev.stanford.edu/~dataporta
 •	As a severe storm is approaching the coast, forecast models are continually being revised as new information about storm’s offshore position and intensity becomes available.   
 •	How accurate are these models results compared to the measured waves, river flows and water levels?   
 •	After the storm abates, inundation data should help inform where should responders go to help with the most affected areas.  
-•	And much after the storm, comparing inundation data to predicted inundation model helps us understand modeling weak points, which, with research and development, leads to better models in the future. 
+•	And much after the storm, comparing recorded data values to predicted data values assists in identifying shortcomings of the model and can suggest ways for improving a model's predictive power.
 
-###Required data to satisfy scenario:
+###Required data to satisfy scenario (Source for each type of data identified in parentheses):
 
-- data available on this custom USGS Sandy Mapper app:
-- Rapid deployment tide gauges (USGS)
-- Rapid deployment streamgauges (USGS)
+- data available on this custom USGS Sandy Mapper app: [Need to name the app]
+- Rapid deployment tide gauges(USGS)
+- Rapid deployment stream gauges (USGS)
 - Wave heights sensors (NOAA, IOOS regions)
-- Barometric Pressure (NOAA NOS, NOAA NWS)
-- Winds (NOAA, IOOS Regions)
+- Barometric Pressure data(NOAA NOS, NOAA NWS)
+- Winddata (NOAA, IOOS Regions)
 - Long-term tide gauges (USGS, NOAA, USACE)
 - High-water marks (USGS, NOAA, FEMA)
 - Models from USACE, NOAA, IOOS Regions
