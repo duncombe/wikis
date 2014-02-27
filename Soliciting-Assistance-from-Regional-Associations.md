@@ -1,6 +1,7 @@
-## Objective:  Persuade directors of Regional Associations to allocate subject matter expertise to assist the DMAC test team in constructing and executing test themes.
+## Objective  
+Persuade directors of Regional Associations to allocate subject matter expertise to assist the DMAC test team in constructing and executing test themes.
 
-## Need
+## Needs
 DMAC test team needs assistance in developing test cases for two major themes:
 * Extreme Events
 * Marine Ecosystem
