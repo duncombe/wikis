@@ -15,7 +15,7 @@ Some of these are taken from Rich's [blog](http://rsignell-usgs.github.io/blog/b
    * csw: http://data.nodc.noaa.gov/geoportal/csw  
 * data.noaa.gov
    * ckan: ???
-   * csw: ???
+   * csw: https://data.noaa.gov/csw?service=CSW&version=2.0.2&request=GetCapabilities
 * data.gov
    * ckan: ???
    * csw: ???
@@ -35,6 +35,8 @@ Some of these are taken from Rich's [blog](http://rsignell-usgs.github.io/blog/b
    * csw: https://edg.epa.gov/metadata/csw
 * CWIC
    * csw: http://cwic.csiss.gmu.edu/cwicv1/discovery
+* West Coast Governors Alliance (Based on ESRI Geoportal back end)
+   * api information: http://portal.westcoastoceans.org/connect/
 
 Look at this article for suggestions on how to structure our initial baseline phase.  [Empirical Study of Sensor Observation Services Server Instances](http://arxiv.org/ftp/arxiv/papers/1109/1109.4503.pdf)
 
