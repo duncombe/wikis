@@ -30,7 +30,7 @@ The baseline assessment theme includes test cases that, as the name of theme sta
   * Presence/absence of keywords and references to keyword vocabularies (preferably machine readable)
   * 
 
-# Theme 2: Extreme Events 
+# Theme 2: Weather and Climate-Related Extreme Events 
 
 ## Questions for consideration
 
@@ -70,7 +70,8 @@ The [InVEST Model for Wind Energy Siting](http://ncp-dev.stanford.edu/~dataporta
 - Models from USACE, NOAA, IOOS Regions
 - NOAA NHC: SLOSH
 - NOAA NOS: ASGS, 
-##B. Biologically Focused Extreme Events
+
+##B. Biologically Focused Extreme Events:  These items should be relocated to the Marine Ecosystem Theme
 ##1. Invasive Species
 
 ###Rationale:
