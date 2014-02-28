@@ -11,9 +11,10 @@ DMAC test team needs assistance in developing test cases for two major themes:
 
 Each RA includes one or more subject matter experts who may be considered to be Data Conservators. These SMEs know what data their association collects, how those data are stored, the format in which those data are stored, the format of the metadata that describes them and the data stored in associated repositories, and the most common types of queries made against their data and metadata.  These conservators likely have a set of query tools that they use to perform discovery, access and use related to particular scientific and/or policy areas.  What we need:
 
-•	A few hours of their time to brief us on what their registries and catalogs contain
-•	Copies of any scripts that are most commonly used for discovery, access, and use
-•	Some background information on the scripts, as well as some instruction on how to configure and use them
+* A few hours of their time to brief us on what their registries and catalogs contain
+* Copies of any scripts that are most commonly used for discovery, access, and use
+* Some background information on the scripts, as well as some instruction on how to configure and use them
+* Estimate needing 4-8 hours of time from each SME.
 
 
 ## Resources
@@ -29,7 +30,6 @@ Opportunity for persuading Regional Directors is small.  Not much time available
 * Ask for SME assistance in fine tuning the themes.  Use listing of some of the test theme brainstorm items as teasers.
 * Press the Regional Directors for names and contact information of SMEs.
 * Contact the SMEs directly.  Talk to them and use desktop sharing to illustrate what we are doing and what kinds of assistance we need.
-
-
+* Closing emphasis:  Not much to ask to help insure that the RAs efforts to configure data registries and data catalogs have been successful.
 
 
