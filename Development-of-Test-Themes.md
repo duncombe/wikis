@@ -99,79 +99,55 @@ Physical disasters often impact entire ecosystems and mitigation efforts can be 
 ###Example: Oil Tanker Spill
 An oil tanker loaded has collided with another vessel 5 nautical miles SE of the entrance to Delaware Bay.  A large quantity of oil has been released into the marine environment, threatening the shoreline of the Delmarva Peninsula, Delaware Bay, and the New Jersey coast. 
 
-Example A: Required data to satisfy scenario:
-•	weather 
-•	sea surface temperature 
-•	data required for oil spill trajectory models
-•	real-time precipitation
-•	cloud cover
-•	wind speed/direction
-•	surface currents
-•	wave heights, 
-•	threatened and endangered species data
-•	shoreline types 
-•	 waterway use data 
-•	boundaries (vessel traffic, shipping lanes, state/territorial waters boundaries) 
+#### Questions for Consideration
+* What are the dimensions of the oil slick?
+* Which areas of coastline are likely to be tainted?
+* Which indigenous species might be adversely affected by the oil?
+* How long will it take for the oil spill to disperse?
+* Which capture and dispersal tools and techniques would work best?
 
-Example B: Arctic Oil Spill  
+####Required Data to Answer Questions
+* weather 
+* sea surface temperature 
+* real-time precipitation
+* cloud cover
+* wind speed/direction
+* surface currents
+* wave heights, 
+* threatened and endangered species data
+* shoreline types 
+* waterway use data 
+* boundaries (vessel traffic, shipping lanes, state/territorial waters boundaries) 
 
-With the increased interest in Arctic drilling and reduced sea ice enabling more ship transportation in the Arctic, the risk of an oil spill is increasing.  
 
-Example B: Required data to satisfy scenario:
-•	real-time and historic baseline data on wind speed/direction
-•	ocean currents
-•	chemical and nutrient distributions
-•	macro- and microfauna distributions
-•	habitat characterization (including bathymetry)
-•	ocean temperature and salinity 
-•	regional climatologies
-•	waves
-•	modeled circulation
-Example C: Assessing the injuries to pelagic tunas in the gulf of Mexico
+## Search & Rescue 
+Many disaster responses requiring rescue can be improved by greater knowledge about the physical/chemical/biological conditions.
 
-Atlantic Bluefin tuna (Thunnus thynnus) are among the world’s more imperiled commercial pelagic fish. The shelf waters of the Gulf of Mexico are the known North American spawning ground for a portion of the Atlantic western Atlantic stock. The Deepwater Horizon Oil Spill occurred during the peak of the known spawning time, thereby exposing fish at all life stages from egg to adult.
+###Example: Commercial Aircraft Crash
+A large commercial aircraft en route LAX from Honolulu with several hundred passengers onboard has crashed into the Pacific Ocean midway between the Hawaiian Islands and the California coast.  A massive search and rescue effort is underway. 
 
-Example C: Required data to satisfy scenario:
-•	bluefin tagging/telemetry data
-•	bluefin tracks
-•	oil spill tracks
-•	historical bluefin tagging data
-•	waves
-•	modeled circulation
-##D. Rescue Scenarios
+####Questions  To Be Answered
+* Where exactly is the crash site?
+* Where will survivors be lost likely to be found?
+* Where will floating wreckage be found?
+* How deep is the ocean bottom at the crash site?
+* Are there weather conditions that might assist or hamper the search & recovery effort?
+* How will current and forecast weather conditions near the crash area affect the survivors?
 
-###Rationale:
-•	Many disaster responses requiring rescue can be improved by greater knowledge about the physical/chemical/biological conditions.
-
-Example A: Commercial Aircraft Crash
-
-•	A large commercial aircraft en route LAX from Honolulu with several hundred passengers onboard has crashed into the Pacific Ocean midway between the Hawaiian Islands and the California coast.  A massive search and rescue effort is underway.  
-
-Example A: Required data to satisfy scenario:
-•	real-time weather 
-•	ocean circulation observations 
-•	real-time precipitation 
-•	cloud cover 
-•	wind speed/direction 
-•	surface currents
-•	wave heights
-•	sea surface temperature
+####Required Data to Answer Questions
+* GPS location of crash site
+* real-time weather 
+* ocean circulation observations 
+* real-time precipitation 
+* cloud cover 
+* wind speed/direction 
+* surface currents
+* wave heights
+* sea surface temperature
+* forecast wind speed/direction
+* forecast surface currents
+* forecast weather
  
-Example B: Search and Rescue (SAR)
-
-•	Around 5PM on an overcast day during the Hurricane season, a twin engine plane on a routine flight over the Atlantic Ocean about 200 miles off the US shore runs into catastrophic engine problems and the captain decides to make an immediate water landing. Emergency procedures work per plan and the plane ‘lands’ safely. All 150 passengers are evacuated on rafts and the rafts are detached from the plane after the captain and crew notice smoke billowing from one of the engines. The plane and rafts begin to drift independently.
-•	Complicating the situation, radio contact is lost between the crew and on-shore authorities shortly after the plane water landed, on-shore authorities to rely entirely on prediction to determine the location of the rafts and the plane in the ensuring hours so that a comprehensive search and rescue effort, including the critical dispatching of all required air and marine assets – including non-governmental ones - can be initiated. Authorities recognize that they have only limited time on hand before the rafts run out of life-supporting supplies, and before it gets to be night time.
-
-Example B: Required data to satisfy scenario:
-
-•	 real-time weather 
-•	ocean circulation observations 
-•	real-time precipitation 
-•	cloud cover 
-•	wind speed/direction 
-•	surface currents
-•	wave heights
-•	sea surface temperature.
 
 # Theme 3:   Marine Energy Planning
 As a starting point for thinking about energy siting within CMSP as a potential third theme, here's a short [paper](https://drive.google.com/file/d/0B8p4sUXIeKn1WVFhaGo0UzBnWjQ/edit?usp=sharing) emphasizing that the driver behind many state based CMSP has been the siting of energy.
