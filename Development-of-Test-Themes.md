@@ -28,7 +28,10 @@ The baseline assessment theme includes test cases that, as the name of theme sta
   * Presence/absence of well defined service interfaces
   * Clear human readable titles/abstracts/summaries
   * Presence/absence of keywords and references to keyword vocabularies (preferably machine readable)
-  * 
+
+NOTE: See github.com/osgeo/Cat-Interop for a project that should be included as a contribution to the system-test.  Standardizing vocabulary of service type descriptions for CS/W 2.0.2 implementations.
+
+
 
 # Theme 2: Extreme Events 
 The Extreme Events theme, as its name suggests, focuses on the analysis of data related to events that produce extreme adverse effects in a geographic area.  Possible topics within this heme may include, but not be limited to, the following.
