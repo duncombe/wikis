@@ -2,23 +2,24 @@
 Persuade directors of Regional Associations to allocate subject matter expertise to assist the DMAC test team in constructing and executing test themes.
 
 ## Background
-The Regional Associations have bought into IOOS, and in some cases have expended significant effort to makes their servers available to IOOS-approved clients for data discovery, access and use.  The DMAC test is a way for the RAs to ascertain how successful they have been in their efforts.  
+The Regional Associations are the core of IOOS, and in some cases have expended significant effort to makes their servers available to IOOS-approved clients for data discovery, access and use.  The DMAC test is a way for the RAs to ascertain how successful they have been in their efforts.  
 
 ## Needs
 DMAC test team needs assistance in developing test cases for two major themes:
 * Extreme Events
-* Marine Ecosystem
+* Marine Ecosystem (or some related name to be refined)
+
+TODO: There are two roles that are conflated here.  1. a subject matter expert knowledgeable about the themes (extreme events) and the data they need to answer questions 2. Data managers who know how to take the underlying data and publish according to the standards we are advocating.  The first group helps us come up with the questions, the second helps us apply technology solutions.
 
 Each RA includes one or more subject matter experts who may be considered to be Data Conservators. These SMEs know what data their association collects, how those data are stored, the format in which those data are stored, the format of the metadata that describes them and the data stored in associated repositories, and the most common types of queries made against their data and metadata.  These conservators likely have a set of query tools that they use to perform discovery, access and use related to particular scientific and/or policy areas.  What we need:
 
-* A few hours of their time to brief us on what their registries and catalogs contain
-* Copies of any scripts that are most commonly used for discovery, access, and use
+* Copies of any scripts or tools that they currently use for discovery, access, and use
 * Some background information on the scripts, as well as some instruction on how to configure and use them
 * Estimate needing 4-8 hours of time from each SME.
 
 
 ## Resources
-Regional Associations who have configured their registries and catalogs to function within the DMAC model should have a vested interest in helping the DMAC system test achieve its objectives.  Regional Associations have subject matter experts either on staff or closely affiliated. 
+Regional Associations who have configured their data access services to function within the DMAC model should have a vested interest in helping the DMAC system test achieve its objectives.  Regional Associations have subject matter experts either on staff or closely affiliated. 
 
 ## Obstacles
 SMEs cannot be paid for their efforts.  Their contributions must be voluntary.
