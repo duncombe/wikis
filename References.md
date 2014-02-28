@@ -40,6 +40,8 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
     * using [CF Conventions](http://cf-pcmdi.llnl.gov) in the context of [St. John's River Operational Forecast System (SJROFS)](http://tidesandcurrents.noaa.gov/ofs/sjofs/sjofs.html)
 *  [Plotting Argo Data and Glider Data from Australia's Integrated Marine Observing System (IMOS)](https://www.wakari.io/sharing/bundle/rsignell/IMOS_Demos)
     *  using netCDF, python, matplotlib
+*  Reading NCEP ADP Global Upper Air and Surface Weather Observations (PREPBUFR format)(https://www.wakari.io/sharing/bundle/rsignell/gdas2csv)
+    *  uses netCDF, pandas (including writing to csv)
 
 ###[ERDDAP](http://coastwatch.pfeg.noaa.gov/erddap/index.html)
 *  [Examining and Plotting GTS Data from ERDDAP](https://www.wakari.io/sharing/bundle/rsignell/ERDDAP_GTS_Test)
