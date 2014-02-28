@@ -34,9 +34,9 @@ The Data Management and Communications (DMAC) System Integration Test project is
 
 # Scope
 
-The Scope of the Systems Integration Test includes several 
-
-The scope of the test can be thought of along several different categories.  First is the subject matter scope and we’ve thus far defined that to be represented by the three larger themes.  Second is the data content scope and we’ve limited that by choosing the number of service registries to consider (Our current draft of that is on the wiki).  Third is the technology scope which we’ve limited by selecting Python as our primary computing environment.  This has the effect of limiting our clients which in turn limits the type of data service we can access.
+The scope of the test is divided among three categories:
+1.  Subject matter scope: [Test Themes](https://github.com/ioos/system-test/wiki/Development-of-Test-Themes) 2.  Data Content Scope: [Services Registries and Data Catalogues](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs) 
+3.  Technology Scope: [Custom Wakari Environments](https://github.com/ioos/system-test/tree/master/wakari)
 
 * Using python clients exclusively (TODO: Provide a list of the packages and links to the conda.spec file that we'll use)
 * *_Editors note: we will note be testing or deploying any push technologies so Alerts are out of scope for DMAC and for this project._*
@@ -44,7 +44,8 @@ The scope of the test can be thought of along several different categories.  Fir
 # Schedule
 The current official end date for this project is approximately Sep 2014.  Tight timeline to fit it all in!!!
 
- * Use [Issues](../issues) to manage tasks
+ * Track [Milestones](https://github.com/ioos/system-test/issues/milestones)
+ * Track [Issues](../issues) to manage tasks
  * Use issue labels to identify priority (high medium, low) and functionality (registry, data provider, csw/sos/dap/plotting etc))
  * Use milestones to map tasks to dates in the project plan (Microsoft Project document managed offline by John/Derrick).  Therefore, only Derrick or John will add new milestones.
  * Anyone may initiate issues and anyone may select to work on, or own an issue.  If an issue remains unassigned for too long Derrick will assign it.  
