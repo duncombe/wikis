@@ -5,7 +5,7 @@ This document describes the procedures we'll adhere to in carrying out the proje
 * Human Resource Management ([Hannah's Weekly Updates](https://github.com/ioos/system-test/wiki/Hannah-Weekly-Updates))
 * Communication Management: Track [Issues](../issues)
 * Risk Management 
-* Integration Management
+* Integration Management: Track List of [Services Registries and Data Catalogues](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs)
 
 This document does not address procurement management, as there are no procurement actions planned for the project.
 
