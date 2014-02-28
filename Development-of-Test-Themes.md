@@ -31,6 +31,10 @@ The baseline assessment theme includes test cases that, as the name of theme sta
   * 
 
 # Theme 2: Weather and Climate-Related Extreme Events 
+* As a severe storm is approaching the coast, forecast models are continually being revised as new information about storm’s offshore position and intensity becomes available.   
+* How accurate are these models results compared to the measured waves, river flows and water levels?   
+* After the storm abates, inundation data should help inform where should responders go to help with the most affected areas.  
+* And much after the storm, comparing recorded data values to predicted data values assists in identifying shortcomings of the model and can suggest ways for improving a model's predictive power.
 
 ## Questions for consideration
 
@@ -38,7 +42,20 @@ The baseline assessment theme includes test cases that, as the name of theme sta
 * Retrospective comparison of modeled water levels from more than one model at a particular location
 * In general, any model data comparison problem has relevance here or in the next theme area
 * Comparison of like data types from distinct sources (Can we plot USGS water level and CO-OPS water level using the same script?)
-* 
+
+###Required data to answer the qeustions (Source for each type of data identified in parentheses):
+
+- data available on this custom USGS Sandy Mapper app: [Need to name the app]
+- Rapid deployment tide gauges(USGS)
+- Rapid deployment stream gauges (USGS)
+- Wave heights sensors (NOAA, IOOS regions)
+- Barometric Pressure data(NOAA NOS, NOAA NWS)
+- Wind data (NOAA, IOOS Regions)
+- Long-term tide gauges (USGS, NOAA, USACE)
+- High-water marks (USGS, NOAA, FEMA)
+- Models from USACE, NOAA, IOOS Regions
+- NOAA NHC: SLOSH
+- NOAA NOS: ASGS, 
 
 # Theme 3:   Water Quality & Marine Ecosystem Theme
 As a starting point for thinking about energy siting within CMSP as a potential third theme, here's a short [paper](https://drive.google.com/file/d/0B8p4sUXIeKn1WVFhaGo0UzBnWjQ/edit?usp=sharing) emphasizing that the driver behind many state based CMSP has been the siting of energy.
@@ -46,30 +63,10 @@ As a starting point for thinking about energy siting within CMSP as a potential 
 The [InVEST Model for Wind Energy Siting](http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/wind_energy.html#required-inputs) might be a good place to gather required data sets (See, "Required input" section in the link).  Looking through, however, I might argue that it could be additionally useful to add data sets required for permitting (e.g. migratory birds, marine mammals, fish abundance/species).
 
 ## Questions for consideration
+Most of the thoughts for this section are captured in [issue #11](https://github.com/ioos/system-test/issues/11) When this is complete we should move it here.
 
 # Scenarios for consideration in the integrated DATE and Systems Integration Test activities (DMAC-ST Input)
-##A. Physically Focused Extreme Events
 
-###Rationale:
-
-•	As a severe storm is approaching the coast, forecast models are continually being revised as new information about storm’s offshore position and intensity becomes available.   
-•	How accurate are these models results compared to the measured waves, river flows and water levels?   
-•	After the storm abates, inundation data should help inform where should responders go to help with the most affected areas.  
-•	And much after the storm, comparing recorded data values to predicted data values assists in identifying shortcomings of the model and can suggest ways for improving a model's predictive power.
-
-###Required data to satisfy scenario (Source for each type of data identified in parentheses):
-
-- data available on this custom USGS Sandy Mapper app: [Need to name the app]
-- Rapid deployment tide gauges(USGS)
-- Rapid deployment stream gauges (USGS)
-- Wave heights sensors (NOAA, IOOS regions)
-- Barometric Pressure data(NOAA NOS, NOAA NWS)
-- Winddata (NOAA, IOOS Regions)
-- Long-term tide gauges (USGS, NOAA, USACE)
-- High-water marks (USGS, NOAA, FEMA)
-- Models from USACE, NOAA, IOOS Regions
-- NOAA NHC: SLOSH
-- NOAA NOS: ASGS, 
 
 ##B. Biologically Focused Extreme Events:  These items should be relocated to the Marine Ecosystem Theme
 ##1. Invasive Species
