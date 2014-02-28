@@ -2,7 +2,7 @@ This document describes the procedures we'll adhere to in carrying out the proje
 * Scope Management: Track Development of [Test Themes](https://github.com/ioos/system-test/wiki/Development-of-Test-Themes)
 * Time Management: Track [Milestones](https://github.com/ioos/system-test/issues/milestones)
 * Quality Management
-* Human Resource Management ([Hannah's Weekly Updates](https://github.com/ioos/system-test/wiki/Hannah-Weekly-Updates))
+* Human Resource Management: Track [Hannah's Weekly Updates](https://github.com/ioos/system-test/wiki/Hannah-Weekly-Updates)
 * Communication Management: Track [Issues](../issues)
 * Risk Management 
 * Integration Management: Track List of [Services Registries and Data Catalogues](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs)
