@@ -30,20 +30,22 @@ The baseline assessment theme includes test cases that, as the name of theme sta
   * Presence/absence of keywords and references to keyword vocabularies (preferably machine readable)
   * 
 
-# Theme 2: Weather and Climate-Related Extreme Events 
-* As a severe storm is approaching the coast, forecast models are continually being revised as new information about storm’s offshore position and intensity becomes available.   
+# Theme 2: Extreme Events 
+The Extreme Events theme, as its name suggests, focuses on the analysis of data related to weather events and human-caused events that produce extreme adverse effects in a geographic area.  Possible topics within this heme may include, but not be limited to, the following.
+### Severe Coastal Storm
+ As a severe storm is approaching the coast, forecast models are continually being revised as new information about storm’s offshore position and intensity becomes available.   
 * How accurate are these models results compared to the measured waves, river flows and water levels?   
 * After the storm abates, inundation data should help inform where should responders go to help with the most affected areas.  
 * And much after the storm, comparing recorded data values to predicted data values assists in identifying shortcomings of the model and can suggest ways for improving a model's predictive power.
 
-## Questions for consideration
+#### Questions for consideration
 
 * Comparison of predicted vs average water levels at a particular location
 * Retrospective comparison of modeled water levels from more than one model at a particular location
 * In general, any model data comparison problem has relevance here or in the next theme area
 * Comparison of like data types from distinct sources (Can we plot USGS water level and CO-OPS water level using the same script?)
 
-###Required data to answer the qeustions (Source for each type of data identified in parentheses):
+#### Required data to answer the qeustions (Source for each type of data identified in parentheses):
 
 - data available on this custom USGS Sandy Mapper app: [Need to name the app]
 - Rapid deployment tide gauges(USGS)
@@ -57,7 +59,7 @@ The baseline assessment theme includes test cases that, as the name of theme sta
 - NOAA NHC: SLOSH
 - NOAA NOS: ASGS, 
 
-# Theme 3:   Water Quality & Marine Ecosystem Theme
+# Theme 3:   Marine Energy Planning
 As a starting point for thinking about energy siting within CMSP as a potential third theme, here's a short [paper](https://drive.google.com/file/d/0B8p4sUXIeKn1WVFhaGo0UzBnWjQ/edit?usp=sharing) emphasizing that the driver behind many state based CMSP has been the siting of energy.
 
 The [InVEST Model for Wind Energy Siting](http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/wind_energy.html#required-inputs) might be a good place to gather required data sets (See, "Required input" section in the link).  Looking through, however, I might argue that it could be additionally useful to add data sets required for permitting (e.g. migratory birds, marine mammals, fish abundance/species).
