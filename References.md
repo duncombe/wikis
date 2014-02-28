@@ -32,9 +32,13 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
 *  [National Data Buoy Center](https://www.wakari.io/sharing/bundle/rsignell/ndbc_group_test)
    *  examining groups, variables, and time series plot using pandas
 *  [ADCIRC](http://adcirc.org) / [Model Testing] (https://www.wakari.io/sharing/bundle/rsignell/ADCIRC_water_level_and_velocity_3d)
-    *  Using NetCDF4-Python library to access velocity data from a triangular grid ocean model via OPeNDAP, specifying the desired URL, time, layer and lat/lon region of interest
+    *  using NetCDF4-Python library to access velocity data from a triangular grid ocean model via OPeNDAP, specifying the desired URL, time, layer and lat/lon region of interest
+*  [Access data in Wakari from the OPeNDAP Web Service using NetCDF4-Python](https://www.wakari.io/sharing/bundle/rsignell/opendap_bathy_test)
+    *  using NetCDF4-Python, pandas, creating plot 
 
 ###[ERDDAP](http://coastwatch.pfeg.noaa.gov/erddap/index.html)
 *  [Examining and Plotting GTS Data from ERDDAP](https://www.wakari.io/sharing/bundle/rsignell/ERDDAP_GTS_Test)
    *  Using [REST Requests](http://rest.elkstein.org/2008/02/what-is-rest.html), pandas, read_csv
 
+###[Iris](http://esc24.github.io/iris/index.html) (easy to use, and community-driven Python library for analysing and visualising meteorological and oceanographic data sets)
+*  [Examining a Regional Ocean Model Using Iris](https://www.wakari.io/sharing/bundle/rsignell/iris_z_coords)
