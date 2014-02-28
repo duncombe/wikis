@@ -35,8 +35,9 @@ The Data Management and Communications (DMAC) System Integration Test project is
 # Scope
 
 The scope of the test is divided among three categories:
-1.  Subject matter scope: [Test Themes](https://github.com/ioos/system-test/wiki/Development-of-Test-Themes) 2.  Data Content Scope: [Services Registries and Data Catalogues](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs) 
-3.  Technology Scope: [Custom Wakari Environments](https://github.com/ioos/system-test/tree/master/wakari)
+  1.  Subject matter scope: [Test Themes](https://github.com/ioos/system-test/wiki/Development-of-Test-Themes)
+  2.  Data Content Scope: [Services Registries and Data Catalogues](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs) 
+  3.  Technology Scope: [Custom Wakari Environments](https://github.com/ioos/system-test/tree/master/wakari)
 
 * Using python clients exclusively (TODO: Provide a list of the packages and links to the conda.spec file that we'll use)
 * *_Editors note: we will note be testing or deploying any push technologies so Alerts are out of scope for DMAC and for this project._*
