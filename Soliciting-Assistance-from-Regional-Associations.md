@@ -1,10 +1,20 @@
 ## Objective  
 Persuade directors of Regional Associations to allocate subject matter expertise to assist the DMAC test team in constructing and executing test themes.
 
+## Background
+The Regional Associations have bought into IOOS, and in some cases have expended significant effort to makes their servers available to IOOS-approved clients for data discovery, access and use.  The DMAC test is a way for the RAs to ascertain how successful they have been in their efforts.  
+
 ## Needs
 DMAC test team needs assistance in developing test cases for two major themes:
 * Extreme Events
 * Marine Ecosystem
+
+Each RA includes one or more subject matter experts who may be considered to be Data Conservators. These SMEs know what data their association collects, how those data are stored, the format in which those data are stored, the format of the metadata that describes them and the data stored in associated repositories, and the most common types of queries made against their data and metadata.  These conservators likely have a set of query tools that they use to perform discovery, access and use related to particular scientific and/or policy areas.  What we need:
+
+•	A few hours of their time to brief us on what their registries and catalogs contain
+•	Copies of any scripts that are most commonly used for discovery, access, and use
+•	Some background information on the scripts, as well as some instruction on how to configure and use them
+
 
 ## Resources
 Regional Associations who have configured their registries and catalogs to function within the DMAC model should have a vested interest in helping the DMAC system test achieve its objectives.  Regional Associations have subject matter experts either on staff or closely affiliated. 
