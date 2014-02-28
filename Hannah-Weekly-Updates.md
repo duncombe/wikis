@@ -11,6 +11,12 @@ I made some progress on the master notebook, and just wanted to share that. I'm 
 
 # Week 4
 
+This week I continued to work on the IPython Baseline notebook, including calling of services from particular registries and determining the best way to develop metrics and create a CSV file that could serve as an output from baseline notebooks which could serve as a model for developing metrics for testing registries in the context of themes 1 and 2.
+
+I also worked on articulating the third theme focused on marine planning/energy siting.  To that end, I developed a visualization approach to mapping data sets to regulations/laws/policy documents that aims to tie the need and use of particular data sets to specific directives at the legislative and executive levels.  Utilizing Lucidcharts, I put together a few [sample diagrams](https://www.lucidchart.com/documents/view/41ba-1ae4-530cf34b-ba4d-50540a00c050) that aim to draw a clearer line between policy and data.  These visuals would provide a starting point for a set of notebooks aimed at testing registries and determining if the planning objectives are possible given the current resources.
+
+I met with Derrick on Friday to discuss next steps in terms of summarizing the approach for theme three, and to determine approaches to quantifying outputs of the IPython notebooks, and how to organize and quantify the collection of IPython notebooks that have been developed for the project so far.
+
 # Week 5
 
 # Week 6
