@@ -31,7 +31,8 @@ The baseline assessment theme includes test cases that, as the name of theme sta
   * 
 
 # Theme 2: Extreme Events 
-The Extreme Events theme, as its name suggests, focuses on the analysis of data related to weather events and human-caused events that produce extreme adverse effects in a geographic area.  Possible topics within this heme may include, but not be limited to, the following.
+The Extreme Events theme, as its name suggests, focuses on the analysis of data related to events that produce extreme adverse effects in a geographic area.  Possible topics within this heme may include, but not be limited to, the following.
+
 ### Severe Coastal Storm
  As a severe storm is approaching the coast, forecast models are continually being revised as new information about storm’s offshore position and intensity becomes available.   
 * How accurate are these models results compared to the measured waves, river flows and water levels?   
@@ -45,7 +46,7 @@ The Extreme Events theme, as its name suggests, focuses on the analysis of data 
 * In general, any model data comparison problem has relevance here or in the next theme area
 * Comparison of like data types from distinct sources (Can we plot USGS water level and CO-OPS water level using the same script?)
 
-#### Required data to answer the qeustions (Source for each type of data identified in parentheses):
+#### Required data to answer the questions (Source for each type of data identified in parentheses):
 
 - data available on this custom USGS Sandy Mapper app: [Need to name the app]
 - Rapid deployment tide gauges(USGS)
@@ -59,82 +60,43 @@ The Extreme Events theme, as its name suggests, focuses on the analysis of data 
 - NOAA NHC: SLOSH
 - NOAA NOS: ASGS, 
 
-# Theme 3:   Marine Energy Planning
-As a starting point for thinking about energy siting within CMSP as a potential third theme, here's a short [paper](https://drive.google.com/file/d/0B8p4sUXIeKn1WVFhaGo0UzBnWjQ/edit?usp=sharing) emphasizing that the driver behind many state based CMSP has been the siting of energy.
-
-The [InVEST Model for Wind Energy Siting](http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/wind_energy.html#required-inputs) might be a good place to gather required data sets (See, "Required input" section in the link).  Looking through, however, I might argue that it could be additionally useful to add data sets required for permitting (e.g. migratory birds, marine mammals, fish abundance/species).
-
-## Questions for consideration
-Most of the thoughts for this section are captured in [issue #11](https://github.com/ioos/system-test/issues/11) When this is complete we should move it here.
-
-# Scenarios for consideration in the integrated DATE and Systems Integration Test activities (DMAC-ST Input)
 
 
-##B. Biologically Focused Extreme Events:  These items should be relocated to the Marine Ecosystem Theme
-##1. Invasive Species
+## Invasive Species
+One of the major problems that resource managers face is invasive species. Improved physical and biological data can help resource managers improve and refine the strategies they develop in order to mitigate the impacts of invasive species on valued resources (e.g. recreational areas, commercial species, etc.).  
 
-###Rationale:
+###Example: Asian Tiger Shrimp  
+Asian Tiger Shrimp, an aquaculture species, has invaded the southern US (NC-TX).  Very few occur in areas adjacent to Texas.  Hypotheses about their introduction to US waters include:
+* Ballast transport from their native range in the Pacific;
+* Ballast or current transport from introduced populations off West Africa;
+* Ballast or current transport from introduced populations in northern South America;
+* Current transport from the Caribbean from escapes from aquaculture ponds there.
 
-•	One of the major problems that resource managers face is invasive species.  
-•	Improved physical and biological data can help resource managers improve and refine the strategies they develop in order to mitigate the impacts of invasive species on valued resources (e.g. recreational areas, commercial species, etc.).  
-
-Example A: Asian Tiger Shrimp, an aquaculture species, has invaded the southern US (NC-TX).  Very few occur in areas adjacent to Texas.  We don’t know their origin:
-·         ballast transport from their native range in the Pacific;
-·         ballast or current transport from introduced populations off West Africa;
-·         ballast or current transport from introduced populations in northern South America;
-·         current transport from the Caribbean from escapes from aquaculture ponds there.
-·         Where they breed
- 
-Example A: Required data to satisfy scenario:
-
+####Questions for Consideration
 The species is still expanding its range.  Pick an origin from above, or that a hurricane flooded an aquaculture facility on the Gulf Coast.  Potential scenario and questions:
-·         What is predicted distribution and spread? 
-•	currents 
-•	temperature 
-•	habitat preferences 
-•	larval drift
-·         Where should we look for breeding areas? 
-•	breeding requirements
-•	salinity
-•	habitat preferences
-•	marshes (spatial extent, type)
-·         Will they overlap with other shrimp species - in distribution and/or diet? 
-•	native species distributions
-•	diets of all species
-·         Why don't they occur in Texas?  
-•	benthic fauna?
-•	bottom structure?
-•	Competitors
-•	occurrence  
-•	currents
-·         Can you tell where they came from based on spread?  
-•	currents
+* What is predicted distribution and spread? 
+* Where should we look for breeding areas?
+* Why don't they occur in Texas?  
+* Can you tell where they came from based on spread? 
+* Will they overlap with other shrimp species - in distribution and/or diet? 
+
+####Required Data to Answer Questions
+* *currents 
+* temperature 
+* habitat preferences 
+* larval drift
+* breeding requirements
+* salinity
+* habitat preferences    
+* native species distributions
+* diets of all species      
+* frequency of occurrence 
  
-Example B: Nile Tilapia, an aquaculture species from Africa, is widely farmed around the world.  It has escaped and established virtually everywhere it has been grown.  They are known primarily from freshwater areas.  In fact there is a population upstream on the Escatawpa River, MS, at a power plant.  
- 
-In 2005 when Hurricane Katrina hit the Gulf Coast, an aquaculture facility on the Mississippi coast, adjacent to the marsh, was flooded and lost all its stock.
 
-Example B: Required data to satisfy scenario:
+## Physical and Biological Disaster
+Physical disasters often impact entire ecosystems and mitigation efforts can be improved by integrating physical data about conditions and the disaster itself with information on the impacted species of interest.
 
-·         Will they survive in the marsh? 
-•	salinity tolerance 
-•	temperature tolerance
-•	marsh temperatures
-•	habitat
-•	food 
-·         Can they survive the salinity long enough to migrate to a nearby freshwater river?  
-•	salinity levels post storm and variation
-•	distances to suitable rivers
-·         If they can survive, can they reproduce? What is their potential distribution?  
-•	Temperature
-•	salinity 
-•	river distances
-•	tolerances
-##C. Physical and Biological
-###Rationale: 
-•	Physical disasters often impact entire ecosystems and mitigation efforts can be improved by integrating physical data about conditions and the disaster itself with information on the impacted species of interest.
-
-Example A: Oil Tanker Spill
+###Example: Oil Tanker Spill
 An oil tanker loaded has collided with another vessel 5 nautical miles SE of the entrance to Delaware Bay.  A large quantity of oil has been released into the marine environment, threatening the shoreline of the Delmarva Peninsula, Delaware Bay, and the New Jersey coast. 
 
 Example A: Required data to satisfy scenario:
@@ -210,6 +172,17 @@ Example B: Required data to satisfy scenario:
 •	surface currents
 •	wave heights
 •	sea surface temperature.
+
+# Theme 3:   Marine Energy Planning
+As a starting point for thinking about energy siting within CMSP as a potential third theme, here's a short [paper](https://drive.google.com/file/d/0B8p4sUXIeKn1WVFhaGo0UzBnWjQ/edit?usp=sharing) emphasizing that the driver behind many state based CMSP has been the siting of energy.
+
+The [InVEST Model for Wind Energy Siting](http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/wind_energy.html#required-inputs) might be a good place to gather required data sets (See, "Required input" section in the link).  Looking through, however, I might argue that it could be additionally useful to add data sets required for permitting (e.g. migratory birds, marine mammals, fish abundance/species).
+
+## Questions for consideration
+Most of the thoughts for this section are captured in [issue #11](https://github.com/ioos/system-test/issues/11) When this is complete we should move it here.
+
+# Scenarios for consideration in the integrated DATE and Systems Integration Test activities (DMAC-ST Input)
+
 
 ##New Research Questions that May not be Appropriate for this Project(?)
 ###Annual Catch Limits for Reef fishes
