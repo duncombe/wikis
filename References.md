@@ -40,5 +40,10 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
 *  [Examining and Plotting GTS Data from ERDDAP](https://www.wakari.io/sharing/bundle/rsignell/ERDDAP_GTS_Test)
    *  Using [REST Requests](http://rest.elkstein.org/2008/02/what-is-rest.html), pandas, read_csv
 
-###[Iris](http://esc24.github.io/iris/index.html) (easy to use, and community-driven Python library for analysing and visualising meteorological and oceanographic data sets)
+###[Iris](http://esc24.github.io/iris/index.html) 
+(easy to use, and community-driven Python library for analysing and visualising meteorological and oceanographic data sets)
 *  [Examining a Regional Ocean Model Using Iris](https://www.wakari.io/sharing/bundle/rsignell/iris_z_coords)
+
+###Testing IOOS Services
+*  [IOOS 52 North SOS](http://ioossos.axiomalaska.com) / [Pyoos Testing Notebook](https://www.wakari.io/sharing/bundle/rsignell/pyoos_axiom)
+    *  uses [pyoos](https://pypi.python.org/pypi/pyoos), a Python library for collecting Met/Ocean observations, to test and examine a particular IOOS service
