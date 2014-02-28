@@ -2,8 +2,8 @@ This document describes the procedures we'll adhere to in carrying out the proje
 * Scope Management
 * Time Management
 * Quality Management
-* Human Resource Management
-* Communication Management
+* Human Resource Management ([Hannah's Weekly Updates](https://github.com/ioos/system-test/wiki/Hannah-Weekly-Updates))
+* Communication Management [Issues](../issues)
 * Risk Management 
 * Integration Management
 
@@ -41,7 +41,7 @@ The scope of the test can be thought of along several different categories.  Fir
 # Schedule
 The current official end date for this project is approximately Sep 2014.  Tight timeline to fit it all in!!!
 
- * Use [issues](../issues) to manage tasks
+ * Use [Issues](../issues) to manage tasks
  * Use issue labels to identify priority (high medium, low) and functionality (registry, data provider, csw/sos/dap/plotting etc))
  * Use milestones to map tasks to dates in the project plan (Microsoft Project document managed offline by John/Derrick).  Therefore, only Derrick or John will add new milestones.
  * Anyone may initiate issues and anyone may select to work on, or own an issue.  If an issue remains unassigned for too long Derrick will assign it.  
