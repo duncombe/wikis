@@ -56,6 +56,10 @@ The current official end date for this project is approximately Sep 2014.  Tight
 
 # Documentation
 
-These wiki pages should serve as working documents that are updated as the project progresses.  Some material will be moved from the wiki to the project site as it matures.  The project site will consist of two types of material.  The first is the blog environment that will be used to publish the actual IPython scripts and the results.  The second is a set of static pages that will contain static project information such as Goals/Objectives, description of the themes, etc.  For the early part of the project we will concentrate on the IPython notebooks until we have a critical mass of material to begin summarizing.  
+##Documentation Process and Approach:
+These wiki pages should serve as working documents that are updated as the project progresses.  Some material will be moved from the wiki to the project site as it matures.  The project site will consist of two types of material:  
+  1.  Blog Environment with IPython Scripts and Results using [Pelican](http://docs.getpelican.com/en/3.3.0/)
+    * Model: [Filipe Fernandes' blog](http://ocefpaf.github.io/blog/2013/12/23/blog/)      
+  2.  [Project Page with Static Documentation](https://github.com/ioos/system-test/wiki)  
 
-The project site will ultimately be hosted on github and will be published from the main repository using the [Pelican](http://docs.getpelican.com/en/3.3.0/).  There are several good resources out there explaining how this works.  We've started with [Filipe Fernandes' blog](http://ocefpaf.github.io/blog/2013/12/23/blog/) as the model.
+For the early part of the project we will concentrate on the IPython notebooks until we have a critical mass of material to begin summarizing.  
