@@ -1,5 +1,5 @@
 This document describes the procedures we'll adhere to in carrying out the project.  It is comprehensive in that it includes management of all relevant knowledge areas, with the exception of cost management. Areas addressed by this document include the following:
-* Scope Management
+* Scope Management: Track Development of [Test Themes](https://github.com/ioos/system-test/wiki/Development-of-Test-Themes)
 * Time Management: Track [Milestones](https://github.com/ioos/system-test/issues/milestones)
 * Quality Management
 * Human Resource Management ([Hannah's Weekly Updates](https://github.com/ioos/system-test/wiki/Hannah-Weekly-Updates))
