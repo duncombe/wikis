@@ -42,6 +42,7 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
     *  using netCDF, python, matplotlib
 *  [Reading NCEP ADP Global Upper Air and Surface Weather Observations (PREPBUFR format)](https://www.wakari.io/sharing/bundle/rsignell/gdas2csv)
     *  uses netCDF, pandas (including writing to csv)
+*  [Examining Longitude and Latitude Extent in Directory Access Protocol endpoint (GLOS)](https://www.wakari.io/sharing/bundle/rsignell/glos_range)
 
 ###[ERDDAP](http://coastwatch.pfeg.noaa.gov/erddap/index.html)
 *  [Examining and Plotting GTS Data from ERDDAP](https://www.wakari.io/sharing/bundle/rsignell/ERDDAP_GTS_Test)
