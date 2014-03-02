@@ -48,7 +48,7 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
 *  [Examining and Plotting GTS Data from ERDDAP](https://www.wakari.io/sharing/bundle/rsignell/ERDDAP_GTS_Test)
    *  Using [REST Requests](http://rest.elkstein.org/2008/02/what-is-rest.html), pandas, read_csv
 
-###SciTool Python Packages Used for Cartography - community-driven Python library for analysing and visualising meteorological and oceanographic data sets
+###SciTool Python Packages for Cartography
 *  [Examining a Regional Ocean Model Using Iris](https://www.wakari.io/sharing/bundle/rsignell/iris_z_coords)
     *  uses [Iris](http://esc24.github.io/iris/index.html) 
 *  [Examining Cartopy Visualization Tools](https://www.wakari.io/sharing/bundle/rsignell/cartopy)
