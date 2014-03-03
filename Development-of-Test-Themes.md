@@ -153,12 +153,25 @@ A large commercial aircraft en route LAX from Honolulu with several hundred pass
  
 
 # Theme 3:   Marine Energy Planning
-As a starting point for thinking about energy siting within CMSP as a potential third theme, here's a short [paper](https://drive.google.com/file/d/0B8p4sUXIeKn1WVFhaGo0UzBnWjQ/edit?usp=sharing) emphasizing that the driver behind many state based CMSP has been the siting of energy.
-
-The [InVEST Model for Wind Energy Siting](http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/wind_energy.html#required-inputs) might be a good place to gather required data sets (See, "Required input" section in the link).  Looking through, however, I might argue that it could be additionally useful to add data sets required for permitting (e.g. migratory birds, marine mammals, fish abundance/species).
+The driver behind many state based Coastal Marine Spatial Planning (CMSP) programs has been the siting of energy projects. The [InVEST Model for Wind Energy Siting](http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/wind_energy.html#required-inputs) is a good starting place for required data sets (See, "Required input" section in the link).  Additional data sets required for permitting coastal energy projects may include those related to migratory birds, marine mammals, and fish abundance/species).
 
 ## Questions for consideration
-Most of the thoughts for this section are captured in [issue #11](https://github.com/ioos/system-test/issues/11) When this is complete we should move it here.
+* What data is needed for particular energy planning policies (Outer Continental Shelf Lands Act, National Environmental Policy Act, etc)?
+* Can that data be easily accessed from the set of registries and catalogues that the IOOS Systems Test is examining?  If so, which registries can each data set be accessed through?  
+* Using baseline metrics developed under Theme 1 for registries, are there certain registries that are better or worse for accessing particular data sets?
+
+## Required Data to Answer Questions
+* wind data point
+* area of interest
+* bathymetry
+* land polygon for distance calculations
+* global wind energy parameters
+* turbine type
+* minimum depth for offshore wind farm installation
+* maximum depth for offshore wind farm installation
+* minimum distance for offshore wind farm installation
+* maximum distance for offshore wind farm installation
+
+
 
 # Scenarios for consideration in the integrated DATE and Systems Integration Test activities (DMAC-ST Input)
-
