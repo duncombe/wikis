@@ -153,14 +153,17 @@ A large commercial aircraft en route LAX from Honolulu with several hundred pass
  
 
 # Theme 3:   Marine Energy Planning
-The driver behind many state based Coastal Marine Spatial Planning (CMSP) programs has been the siting of energy projects. The [InVEST Model for Wind Energy Siting](http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/wind_energy.html#required-inputs) is a good starting place for required data sets (See, "Required input" section in the link).  Additional data sets required for permitting coastal energy projects may include those related to migratory birds, marine mammals, and fish abundance/species).
+The driver behind many state based Coastal Marine Spatial Planning (CMSP) programs has been the siting of energy projects. The [InVEST Model for Wind Energy Siting](http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/wind_energy.html#required-inputs) is a good starting place for required data sets (See, "Required input" section in the link).  Additional data sets required for permitting coastal energy projects may include those related to migratory birds, marine mammals, and fish abundance/species).  Possible topics within this area include those listed below.
 
-## Questions for consideration
+## Location of Wind Turbine Farm
+A state is is the process of delimiting an area off its coast that is suitable for the placement of a major wind turbine farm.  The state must adhere to a number of laws and implementing policies before it can formally delineate an area for wind turbine development and solicit bids.
+
+### Questions for consideration
 * What data is needed for particular energy planning policies (Outer Continental Shelf Lands Act, National Environmental Policy Act, etc)?
-* Can that data be easily accessed from the set of registries and catalogues that the IOOS Systems Test is examining?  If so, which registries can each data set be accessed through?  
+* Can that data be easily accessed from the available registries and catalogs?  If so, which registries can each data set be accessed through?  
 * Using baseline metrics developed under Theme 1 for registries, are there certain registries that are better or worse for accessing particular data sets?
 
-## Required Data to Answer Questions
+### Required Data to Answer Questions
 * wind data point
 * area of interest
 * bathymetry
@@ -172,6 +175,20 @@ The driver behind many state based Coastal Marine Spatial Planning (CMSP) progra
 * minimum distance for offshore wind farm installation
 * maximum distance for offshore wind farm installation
 
+## Mineral Extraction
+The Department of Interior Bureau of Ocean Energy Management is considering opening several tracts in the Gulf of Mexico for petroleum exploration. As part of their due diligence under regulations implementing the Outer Continental Shelf Lands Act, the Bureau must prepare an environmental impact statement before opening the tract to bids. The environmental impact statement must consider the potential impact of exploration and drilling on area fisheries.
 
+### Questions TO Be Answered
+*  What are the trends in phytoplankton health in the area over the past 30 years?
+*  What are the metrics for zooplankton health in the area over the past 30 years?
+*  What are the metrics for commercial fish species in the area over the past 30 years?
+*  Are there analog areas that have undergone exploration and drilling that can be used for comparison?
+*  If so, what trends can be observed in the metrics for phytoplankton, zooplankton and commercial fish species in the analog areas?
 
-# Scenarios for consideration in the integrated DATE and Systems Integration Test activities (DMAC-ST Input)
+### Data Required to Answer Questions
+* area of interest
+* bathymetry
+* phytoplankton survey results
+* zooplankton survey results
+* water quality metrics
+
