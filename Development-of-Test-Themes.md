@@ -36,13 +36,13 @@ NOTE: See github.com/osgeo/Cat-Interop for a project that should be included as 
 # Theme 2: Extreme Events 
 The Extreme Events theme, as its name suggests, focuses on the analysis of data related to events that produce extreme adverse effects in a geographic area.  Possible topics within this heme may include, but not be limited to, the following.
 
-### Severe Coastal Storm
+## Severe Coastal Storm
  As a severe storm is approaching the coast, forecast models are continually being revised as new information about storm’s offshore position and intensity becomes available.   
 * How accurate are these models results compared to the measured waves, river flows and water levels?   
 * After the storm abates, inundation data should help inform where should responders go to help with the most affected areas.  
 * And much after the storm, comparing recorded data values to predicted data values assists in identifying shortcomings of the model and can suggest ways for improving a model's predictive power.
 
-#### Questions for consideration
+### Questions for consideration
 
 * Comparison of predicted vs average water levels at a particular location
 * Retrospective comparison of modeled water levels from more than one model at a particular location
