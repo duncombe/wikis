@@ -62,4 +62,4 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
     *  using netCDF4, pandas, matplotlib, pylab, date time to plot water depth against water velocity vectors on a map and create a time series of water levels at a particular location
 *  [Accessing Northeastern Coastal Ocean Forecast System using the NetCDF4-Python](https://www.wakari.io/sharing/bundle/rsignell/NECOFS_water_levels)
     *  examining [NECOFS](http://www.neracoos.org/datatools/forecast/oceanforecasts)
-    *  using pandas, netCDF4, pandas, read_csv to examine water level at particular stations according to the model by finding (x,y) coordinates near desired station locations and then plotting these water levels on a time series graph
+    *  using netCDF4, pandas, read_csv to examine water level at particular stations according to the model by finding (x,y) coordinates near desired station locations and then plotting these water levels on a time series graph
