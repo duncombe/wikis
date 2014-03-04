@@ -57,3 +57,6 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
 ###Testing IOOS Services
 *  [IOOS 52 North SOS](http://ioossos.axiomalaska.com) / [Pyoos Testing Notebook](https://www.wakari.io/sharing/bundle/rsignell/pyoos_axiom)
     *  uses [pyoos](https://pypi.python.org/pypi/pyoos), a Python library for collecting Met/Ocean observations, to test and examine a particular IOOS service
+*  [Accessing IOOS Coastal Ocean Modeling Testbed (COMT)](https://www.wakari.io/sharing/bundle/rsignell/ADCIRC_water_level_and_velocity)
+    *  examining [Western North Atlantic, Caribbean and Gulf of Mexico Tidal Databases](http://adcirc.org/products/adcirc-tidal-databases/)
+    *  using netCDF4, pandas, matplotlib, pylab, date time to plot water depth against water velocity vectors on a map and create a time series of water levels at a particular location
