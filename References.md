@@ -63,3 +63,5 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
 *  [Accessing Northeastern Coastal Ocean Forecast System using the NetCDF4-Python](https://www.wakari.io/sharing/bundle/rsignell/NECOFS_water_levels)
     *  examining [NECOFS](http://www.neracoos.org/datatools/forecast/oceanforecasts)
     *  using netCDF4, pandas, read_csv to examine water level at particular stations according to the model by finding (x,y) coordinates near desired station locations and then plotting these water levels on a time series graph
+*  [Accessing an IOOS approved web service using python](https://www.wakari.io/sharing/bundle/rsignell/pyoos)
+    *  using pandas, cStringIO, [pyoos](https://pypi.python.org/pypi/pyoos), read_csv and CoopsSos
