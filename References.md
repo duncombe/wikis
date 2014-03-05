@@ -66,3 +66,7 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
     *  using netCDF4, pandas, read_csv to examine water level at particular stations according to the model by finding (x,y) coordinates near desired station locations and then plotting these water levels on a time series graph
 *  [Accessing an IOOS approved web service using python](https://www.wakari.io/sharing/bundle/rsignell/pyoos)
     *  using pandas, cStringIO, [pyoos](https://pypi.python.org/pypi/pyoos), read_csv and CoopsSos
+
+###Comparing Data Catalogues
+*  [Comparing NOAA Geoportal to Data.Gov](https://www.wakari.io/sharing/bundle/rsignell/NODC_and_Data.gov)
+    *  using CSW to compare NODC geoportal to data.gov
