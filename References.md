@@ -56,6 +56,8 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
     *  uses [Iris](http://esc24.github.io/iris/index.html) 
 *  [Examining Cartopy Visualization Tools](https://www.wakari.io/sharing/bundle/rsignell/cartopy)
     *  uses [Cartopy](http://scitools.org.uk/cartopy/index.html)
+*  [Using Iris to Access Data from U.S. IOOS Regional and Federal Models](https://www.wakari.io/sharing/bundle/rsignell/scitools)
+    *  uses Iris, time_near, var_lev_date, myplot, USGS/COASWST, MARACOOS/ESPRESSO, SECOORA/NCSU, CENCOOS/UCSC, HIOOS, Global RTOFS/NCEP 
 
 ###Testing IOOS Services
 *  [IOOS 52 North SOS](http://ioossos.axiomalaska.com) / [Pyoos Testing Notebook](https://www.wakari.io/sharing/bundle/rsignell/pyoos_axiom)
