@@ -70,3 +70,5 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
 ###Comparing Data Catalogues
 *  [Comparing NOAA Geoportal to Data.Gov](https://www.wakari.io/sharing/bundle/rsignell/NODC_and_Data.gov)
     *  using CSW to compare NODC geoportal to data.gov
+*  [Comparing model results from NODC and NGDC](https://www.wakari.io/sharing/bundle/rsignell/Model_check)
+    *  using CSW, ServiceType, [OPenDAP](http://docs.opendap.org/index.php/QuickStart)
