@@ -84,3 +84,6 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
     *  using CSW to compare NODC geoportal to data.gov
 *  [Comparing model results from NODC and NGDC](https://www.wakari.io/sharing/bundle/rsignell/Model_check)
     *  using CSW, ServiceType, [OPenDAP](http://docs.opendap.org/index.php/QuickStart)
+*  [Accessing CSW metadata for particular variable, bounding box and visualization](https://www.wakari.io/sharing/bundle/rsignell/DATA.NOAA.GOV-CSW-DAP)
+    *  using pylab, owslib.csw, netCDF4, pandas, datetime
+    *  includes list of CSWs
