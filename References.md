@@ -73,6 +73,9 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
 *  [Accessing New England Coastal Ocean Forecast System via OPeNDAP](https://www.wakari.io/sharing/bundle/rsignell/FVCOM_depth_and_velocity)
     *  using  pylab, matplotlib.tri, netCDF4
     *  examining the [New England Coastal Ocean Forecast System](http://fvcom.smast.umassd.edu/research_projects/NECOFS/) and [THREDDS Data Server](http://www.smast.umassd.edu:8080/thredds/forecasts.html?dataset=gom2_nocache)
+*  [Extracting time series from NWS NOAA/NCEP Wavewatch III](https://www.wakari.io/sharing/bundle/rsignell/cf_3d_to_1d)
+    *  using [NWS NOAA/NCEP Wavewatch III](http://polar.ncep.noaa.gov/waves/wavewatch/wavewatch.shtml), pandas, datetime
+    *  provides an example of extracting and plotting a 3D time series
 
 ###Comparing Data Catalogues
 *  [Comparing NOAA Geoportal to Data.Gov](https://www.wakari.io/sharing/bundle/rsignell/NODC_and_Data.gov)
