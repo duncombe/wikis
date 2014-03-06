@@ -80,6 +80,9 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
     *  accessing NODC, NGDC, and DATA.NOAA.GOV, using CSW, netCDF4 to access model data
 *  [Accessing CSW with OWSLib using ISO queryables](https://www.wakari.io/sharing/bundle/rsignell/CATALOG.DATA.GOV-CSW-DAP)
     *  using pylab, owslib.csw, netCDF4, pandas, datetime
+*  [Using regional data and independent CSV data to approach marine Conflict Resolution Planning](https://www.wakari.io/sharing/bundle/rsignell/Right_Whale_Sightings)
+    *  uses pandas, netCDF4, read_csv, group.to_csv, and demonstrating how to use matplotlib to create histograms of the data and then group the data by month on maps of bathymetry
+    *  this notebook was created as an approach to resolving conflicts between aquaculture siting and Right Whale protection in Cape Cod Bay
 
 ###Comparing Data Catalogues
 *  [Comparing NOAA Geoportal to Data.Gov](https://www.wakari.io/sharing/bundle/rsignell/NODC_and_Data.gov)
