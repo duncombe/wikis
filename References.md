@@ -88,5 +88,5 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
     *  using pylab, owslib.csw, netCDF4, pandas, datetime
     *  includes list of CSWs
 *  [Accessing ncSOS with OWSLib and Pyoos](https://www.wakari.io/sharing/bundle/rsignell/ncSOS_and_OWSlib_and_pyoos)
-    *  using [NcSOS](https://github.com/asascience-open/ncSOS), which adds an OGC SOS service to datasets in THREDDS server and complies with IOOS SWE Milestone 1.0 templates
+    *  using [NcSOS](https://github.com/asascience-open/ncSOS), which adds an OGC SOS service to datasets in THREDDS server and complies with [IOOS SWE Milestone 1.0](https://code.google.com/p/ioostech/source/browse/#svn%2Ftrunk%2Ftemplates%2FMilestone1.0) templates
     *  using pandas, owlsib.etree, pdb, oslib.sos, datetime
