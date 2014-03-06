@@ -76,8 +76,10 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
 *  [Extracting time series from NWS NOAA/NCEP Wavewatch III](https://www.wakari.io/sharing/bundle/rsignell/cf_3d_to_1d)
     *  using [NWS NOAA/NCEP Wavewatch III](http://polar.ncep.noaa.gov/waves/wavewatch/wavewatch.shtml), pandas, datetime
     *  provides an example of extracting and plotting a 3D time series
-*  [Access ServiceTypes using CSW](https://www.wakari.io/sharing/bundle/rsignell/Model_search)
+*  [Access CSW to determine ServiceType](https://www.wakari.io/sharing/bundle/rsignell/Model_search)
     *  accessing NODC, NGDC, and DATA.NOAA.GOV, using CSW, netCDF4 to access model data
+*  [Accessing CSW with OWSLib using ISO queryables](https://www.wakari.io/sharing/bundle/rsignell/CATALOG.DATA.GOV-CSW-DAP)
+    *  using pylab, owslib.csw, netCDF4, pandas, datetime
 
 ###Comparing Data Catalogues
 *  [Comparing NOAA Geoportal to Data.Gov](https://www.wakari.io/sharing/bundle/rsignell/NODC_and_Data.gov)
