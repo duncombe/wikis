@@ -59,7 +59,7 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
 *  [Using Iris to Access Data from U.S. IOOS Regional and Federal Models](https://www.wakari.io/sharing/bundle/rsignell/scitools)
     *  uses Iris, time_near, var_lev_date, myplot, USGS/COASWST, MARACOOS/ESPRESSO, SECOORA/NCSU, CENCOOS/UCSC, HIOOS, Global RTOFS/NCEP 
 
-###Testing IOOS Services
+###Testing IOOS/Regional Services
 *  [IOOS 52 North SOS](http://ioossos.axiomalaska.com) / [Pyoos Testing Notebook](https://www.wakari.io/sharing/bundle/rsignell/pyoos_axiom)
     *  uses [pyoos](https://pypi.python.org/pypi/pyoos), a Python library for collecting Met/Ocean observations, to test and examine a particular IOOS service
 *  [Accessing IOOS Coastal Ocean Modeling Testbed (COMT)](https://www.wakari.io/sharing/bundle/rsignell/ADCIRC_water_level_and_velocity)
@@ -70,6 +70,9 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
     *  using netCDF4, pandas, read_csv to examine water level at particular stations according to the model by finding (x,y) coordinates near desired station locations and then plotting these water levels on a time series graph
 *  [Accessing an IOOS approved web service using python](https://www.wakari.io/sharing/bundle/rsignell/pyoos)
     *  using pandas, cStringIO, [pyoos](https://pypi.python.org/pypi/pyoos), read_csv and CoopsSos
+*  [Accessing New England Coastal Ocean Forecast System via OPeNDAP](https://www.wakari.io/sharing/bundle/rsignell/FVCOM_depth_and_velocity)
+    *  using  pylab, matplotlib.tri, netCDF4
+    *  examining the [New England Coastal Ocean Forecast System](http://fvcom.smast.umassd.edu/research_projects/NECOFS/)
 
 ###Comparing Data Catalogues
 *  [Comparing NOAA Geoportal to Data.Gov](https://www.wakari.io/sharing/bundle/rsignell/NODC_and_Data.gov)
