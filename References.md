@@ -72,7 +72,7 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
     *  using pandas, cStringIO, [pyoos](https://pypi.python.org/pypi/pyoos), read_csv and CoopsSos
 *  [Accessing New England Coastal Ocean Forecast System via OPeNDAP](https://www.wakari.io/sharing/bundle/rsignell/FVCOM_depth_and_velocity)
     *  using  pylab, matplotlib.tri, netCDF4
-    *  examining the [New England Coastal Ocean Forecast System](http://fvcom.smast.umassd.edu/research_projects/NECOFS/)
+    *  examining the [New England Coastal Ocean Forecast System](http://fvcom.smast.umassd.edu/research_projects/NECOFS/) and [THREDDS Data Server](http://www.smast.umassd.edu:8080/thredds/forecasts.html?dataset=gom2_nocache)
 
 ###Comparing Data Catalogues
 *  [Comparing NOAA Geoportal to Data.Gov](https://www.wakari.io/sharing/bundle/rsignell/NODC_and_Data.gov)
