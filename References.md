@@ -87,6 +87,10 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
     *  using [COMT](http://www.ioos.noaa.gov/modeling/testbed.html), CSW, pandas, matplotlib.tri, netCDF4, datetime, pyugrid
     *  demonstrates finding nearby points of interest from a model and harvesting service url's from a CSW endpoint
     *  demonstrates time series plotting different outputs of water levels from a plot over a certain time period
+*  [Accessing Data from a NOAA Forecast Model via OPeNDAP](https://www.wakari.io/sharing/bundle/rsignell/SFBOFS_depth_and_velocity)
+    *  using [San Francisco Bay Operational Forecast System (SFBOFS)](http://tidesandcurrents.noaa.gov/ofs/sfbofs/sfbofs.html)
+    *  demonstrating use of netCDF4, matplotlib.try, pylab, date time
+    *  visualizing a tricontourf plot of water depth with water current vectors overlaid
 
 ###Comparing Data Catalogues
 *  [Comparing NOAA Geoportal to Data.Gov](https://www.wakari.io/sharing/bundle/rsignell/NODC_and_Data.gov)
