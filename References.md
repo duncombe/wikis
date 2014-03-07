@@ -83,6 +83,10 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
 *  [Using regional data and independent CSV data to approach marine Conflict Resolution Planning](https://www.wakari.io/sharing/bundle/rsignell/Right_Whale_Sightings)
     *  uses pandas, netCDF4, read_csv, group.to_csv, and demonstrating how to use matplotlib to create histograms of the data and then group the data by month on maps of bathymetry
     *  this notebook was created as an approach to resolving conflicts between aquaculture siting and Right Whale protection in Cape Cod Bay
+*  [Accessing IOOS Coastal Ocean Modeling Testbed (COMT)](https://www.wakari.io/sharing/bundle/rsignell/IKE_water_levels)
+    *  using [COMT](http://www.ioos.noaa.gov/modeling/testbed.html), CSW, pandas, matplotlib.tri, netCDF4, datetime, pyugrid
+    *  demonstrates finding nearby points of interest from a model and harvesting service url's from a CSW endpoint
+    *  demonstrates time series plotting different outputs of water levels from a plot over a certain time period
 
 ###Comparing Data Catalogues
 *  [Comparing NOAA Geoportal to Data.Gov](https://www.wakari.io/sharing/bundle/rsignell/NODC_and_Data.gov)
