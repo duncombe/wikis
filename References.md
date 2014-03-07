@@ -99,3 +99,5 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
 *  [Accessing ncSOS with OWSLib and Pyoos](https://www.wakari.io/sharing/bundle/rsignell/ncSOS_and_OWSlib_and_pyoos)
     *  using [NcSOS](https://github.com/asascience-open/ncSOS), which adds an OGC SOS service to datasets in THREDDS server and complies with [IOOS SWE Milestone 1.0](https://code.google.com/p/ioostech/source/browse/#svn%2Ftrunk%2Ftemplates%2FMilestone1.0) templates
     *  using pandas, owlsib.etree, pdb, oslib.sos, datetime
+*  [Using CSW to search for datasets with a certain variable in a certain bounding box and determining Service endpoints](https://www.wakari.io/sharing/bundle/rsignell/CSW_Testing_ISO_Queryables-USGS)
+    *  using [ISO Queryables](http://essi-lab.eu/do/view/GIcat/CSWISO-Ext-Queryables) (these are incredibly valuable in terms of determining a set of records that can be accessed through particular Services (WCS, WMS, WFS, SOS)), netCDF4, pandas
