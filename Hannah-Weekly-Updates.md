@@ -18,6 +18,9 @@ I also worked on articulating the third theme focused on marine planning/energy 
 I met with Derrick on Friday to discuss next steps in terms of summarizing the approach for Theme 3, determining approaches to quantifying outputs of the IPython notebooks, and approaching how to organize and quantify outputs from the collection of IPython notebooks that have been developed for the project so far.
 
 # Week 5
+This week I attended the Regional IOOS Directors meeting which was valuable both in terms of understanding modeling and data perspectives from the regional viewpoint, and in terms of hearing a bit more from the regions about their priorities in terms of ocean and coastal planning (conflict resolution), as well as their particular approaches to managing their data.  In addition, the meeting resulted in gathering together documents that will help inform the direction that the themes go for the DATE project, and make sure to align the project with regional needs.
+
+I also worked to catalogue existing iPython notebooks, and provide that catalogue online, which will serve to provide a resource both for the project and for the public by creating a one stop clear outline of current testing activities.  I met with Derrick to talk about next steps, and determined that the final theme needs to be reworked over the next week.  We also developed a preliminary approach to standardizing and editing iPython notebooks so that they can serve as a more polished product in terms of the outcomes of the project.
 
 # Week 6
 
