@@ -94,6 +94,9 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
 *  [Visualizing an unstructured grid Model output from the IOOS Modeling Testbed](
 https://www.wakari.io/sharing/bundle/rsignell/UGRID_Subset_with_time)
     *  using netCDF4 to access OPeNDAP using Unidata NetCDF-C Library
+    *  [Unstructured Grids] (https://publicwiki.deltares.nl/display/NETCDF/Unstructured+grids) are a more primitive form of data set that stores topology and point coordinates explicitly, meaning that information about relationship to other polygons is part of the data, and the data takes up more memory.  In contrast, structured grids store information implicitly, meaning that they tag information with an ID that is based on the position of the information in a data file. 
+        *  Additional Resources: [VTK Data Model](http://www.paraview.org/Wiki/ParaView/Users_Guide/VTK_Data_Model) for visualizations of unstructured vs. structured grid data; [IOOS DIF Model Data Interoperability](https://geo-ide.noaa.gov/wiki/index.php?title=IOOS_DIF_Model_Data_Interoperability)
+    *  [UGRID Interoperability Forum](https://groups.google.com/forum/#!forum/ugrid-interoperability)
 
 ###Comparing Data Catalogues
 *  [Comparing NOAA Geoportal to Data.Gov](https://www.wakari.io/sharing/bundle/rsignell/NODC_and_Data.gov)
