@@ -84,8 +84,7 @@ The Extreme Events theme, as its name suggests, focuses on the analysis of data 
 - NERACOOS Regional Resources Identified:
     *  [NOAA Tides Online](http://tidesonline.nos.noaa.gov/plotcomp.shtml?station_info=8410140+-+Eastport,%20ME&type=Tide+Data)
     *  [CMS Storm warning system](http://hudson.dl.stevens-tech.edu/SSWS/)
-    *  [Delaware Coastal Flood Monitoring System
-http://www.coastal-flood.udel.edu/
+    *  [Delaware Coastal Flood Monitoring System](http://www.coastal-flood.udel.edu/)
     *  [NERACOOS coastal flooding and erosion tool](http://www.neracoos.org/dataproducts/forecast/coastal_flooding_forecast/portland)
     *  [NERACOOS Water Level Display](http://p5.neracoos.org/products/modeldata/popup.html?page=popup&platform=hampton&model_type=NEC)
     *  [NERACOOS water level obs/model viewer](http://www.neracoos.org/datatools/forecast/modelobs)
