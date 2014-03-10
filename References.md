@@ -118,4 +118,7 @@ https://www.wakari.io/sharing/bundle/rsignell/UGRID_Subset_with_time)
     *  using pandas, [CKCAN API](http://docs.ckan.org/en/ckan-2.1/api.html), [data.noaa.gov API](https://data.noaa.gov/api/3)
     *  See also, [Open Standards and Interoperability](http://ckan.org/open-standards/)
     *  this notebook is valuable in that it demonstrates how to retrieve urls and then examine the service endpoints for a particular variable within a set geographic area
-    
+*  [Accessing data.gov using CKAN API](https://www.wakari.io/sharing/bundle/rsignell/Testing%20CKAN%20API%20on%20data.gov)
+    *  provides a detailed narrative using CKAN API with requests package and ckanclient package
+    *  also demonstrates how to print out url resources for each record and dataset service endpoints by looking for NetCDF
+    *  narrative is an example of taking a look at data sets and pointing out lack of meta data that makes it hard to utilize the data
