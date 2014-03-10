@@ -36,8 +36,9 @@ The baseline assessment theme includes test cases that, as the name of theme sta
 
 *_Editors note: we will note be testing or deploying any push technologies so Alerts are out of scope for DMAC and for this project._*
 
-## Questions for consideration
+## Questions/Topics for consideration
 
+* Discovery, Access, Use protocol/narratives
 * What are the essential elements that dictate whether a search was successful or not?
 * List the interfaces that a catalog provides (html page with forms, csw, opensearch, ckan etc)
 * For each registry, summarize the contents along several important query parameters 
@@ -59,12 +60,13 @@ The Extreme Events theme, as its name suggests, focuses on the analysis of data 
 * After the storm abates, inundation data should help inform where should responders go to help with the most affected areas.  
 * And much after the storm, comparing recorded data values to predicted data values assists in identifying shortcomings of the model and can suggest ways for improving a model's predictive power.
 
-### Questions for consideration
+### Questions to Guide Corresponding IPython Notebooks
 
-* Comparison of predicted vs average water levels at a particular location
-* Retrospective comparison of modeled water levels from more than one model at a particular location
-* In general, any model data comparison problem has relevance here or in the next theme area
-* Comparison of like data types from distinct sources (Can we plot USGS water level and CO-OPS water level using the same script?)
+* Can we discover, access and compare modeled water levels by accessing a CSW (See, [Service Registries and Data Catalogues](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs) for all available water level models and then overlaying the output for an example bounding box and time period? 
+* Can we discover, access, and compare modeled water levels against observed water levels within a particular bounding box? 
+* Can we discover, access, and compare water level data from different agencies and overlay that data for a particular geographic bounding box (e.g. USGS and CO-OPS) within a single IPython notebook? 
+* Can we discover, access, and overlay data from federal catalogs on water level with local data sources?
+* Can we discover, access, and overlay data from flood models accessible through federal data catalogues with coastal elevation data and baythmetric data in a single IPython notebook?
 
 #### Required data to answer the questions (Source for each type of data identified in parentheses):
 
@@ -79,8 +81,75 @@ The Extreme Events theme, as its name suggests, focuses on the analysis of data 
 - Models from USACE, NOAA, IOOS Regions
 - NOAA NHC: SLOSH
 - NOAA NOS: ASGS, 
+- NERACOOS Regional Resources Identified:
+    *  [NOAA Tides Online](http://tidesonline.nos.noaa.gov/plotcomp.shtml?station_info=8410140+-+Eastport,%20ME&type=Tide+Data)
+    *  [CMS Storm warning system](http://hudson.dl.stevens-tech.edu/SSWS/)
+    *  [Delaware Coastal Flood Monitoring System
+http://www.coastal-flood.udel.edu/
+    *  [NERACOOS coastal flooding and erosion tool](http://www.neracoos.org/dataproducts/forecast/coastal_flooding_forecast/portland)
+    *  [NERACOOS Water Level Display](http://p5.neracoos.org/products/modeldata/popup.html?page=popup&platform=hampton&model_type=NEC)
+    *  [NERACOOS water level obs/model viewer](http://www.neracoos.org/datatools/forecast/modelobs)
 
+### ADDITIONAL EXTREME EVENTS THEMES:
+## Physical and Biological Disaster
+Physical disasters often impact entire ecosystems and mitigation efforts can be improved by integrating physical data about conditions and the disaster itself with information on the impacted species of interest.
 
+###Example: Oil Tanker Spill
+An oil tanker loaded has collided with another vessel 5 nautical miles SE of the entrance to Delaware Bay.  A large quantity of oil has been released into the marine environment, threatening the shoreline of a particular coastline. 
+
+#### Questions to Guide Corresponding IPython Notebooks
+* Can we discover, access and map high resolution coastline and velocity vectors from a real time data set accessible through CSWs and then map modeled water velocity vectors at a point in the future from the designated time of the test in the same geographic area? 
+* Can we discover, access and map bathymetry, tidal data, currents, winds, and overlay that with data reflecting coastal ecological vulnerabilities in a designated bounding box for a designated time in single IPython notebook? 
+* Can we discover, access and map satellite imagery data in real time against real time and future model projection data of velocity vectors in a single IPython notebook?
+
+* What are the dimensions of the oil slick?
+* Which areas of coastline are likely to be tainted?
+* Which indigenous species might be adversely affected by the oil?
+* How long will it take for the oil spill to disperse?
+* Which capture and dispersal tools and techniques would work best?
+
+####Required Data to Answer Questions
+* weather 
+* sea surface temperature 
+* real-time precipitation
+* cloud cover
+* wind speed/direction
+* surface currents
+* wave heights, 
+* threatened and endangered species data
+* shoreline types 
+* waterway use data 
+* boundaries (vessel traffic, shipping lanes, state/territorial waters boundaries) 
+* RESOURCES Consulted:
+    *  [Maritime Environmental Emergency Oil Spill Trajectory Model](http://www.amsa.gov.au/environment/maritime-environmental-emergencies/national-plan/General-Information/OSTM/faq/answers.asp)
+
+## Search & Rescue 
+Many disaster responses requiring rescue can be improved by greater knowledge about the physical/chemical/biological conditions.
+
+###Example: Commercial Aircraft Crash
+A large commercial aircraft en route LAX from Honolulu with several hundred passengers onboard has crashed into the Pacific Ocean midway between the Hawaiian Islands and the California coast.  A massive search and rescue effort is underway. 
+
+####Questions  To Be Answered
+* Where exactly is the crash site?
+* Where will survivors be lost likely to be found?
+* Where will floating wreckage be found?
+* How deep is the ocean bottom at the crash site?
+* Are there weather conditions that might assist or hamper the search & recovery effort?
+* How will current and forecast weather conditions near the crash area affect the survivors?
+
+####Required Data to Answer Questions
+* GPS location of crash site
+* real-time weather 
+* ocean circulation observations 
+* real-time precipitation 
+* cloud cover 
+* wind speed/direction 
+* surface currents
+* wave heights
+* sea surface temperature
+* forecast wind speed/direction
+* forecast surface currents
+* forecast weather
 
 ## Invasive Species
 One of the major problems that resource managers face is invasive species. Improved physical and biological data can help resource managers improve and refine the strategies they develop in order to mitigate the impacts of invasive species on valued resources (e.g. recreational areas, commercial species, etc.).  
@@ -111,62 +180,6 @@ The species is still expanding its range.  Pick an origin from above, or that a 
 * native species distributions
 * diets of all species      
 * frequency of occurrence 
- 
-
-## Physical and Biological Disaster
-Physical disasters often impact entire ecosystems and mitigation efforts can be improved by integrating physical data about conditions and the disaster itself with information on the impacted species of interest.
-
-###Example: Oil Tanker Spill
-An oil tanker loaded has collided with another vessel 5 nautical miles SE of the entrance to Delaware Bay.  A large quantity of oil has been released into the marine environment, threatening the shoreline of the Delmarva Peninsula, Delaware Bay, and the New Jersey coast. 
-
-#### Questions for Consideration
-* What are the dimensions of the oil slick?
-* Which areas of coastline are likely to be tainted?
-* Which indigenous species might be adversely affected by the oil?
-* How long will it take for the oil spill to disperse?
-* Which capture and dispersal tools and techniques would work best?
-
-####Required Data to Answer Questions
-* weather 
-* sea surface temperature 
-* real-time precipitation
-* cloud cover
-* wind speed/direction
-* surface currents
-* wave heights, 
-* threatened and endangered species data
-* shoreline types 
-* waterway use data 
-* boundaries (vessel traffic, shipping lanes, state/territorial waters boundaries) 
-
-
-## Search & Rescue 
-Many disaster responses requiring rescue can be improved by greater knowledge about the physical/chemical/biological conditions.
-
-###Example: Commercial Aircraft Crash
-A large commercial aircraft en route LAX from Honolulu with several hundred passengers onboard has crashed into the Pacific Ocean midway between the Hawaiian Islands and the California coast.  A massive search and rescue effort is underway. 
-
-####Questions  To Be Answered
-* Where exactly is the crash site?
-* Where will survivors be lost likely to be found?
-* Where will floating wreckage be found?
-* How deep is the ocean bottom at the crash site?
-* Are there weather conditions that might assist or hamper the search & recovery effort?
-* How will current and forecast weather conditions near the crash area affect the survivors?
-
-####Required Data to Answer Questions
-* GPS location of crash site
-* real-time weather 
-* ocean circulation observations 
-* real-time precipitation 
-* cloud cover 
-* wind speed/direction 
-* surface currents
-* wave heights
-* sea surface temperature
-* forecast wind speed/direction
-* forecast surface currents
-* forecast weather
  
 
 # Theme 3:   Marine Energy Planning
