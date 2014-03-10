@@ -58,6 +58,8 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
     *  uses [Cartopy](http://scitools.org.uk/cartopy/index.html)
 *  [Using Iris to Access Data from U.S. IOOS Regional and Federal Models](https://www.wakari.io/sharing/bundle/rsignell/scitools)
     *  uses Iris, time_near, var_lev_date, myplot, USGS/COASWST, MARACOOS/ESPRESSO, SECOORA/NCSU, CENCOOS/UCSC, HIOOS, Global RTOFS/NCEP 
+    *  See Also, [Using Iris to Access Data from U.S.-IOOS models](https://www.wakari.io/sharing/bundle/rsignell/IOOS_Models-CSW) which builds on notebook by accessing models via CSW, rather than specifying urls
+        * this additional notebook is valuable in that it demonstrates how to use a CSW endpoint (e.g. NGDC/IOOS Geoportal, or NODC.UAF Geoportal) and then using PropertyIsLike and a text search to discover available models
 
 ###Testing IOOS/Regional Services
 *  [IOOS 52 North SOS](http://ioossos.axiomalaska.com) / [Pyoos Testing Notebook](https://www.wakari.io/sharing/bundle/rsignell/pyoos_axiom)
