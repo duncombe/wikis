@@ -122,3 +122,6 @@ https://www.wakari.io/sharing/bundle/rsignell/UGRID_Subset_with_time)
     *  provides a detailed narrative using CKAN API with requests package and ckanclient package
     *  also demonstrates how to print out url resources for each record and dataset service endpoints by looking for NetCDF
     *  narrative is an example of taking a look at data sets and pointing out lack of meta data that makes it hard to utilize the data
+
+###Miscellaneous 
+*  [Package for creating IPython Blog Environment](https://www.wakari.io/sharing/bundle/rsignell/blog)
