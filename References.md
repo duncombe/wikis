@@ -91,7 +91,9 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
     *  using [San Francisco Bay Operational Forecast System (SFBOFS)](http://tidesandcurrents.noaa.gov/ofs/sfbofs/sfbofs.html)
     *  demonstrating use of netCDF4, matplotlib.try, pylab, date time
     *  visualizing a tricontourf plot of water depth with water current vectors overlaid
-
+*  [Visualizing an unstructured grid Model output from the IOOS Modeling Testbed](
+https://www.wakari.io/sharing/bundle/rsignell/UGRID_Subset_with_time)
+    *  using netCDF4 to access OPeNDAP using Unidata NetCDF-C Library
 ###Comparing Data Catalogues
 *  [Comparing NOAA Geoportal to Data.Gov](https://www.wakari.io/sharing/bundle/rsignell/NODC_and_Data.gov)
     *  using CSW to compare NODC geoportal to data.gov
