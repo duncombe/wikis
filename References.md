@@ -108,3 +108,8 @@ Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/do
     *  See also [NGDC CSW Notebook](https://www.wakari.io/sharing/bundle/rsignell/NGDC-CSW-DAP) using the same methods
 *  [Accessing data.gov using CKAN API](https://www.wakari.io/sharing/bundle/rsignell/CKAN_data_noaa_gov)
     *  utilizing [ckanclient](http://docs.ckan.org/en/ckan-1.4.3/loading_data.html), and pandas
+*  [Accessing data.noaa.gov to find data on a certain variable, in a certain bounding box, and with a certain data endpoint](https://www.wakari.io/sharing/bundle/rsignell/CKAN_data_noaa_gov)
+    *  using pandas, [CKCAN API](http://docs.ckan.org/en/ckan-2.1/api.html), [data.noaa.gov API](https://data.noaa.gov/api/3)
+    *  See also, [Open Standards and Interoperability](http://ckan.org/open-standards/)
+    *  this notebook is valuable in that it demonstrates how to retrieve urls and then examine the service endpoints for a particular variable within a set geographic area
+    
