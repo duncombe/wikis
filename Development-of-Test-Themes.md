@@ -132,19 +132,12 @@ A large commercial aircraft en route LAX from Honolulu with several hundred pass
 * Can we discover, access, and map current weather conditions in a particular bounding box and overlay that with example coordinates of a crash site?
 * Can we discover, access, and map a three day forecast of weather conditions in a particular bounding box and overlay that with example coordinates of a crash site?
 * What models are available via CSWs that we can access through an IPython notebook, what are their URLs and can we call those models for the set bounding box, for a set of three days following the given date of a crash to compare modeled velocity vectors?
-Where exactly is the crash site?
-* Where will survivors be lost likely to be found?
-* Where will floating wreckage be found?
-* How deep is the ocean bottom at the crash site?
-* Are there weather conditions that might assist or hamper the search & recovery effort?
-* How will current and forecast weather conditions near the crash area affect the survivors?
+* Can we discover, access and map sea surface current maps from high frequency radar in near real time, and overlay this data with a particular crash site location using designated IOOS catalogs?  Can we do a similar analysis using regional IOOS catalogs?  Are there certain regions that stand out when we apply the script for IOOS catalogs to regional catalogs?
 
 ####Required Data to Answer Questions
 * GPS location of crash site
 * real-time weather 
-* ocean circulation observations 
-* real-time precipitation 
-* cloud cover 
+* high frequency radar  
 * wind speed/direction 
 * surface currents
 * wave heights
@@ -152,6 +145,8 @@ Where exactly is the crash site?
 * forecast wind speed/direction
 * forecast surface currents
 * forecast weather
+* RESOURCES Consulted:
+    *  [Data to Improve Coast Guard Search and Rescue](http://oceanservice.noaa.gov/news/weeklynews/may09/coastguard.html)
 
 ## Invasive Species
 One of the major problems that resource managers face is invasive species. Improved physical and biological data can help resource managers improve and refine the strategies they develop in order to mitigate the impacts of invasive species on valued resources (e.g. recreational areas, commercial species, etc.).  
@@ -172,7 +167,7 @@ The species is still expanding its range.  Pick an origin from above, or that a 
 * Will they overlap with other shrimp species - in distribution and/or diet? 
 
 ####Required Data to Answer Questions
-* *currents 
+* currents 
 * temperature 
 * habitat preferences 
 * larval drift
@@ -184,8 +179,8 @@ The species is still expanding its range.  Pick an origin from above, or that a 
 * frequency of occurrence 
  
 
-# Theme 3:   Marine Energy Planning
-The driver behind many state based marine conflict resolution programs has been the siting of energy projects. The [InVEST Model for Wind Energy Siting](http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/wind_energy.html#required-inputs) is a good starting place for required data sets (See, "Required input" section in the link).  Additional data sets required for permitting coastal energy projects may include those related to migratory birds, marine mammals, and fish abundance/species).  Possible topics within this area include those listed below.
+# Theme 3:   Ecologically Sound Marine Energy Planning
+The driver behind many state based marine conflict resolution programs has been the siting of energy projects. Because state and federal governments working to site new energy or additional ocean energy extraction in state/federal waters must consider a suite of existing uses, including species and areas of biological importance, siting energy implicitly requires governments and private entities to utilize and overlay ecological data sets with physical data sets.  Therefore, planning for marine energy presents an ideal way to test the IOOS system for both physical and biological data that is needed to plan for energy extraction in the ocean in an ecologically sustainable way.   
 
 ## Location of Wind Turbine Farm
 A state is is the process of delimiting an area off its coast that is suitable for the placement of a major wind turbine farm.  The state must adhere to a number of laws and implementing policies before it can formally delineate an area for wind turbine development and solicit bids.
@@ -224,12 +219,17 @@ The Department of Interior Bureau of Ocean Energy Management is considering open
 * zooplankton survey results
 * water quality metrics
 
+* RESOURCES Consulted:
+    *  The [InVEST Model for Wind Energy Siting](http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/wind_energy.html#required-inputs) is a good starting place for required data sets (See, "Required input" section in the link).
+
 
 # RESOURCES AND REFERENCES FOR TESTING APPROACH
 
 # Source for Test Cases
 
-The the GEOSS Architecture Implementation Pilot, Phase 3, [Use Case Engineering Report](http://www.ogcnetwork.net/pub/ogcnetwork/GEOSS/AIP3/documents/AIP-3_Use_Cases_ER110210.pdf) provides a set of use cases that are relevant to DMAC and distributed data networks in general but are not science focused.   They may be useful as templates for building procedures for various DMAC test cases.  These so called transverse use cases may be useful in helping us standardize the data we will collect from each test case. [Note that the term "transverse use case' is not defined in systems testing literature and seems to be particular to the GEOSS Architecture Implementation Pilot project.]   This section is included currently, just as a placeholder for future elaboration/consideration.  It's not clear if included the somewhat dense language of system engineering use case principles will make for a better publication in the end.  Nevertheless there is some useful information in these references.  The structure and style of the GEOSS use cases should not be lifted ans used without revision in DMAC testing. Rather, the GEOSS use cases can suggest procedures that can be easily adapted to test DMAC functionality.  Of particular interest to DMAC are three GEOSS general use cases:
+The the GEOSS Architecture Implementation Pilot, Phase 3, [Use Case Engineering Report](http://www.ogcnetwork.net/pub/ogcnetwork/GEOSS/AIP3/documents/AIP-3_Use_Cases_ER110210.pdf) provides a set of use cases that are relevant to DMAC and distributed data networks in general but are not science focused.   They may be useful as templates for building procedures for various DMAC test cases.  These so called transverse use cases may be useful in helping us standardize the data we will collect from each test case. [Note that the term "transverse use case' is not defined in systems testing literature and seems to be particular to the GEOSS Architecture Implementation Pilot project.]   
+
+*  Nota Bene: The structure and style of the GEOSS use cases should not be lifted and used without revision in DMAC testing. Rather, the GEOSS use cases can suggest procedures that can be easily adapted to test DMAC functionality.  Of particular interest to DMAC are three GEOSS general use cases:
 
 * Search for Resources
 * Present Services
