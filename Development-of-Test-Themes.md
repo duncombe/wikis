@@ -90,10 +90,7 @@ The Extreme Events theme, as its name suggests, focuses on the analysis of data 
     *  [NERACOOS water level obs/model viewer](http://www.neracoos.org/datatools/forecast/modelobs)
 
 ### ADDITIONAL EXTREME EVENTS THEMES:
-## Physical and Biological Disaster
-Physical disasters often impact entire ecosystems and mitigation efforts can be improved by integrating physical data about conditions and the disaster itself with information on the impacted species of interest.
-
-###Example: Oil Tanker Spill
+## Oil Tanker Spill
 An oil tanker loaded has collided with another vessel 5 nautical miles SE of the entrance to Delaware Bay.  A large quantity of oil has been released into the marine environment, threatening the shoreline of a particular coastline. 
 
 #### Questions to Guide Corresponding IPython Notebooks
