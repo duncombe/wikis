@@ -186,13 +186,13 @@ The driver behind many state based marine conflict resolution programs has been 
 A state is is the process of delimiting an area off its coast that is suitable for the placement of a major wind turbine farm.  The state must adhere to a number of laws and implementing policies before it can formally delineate an area for wind turbine development and solicit bids.
 
 ### Questions for consideration
-* What data is needed for particular energy planning policies (Outer Continental Shelf Lands Act, National Environmental Policy Act, etc)?
-* Can that data be easily accessed from the available registries and catalogs?  If so, which registries can each data set be accessed through?  
-* Using baseline metrics developed under Theme 1 for registries, are there certain registries that are better or worse for accessing particular data sets?
+* Pre-IPython Notebook Policy Question and Policy to Data Mapping Exercise: What data is needed for particular energy planning policies (Outer Continental Shelf Lands Act, National Environmental Policy Act, etc.)?
+* Can we discover, access, and overlay on a time series time series data for wind speed and direction for set of proposed wind turbine locations (lat, long) over the past 30 years?
+* Can we discover, access, and overlay a map of proposed wind turbine locations with data sets showing ship traffic and/or other human uses (e.g. recreation, commercial fisheries, VMS data)?
+* Can we discover, access, and overlay a map of proposed wind turbine locations with core IOOS variable data over a certain bounding box and/or ecologically sensitive areas and/or Marine Protected Areas designated by law?
 
 ### Required Data to Answer Questions
-* wind data point
-* area of interest
+* wind 
 * bathymetry
 * land polygon for distance calculations
 * global wind energy parameters
@@ -205,23 +205,27 @@ A state is is the process of delimiting an area off its coast that is suitable f
 ## Mineral Extraction
 The Department of Interior Bureau of Ocean Energy Management is considering opening several tracts in the Gulf of Mexico for petroleum exploration. As part of their due diligence under regulations implementing the Outer Continental Shelf Lands Act, the Bureau must prepare an environmental impact statement before opening the tract to bids. The environmental impact statement must consider the potential impact of exploration and drilling on area fisheries.
 
-### Questions TO Be Answered
-*  What are the trends in phytoplankton health in the area over the past 30 years?
-*  What are the metrics for zooplankton health in the area over the past 30 years?
-*  What are the metrics for commercial fish species in the area over the past 30 years?
-*  Are there analog areas that have undergone exploration and drilling that can be used for comparison?
-*  If so, what trends can be observed in the metrics for phytoplankton, zooplankton and commercial fish species in the analog areas?
+### Questions To Be Answered
+*  Can we discover, access and map phytoplankton species and abundance trend in an area of interest over the past 30 years? 
+*  Can we discover, access and map zooplankton species and abundance trend in an area of interest over the past 30 years? 
+*  Can we discover, access and map fish species and abundance trend in an area of interest over the past 30 years? 
 
 ### Data Required to Answer Questions
-* area of interest
+* high resolution coastline
+* bottom type
 * bathymetry
-* phytoplankton survey results
-* zooplankton survey results
+* phytoplankton species and abundance
+* zooplankton species and abundance
+* fish species and abundance
 * water quality metrics
 
 * RESOURCES Consulted:
     *  The [InVEST Model for Wind Energy Siting](http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/wind_energy.html#required-inputs) is a good starting place for required data sets (See, "Required input" section in the link).
-
+    *  [Wind Power Sitin, Incentives and Wildlife Guidelines in the United States](http://www.fws.gov/habitatconservation/windpower/afwa%20wind%20power%20final%20report.pdf) 
+        *  This document provides a comprehensive break down of the laws and applications to energy siting and could be used as a starting point for mapping legislative and executive policy to required data sets for planning purpose.
+  *  [Planning for Offshore Energy Development](http://www.analysisgroup.com/uploadedFiles/Publishing/Articles/Planning_for_Ocean_Energy_Development_Complete.pdf)
+        *  This document covers both offshore oil/gas permitting and offshore wind permitting.
+        *  See Table 1 for comprehensive list of legislation, subject matter, and responsible federal agencies that could serve as starting point for data to policy trace-ability mapping.
 
 # RESOURCES AND REFERENCES FOR TESTING APPROACH
 
