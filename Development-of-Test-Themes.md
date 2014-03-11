@@ -36,7 +36,7 @@ The baseline assessment theme includes test cases that, as the name of theme sta
 
 *_Editors note: we will note be testing or deploying any push technologies so Alerts are out of scope for DMAC and for this project._*
 
-## Questions/Topics for consideration
+## Questions to Guide Corresponding IPython Notebooks
 
 * Discovery, Access, Use protocol/narratives
 * What are the essential elements that dictate whether a search was successful or not?
@@ -158,7 +158,7 @@ Asian Tiger Shrimp, an aquaculture species, has invaded the southern US (NC-TX).
 * Ballast or current transport from introduced populations in northern South America;
 * Current transport from the Caribbean from escapes from aquaculture ponds there.
 
-####Questions for Consideration
+####Questions to Guide Corresponding IPython Notebooks
 The species is still expanding its range.  Pick an origin from above, or that a hurricane flooded an aquaculture facility on the Gulf Coast.  Potential scenario and questions:
 * What is predicted distribution and spread? 
 * Where should we look for breeding areas?
@@ -185,7 +185,7 @@ The driver behind many state based marine conflict resolution programs has been 
 ## Location of Wind Turbine Farm
 A state is is the process of delimiting an area off its coast that is suitable for the placement of a major wind turbine farm.  The state must adhere to a number of laws and implementing policies before it can formally delineate an area for wind turbine development and solicit bids.
 
-### Questions for consideration
+### Questions to Guide Corresponding IPython Notebooks
 * Pre-IPython Notebook Policy Question and Policy to Data Mapping Exercise: What data is needed for particular energy planning policies (Outer Continental Shelf Lands Act, National Environmental Policy Act, etc.)?
 * Can we discover, access, and overlay on a time series time series data for wind speed and direction for set of proposed wind turbine locations (lat, long) over the past 30 years?
 * Can we discover, access, and overlay a map of proposed wind turbine locations with data sets showing ship traffic and/or other human uses (e.g. recreation, commercial fisheries, VMS data)?
@@ -205,7 +205,7 @@ A state is is the process of delimiting an area off its coast that is suitable f
 ## Mineral Extraction
 The Department of Interior Bureau of Ocean Energy Management is considering opening several tracts in the Gulf of Mexico for petroleum exploration. As part of their due diligence under regulations implementing the Outer Continental Shelf Lands Act, the Bureau must prepare an environmental impact statement before opening the tract to bids. The environmental impact statement must consider the potential impact of exploration and drilling on area fisheries.
 
-### Questions To Be Answered
+### Questions to Guide Corresponding IPython Notebooks
 *  Can we discover, access and map phytoplankton species and abundance trend in an area of interest over the past 30 years? 
 *  Can we discover, access and map zooplankton species and abundance trend in an area of interest over the past 30 years? 
 *  Can we discover, access and map fish species and abundance trend in an area of interest over the past 30 years? 
