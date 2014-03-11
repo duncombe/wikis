@@ -128,8 +128,11 @@ Many disaster responses requiring rescue can be improved by greater knowledge ab
 ###Example: Commercial Aircraft Crash
 A large commercial aircraft en route LAX from Honolulu with several hundred passengers onboard has crashed into the Pacific Ocean midway between the Hawaiian Islands and the California coast.  A massive search and rescue effort is underway. 
 
-####Questions  To Be Answered
-* Where exactly is the crash site?
+####Questions to Guide Corresponding IPython Notebooks
+* Can we discover, access, and map current weather conditions in a particular bounding box and overlay that with example coordinates of a crash site?
+* Can we discover, access, and map a three day forecast of weather conditions in a particular bounding box and overlay that with example coordinates of a crash site?
+* What models are available via CSWs that we can access through an IPython notebook, what are their URLs and can we call those models for the set bounding box, for a set of three days following the given date of a crash to compare modeled velocity vectors?
+Where exactly is the crash site?
 * Where will survivors be lost likely to be found?
 * Where will floating wreckage be found?
 * How deep is the ocean bottom at the crash site?
