@@ -33,10 +33,7 @@ See **Below** for a more detailed templates describing the Themes.
 # Theme 1: Baseline Assessment
 The baseline assessment theme includes test cases that, as the name of theme states, assess the basic functionality of the Data Management and Communications system. While the test cases for this theme have no slant towards a particular scientific endeavor, the functionality to be tested underlies all subsequent test themes.  To put it simply, the Baseline Assessment theme tests whether registries, catalogs, metadata sets and data sets that are known to meet IOOS certification can be discovered, accessed and used. Results include information such as basic statistics on the number of data sets in each chosen registry, the standards advertised, and the dialects of the metadata within the registries. Information obtained through the use of iPython scripts will be compared against corresponding information retained by a registry, catalog, or data repository owner to answer the question below.
 
-
-*_Editors note: we will note be testing or deploying any push technologies so Alerts are out of scope for DMAC and for this project._*
-
-## Questions to Guide Corresponding IPython Notebooks
+### Questions to Guide Corresponding IPython Notebooks
 
 * Discovery, Access, Use protocol/narratives
 * What are the essential elements that dictate whether a search was successful or not?
@@ -48,7 +45,6 @@ The baseline assessment theme includes test cases that, as the name of theme sta
   * Presence/absence of keywords and references to keyword vocabularies (preferably machine readable)
 
 NOTE: See github.com/osgeo/Cat-Interop for a project that should be included as a contribution to the system-test.  Standardizing vocabulary of service type descriptions for CS/W 2.0.2 implementations.
-
 
 
 # Theme 2: Extreme Events 
@@ -152,7 +148,7 @@ The driver behind many state based marine conflict resolution programs has been 
 A state is is the process of delimiting an area off its coast that is suitable for the placement of a major wind turbine farm.  The state must adhere to a number of laws and implementing policies before it can formally delineate an area for wind turbine development and solicit bids.
 
 ### Questions to Guide Corresponding IPython Notebooks
-* Pre-IPython Notebook Policy Question and Policy to Data Mapping Exercise: What data is needed for particular energy planning policies (Outer Continental Shelf Lands Act, National Environmental Policy Act, etc.)?
+* Pre-IPython Notebook Policy Question and Policy-to-Data Mapping Exercise: What data is needed for particular energy planning policies (Outer Continental Shelf Lands Act, National Environmental Policy Act, etc.)?
 * Can we discover, access, and overlay on a time series time series data for wind speed and direction for set of proposed wind turbine locations (lat, long) over the past 30 years?
 * Can we discover, access, and overlay a map of proposed wind turbine locations with data sets showing ship traffic and/or other human uses (e.g. recreation, commercial fisheries, VMS data)?
 * Can we discover, access, and overlay a map of proposed wind turbine locations with core IOOS variable data over a certain bounding box and/or ecologically sensitive areas and/or Marine Protected Areas designated by law?
