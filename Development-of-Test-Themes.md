@@ -101,22 +101,26 @@ An oil tanker loaded has collided with another vessel 5 nautical miles SE of the
 * Can we discover, access and map bathymetry, tidal data, currents, winds, and overlay that with data reflecting coastal ecological vulnerabilities in a designated bounding box for a designated time in single IPython notebook? 
 * Can we discover, access and map satellite remote sensing images in real time against real time and future model projection data of velocity vectors in a single IPython notebook?
 * Can we discover, access and map high resolution coastline, velocity vectors, and data on the [core IOOS biological variables](http://www.iooc.us/activities/biological-integration-observation-task-team/)? 
+* Can we discover, access and map an oil spill trajectory using GNOME for a particular location?  
+    *  Answering this question will also mean answerign the question of whether we can discover, access and use wind speed data and river flow rates data in a single script and then call the GNOME model to run the scenario after entering a specified spill size, location, pollutant type, model duration, and uncertainty (See, [GNOME Example Problem Document](http://response.restoration.noaa.gov/sites/default/files/Gnome_NSlope_Ex.pdf)). 
 
 ####Required Data to Answer Questions
 * weather 
-* sea surface temperature 
-* real-time precipitation
-* cloud cover
+* satellite remote sensing images
 * wind speed/direction
 * surface currents
-* wave heights, 
 * threatened and endangered species data
 * shoreline types 
-* waterway use data 
+* river flow data
+* high resolution coastline data
+* bathymetry 
 * boundaries (vessel traffic, shipping lanes, state/territorial waters boundaries) 
+* [IOOS Core Biological Variables](http://www.iooc.us/activities/biological-integration-observation-task-team/)
 * RESOURCES Consulted:
     *  [Maritime Environmental Emergency Oil Spill Trajectory Model](http://www.amsa.gov.au/environment/maritime-environmental-emergencies/national-plan/General-Information/OSTM/faq/answers.asp)
     *  [NASA Imagery of Oil Spills](http://www.nasa.gov/topics/earth/features/oilspill/index.html)
+    *  [NOAA Ocean Service Oil Spill Trajectory Model](http://oceanservice.noaa.gov/education/stories/oilymess/supp_trajmodel.html)
+    *  [General NOAA Operational Modeling Environment](http://response.restoration.noaa.gov/gnome)
 
 ## Search & Rescue 
 Many disaster responses requiring rescue can be improved by greater knowledge about the physical/chemical/biological conditions.
