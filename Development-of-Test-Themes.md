@@ -99,13 +99,8 @@ An oil tanker loaded has collided with another vessel 5 nautical miles SE of the
 #### Questions to Guide Corresponding IPython Notebooks
 * Can we discover, access and map high resolution coastline and velocity vectors from a real time data set accessible through CSWs and then map modeled water velocity vectors at a point in the future from the designated time of the test in the same geographic area? 
 * Can we discover, access and map bathymetry, tidal data, currents, winds, and overlay that with data reflecting coastal ecological vulnerabilities in a designated bounding box for a designated time in single IPython notebook? 
-* Can we discover, access and map satellite imagery data in real time against real time and future model projection data of velocity vectors in a single IPython notebook?
-
-* What are the dimensions of the oil slick?
-* Which areas of coastline are likely to be tainted?
-* Which indigenous species might be adversely affected by the oil?
-* How long will it take for the oil spill to disperse?
-* Which capture and dispersal tools and techniques would work best?
+* Can we discover, access and map satellite remote sensing images in real time against real time and future model projection data of velocity vectors in a single IPython notebook?
+* Can we discover, access and map high resolution coastline, velocity vectors, and data on the [core IOOS biological variables](http://www.iooc.us/activities/biological-integration-observation-task-team/)? 
 
 ####Required Data to Answer Questions
 * weather 
@@ -121,6 +116,7 @@ An oil tanker loaded has collided with another vessel 5 nautical miles SE of the
 * boundaries (vessel traffic, shipping lanes, state/territorial waters boundaries) 
 * RESOURCES Consulted:
     *  [Maritime Environmental Emergency Oil Spill Trajectory Model](http://www.amsa.gov.au/environment/maritime-environmental-emergencies/national-plan/General-Information/OSTM/faq/answers.asp)
+    *  [NASA Imagery of Oil Spills](http://www.nasa.gov/topics/earth/features/oilspill/index.html)
 
 ## Search & Rescue 
 Many disaster responses requiring rescue can be improved by greater knowledge about the physical/chemical/biological conditions.
