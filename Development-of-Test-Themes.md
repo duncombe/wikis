@@ -145,41 +145,10 @@ A large commercial aircraft en route LAX from Honolulu with several hundred pass
 * RESOURCES Consulted:
     *  [Data to Improve Coast Guard Search and Rescue](http://oceanservice.noaa.gov/news/weeklynews/may09/coastguard.html)
 
-## Invasive Species
-One of the major problems that resource managers face is invasive species. Improved physical and biological data can help resource managers improve and refine the strategies they develop in order to mitigate the impacts of invasive species on valued resources (e.g. recreational areas, commercial species, etc.).  
-
-###Example: Asian Tiger Shrimp  
-Asian Tiger Shrimp, an aquaculture species, has invaded the southern US (NC-TX).  Very few occur in areas adjacent to Texas.  Hypotheses about their introduction to US waters include:
-* Ballast transport from their native range in the Pacific;
-* Ballast or current transport from introduced populations off West Africa;
-* Ballast or current transport from introduced populations in northern South America;
-* Current transport from the Caribbean from escapes from aquaculture ponds there.
-
-####Questions to Guide Corresponding IPython Notebooks
-The species is still expanding its range.  Pick an origin from above, or that a hurricane flooded an aquaculture facility on the Gulf Coast.  Potential scenario and questions:
-* What is predicted distribution and spread? 
-* Where should we look for breeding areas?
-* Why don't they occur in Texas?  
-* Can you tell where they came from based on spread? 
-* Will they overlap with other shrimp species - in distribution and/or diet? 
-
-####Required Data to Answer Questions
-* currents 
-* temperature 
-* habitat preferences 
-* larval drift
-* breeding requirements
-* salinity
-* habitat preferences    
-* native species distributions
-* diets of all species      
-* frequency of occurrence 
- 
-
-# Theme 3:   Ecologically Sound Marine Energy Planning
+# Theme 3:   Ecologically Sustainable Marine Energy Planning
 The driver behind many state based marine conflict resolution programs has been the siting of energy projects. Because state and federal governments working to site new energy or additional ocean energy extraction in state/federal waters must consider a suite of existing uses, including species and areas of biological importance, siting energy implicitly requires governments and private entities to utilize and overlay ecological data sets with physical data sets.  Therefore, planning for marine energy presents an ideal way to test the IOOS system for both physical and biological data that is needed to plan for energy extraction in the ocean in an ecologically sustainable way.   
 
-## Location of Wind Turbine Farm
+## Planning for Wind Turbine Sites using Ecosystem Base Approach
 A state is is the process of delimiting an area off its coast that is suitable for the placement of a major wind turbine farm.  The state must adhere to a number of laws and implementing policies before it can formally delineate an area for wind turbine development and solicit bids.
 
 ### Questions to Guide Corresponding IPython Notebooks
