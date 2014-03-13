@@ -1,28 +1,22 @@
-The Open Geospatial Consortium. Open Geospatial Consortium Reference Model. Informative/Educational, December 19, 2011. www.opengis.net/doc/orm/2.1.
-
-CSW
-
-OpenSearch
-
-GEOSS AIP-6 Architecture Document http://www.earthobservations.org/documents/cfp/201302_geoss_cfp_aip6_architecture.pdf
-
-GEOSS AIP-3 Use Cases Engineering Report GEOSS Architecture Implementation Pilot, Phase3, http://www.ogcnetwork.net/pub/ogcnetwork/GEOSS/AIP3/documents/AIP-3_Use_Cases_ER110210.pdf
-
-
-Paper on DMAC technologies in support of modeling: https://docs.google.com/a/noaa.gov/file/d/0B8Z5uQGdxxJBcGk2UFlKU1IzOEpfS2NrMHV5M3k0dUlRM1dr/edit
-
-Karl Benedicts presentation to the DMAC ST on 2013-11-19.
-
-Here are links to the DATE project presentation materials for tomorrow morning's session:
-
-    Presentation (self-contained web page. arrow-keys advance):  https://www.dropbox.com/s/ehlu0p3s7caxp8i/presentation.slides.html
-    Notes (just an alternative format for the same content):  https://www.dropbox.com/s/0spmxekonaivneu/presentation.html 
-
-Rich Signell's  presentation at the same meeting.
-
-    The presentation I gave at the DMAC ST meeting is at: https://drive.google.com/file/d/0BzAHlPEEP_ujTHo2MHN0akdPLTA/edit?usp=sharing
-    And here is one of the IPython Notebooks I showed that demonstrates  a simple example of Search, Access and Use using IOOS services:  https://www.wakari.io/sharing/bundle/rsignell/NGDC-CSW-DAP  It looks for temperature data in a specified geographic and temporal range from data that has been registered with the IOOS Catalog, accesses the data, and plots them up!  You can try it yourself by clicking the green "Run/Edit" button.   I recorded a 5 min youtube of how you do this here: https://www.youtube.com/watch?v=4NyMWK4as-U
-
+## General Data Resources and References
+*  [The Open Geospatial Consortium. Open Geospatial Consortium Reference Model](www.opengis.net/doc/orm/2.1.)
+*  [Catalog Services for the Web Features](http://docs.geoserver.org/latest/en/user/extensions/csw/features.html)
+     *  Provides operations supported, information on supported schemes, mapping files, 
+*  [OpenSearch](http://www.opensearch.org/Home): A collection of simple formats for sharing of search results
+*  [GEOSS AIP-6 Architecture Document](http://www.earthobservations.org/documents/cfp/201302_geoss_cfp_aip6_architecture.pdf)
+*  [GEOSS AIP-3 Use Cases Engineering Report GEOSS Architecture Implementation Pilot, Phase3,](http://www.ogcnetwork.net/pub/ogcnetwork/GEOSS/AIP3/documents/AIP-3_Use_Cases_ER110210.pdf)
+*  [Paper on DMAC technologies in support of modeling](https://docs.google.com/a/noaa.gov/file/d/0B8Z5uQGdxxJBcGk2UFlKU1IzOEpfS2NrMHV5M3k0dUlRM1dr/edit)
+*  Karl Benedicts presentation to the DMAC ST on 2013-11-19.
+*  Links to the DATE project presentation materials for tomorrow morning's session:
+    *  [Presentation (self-contained web page. arrow-keys advance)](https://www.dropbox.com/s/ehlu0p3s7caxp8i/presentation.slides.html)
+    *   [Notes (just an alternative format for the same content)](https://www.dropbox.com/s/0spmxekonaivneu/presentation.html) 
+    *  [Rich Signell's  presentation at the same meeting](https://drive.google.com/file/d/0BzAHlPEEP_ujTHo2MHN0akdPLTA/edit?usp=sharing)
+          *  [Example IPython Notebook Demonstrating Search, Access](https://www.wakari.io/sharing/bundle/rsignell/NGDC-CSW-DAP)  
+                   *  Rich's IPython Tutorial](https://www.youtube.com/watch?v=4NyMWK4as-U)
+*  Invasive Species Data Cataloging Methods
+    *  [Global Invasive Species Information Network](http://www.gisin.org/DH.php?WC=/WS/GISIN/GISINDirectory/WebservicesForConsumers.html&WebSiteID=4)
+    *  [USGS Documenting, Mapping, and Predicting Invasive Species Model](http://www.fort.usgs.gov/Research/research_tasks.asp?TaskID=2190)
+    *  [USDA Aquatic Species Databases](http://www.invasivespeciesinfo.gov/aquatics/databases.shtml)
 
 Here's the FEMA report on post sandy:http://www.fema.gov/media-library/assets/documents/33772
 
