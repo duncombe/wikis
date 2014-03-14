@@ -21,6 +21,9 @@
 ### Policy Documents/References
 *  [FEMA report on post Sandy](http://www.fema.gov/media-library/assets/documents/33772)
 
+### Wakari Tutorials and References
+*  [Tutorial on Wakari Environments](https://www.youtube.com/watch?v=6mxCf8a_rMM)
+
 #Rich Signell Notebooks By Category
 
 ###NetCDF4 files
