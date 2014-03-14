@@ -24,6 +24,10 @@ I also worked to catalogue existing iPython notebooks, and provide that catalogu
 
 # Week 6
 
+I completed cataloging Rich's notebooks and other resources on the References page on the Wiki, and also added additional references and resources after review.  I also completed refining the development of test themes page so that we can start building the final products for the project.  In addition, I outlined a standard format for the development of IPython notebooks for the project so that those on the project as well as the wider community could start with questions posed under the extreme even themes and then develop notebook products which could then be reviewed and edited by the program office or by COL so that we end up creating a library of products which will serve as modular examples of systematic testing of data integration issues.
+
+I also started working on developing an environment that all the notebooks can be run in so that this can be added as a resource.  During the COL Policy Forum, I also did some outreach on the extreme events themes and made some contacts to discuss data catalogs that could be tested under additional extreme event scenarios,  including invasive species events.  
+
 # Week 7
 
 # Week 8
