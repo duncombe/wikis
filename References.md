@@ -24,6 +24,7 @@
 ### Wakari Tutorials and References
 *  [Tutorial on Wakari Environments](https://www.youtube.com/watch?v=6mxCf8a_rMM)
 *  [Anaconda Environments How To](https://www.wakari.io/docs/anaconda.html)
+*  [Custom Wakari Environments](http://continuum.io/blog/wakari_custom_envs)
 
 #Rich Signell Notebooks By Category
 
