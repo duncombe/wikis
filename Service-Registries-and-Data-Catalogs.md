@@ -1,10 +1,10 @@
-*  Workflow for This Page
+### Workflow for This Page
 1. List all of the catalog/registries we will include as part of the test.
 2. List the service interfaces they provide.
 3. Are the registries domain specific?
 4. List a short description of each for inclusion in the final report.  What is the registry?  Who sponsors it?  Any domain specific issues?  
 
-
+####List of Catalogs and Registries
 * IOOS [Service Registry](https://geo-ide.noaa.gov/wiki/index.php?title=ESRI_Geoportal#IOOS_WAFs) at NGDC
   * csw: http://www.ngdc.noaa.gov/geoportal/csw
 * NGDC Geoportal aka IOOS Registry
