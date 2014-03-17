@@ -1,17 +1,16 @@
 # Introduction
 The entire project is organized into phases or focus areas called themes.  Themes will focus on a large problem area and will be used to identify common problems or needs commonly encountered by  data consumers who work within these theme areas.  These theme areas are similar to the GEOSS societal benefit areas.  
 
-Within each theme there is a top level problem statement, which contains the overall objective of the theme.  Themes will be accompanied by Ipython Notebooks which address particular questions under each theme.  
+Within each theme there is a top level problem statement, which contains the overall objective of the theme.  Themes will be accompanied by Ipython Notebooks which address particular questions under each theme.  Each Ipython notebook will include comments that identify the theme for which the notebook is used, the question areas that the notebook addresses, the results from executing the python scripts, and the conclusions that can be drawn from the results.  A particular Ipython notebook may address questions of discovery, questions of access and questions of use.
 
 Ipython notebooks will be standardized using the following format:
 
 *  **Theme Title**
-    *   **_Summary Description of Theme_**
-    *  _**Questions**_
+       *  _**Questions**_
          *  DISCOVERY Process (code and narrative)
          *  ACCESS Process (code and narrative)
          *  USE Process (code and narrative)
-    *  _**Conclusions**_ (narrative)
+    *  _**Results and Conclusions**_ (narrative)
          
 The procedures will employ iPython scripts that interrogate DMAC registries and repositories, and analyze the returned data against expected results.  There is not necessarily a one-to one correspondence between a Question and a notebook product.  Each question may correspond to a number of notebooks in order to increase readability and modularity of the IPython notebook tools.   
 
