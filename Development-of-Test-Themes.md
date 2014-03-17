@@ -1,7 +1,7 @@
 # Introduction
 The entire project is organized into phases or focus areas called themes.  Themes will focus on a large problem area and will be used to identify common problems or needs commonly encountered by  data consumers who work within these theme areas.  These theme areas are similar to the GEOSS societal benefit areas.  
 
-Within each theme there is a top level problem statement, which contains the overall objective of the theme.  Themes will be accompanied by Ipython Notebooks which address particular aspects of each theme (e.g. is data from multiple models interoperable? is it possible map physical and biological data sets? are the data sets needed to address a available/integrated into particular data catalogues?).  
+Within each theme there is a top level problem statement, which contains the overall objective of the theme.  Themes will be accompanied by Ipython Notebooks which address particular questions under each theme.  
 
 Ipython notebooks will be standardized using the following format:
 
