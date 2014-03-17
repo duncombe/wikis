@@ -1,9 +1,9 @@
+*  Workflow for This Page
 1. List all of the catalog/registries we will include as part of the test.
 2. List the service interfaces they provide.
 3. Are the registries domain specific?
 4. List a short description of each for inclusion in the final report.  What is the registry?  Who sponsors it?  Any domain specific issues?  
 
-Some of these are taken from Rich's [blog](http://rsignell-usgs.github.io/blog/blog/2014/01/15/csw_ngdc_dap/)
 
 * IOOS [Service Registry](https://geo-ide.noaa.gov/wiki/index.php?title=ESRI_Geoportal#IOOS_WAFs) at NGDC
   * csw: http://www.ngdc.noaa.gov/geoportal/csw
@@ -41,6 +41,8 @@ Some of these are taken from Rich's [blog](http://rsignell-usgs.github.io/blog/b
    *  http://ferret.pmel.noaa.gov/geoide/CleanCatalogs/oos.soest.hawaii.edu/thredds/catalog/hioos/model/atm/ncep_global/catalog.html
 
 ####References For Creating and Documenting Baseline Test
+*  Rich's [blog](http://rsignell-usgs.github.io/blog/blog/2014/01/15/csw_ngdc_dap/)
+
 *  Initial Baseline Approach: [Empirical Study of Sensor Observation Services Server Instances](http://arxiv.org/ftp/arxiv/papers/1109/1109.4503.pdf)
 
 *  [Reference Document for Accessing and Examining CSWs](https://drive.google.com/file/d/0B8p4sUXIeKn1WFdYOXhqRFNUZXc/edit?usp=sharing)
