@@ -18,7 +18,7 @@
    * csw: https://data.noaa.gov/csw?service=CSW&version=2.0.2&request=GetCapabilities
 * data.gov
    * ckan: ???
-   * csw: ???
+   * csw: https://data.noaa.gov/csw
 * NRCAN CUSTOM
    * csw: http://geodiscover.cgdi.ca/wes/serviceManagerCSW/csw
 * USGS Woods Hole GI_CAT
