@@ -6,7 +6,7 @@ Within each theme there is a top level problem statement, which contains the ove
 Ipython notebooks will be standardized using the following format:
 
 *  **Theme Title**
-*   ** **_Summary Description of Theme*_* **
+*   **_Summary Description of Theme_**
     *  _**Questions**_
          *  DISCOVERY Process (code and narrative)
          *  ACCESS Process (code and narrative)
