@@ -69,7 +69,6 @@ The Extreme Events theme, as its name suggests, focuses on the analysis of data 
     *  [NERACOOS Water Level Display](http://p5.neracoos.org/products/modeldata/popup.html?page=popup&platform=hampton&model_type=NEC)
     *  [NERACOOS water level obs/model viewer](http://www.neracoos.org/datatools/forecast/modelobs)
 
-### ADDITIONAL EXTREME EVENTS THEMES:
 ## Oil Tanker Spill
 An oil tanker loaded has collided with another vessel 5 nautical miles SE of the entrance to Delaware Bay.  A large quantity of oil has been released into the marine environment, threatening the shoreline of a particular coastline. 
 
@@ -102,7 +101,7 @@ An oil tanker loaded has collided with another vessel 5 nautical miles SE of the
 ## Search & Rescue 
 Many disaster responses requiring rescue can be improved by greater knowledge about the physical/chemical/biological conditions.
 
-###Example: Commercial Aircraft Crash
+###Commercial Aircraft Crash
 A large commercial aircraft en route LAX from Honolulu with several hundred passengers onboard has crashed into the Pacific Ocean midway between the Hawaiian Islands and the California coast.  A massive search and rescue effort is underway. 
 
 ####Questions to Guide Corresponding IPython Notebooks
