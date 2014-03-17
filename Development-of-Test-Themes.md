@@ -6,29 +6,13 @@ Within each theme there is a top level problem statement, which contains the ove
 Ipython notebooks will be standardized using the following format:
 
 *  **Theme Title**
-    *  _**Question**_
-               *  A question and summary statement of objectives, which include general success criteria.
+    *  _**Questions**_
          *  DISCOVERY Process (code and narrative)
          *  ACCESS Process (code and narrative)
          *  USE Process (code and narrative)
     *  _**Conclusions**_ (narrative)
          
-The procedures will employ iPython scripts that interrogate DMAC registries and repositories, and analyze the returned data against expected results.  From a systems testing perspective, the Question To Be Answered roughly correspond to Test Cases.  However, there is not necessarily a one-to one correspondence between a Question To Be Answered and a test procedure.  Each question may correspond to a number of notebooks in order to increase readibility and modularity of the IPython notebook tools.   
-
-**Nota Bene**: 
-
-1. The Questions To Be Answered are not intended to introduce a new scientific problem or a new data gathering strategy, but rather are examples of how users commonly interact with data.  Alternate procedural flows may be used to address less common or anticipated ways that users interact with DMAC.  
-
-2. Each test case is executed in sequential steps, following a baseline flow of discovery-access-use.  Each test case begins with a summary statement of objectives, which include general success criteria.  Each step of the test case procedure includes evaluation criteria that determine whether that particular step has been successfully executed.  
-
-3. Depending on the importance of a particular test step to the overall test case, the failure of that step may result in failure of the entire test case, or it may result in only partial success.  
-
-4. The core of each  test case is the use of one or more Python queries executed against published metadata registries. The procedure includes evaluation of the results returned by each Python query.  The evaluation may be performed within the Python scripts during execution, or it may be performed manually by the tester.  
-
-5. **Criteria**:  Each step in a test case includes criteria to evaluate whether that test step passed, and if not, what effect the failure might have on the overall success of the test case. 
-*  In addition to one or more evaluation criteria for each procedural step, a test case has one or more summary evaluation criteria.  These summary criteria evaluate the degree to which test case results successfully address the appropriate Questions To Be Answered.   
-
-See **Below** for a more detailed templates describing the Themes.  Each of the "Questions to Guide Corresponding IPython Notebooks" will correspond to a single IPython Notebook which will be linked to below as the project progresses.
+The procedures will employ iPython scripts that interrogate DMAC registries and repositories, and analyze the returned data against expected results.  There is not necessarily a one-to one correspondence between a Question and a notebook product.  Each question may correspond to a number of notebooks in order to increase readability and modularity of the IPython notebook tools.   
 
 # Theme 1: Baseline Assessment
 The baseline assessment theme includes test cases that, as the name of theme states, assess the basic functionality of the Data Management and Communications system. While the test cases for this theme have no slant towards a particular scientific endeavor, the functionality to be tested underlies all subsequent test themes.  To put it simply, the Baseline Assessment theme tests whether registries, catalogs, metadata sets and data sets that are known to meet IOOS certification can be discovered, accessed and used. Results include information such as basic statistics on the number of data sets in each chosen registry, the standards advertised, and the dialects of the metadata within the registries. Information obtained through the use of iPython scripts will be compared against corresponding information retained by a registry, catalog, or data repository owner to answer the question below.
