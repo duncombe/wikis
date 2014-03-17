@@ -34,7 +34,7 @@ NOTE: See github.com/osgeo/Cat-Interop for a project that should be included as 
 # Theme 2: Extreme Events 
 The Extreme Events theme, as its name suggests, focuses on the analysis of data related to events that produce extreme adverse effects in a geographic area.  Possible topics within this heme may include, but not be limited to, the following.
 
-## Severe Coastal Storm
+## Theme 2A: Severe Coastal Storm
  As a severe storm is approaching the coast, forecast models are continually being revised as new information about storm’s offshore position and intensity becomes available.   
 * How accurate are these models results compared to the measured waves, river flows and water levels?   
 * After the storm abates, inundation data should help inform where should responders go to help with the most affected areas.  
@@ -69,7 +69,7 @@ The Extreme Events theme, as its name suggests, focuses on the analysis of data 
     *  [NERACOOS Water Level Display](http://p5.neracoos.org/products/modeldata/popup.html?page=popup&platform=hampton&model_type=NEC)
     *  [NERACOOS water level obs/model viewer](http://www.neracoos.org/datatools/forecast/modelobs)
 
-## Oil Tanker Spill
+## Theme 2B: Oil Tanker Spill
 An oil tanker loaded has collided with another vessel 5 nautical miles SE of the entrance to Delaware Bay.  A large quantity of oil has been released into the marine environment, threatening the shoreline of a particular coastline. 
 
 #### Questions to Guide Corresponding IPython Notebooks
@@ -98,7 +98,7 @@ An oil tanker loaded has collided with another vessel 5 nautical miles SE of the
     *  [NOAA Ocean Service Oil Spill Trajectory Model](http://oceanservice.noaa.gov/education/stories/oilymess/supp_trajmodel.html)
     *  [General NOAA Operational Modeling Environment](http://response.restoration.noaa.gov/gnome)
 
-## Search & Rescue 
+## Theme 2C: Search & Rescue 
 Many disaster responses requiring rescue can be improved by greater knowledge about the physical/chemical/biological conditions.
 
 ###Commercial Aircraft Crash
