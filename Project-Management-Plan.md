@@ -2,7 +2,6 @@ This document describes the procedures we'll adhere to in carrying out the proje
 * Scope Management: Track Development of [Test Themes](https://github.com/ioos/system-test/wiki/Development-of-Test-Themes)
 * Time Management: Track [Milestones](https://github.com/ioos/system-test/issues/milestones)
 * Quality Management: Track [System-Test Metrics](https://github.com/ioos/system-test/graphs)
-* Human Resource Management: Track [Hannah's Weekly Updates](https://github.com/ioos/system-test/wiki/Hannah-Weekly-Updates)
 * Communication Management: Track [Issues](../issues)
 * Risk Management 
 * Integration Management: Track List of [Services Registries and Data Catalogues](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs)
@@ -23,8 +22,7 @@ The Data Management and Communications (DMAC) System Integration Test project is
 
 1.  Create test cases that demonstrate that data consumers can use the DMAC data discovery and access services to get data in a repeatable way.  This is considered the baseline.
 2.  Apply these test cases to real world problems related to Extreme Events and Environmental Impacts associated with Energy Facility Siting (TBD?)
-3.  Publish an overall maturity percent as measured against XXXXX.  
-4.  Compile a set of prioritized fixes and enhancements to DMAC data discovery and access services
+3.  Compile a set of prioritized fixes and enhancements to DMAC data discovery and access services
 5.  Complete highest  priority fixes and enhancements
 6.  Publish the test cases in an open collaborative environment to encourage community education and involvement in IOOS
 7.  Ensure that we can repeat the assessment easily to measure progress over time
