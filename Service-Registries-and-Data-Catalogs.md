@@ -15,10 +15,10 @@
    * csw: http://data.nodc.noaa.gov/geoportal/csw  
 * data.noaa.gov
    * ckan: ???
-   * csw: https://data.noaa.gov/csw?service=CSW&version=2.0.2&request=GetCapabilities
-* data.gov
-   * ckan: ???
    * csw: https://data.noaa.gov/csw
+* data.gov
+   * ckan: http://geo.gov.ckan.org/csw'  # CKAN testing site for new Data.gov
+   * csw: ???
 * NRCAN CUSTOM
    * csw: http://geodiscover.cgdi.ca/wes/serviceManagerCSW/csw
 * USGS Woods Hole GI_CAT
