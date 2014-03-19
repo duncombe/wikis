@@ -60,6 +60,7 @@ The Extreme Events theme, as its name suggests, focuses on the analysis of data 
 - water quality (fecal bacteria indicators)
 - presence of jellyfish/HABs
 - [USGS Flood Information](https://water.usgs.gov/floods/events/2012/sandy/sandymapper.html) Data
+    * [SandyMapper](http://54.243.149.253/home/webmap/viewer.html?webmap=c07fae08c20c4117bdb8e92e3239837e)
 - Rapid deployment tide gauges(USGS)
 - Rapid deployment stream gauges (USGS)
 - Wave heights sensors (NOAA, IOOS regions)
