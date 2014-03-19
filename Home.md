@@ -1,6 +1,8 @@
 # Why conduct a system test? 
 To date many of the DMAC subsystem efforts have been developed in relative isolation.  The components of the IOOS DMAC system (a component is a level or two lower than system in a hierarchy of functionality) are being deployed currently.  These components are separated geographically (i.e. across the regions) and functionally (i.e. the catalog is different than the registry which is different than a data access service).  The project we are proposing is a type of system integration test with the primary purpose to exercise the component pieces of the system together toward a common goal.
 
+The DMAC system integration test  (SIT) will evaluate whether the services we have deployed (i.e. SOS, OPeNDAP, WMS, CS/W) to Federal partners and Regional Associations can solve real world problems. 
+
 TODO Insert picture of publish/find/bind.
 
 # What will the system test achieve?
