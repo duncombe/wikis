@@ -19,6 +19,7 @@
     *  [USDA Aquatic Species Databases](http://www.invasivespeciesinfo.gov/aquatics/databases.shtml)
 
 ### Policy Documents/References
+*  [IOOS Build Out Plan Synthesis](http://www.ioosassociation.org/sites/nfra/files/documents/ioos_documents/regional/BOP%20Synthesis%20Final.pdf)
 *  [FEMA report on post Sandy](http://www.fema.gov/media-library/assets/documents/33772)
 
 ### Wakari Tutorials and References
