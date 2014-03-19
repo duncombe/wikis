@@ -21,4 +21,9 @@ DMAC testing includes three core processes:
 * Use:  Inputting accessed data into a known algorithm to determine if the algorithm can use the accessed data to generate meaningful, expected results.
 
 # Dual Responsibilities
-Because DMAC testing, while having some aspects of traditional system testing, is as much about discovery as it is about verification and validation.  You 
+DMAC testing is as much about discovery as it is about verification and validation.  The objective of the first round of testing is to identify issues associated with the discovery, access and use processes, using a set of registries and repositories known to contain properly formatted data and metadata, and client scripts that are known to produce certain types of results.  Issues identified during the first round of testing will be logged, categorized, prioritized, and assigned.  Each developer/tester will be assigned a number of issues.  The developer/tester will perform the following for each issue:
+* Research the issue to clarify its scope and identify its cause
+* Determine if there is a solution that can be implemented without a major expenditure of time and effort
+* Implement the solution if it is viable
+* Regression test the solution to ensure that it works correctly and does not introduce other issues
+* Close the issue if the regression test is successful
