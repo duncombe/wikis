@@ -120,6 +120,7 @@ An oil tanker loaded has collided with another vessel 5 nautical miles SE of the
     *  [NASA Imagery of Oil Spills](http://www.nasa.gov/topics/earth/features/oilspill/index.html)
     *  [NOAA Ocean Service Oil Spill Trajectory Model](http://oceanservice.noaa.gov/education/stories/oilymess/supp_trajmodel.html)
     *  [General NOAA Operational Modeling Environment](http://response.restoration.noaa.gov/gnome)
+    *  [Gulf of Mexico Research Initiative Data Discovery](https://data.gulfresearchinitiative.org/)
 
 ## Theme 2C: Search & Rescue - Commercial Aircraft Crash
 A large commercial aircraft en route LAX from Honolulu with several hundred passengers onboard has crashed into the Pacific Ocean midway between the Hawaiian Islands and the California coast.  A massive search and rescue effort is underway.  This effort can be improved by integrated knowledge of the physical/chemical/biological conditions of the atmosphere and ocean.
