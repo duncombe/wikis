@@ -69,7 +69,8 @@ As a severe storm is approaching the coast, observations are being recorded and 
 - Barometric pressure data (NOAA NOS, NOAA NWS)
 - Coastal and ocean wind data (NOAA, IOOS Regions)
 - High-water marks (USGS, NOAA, FEMA)
-- Coastal and river models from USACE, NOAA, IOOS Regions
+- Coastal wave and circulation models from USACE, NOAA, IOOS Regions
+- River stage forecast models from NOAA
 - NOAA NHC: SLOSH
 - NOAA NOS: ASGS
 - NOAA NWS: ESTOFS, Hurricane Wave, etc. [NOMADS Access](http://nomads.ncep.noaa.gov/)
