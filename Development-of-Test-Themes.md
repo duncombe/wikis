@@ -153,6 +153,11 @@ A state is is the process of delimiting an area off its coast that is suitable f
 * maximum depth for offshore wind farm installation
 * minimum distance for offshore wind farm installation
 * maximum distance for offshore wind farm installation
+* habitat
+* wildlife distribution
+* migratory pathways
+* sediment transport
+* nutrients
 
 ## Theme 3B:  Mineral Extraction
 The Department of Interior Bureau of Ocean Energy Management is considering opening several tracts in the Gulf of Mexico for petroleum exploration. As part of their due diligence under regulations implementing the Outer Continental Shelf Lands Act, the Bureau must prepare an environmental impact statement before opening the tract to bids. The environmental impact statement must consider the potential impact of exploration and drilling on area fisheries.
