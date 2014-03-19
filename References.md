@@ -27,6 +27,7 @@
 *  [Anaconda Environments How To](https://www.wakari.io/docs/anaconda.html)
 *  [Custom Wakari Environments](http://continuum.io/blog/wakari_custom_envs)
 *  [owslib Installation Instructions](https://binstar.org/rsignell/owslib/0.8.6)
+*  [OWSLib 0.8.6 documentation](http://geopython.github.io/OWSLib/) 
 
 ##Rich Signell Notebooks By Category
 
