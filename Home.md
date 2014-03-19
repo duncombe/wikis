@@ -3,7 +3,7 @@ To date many of the DMAC subsystem efforts have been developed in relative isola
 
 TODO Insert picture of publish/find/bind.
 
-# Objectives
+# What will the system test achieve?
 The DMAC integration testing project will assesses the maturity of DMAC implementation across IOOS Regional Associations and partner federal agencies.  The DMAC System Integration Test will:
 
 1. Create test cases which incorporate multiple IOOS Regions and partners, cover a large geographic scope, employ multiple types of data, and cross scientific disciplines.  These test cases demonstrate that data consumers can use DMAC data discovery and access services to get IOOS data in a repeatable way.  This is considered the baseline. 
@@ -20,7 +20,7 @@ The DMAC integration testing project will assesses the maturity of DMAC implemen
 * [Service Registries and Catalogs](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs)
 * [References](https://github.com/ioos/system-test/wiki/References)
 
-# What is the system integration test and why do we need it?
+# What will the test look like?
   Elements of a successful system integration test include: 
 *  Includes each of the functionalities that are being developed as part of DMAC currently.  The primary functions include data access services (web services that provide in situ, model or satellite data), discovery services (catalogs and registries providing query and look up functionality), and client tools (software packages that find data using catalogs/registries and download/use data from data access services);
 *  Emphasizes the process over the product, at least at first.  A system integration test is a step towards creating a robust system.  In exercising an integration test we EXPECT problems.  The test must rigorously capture the problems and document the conditions that caused the problems.  These problems may be fixed in the course of the project but ONLY if it can be done with sound engineering and design.  If shortcuts and workarounds are employed to get to the end product then the system will likely fail again when it encounters small (or large) variations upon the initial failure conditions. In the process of rigorously testing and documenting the system, the end product will be improved;
