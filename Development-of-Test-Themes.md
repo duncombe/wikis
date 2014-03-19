@@ -129,6 +129,7 @@ A large commercial aircraft en route LAX from Honolulu with several hundred pass
 * cloud cover
 * RESOURCES Consulted:
     *  [Data to Improve Coast Guard Search and Rescue](http://oceanservice.noaa.gov/news/weeklynews/may09/coastguard.html)
+    *  [Search and Rescue Optimal Planning System](http://www.uscg.mil/acquisition/international/sarops.asp)
 
 # Theme 3:   Ecologically Sustainable Marine Energy Planning
 The driver behind many state based marine conflict resolution programs has been the siting of energy projects. Because state and federal governments working to site new energy or additional ocean energy extraction in state/federal waters must consider a suite of existing uses, including species and areas of biological importance, siting energy implicitly requires governments and private entities to utilize and overlay ecological data sets with physical data sets.  Therefore, planning for marine energy presents an ideal way to test the IOOS system for both physical and biological data that is needed to plan for energy extraction in the ocean in an ecologically sustainable way.   
