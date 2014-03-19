@@ -54,12 +54,12 @@ The ability to quickly and easily integrate these complementary datasets and pre
 * Can we identify models or observations that are routinely used by the community but are not discoverable using these interfaces? 
 
 
-#### Required data to answer the questions (source for each type of data identified in parentheses):
+### Required data to answer the questions (source for each type of data identified in parentheses):
 
 - High resolution coastline
 - Nearshore bathymetry
 - Precipitation [NWS Radar] (http://www.nws.noaa.gov/gis/otherpage.html)
-- Water quality ([USGS/EPA Water Quality web Services] (http://qwwebservices.usgs.gov/) and fecal bacteria indicators
+- Water quality ([USGS/EPA Water Quality Web Services] (http://qwwebservices.usgs.gov/) and fecal bacteria indicators
 - Presence of jellyfish/HABs
 - [USGS Flood Information](https://water.usgs.gov/floods/events/2012/sandy/sandymapper.html) Data
     * [SandyMapper](http://54.243.149.253/home/webmap/viewer.html?webmap=c07fae08c20c4117bdb8e92e3239837e)
@@ -72,12 +72,12 @@ The ability to quickly and easily integrate these complementary datasets and pre
 - Barometric pressure data (NOAA NOS, NOAA NWS)
 - Coastal and ocean wind data (NOAA, IOOS Regions)
 - High-water marks (USGS, NOAA, FEMA)
-- Coastal wave and circulation models from USACE, NOAA, IOOS Regions
-- River stage forecast models from NOAA
-- NOAA NHC: SLOSH
-- NOAA NOS: ASGS
-- NOAA NWS: ESTOFS, Hurricane Wave, etc. - [NOMADS Access](http://nomads.ncep.noaa.gov/)
-- NOS OFS Models - [OFS Model Page] (http://tidesandcurrents.noaa.gov/models.html)
+- Coastal wave and circulation models (USACE, NOAA, IOOS Regions)
+- River stage forecast models (NOAA)
+- SLOSH Model (NOAA NHC)
+- ASGS (NOAA NOS)
+- ESTOFS Surge Model, Hurricane Wave Model, etc. (NOAA NWS -[NOMADS Access](http://nomads.ncep.noaa.gov/))
+- OFS Models (NOS - [OFS Model Page] (http://tidesandcurrents.noaa.gov/models.html))
 - Stevens Storm Warning System - [CMS Storm Warning System](http://hudson.dl.stevens-tech.edu/SSWS/)
 - Rutgers ROMS ESPreSSO Model - [Model Link] (http://www.myroms.org/espresso/)
 - NERACOOS Regional Resources Identified:
