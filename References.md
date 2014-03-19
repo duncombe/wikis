@@ -26,6 +26,7 @@
 *  [Tutorial on Wakari Environments](https://www.youtube.com/watch?v=6mxCf8a_rMM)
 *  [Anaconda Environments How To](https://www.wakari.io/docs/anaconda.html)
 *  [Custom Wakari Environments](http://continuum.io/blog/wakari_custom_envs)
+*  [owslib Installation Instructions](https://binstar.org/rsignell/owslib/0.8.6)
 
 #Rich Signell Notebooks By Category
 
