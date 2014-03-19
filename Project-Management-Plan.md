@@ -26,6 +26,8 @@ The scope of the test is divided among three categories:
 * Using python clients exclusively (TODO: Provide a list of the packages and links to the conda.spec file that we'll use)
 * *_Editors note: we will note be testing or deploying any push technologies so Alerts are out of scope for DMAC and for this project._*
 
+List the mechanism we will use to decide if we fix a bug or defer it.
+
 # Schedule
 The current official end date for this project is approximately Sep 2014.  Tight timeline to fit it all in!!!
 
