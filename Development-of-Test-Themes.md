@@ -50,7 +50,16 @@ The Extreme Events theme, as its name suggests, focuses on the analysis of data 
 
 #### Required data to answer the questions (Source for each type of data identified in parentheses):
 
-- data available on this custom USGS Sandy Mapper app: [Need to name the app]
+- High resolution coastline
+- nearshore bathymetry
+- near real-time water levels
+- waves
+- winds
+- barometric pressure
+- precipitation
+- water quality (fecal bacteria indicators)
+- presence of jellyfish/HABs
+- [USGS Flood Information](https://water.usgs.gov/floods/events/2012/sandy/sandymapper.html) Data
 - Rapid deployment tide gauges(USGS)
 - Rapid deployment stream gauges (USGS)
 - Wave heights sensors (NOAA, IOOS regions)
@@ -60,7 +69,7 @@ The Extreme Events theme, as its name suggests, focuses on the analysis of data 
 - High-water marks (USGS, NOAA, FEMA)
 - Models from USACE, NOAA, IOOS Regions
 - NOAA NHC: SLOSH
-- NOAA NOS: ASGS, 
+- NOAA NOS: ASGS 
 - NERACOOS Regional Resources Identified:
     *  [NOAA Tides Online](http://tidesonline.nos.noaa.gov/plotcomp.shtml?station_info=8410140+-+Eastport,%20ME&type=Tide+Data)
     *  [CMS Storm warning system](http://hudson.dl.stevens-tech.edu/SSWS/)
