@@ -28,7 +28,7 @@
 *  [Custom Wakari Environments](http://continuum.io/blog/wakari_custom_envs)
 *  [owslib Installation Instructions](https://binstar.org/rsignell/owslib/0.8.6)
 
-#Rich Signell Notebooks By Category
+##Rich Signell Notebooks By Category
 
 ###NetCDF4 files
 --> ([NetCDF](http://www.unidata.ucar.edu/software/netcdf/docs/group__datasets.html) simply provides a way of opening datasets as files or remote access URLs and offers a library of functions to use on those datasets)
