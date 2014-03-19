@@ -83,21 +83,22 @@ As a severe storm is approaching the coast, observations are being recorded and 
     *  [NERACOOS water level obs/model viewer](http://www.neracoos.org/datatools/forecast/modelobs)
 
 ## Theme 2B: Oil Tanker Spill
-An oil tanker loaded has collided with another vessel 5 nautical miles SE of the entrance to Delaware Bay.  A large quantity of oil has been released into the marine environment, threatening the shoreline of a particular coastline. 
+An oil tanker loaded has collided with another vessel 5 nautical miles SE of the entrance to Delaware Bay (NOTE: can we use the other coast, maybe SF Bay?).  A large quantity of oil has been released into the marine environment, threatening the shoreline of a particular coastline. 
 
 #### Questions to Guide Corresponding IPython Notebooks
-* Can we discover, access and map high resolution coastline and velocity vectors from a real time data set accessible through CSWs and then map modeled water velocity vectors at a point in the future from the designated time of the test in the same geographic area? 
+* Can we discover, access and map high resolution coastline and velocity vectors from a real time data set accessible through catalogs and then map modeled water velocity vectors at a point in the future from the designated time of the test in the same geographic area? 
 * Can we discover, access and map bathymetry, tidal data, currents, winds, and overlay that with data reflecting coastal ecological vulnerabilities in a designated bounding box for a designated time in single IPython notebook? 
 * Can we discover, access and map satellite remote sensing images in real time against real time and future model projection data of velocity vectors in a single IPython notebook?
 * Can we discover, access and map high resolution coastline, velocity vectors, and data on the [core IOOS biological variables](http://www.iooc.us/activities/biological-integration-observation-task-team/)? 
 * Can we discover, access and map an oil spill trajectory using GNOME for a particular location?  
-    *  Answering this question will also mean answerign the question of whether we can discover, access and use wind speed data and river flow rates data in a single script and then call the GNOME model to run the scenario after entering a specified spill size, location, pollutant type, model duration, and uncertainty (See, [GNOME Example Problem Document](http://response.restoration.noaa.gov/sites/default/files/Gnome_NSlope_Ex.pdf)). 
+    *  Answering this question will also mean answering the question of whether we can discover, access and use wind speed data and river flow rates data in a single script and then call the GNOME model to run the scenario after entering a specified spill size, location, pollutant type, model duration, and uncertainty (See, [GNOME Example Problem Document](http://response.restoration.noaa.gov/sites/default/files/Gnome_NSlope_Ex.pdf)). 
 
 ####Required Data to Answer Questions
 * real-time winds
 * waves
 * water density
-* synthetic aperture radar 
+* synthetic aperture radar
+* high-frequency coastal radar 
 * satellite remote sensing images
 * wind speed/direction
 * surface currents
@@ -114,19 +115,16 @@ An oil tanker loaded has collided with another vessel 5 nautical miles SE of the
     *  [NOAA Ocean Service Oil Spill Trajectory Model](http://oceanservice.noaa.gov/education/stories/oilymess/supp_trajmodel.html)
     *  [General NOAA Operational Modeling Environment](http://response.restoration.noaa.gov/gnome)
 
-## Theme 2C: Search & Rescue 
-Many disaster responses requiring rescue can be improved by greater knowledge about the physical/chemical/biological conditions.
+## Theme 2C: Search & Rescue - Commercial Aircraft Crash
+A large commercial aircraft en route LAX from Honolulu with several hundred passengers onboard has crashed into the Pacific Ocean midway between the Hawaiian Islands and the California coast.  A massive search and rescue effort is underway.  This effort can be improved by integrated knowledge of the physical/chemical/biological conditions of the atmosphere and ocean.
 
-###Commercial Aircraft Crash
-A large commercial aircraft en route LAX from Honolulu with several hundred passengers onboard has crashed into the Pacific Ocean midway between the Hawaiian Islands and the California coast.  A massive search and rescue effort is underway. 
-
-####Questions to Guide Corresponding IPython Notebooks
+###Questions to Guide Corresponding IPython Notebooks
 * Can we discover, access, and map current weather conditions in a particular bounding box and overlay that with example coordinates of a crash site?
 * Can we discover, access, and map a three day forecast of weather conditions in a particular bounding box and overlay that with example coordinates of a crash site?
 * What models are available via CSWs that we can access through an IPython notebook, what are their URLs and can we call those models for the set bounding box, for a set of three days following the given date of a crash to compare modeled velocity vectors?
 * Can we discover, access and map sea surface current maps from high frequency radar in near real time, and overlay this data with a particular crash site location using designated IOOS catalogs?  Can we do a similar analysis using regional IOOS catalogs?  Are there certain regions that stand out when we apply the script for IOOS catalogs to regional catalogs?
 
-####Required Data to Answer Questions
+###Required Data to Answer Questions
 * GPS location of crash site
 * real-time weather 
 * high frequency radar  
