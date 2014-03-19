@@ -54,7 +54,7 @@ The ability to quickly and easily integrate these complementary datasets and pre
 * Can we identify models or observations that are routinely used by the community but are not discoverable using these interfaces? 
 
 
-### Required data to answer the questions (source for each type of data identified in parentheses):
+### Required Data to Answer Questions (source identified in parentheses):
 
 - High resolution coastline
 - Nearshore bathymetry
