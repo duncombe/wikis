@@ -1,9 +1,9 @@
 # Introduction
 The entire project is organized into phases or focus areas called themes.  Themes will focus on a large problem area and will be used to identify common problems or needs commonly encountered by  data consumers who work within these theme areas.  These theme areas are similar to the GEOSS societal benefit areas.  
 
-Within each theme there is a top level problem statement, which contains the overall objective of the theme.  Themes will be accompanied by Ipython Notebooks which address particular questions under each theme.  Each Ipython notebook will include comments that identify the theme for which the notebook is used, the question areas that the notebook addresses, the results from executing the python scripts, and the conclusions that can be drawn from the results.  A particular Ipython notebook may address questions of discovery, questions of access and questions of use.
+Within each theme there is a top level problem statement, which contains the overall objective of the theme.  Themes will be accompanied by IPython Notebooks which address particular questions under each theme.  Each IPython notebook will include comments that identify the theme for which the notebook is used, the question areas that the notebook addresses, the results from executing the python scripts, and the conclusions that can be drawn from the results.  A particular IPython notebook may address questions of discovery, questions of access and questions of use.
 
-Ipython notebooks will be standardized using the following format:
+IPython notebooks will be standardized using the following format:
 
 *  **Theme Title**
        *  _**Questions**_
@@ -12,10 +12,10 @@ Ipython notebooks will be standardized using the following format:
          *  USE Process (code and narrative)
     *  _**Results and Conclusions**_ (narrative)
          
-The procedures will employ iPython scripts that interrogate DMAC registries and repositories, and analyze the returned data against expected results.  There is not necessarily a one-to one correspondence between a Question and a notebook product.  Each question may correspond to a number of notebooks in order to increase readability and modularity of the IPython notebook tools.   
+The procedures will employ IPython scripts that interrogate DMAC registries and repositories, and analyze the returned data against expected results.  There is not necessarily a one-to one correspondence between a Question and a notebook product.  Each question may correspond to a number of notebooks in order to increase readability and modularity of the IPython notebook tools.   
 
 # Theme 1: Baseline Assessment
-The baseline assessment theme includes test cases that, as the name of theme states, assess the basic functionality of the Data Management and Communications system. While the test cases for this theme have no slant towards a particular scientific endeavor, the functionality to be tested underlies all subsequent test themes.  To put it simply, the Baseline Assessment theme tests whether registries, catalogs, metadata sets and data sets that are known to meet IOOS certification can be discovered, accessed and used. Results include information such as basic statistics on the number of data sets in each chosen registry, the standards advertised, and the dialects of the metadata within the registries. Information obtained through the use of iPython scripts will be compared against corresponding information retained by a registry, catalog, or data repository owner to answer the question below.
+The baseline assessment theme includes test cases that, as the name of theme states, assess the basic functionality of the Data Management and Communications system. While the test cases for this theme have no slant towards a particular scientific endeavor, the functionality to be tested underlies all subsequent test themes.  To put it simply, the Baseline Assessment theme tests whether registries, catalogs, metadata sets and data sets that are known to meet IOOS certification can be discovered, accessed and used. Results include information such as basic statistics on the number of data sets in each chosen registry, the standards advertised, and the dialects of the metadata within the registries. Information obtained through the use of IPython scripts will be compared against corresponding information retained by a registry, catalog, or data repository owner to answer the question below.
 
 ### Questions to Guide Corresponding IPython Notebooks
 
@@ -141,6 +141,7 @@ A large commercial aircraft en route LAX from Honolulu with several hundred pass
     *  [Data to Improve Coast Guard Search and Rescue](http://oceanservice.noaa.gov/news/weeklynews/may09/coastguard.html)
     *  [Search and Rescue Optimal Planning System](http://www.uscg.mil/acquisition/international/sarops.asp)
         *  [Description of SAROPS](http://www.sarapp.com/docs/SAROPS%20Description.pdf)
+
 # Theme 3:   Ecologically Sustainable Marine Energy Planning
 The driver behind many state based marine conflict resolution programs has been the siting of energy projects. Because state and federal governments working to site new energy or additional ocean energy extraction in state/federal waters must consider a suite of existing uses, including species and areas of biological importance, siting energy implicitly requires governments and private entities to utilize and overlay ecological data sets with physical data sets.  Therefore, planning for marine energy presents an ideal way to test the IOOS system for both physical and biological data that is needed to plan for energy extraction in the ocean in an ecologically sustainable way.   
 
