@@ -32,48 +32,51 @@ NOTE: See github.com/osgeo/Cat-Interop for a project that should be included as 
 
 
 # Theme 2: Extreme Events 
-The Extreme Events theme, as its name suggests, focuses on the analysis of data related to events that produce extreme adverse effects in a geographic area.  Possible topics within this heme may include, but not be limited to, the following.
+The Extreme Events theme, as its name suggests, focuses on the analysis of data related to events that produce extreme adverse effects in a geographic area.  Possible topics within this theme may include, but not be limited to, the following:
 
 ## Theme 2A: Severe Coastal Storm
- As a severe storm is approaching the coast, forecast models are continually being revised as new information about storm’s offshore position and intensity becomes available.   
-* How accurate are these models results compared to the measured waves, river flows and water levels?   
-* After the storm abates, inundation data should help inform where should responders go to help with the most affected areas.  
-* And much after the storm, comparing recorded data values to predicted data values assists in identifying shortcomings of the model and can suggest ways for improving a model's predictive power.
+As a severe storm is approaching the coast, observations are being recorded and forecast models are continually being updated as new initial and boundary conditions become available.  This test case is societally relevant for the following reasons:
+* Forecasters are interested to know how federal and non-federal models results compare to the observed waves, river flows and water levels throughout the storm.  
+* During and after the storm, inundation and flood data should help inform where should responders should dedicate resources to help with the most affected areas.  
+* Researchers will want to compare observed data to modeled data to identifying shortcomings of the models to help prioritize model improvements in the longer-term.
 
 ### Questions to Guide Corresponding IPython Notebooks
 
-* Can we discover, access and compare modeled water levels by accessing a CSW (See, [Service Registries and Data Catalogues](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs) for all available water level models and then overlaying the output for an example bounding box and time period? 
-* Can we discover, access, and compare modeled water levels against observed water levels within a particular bounding box? 
-* Can we discover, access, and compare water level data from different agencies and overlay that data for a particular geographic bounding box (e.g. USGS and CO-OPS) within a single IPython notebook? 
-* Can we discover, access, and overlay data from federal catalogs on water level with local data sources?
-* Can we discover, access, and overlay data from flood models accessible through federal data catalogues with coastal elevation data and baythmetric data in a single IPython notebook?
+* Can we discover, access and compare modeled water levels by accessing a CSW/CKAN interface or multiple CSW/CKAN interfaces (See, [Service Registries and Data Catalogues](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs) for all available water level models, and then constrain the output for an example bounding box and time period?  Are there models that are routinely used but are not discoverable using these interfaces? 
+* Can we discover, access, and compare observed water levels from different agencies (e.g. USGS and CO-OPS) to modeled water levels within a particular bounding box and time period? 
+* Is the associated metadata sufficient to provide necessary information about the datasets and to compare the different models and observations on the same reference frame?
+* Can we discover, access, and overlay model data from both non-federal catalogs and federal catalogs?
+* Can we discover, access, and overlay data from federal and non-federal river and coastal flood models including coastal elevation data and baythmetric data in a single IPython notebook?
+* Can we discover, access, and overlay water quality data to determine impacts of inundation to human health?
 
-#### Required data to answer the questions (Source for each type of data identified in parentheses):
+
+#### Required data to answer the questions (source for each type of data identified in parentheses):
 
 - High resolution coastline
-- nearshore bathymetry
-- near real-time water levels
-- waves
-- winds
-- barometric pressure
-- precipitation
-- water quality (fecal bacteria indicators)
-- presence of jellyfish/HABs
+- Nearshore bathymetry
+- Precipitation [NWS Radar] (http://www.nws.noaa.gov/gis/otherpage.html)
+- Water quality ([USGS/EPA Water Quality web Services] (http://qwwebservices.usgs.gov/) and fecal bacteria indicators
+- Presence of jellyfish/HABs
 - [USGS Flood Information](https://water.usgs.gov/floods/events/2012/sandy/sandymapper.html) Data
     * [SandyMapper](http://54.243.149.253/home/webmap/viewer.html?webmap=c07fae08c20c4117bdb8e92e3239837e)
+- Long-term coastal tide gauges (USGS, NOAA, USACE) [NOAA Tides Online](http://tidesonline.nos.noaa.gov/plotcomp.shtml?station_info=8410140+-+Eastport,%20ME&type=Tide+Data)
+- Near real-time water levels (NOAA)
+- Long-term stream gauges (USGS)
 - Rapid deployment tide gauges(USGS)
 - Rapid deployment stream gauges (USGS)
-- Wave heights sensors (NOAA, IOOS regions)
-- Barometric Pressure data(NOAA NOS, NOAA NWS)
-- Wind data (NOAA, IOOS Regions)
-- Long-term tide gauges (USGS, NOAA, USACE)
+- Wave heights sensors (NOAA, IOOS Regions)
+- Barometric pressure data (NOAA NOS, NOAA NWS)
+- Coastal and ocean wind data (NOAA, IOOS Regions)
 - High-water marks (USGS, NOAA, FEMA)
-- Models from USACE, NOAA, IOOS Regions
+- Coastal and river models from USACE, NOAA, IOOS Regions
 - NOAA NHC: SLOSH
-- NOAA NOS: ASGS 
+- NOAA NOS: ASGS
+- NOAA NWS: ESTOFS, Hurricane Wave, etc. [NOMADS Access](http://nomads.ncep.noaa.gov/)
+- NOS OFS Models [OFS Model Page] (http://tidesandcurrents.noaa.gov/models.html)
+- Stevens Storm Warning System [CMS Storm warning system](http://hudson.dl.stevens-tech.edu/SSWS/)
+- Rutgers ROMS ESPreSSO Model [Link] (http://www.myroms.org/espresso/)
 - NERACOOS Regional Resources Identified:
-    *  [NOAA Tides Online](http://tidesonline.nos.noaa.gov/plotcomp.shtml?station_info=8410140+-+Eastport,%20ME&type=Tide+Data)
-    *  [CMS Storm warning system](http://hudson.dl.stevens-tech.edu/SSWS/)
+    *  NECOFS [THREDDS Link] (http://www.neracoos.org/datatools/data_access/THREDDS)
     *  [Delaware Coastal Flood Monitoring System](http://www.coastal-flood.udel.edu/)
     *  [NERACOOS coastal flooding and erosion tool](http://www.neracoos.org/dataproducts/forecast/coastal_flooding_forecast/portland)
     *  [NERACOOS Water Level Display](http://p5.neracoos.org/products/modeldata/popup.html?page=popup&platform=hampton&model_type=NEC)
@@ -141,6 +144,7 @@ A large commercial aircraft en route LAX from Honolulu with several hundred pass
     *  [Data to Improve Coast Guard Search and Rescue](http://oceanservice.noaa.gov/news/weeklynews/may09/coastguard.html)
     *  [Search and Rescue Optimal Planning System](http://www.uscg.mil/acquisition/international/sarops.asp)
         *  [Description of SAROPS](http://www.sarapp.com/docs/SAROPS%20Description.pdf)
+
 
 # Theme 3:   Ecologically Sustainable Marine Energy Planning
 The driver behind many state based marine conflict resolution programs has been the siting of energy projects. Because state and federal governments working to site new energy or additional ocean energy extraction in state/federal waters must consider a suite of existing uses, including species and areas of biological importance, siting energy implicitly requires governments and private entities to utilize and overlay ecological data sets with physical data sets.  Therefore, planning for marine energy presents an ideal way to test the IOOS system for both physical and biological data that is needed to plan for energy extraction in the ocean in an ecologically sustainable way.   
