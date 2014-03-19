@@ -39,6 +39,7 @@ As a severe storm is approaching the U.S. East Coast which will result in inunda
 * Forecasters are interested to know how federal and non-federal models compare to observed waves, river flows, and water levels, throughout the storm.
 * Coastal emergency managers use inundation and flood data to identify where first responders should dedicate resources. 
 * After the storm, researchers want the ability to compare observed data to modeled data to identifying model shortcomings and areas of improvement, as well as to quality control observing systems
+
 The ability to quickly and easily integrate these complementary datasets and predictions into visualizations and analyses will help emergency managers and responders improve their ability to forecast, prepare for and respond to coastal storms.
 
 
