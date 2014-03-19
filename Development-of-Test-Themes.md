@@ -38,7 +38,7 @@ The Extreme Events theme, as its name suggests, focuses on the analysis of data 
 As a severe storm is approaching the U.S. East Coast which will result in inundation, flooding, and wind damage over an extensive area. Coastal emergency managers must prepare for and respond to flooding as well as plan and implement evacuations.  Emergency managers, forecasters, and researchers currently rely on a number of data sources to do their work, including observations and forecast models:
 * Forecasters are interested to know how federal and non-federal models compare to observed waves, river flows, and water levels, throughout the storm.
 * Coastal emergency managers use inundation and flood data to identify where first responders should dedicate resources. 
-* After the storm, researchers want the ability to compare observed data to modeled data to identifying model shortcomings and areas of improvement, as well as to quality control observing systems
+* After the storm, researchers want to compare observed data to modeled data to identify model shortcomings and areas of improvement, as well as to quality control observing systems.
 
 The ability to quickly and easily integrate these complementary datasets and predictions into visualizations and analyses will help emergency managers and responders improve their ability to forecast, prepare for and respond to coastal storms.
 
@@ -63,10 +63,10 @@ The ability to quickly and easily integrate these complementary datasets and pre
 - Presence of jellyfish/HABs
 - [USGS Flood Information](https://water.usgs.gov/floods/events/2012/sandy/sandymapper.html) Data
     * [SandyMapper](http://54.243.149.253/home/webmap/viewer.html?webmap=c07fae08c20c4117bdb8e92e3239837e)
-- Long-term coastal tide gauges (USGS, NOAA, USACE) [NOAA Tides Online](http://tidesonline.nos.noaa.gov/plotcomp.shtml?station_info=8410140+-+Eastport,%20ME&type=Tide+Data)
 - Near real-time water levels (NOAA)
+- Long-term coastal tidal gauges (USGS, NOAA, USACE) [NOAA Tides Online](http://tidesonline.nos.noaa.gov/plotcomp.shtml?station_info=8410140+-+Eastport,%20ME&type=Tide+Data)
 - Long-term stream gauges (USGS)
-- Rapid deployment tide gauges(USGS)
+- Rapid deployment tide gauges (USGS)
 - Rapid deployment stream gauges (USGS)
 - Wave heights sensors (NOAA, IOOS Regions)
 - Barometric pressure data (NOAA NOS, NOAA NWS)
@@ -88,32 +88,35 @@ The ability to quickly and easily integrate these complementary datasets and pre
     *  [NERACOOS Water Level Obs/Model Viewer](http://www.neracoos.org/datatools/forecast/modelobs)
 
 ## Theme 2B: Oil Tanker Spill
-An oil tanker loaded has collided with another vessel 5 nautical miles SE of the entrance to Delaware Bay (NOTE: can we use the other coast, maybe SF Bay?).  A large quantity of oil has been released into the marine environment, threatening the shoreline of a particular coastline. 
+An oil tanker loaded has collided with another vessel 5 nautical miles SE of the entrance to Delaware Bay _(NOTE: can we use another coast, maybe SF Bay?)_.  A large quantity of oil has been released into the marine environment, threatening the shoreline of a particular coastline. 
 
 #### Questions to Guide Corresponding IPython Notebooks
-* Can we discover, access and map high resolution coastline and velocity vectors from a real time data set accessible through catalogs and then map modeled water velocity vectors at a point in the future from the designated time of the test in the same geographic area? 
-* Can we discover, access and map bathymetry, tidal data, currents, winds, and overlay that with data reflecting coastal ecological vulnerabilities in a designated bounding box for a designated time in single IPython notebook? 
-* Can we discover, access and map satellite remote sensing images in real time against real time and future model projection data of velocity vectors in a single IPython notebook?
-* Can we discover, access and map high resolution coastline, velocity vectors, and data on the [core IOOS biological variables](http://www.iooc.us/activities/biological-integration-observation-task-team/)? 
+* Can we discover, access and map high resolution coastline data and observed real-time sea surface current vectors in a designated bounding box for a designated time?
+* Can we discover, access and map model projections of sea surface current vectors in a designated bounding box over a future period of time? 
+* Can we discover, access and map satellite remote sensing data of sea surface currents against observations and modeled projections of sea surface currents in a single IPython notebook?
+* Can we discover, access and map coastline, bathymetry, tides, waves, currents, winds, and overlay these values with data reflecting coastal ecological vulnerabilities in a designated bounding box for a designated time? 
+* Can we discover, access and overlay data relating to the [core IOOS biological variables](http://www.iooc.us/activities/biological-integration-observation-task-team/)? 
 * Can we discover, access and map an oil spill trajectory using GNOME for a particular location?  
-    *  Answering this question will also mean answering the question of whether we can discover, access and use wind speed data and river flow rates data in a single script and then call the GNOME model to run the scenario after entering a specified spill size, location, pollutant type, model duration, and uncertainty (See, [GNOME Example Problem Document](http://response.restoration.noaa.gov/sites/default/files/Gnome_NSlope_Ex.pdf)). 
-* Consider reaching out to OR&R to discuss this test case.
+    *  Answering this question will also mean answering the question of whether we can discover, access and use wind speed and river flow rates in a single script, and consequently call the GNOME model to run the scenario after entering a specified spill size, location, pollutant type, model duration, and uncertainty (See, [GNOME Example Problem Document](http://response.restoration.noaa.gov/sites/default/files/Gnome_NSlope_Ex.pdf)). 
+    * Consider reaching out to OR&R to discuss this test case.
 
 ####Required Data to Answer Questions
-* real-time winds
-* waves
-* water density
-* synthetic aperture radar
-* high-frequency coastal radar 
-* satellite remote sensing images
-* wind speed/direction
-* surface currents
-* threatened and endangered species data
-* shoreline types 
-* river flow data
-* high resolution coastline data
-* bathymetry 
-* boundaries (vessel traffic, shipping lanes, state/territorial waters boundaries) 
+* Wind speed/direction (NOAA, IOOS Regions)
+* Wave direction and height (NOAA, IOOS Regions)
+* Surface currents and direction (e.g IOOS high-frequency coastal radar, IOOS/NOAA current meters)
+* Synthetic aperture radar (SAR) data
+* Satellite remote sensing data (e.g. Advanced Scatterometer (ASCAT METOP-A))
+* Near real-time water levels (NOAA)
+* Long-term coastal tidal gauges (USGS, NOAA, USACE) [NOAA Tides Online](http://tidesonline.nos.noaa.gov/plotcomp.shtml?station_info=8410140+-+Eastport,%20ME&type=Tide+Data)
+* Long-term stream gauges (USGS)
+* Rapid deployment tide gauges (USGS)
+* Rapid deployment stream gauges (USGS)
+* Water density
+* High resolution coastline data
+* Shoreline types 
+* Bathymetry 
+* Threatened and endangered species data (NOAA NOS, BOEM)
+* Societal boundaries (vessel traffic, shipping lanes, state/territorial waters boundaries) 
 * [IOOS Core Biological Variables](http://www.iooc.us/activities/biological-integration-observation-task-team/)
 * RESOURCES Consulted:
     *  [Maritime Environmental Emergency Oil Spill Trajectory Model](http://www.amsa.gov.au/environment/maritime-environmental-emergencies/national-plan/General-Information/OSTM/faq/answers.asp)
