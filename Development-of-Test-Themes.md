@@ -81,7 +81,10 @@ An oil tanker loaded has collided with another vessel 5 nautical miles SE of the
     *  Answering this question will also mean answerign the question of whether we can discover, access and use wind speed data and river flow rates data in a single script and then call the GNOME model to run the scenario after entering a specified spill size, location, pollutant type, model duration, and uncertainty (See, [GNOME Example Problem Document](http://response.restoration.noaa.gov/sites/default/files/Gnome_NSlope_Ex.pdf)). 
 
 ####Required Data to Answer Questions
-* weather 
+* real-time winds
+* waves
+* water density
+* synthetic aperture radar 
 * satellite remote sensing images
 * wind speed/direction
 * surface currents
@@ -121,6 +124,9 @@ A large commercial aircraft en route LAX from Honolulu with several hundred pass
 * forecast wind speed/direction
 * forecast surface currents
 * forecast weather
+* atmospheric visibility
+* temperature (air and sea)
+* cloud cover
 * RESOURCES Consulted:
     *  [Data to Improve Coast Guard Search and Rescue](http://oceanservice.noaa.gov/news/weeklynews/may09/coastguard.html)
 
