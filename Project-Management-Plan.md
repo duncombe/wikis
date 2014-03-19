@@ -47,8 +47,8 @@ The current official end date for this project is approximately Sep 2014.  Tight
 
  * Track [Milestones](https://github.com/ioos/system-test/issues/milestones)
  * Track [Issues](../issues) to manage tasks
- * Use issue labels to identify priority (high medium, low) and functionality (registry, data provider, csw/sos/dap/plotting etc))
- * Use milestones to map tasks to dates in the project plan (Microsoft Project document managed offline by John/Derrick).  Therefore, only Derrick or John will add new milestones.
+ * Use issue labels to identify priority (high medium, low) and functionality (registry, data provider, clients etc))
+ * Use milestones to map tasks to dates.
  * Anyone may initiate issues and anyone may select to work on, or own an issue.  If an issue remains unassigned for too long Derrick will assign it.  
  * Derrick will brief management every three weeks and will summarize project status prior to these meetings.
 
