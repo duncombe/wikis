@@ -32,19 +32,21 @@ NOTE: See github.com/osgeo/Cat-Interop for a project that should be included as 
 
 
 # Theme 2: Extreme Events 
-The Extreme Events theme, as its name suggests, focuses on the analysis of data related to events that produce extreme adverse effects in a geographic area.  Possible topics within this theme may include, but not be limited to, the following:
+The Extreme Events theme, as its name suggests, focuses on the analysis of data related to events that produce extreme adverse effects across a geographic area.  Possible topics within this theme may include, but not be limited to, the following:
 
 ## Theme 2A: Severe Coastal Storm
-As a severe storm is approaching the coast, observations are being recorded and forecast models are continually being updated as new initial and boundary conditions become available.  This test case explores the following societally relevant outcomes of a extreme weather event:
-* Forecasters are interested to know how federal and non-federal models results compare to the observed waves, river flows and water levels throughout the storm.  
-* During and after the storm, inundation and flood data should help inform where should responders should dedicate resources to help with the most affected areas.  
-* Researchers will want to compare observed data to modeled data to identifying shortcomings of the models to help prioritize model improvements in the longer-term.
+As a severe storm is approaching the U.S. East Coast which will result in inundation, flooding, and wind damage over an extensive area. Coastal emergency managers must prepare for and respond to flooding as well as plan and implement evacuations.  Emergency managers, forecasters, and researchers currently rely on a number of data sources to do their work, including observations and forecast models:
+* Forecasters are interested to know how federal and non-federal models compare to observed waves, river flows, and water levels, throughout the storm.
+* Coastal emergency managers use inundation and flood data to identify where first responders should dedicate resources. 
+* After the storm, researchers want the ability to compare observed data to modeled data to identifying model shortcomings and areas of improvement, as well as to quality control observing systems
+The ability to quickly and easily integrate these complementary datasets and predictions into visualizations and analyses will help emergency managers and responders improve their ability to forecast, prepare for and respond to coastal storms.
+
 
 ### Questions to Guide Corresponding IPython Notebooks
 
 * Can we discover, access and compare modeled water levels by accessing a CSW/CKAN interface or multiple CSW/CKAN interfaces (See, [Service Registries and Data Catalogues](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs) for all available water level models, and then constrain the output for an example bounding box and time period?
 * Can we discover, access, and compare observed water levels from different agencies (e.g. USGS and CO-OPS) to modeled water levels within a particular bounding box and time period? 
-* Is the associated metadata sufficient to provide necessary information about the datasets and to compare the different models and observations on the same reference frame?
+* Is the associated metadata sufficient to provide necessary information about the datasets and to compare the different models and observations on the same reference frame / vertical datum?
 * Can we discover, access, and overlay model data from both non-federal catalogs and federal catalogs?
 * Can we discover, access, and overlay data from federal and non-federal river and coastal flood models including coastal elevation data and baythmetric data in a single IPython notebook?
 * Can we discover, access, and overlay water quality data or inputs to statistical or dynamical water quality models (e.g. precipitation) to determine impacts of inundation to human health?
@@ -73,16 +75,16 @@ As a severe storm is approaching the coast, observations are being recorded and 
 - River stage forecast models from NOAA
 - NOAA NHC: SLOSH
 - NOAA NOS: ASGS
-- NOAA NWS: ESTOFS, Hurricane Wave, etc. [NOMADS Access](http://nomads.ncep.noaa.gov/)
-- NOS OFS Models [OFS Model Page] (http://tidesandcurrents.noaa.gov/models.html)
-- Stevens Storm Warning System [CMS Storm warning system](http://hudson.dl.stevens-tech.edu/SSWS/)
-- Rutgers ROMS ESPreSSO Model [Link] (http://www.myroms.org/espresso/)
+- NOAA NWS: ESTOFS, Hurricane Wave, etc. - [NOMADS Access](http://nomads.ncep.noaa.gov/)
+- NOS OFS Models - [OFS Model Page] (http://tidesandcurrents.noaa.gov/models.html)
+- Stevens Storm Warning System - [CMS Storm Warning System](http://hudson.dl.stevens-tech.edu/SSWS/)
+- Rutgers ROMS ESPreSSO Model - [Model Link] (http://www.myroms.org/espresso/)
 - NERACOOS Regional Resources Identified:
-    *  NECOFS [THREDDS Link] (http://www.neracoos.org/datatools/data_access/THREDDS)
+    *  NECOFS - [THREDDS Link] (http://www.neracoos.org/datatools/data_access/THREDDS)
     *  [Delaware Coastal Flood Monitoring System](http://www.coastal-flood.udel.edu/)
-    *  [NERACOOS coastal flooding and erosion tool](http://www.neracoos.org/dataproducts/forecast/coastal_flooding_forecast/portland)
+    *  [NERACOOS Coastal Flooding and Erosion Tool](http://www.neracoos.org/dataproducts/forecast/coastal_flooding_forecast/portland)
     *  [NERACOOS Water Level Display](http://p5.neracoos.org/products/modeldata/popup.html?page=popup&platform=hampton&model_type=NEC)
-    *  [NERACOOS water level obs/model viewer](http://www.neracoos.org/datatools/forecast/modelobs)
+    *  [NERACOOS Water Level Obs/Model Viewer](http://www.neracoos.org/datatools/forecast/modelobs)
 
 ## Theme 2B: Oil Tanker Spill
 An oil tanker loaded has collided with another vessel 5 nautical miles SE of the entrance to Delaware Bay (NOTE: can we use the other coast, maybe SF Bay?).  A large quantity of oil has been released into the marine environment, threatening the shoreline of a particular coastline. 
