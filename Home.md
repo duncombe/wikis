@@ -1,3 +1,9 @@
+# Why conduct a system test? 
+To date many of the DMAC subsystem efforts have been developed in relative isolation.  The components of the IOOS DMAC system (a component is a level or two lower than system in a hierarchy of functionality) are being deployed currently.  These components are separated geographically (i.e. across the regions) and functionally (i.e. the catalog is different than the registry which is different than a data access service).  The project we are proposing is a type of system integration test with the primary purpose to exercise the component pieces of the system together toward a common goal.
+
+TODO Insert picture of publish/find/bind.
+
+# Objectives
 The DMAC integration testing project will assesses the maturity of DMAC implementation across IOOS Regional Associations and partner federal agencies.  The DMAC System Integration Test will:
 
 1. Create test cases which incorporate multiple IOOS Regions and partners, cover a large geographic scope, employ multiple types of data, and cross scientific disciplines.  These test cases demonstrate that data consumers can use DMAC data discovery and access services to get IOOS data in a repeatable way.  This is considered the baseline. 
@@ -15,7 +21,7 @@ The DMAC integration testing project will assesses the maturity of DMAC implemen
 * [References](https://github.com/ioos/system-test/wiki/References)
 
 # What is the system integration test and why do we need it?
-To date many of the DMAC subsystem efforts have been developed in relative isolation.  The components of the IOOS DMAC system (a component is a level or two lower than system in a hierarchy of functionality) are being deployed currently.  These components are separated geographically (i.e. across the regions) and functionally (i.e. the catalog is different than the registry which is different than a data access service).  The project we are proposing is a type of system integration test with the primary purpose to exercise the component pieces of the system together toward a common goal.  Elements of a successful system integration test include: 
+  Elements of a successful system integration test include: 
 *  Includes each of the functionalities that are being developed as part of DMAC currently.  The primary functions include data access services (web services that provide in situ, model or satellite data), discovery services (catalogs and registries providing query and look up functionality), and client tools (software packages that find data using catalogs/registries and download/use data from data access services);
 *  Emphasizes the process over the product, at least at first.  A system integration test is a step towards creating a robust system.  In exercising an integration test we EXPECT problems.  The test must rigorously capture the problems and document the conditions that caused the problems.  These problems may be fixed in the course of the project but ONLY if it can be done with sound engineering and design.  If shortcuts and workarounds are employed to get to the end product then the system will likely fail again when it encounters small (or large) variations upon the initial failure conditions. In the process of rigorously testing and documenting the system, the end product will be improved;
 *  Measures everything.  For reasons described above, the system integration test must document the conditions of the test;
