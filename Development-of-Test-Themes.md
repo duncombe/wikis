@@ -35,7 +35,7 @@ NOTE: See github.com/osgeo/Cat-Interop for a project that should be included as 
 The Extreme Events theme, as its name suggests, focuses on the analysis of data related to events that produce extreme adverse effects in a geographic area.  Possible topics within this theme may include, but not be limited to, the following:
 
 ## Theme 2A: Severe Coastal Storm
-As a severe storm is approaching the coast, observations are being recorded and forecast models are continually being updated as new initial and boundary conditions become available.  This test case is societally relevant for the following reasons:
+As a severe storm is approaching the coast, observations are being recorded and forecast models are continually being updated as new initial and boundary conditions become available.  This test case explores the following societally relevant outcomes of a extreme weather event:
 * Forecasters are interested to know how federal and non-federal models results compare to the observed waves, river flows and water levels throughout the storm.  
 * During and after the storm, inundation and flood data should help inform where should responders should dedicate resources to help with the most affected areas.  
 * Researchers will want to compare observed data to modeled data to identifying shortcomings of the models to help prioritize model improvements in the longer-term.
@@ -47,7 +47,7 @@ As a severe storm is approaching the coast, observations are being recorded and 
 * Is the associated metadata sufficient to provide necessary information about the datasets and to compare the different models and observations on the same reference frame?
 * Can we discover, access, and overlay model data from both non-federal catalogs and federal catalogs?
 * Can we discover, access, and overlay data from federal and non-federal river and coastal flood models including coastal elevation data and baythmetric data in a single IPython notebook?
-* Can we discover, access, and overlay water quality data to determine impacts of inundation to human health?
+* Can we discover, access, and overlay water quality data or inputs to statistical or dynamical water quality models (e.g. precipitation) to determine impacts of inundation to human health?
 
 
 #### Required data to answer the questions (source for each type of data identified in parentheses):
