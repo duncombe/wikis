@@ -92,6 +92,7 @@ An oil tanker loaded has collided with another vessel 5 nautical miles SE of the
 * Can we discover, access and map high resolution coastline, velocity vectors, and data on the [core IOOS biological variables](http://www.iooc.us/activities/biological-integration-observation-task-team/)? 
 * Can we discover, access and map an oil spill trajectory using GNOME for a particular location?  
     *  Answering this question will also mean answering the question of whether we can discover, access and use wind speed data and river flow rates data in a single script and then call the GNOME model to run the scenario after entering a specified spill size, location, pollutant type, model duration, and uncertainty (See, [GNOME Example Problem Document](http://response.restoration.noaa.gov/sites/default/files/Gnome_NSlope_Ex.pdf)). 
+* Consider reaching out to OR&R to discuss this test case.
 
 ####Required Data to Answer Questions
 * real-time winds
