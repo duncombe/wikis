@@ -15,7 +15,13 @@ IPython notebooks will be standardized using the following format:
 The procedures will employ IPython scripts that interrogate DMAC registries and repositories, and analyze the returned data against expected results.  There is not necessarily a one-to one correspondence between a Question and a notebook product.  Each question may correspond to a number of notebooks in order to increase readability and modularity of the IPython notebook tools.   
 
 # Theme 1: Baseline Assessment
-The baseline assessment theme includes test cases that, as the name of theme states, assess the basic functionality of the Data Management and Communications system. While the test cases for this theme have no slant towards a particular scientific endeavor, the functionality to be tested underlies all subsequent test themes.  To put it simply, the Baseline Assessment theme tests whether registries, catalogs, metadata sets and data sets that are known to meet IOOS certification can be discovered, accessed and used. Results include information such as basic statistics on the number of data sets in each chosen registry, the standards advertised, and the dialects of the metadata within the registries. Information obtained through the use of IPython scripts will be compared against corresponding information retained by a registry, catalog, or data repository owner to answer the question below.
+The baseline assessment theme includes test cases that, as the name of theme states, assess the basic functionality of the Data Management and Communications system.  While the test cases for this theme have no slant towards a particular scientific endeavor, the functionality to be tested underlies all subsequent test themes.  These test cases will incorporate multiple IOOS Regions and partners, cover a large geographic scope, employ multiple types of data, and cross scientific disciplines.  To put it simply, the Baseline Assessment theme tests whether registries, catalogs, metadata sets and datasets that are known to meet IOOS certification can be discovered, accessed and used.  Results from this baseline assessment will include:
+* Basic statistics on the number and type of datasets in each chosen registry or catalog
+* The metadata standards and dialects employed within those registries
+* A determination if the amount of metadata is sufficient to use the data correctly
+* Statistics on the number of types of service protocols/endpoints to access the data
+
+Information obtained through the use of IPython scripts will be compared against corresponding information retained by registry, catalog, or data repository owners to evaluate the success of the tests.
 
 ### Questions to Guide Corresponding IPython Notebooks
 
@@ -25,8 +31,8 @@ The baseline assessment theme includes test cases that, as the name of theme sta
 * For each registry, summarize the contents along several important query parameters 
   * Variable names (IOOS core variables, CF standard names etc)
   * Presence/absence of well defined service interfaces
-  * Clear human readable titles/abstracts/summaries
-  * Presence/absence of keywords and references to keyword vocabularies (preferably machine readable)
+  * Clear human-readable titles/abstracts/summaries/identifiers contained in the metadata
+  * Presence/absence of keywords and references to standardized keyword vocabularies (preferably machine readable)
 
 NOTE: See github.com/osgeo/Cat-Interop for a project that should be included as a contribution to the system-test.  Standardizing vocabulary of service type descriptions for CS/W 2.0.2 implementations.
 
