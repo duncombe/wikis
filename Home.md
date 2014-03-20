@@ -1,6 +1,7 @@
 # Why conduct a system test? 
 
-The distributed, service oriented architecture of DMAC has been implemented mostly independently by IOOS partners, using different software approaches and different levels of implementation (e.g. services provided, percent of datasets available via services, percent of datasets registered with the IOOS catalog)  
+The distributed, service oriented architecture of DMAC has been implemented mostly independently by IOOS partners, using different software approaches and different levels of implementation (e.g. services provided, percent of datasets available via services, percent of datasets registered with the IOOS catalog).
+  
 The DMAC system integration test  (SIT) will evaluate whether the services we have deployed (i.e. SOS, OPeNDAP, WMS, CS/W) to Federal partners and Regional Associations can solve real world problems. 
 
 TODO Insert picture of publish/find/bind.
