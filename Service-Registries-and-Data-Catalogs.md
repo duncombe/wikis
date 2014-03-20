@@ -39,6 +39,9 @@
    * api information: http://portal.westcoastoceans.org/connect/
 *  NCEP Global Atmospheric Model/Best Time Series
    *  http://ferret.pmel.noaa.gov/geoide/CleanCatalogs/oos.soest.hawaii.edu/thredds/catalog/hioos/model/atm/ncep_global/catalog.html
+*  Climate.data.gov
+    * NOAA Climate Data CSW: http://gis.ncdc.noaa.gov/geoportal/csw202/discovery?request=GetCapabilities&service=CSW&version=2.0.2
+    *  See also NCDC Web Services/Climate: http://www.ncdc.noaa.gov/cdo-web/webservices
 
 ####References For Creating and Documenting Baseline Test
 *  Rich's [blog](http://rsignell-usgs.github.io/blog/blog/2014/01/15/csw_ngdc_dap/)
