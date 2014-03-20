@@ -28,7 +28,7 @@
 *  [Custom Wakari Environments](http://continuum.io/blog/wakari_custom_envs)
 *  [owslib Installation Instructions](https://binstar.org/rsignell/owslib/0.8.6)
 *  [OWSLib 0.8.6 documentation](http://geopython.github.io/OWSLib/) 
-*  [IPython Tutorial](http://nbviewer.ipython.org/github/profLewis/geogg122/blob/master/Chapter2_Python_intro/python101.ipynb)
+*  [Python Tutorial](http://nbviewer.ipython.org/github/profLewis/geogg122/blob/master/Chapter2_Python_intro/python101.ipynb)
 
 ##Rich Signell Notebooks By Category
 
