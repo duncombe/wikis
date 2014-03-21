@@ -29,6 +29,9 @@ I completed cataloging Rich's notebooks and other resources on the References pa
 I also started working on developing an environment that all the notebooks can be run in so that this can be added as a resource.  During the COL Policy Forum, I also did some outreach on the extreme events themes and made some contacts to discuss data catalogs that could be tested under additional extreme event scenarios,  including invasive species events.  
 
 # Week 7
+After meeting with Derrick and John this morning, we've laid out a clear plan for developing a page that will map notebooks:questions:scenarios:themes within the extreme events project I'm working on.  This week, I continued to work on the baseline notebook and the oil tanker spill notebook.  During the meeting this morning, we determined that the best approach to developing additional notebooks will be to continue to develop my own, and to pick out those notebooks that Rich has developed and determine how they can fit into the scenarios.  I'll be working on that further this week, and developing to do lists for those notebooks that require additional aspects in order to answer the questions posed within scenarios.
+
+I prepared a presentation on my work so far on the project which I'll be presenting on Monday.  I'll provide a link to the presentation, which goes over work flow and approach to developing notebooks via the Wiki by Monday.
 
 # Week 8
 
