@@ -30,6 +30,7 @@
 *  [OWSLib 0.8.6 documentation](http://geopython.github.io/OWSLib/) 
 *  [Python Tutorial](http://nbviewer.ipython.org/github/profLewis/geogg122/blob/master/Chapter2_Python_intro/python101.ipynb)
 *  [IPython Tutorial on Accessing Geospatial Data, including NASA data](http://nbviewer.ipython.org/github/profLewis/geogg122/blob/master/Chapter4_GDAL/GDAL_HDF.ipynb)
+*  [Install Instructions for Wakari Environment](https://github.com/esc24/installation-recipes/blob/78e4b70345c0d093bc2a68f747ad464f584f648e/wakari/install.txt)
 
 ##Rich Signell Notebooks By Category
 
