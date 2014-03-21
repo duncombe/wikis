@@ -1,10 +1,8 @@
  
 [Introduction](#intro)  
-[Data File Definitions and Axis Dimensions](#axes)  
-[Global Attributes](#global)  
-[Variables](#variables)  
-[File Naming Convention](#file_naming)  
-[Reference Tables and Codes](#references)  
+[Theme 1: Baseline Assessment](#theme1)  
+[Theme 2: Extreme Events](#theme2)  
+[Theme 3: Ecologically Sustainable Marine Energy Planning](#theme3)  
 
 
 <a name="intro"/>
@@ -24,6 +22,7 @@ IPython notebooks will be standardized using the following format:
          
 The procedures will employ IPython scripts that interrogate DMAC registries and repositories, and analyze the returned data against expected results.  There is not necessarily a one-to one correspondence between a Question and a notebook product.  Each question may correspond to a number of notebooks in order to increase readability and modularity of the IPython notebook tools.   
 
+<a name="theme1"/>
 # Theme 1: Baseline Assessment
 The baseline assessment theme includes test cases that, as the name of theme states, assess the basic functionality of the Data Management and Communications system.  While the test cases for this theme have no slant towards a particular scientific endeavor, the functionality to be tested underlies all subsequent test themes.  These test cases will incorporate multiple IOOS Regions and partners, cover a large geographic scope, employ multiple types of data, and cross scientific disciplines.  To put it simply, the Baseline Assessment theme tests whether registries, catalogs, metadata sets and datasets that are known to meet IOOS certification can be discovered, accessed and used.  Results from this baseline assessment will include:
 * Basic statistics on the number and type of datasets in each chosen registry or catalog
@@ -47,6 +46,7 @@ Information obtained through the use of IPython scripts will be compared against
 NOTE: See github.com/osgeo/Cat-Interop for a project that should be included as a contribution to the system-test.  Standardizing vocabulary of service type descriptions for CS/W 2.0.2 implementations.
 
 
+<a name="theme2"/>
 # Theme 2: Extreme Events 
 The Extreme Events theme, as its name suggests, focuses on the analysis of data related to events that produce extreme adverse effects across a geographic area.  Possible topics within this theme may include, but not be limited to, the following:
 
@@ -169,7 +169,7 @@ A large commercial aircraft en route LAX from Honolulu with several hundred pass
     *  [Search and Rescue Optimal Planning System](http://www.uscg.mil/acquisition/international/sarops.asp)
         *  [Description of SAROPS](http://www.sarapp.com/docs/SAROPS%20Description.pdf)
 
-
+<a name="theme3"/>
 # Theme 3:   Ecologically Sustainable Marine Energy Planning
 The driver behind many state based marine conflict resolution programs has been the siting of energy projects. Because state and federal governments working to site new energy or additional ocean energy extraction in state/federal waters must consider a suite of existing uses, including species and areas of biological importance, siting energy implicitly requires governments and private entities to utilize and overlay ecological data sets with physical data sets.  Therefore, planning for marine energy presents an ideal way to test the IOOS system for both physical and biological data that is needed to plan for energy extraction in the ocean in an ecologically sustainable way.   
 
