@@ -7,6 +7,9 @@
 
 <a name="intro"/>
 # Introduction
+
+THIS IS A STRATEGY OR APPROACH .... WORDS JOHN SAID
+
 The entire project is organized into phases or focus areas called themes.  Themes will focus on a large problem area and will be used to identify common problems or needs commonly encountered by  data consumers who work within these theme areas.  These theme areas are similar to the GEOSS societal benefit areas.  
 
 Within each theme there is a top level problem statement, which contains the overall objective of the theme.  Themes will be accompanied by IPython Notebooks which address particular questions under each theme.  Each IPython notebook will include comments that identify the theme for which the notebook is used, the question areas that the notebook addresses, the results from executing the python scripts, and the conclusions that can be drawn from the results.  A particular IPython notebook may address questions of discovery, questions of access and questions of use.
