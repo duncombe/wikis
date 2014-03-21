@@ -27,3 +27,6 @@ DMAC testing is as much about discovery as it is about verification and validati
 * Implement the solution if it is viable
 * Regression test the solution to ensure that it works correctly and does not introduce other issues
 * Close the issue if the regression test is successful
+
+# Test Resources
+You will need to access the following resources to support your testing and development efforts:
