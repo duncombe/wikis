@@ -49,6 +49,7 @@
 *  Initial Baseline Approach: [Empirical Study of Sensor Observation Services Server Instances](http://arxiv.org/ftp/arxiv/papers/1109/1109.4503.pdf)
 
 *  [Reference Document for Accessing and Examining CSWs](https://drive.google.com/file/d/0B8p4sUXIeKn1WFdYOXhqRFNUZXc/edit?usp=sharing)
+     *  [Reference for Setting up a CSW](http://www.ogcnetwork.net/node/630) (This provides a good overview of how search terms map to each other, OGC:Dublin Core:XML).
 
 *  [A Useful Slideshow about using Python to harvest CWS metadata](http://pycsw.org/publications/foss4g2013/#/) and [Associated Wiki Page](https://github.com/geopython/pycsw/wiki)
 
