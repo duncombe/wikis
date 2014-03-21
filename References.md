@@ -23,6 +23,7 @@
 *  [FEMA report on post Sandy](http://www.fema.gov/media-library/assets/documents/33772)
 
 ### Wakari Tutorials and References
+*  [IPython Notebook Documents](http://ipython.org/ipython-doc/dev/interactive/notebook.html)
 *  [Tutorial on Wakari Environments](https://www.youtube.com/watch?v=6mxCf8a_rMM)
 *  [Anaconda Environments How To](https://www.wakari.io/docs/anaconda.html)
 *  [Custom Wakari Environments](http://continuum.io/blog/wakari_custom_envs)
