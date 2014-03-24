@@ -2,17 +2,16 @@
 [Introduction](#intro)  
 [Theme 1: Baseline Assessment](#theme1)  
 [Theme 2: Extreme Events](#theme2)  
-[Theme 3: Ecologically Sustainable Marine Energy Planning](#theme3)  
+[Theme 3: Ecologically Sustainable Marine Energy Planning](#theme3) 
+[Theme 4: Marine Habitat Conservation](#theme4)   
 
 
 <a name="intro"/>
 # Introduction
 
-THIS IS A STRATEGY OR APPROACH .... WORDS JOHN SAID
+The strategy for DMAC integration testing is to package discrete test cases and their scripts within larger contexts called themes.  Each theme provides one or more scenarios that generates specific questions that require discovery, access and use of appropriate metadata and data.  The themes provide a realistic framework within which to frame and and address public policy questions with IOOS data.
 
-The entire project is organized into phases or focus areas called themes.  Themes will focus on a large problem area and will be used to identify common problems or needs commonly encountered by  data consumers who work within these theme areas.  These theme areas are similar to the GEOSS societal benefit areas.  
-
-Within each theme there is a top level problem statement, which contains the overall objective of the theme.  Themes will be accompanied by IPython Notebooks which address particular questions under each theme.  Each IPython notebook will include comments that identify the theme for which the notebook is used, the question areas that the notebook addresses, the results from executing the python scripts, and the conclusions that can be drawn from the results.  A particular IPython notebook may address questions of discovery, questions of access and questions of use.
+Within each theme there is a top level problem statement, which contains the overall objective of the theme.  For a theme with more than more objective, two or more scenarios will address particular objectives within the theme.  Themes will be accompanied by IPython Notebooks which address particular questions under each theme.  Each IPython notebook will include comments that identify the theme for which the notebook is used, the question areas that the notebook addresses, the results from executing the python scripts, and the conclusions that can be drawn from the results.  A particular IPython notebook may address questions of discovery, questions of access and questions of use.
 
 IPython notebooks will be standardized using the following format:
 
@@ -226,6 +225,57 @@ The Department of Interior Bureau of Ocean Energy Management is considering open
   *  [Planning for Offshore Energy Development](http://www.analysisgroup.com/uploadedFiles/Publishing/Articles/Planning_for_Ocean_Energy_Development_Complete.pdf)
         *  This document covers both offshore oil/gas permitting and offshore wind permitting.
         *  See Table 1 for comprehensive list of legislation, subject matter, and responsible federal agencies that could serve as starting point for data to policy trace-ability mapping.
+
+<a name="theme4"/>
+# Species Protection & Marine Habitat Conservation
+The mission of the NOAA National Marine Fisheries Service is to safeguard the viability of key marine species within the US economic zone.  That mission includes conserving sensitive marine habitat and restoring marine habitat that has been degraded by factors such as destructive fishing techniques and water pollution.  It also includes monitoring and protecting threatened marine species such as sea turtles and whales. The National Marine Fisheries service includes IOOS data in their assessments of habitat and threatened marine species.
+
+## Scenario A:  Assessing Chesapeake Bay Biology
+The NMFS Chesapeake Bay Office is updating its assessment of Chesapeake Bay biology, using updated information from recent assessment of Bay habitat.  In particular, The Chesapeake Bay Office is preparing a forecast of dead zones in the Bay for the upcoming season, and how the dead zones might affect populations of blue crab and rockfish. 
+
+### Questions to Guide Corresponding IPython Notebooks
+* What are the forecast flows for major Bay tributaries?
+* What are the levels of particulate matter in the Bay and major tributaries?
+* What are the forecast nitrogen levels of the Bay and its major tributaries?
+* What are the forecast levels of algae in the Bay?
+* What is the forecast distribution of algae in the Bay?
+* What is the density and distribution of  phytoplankton in the Bay?
+* What is the density and distribution of zooplankton in the Bay?
+* What are the latest estimates of blue crab and rockfish populations?
+* What are the latest estimates of major species on which blue crab abd rockfish prey?
+
+### Data Required to Answer Questions
+* water quality measurement history of the Bay and major tributaries
+* dissolved nitrogen levels in the Bay and major tributaries
+* bathymetry of the Bay 
+* basic stock survey data for blue crab
+* basic stock survey data for rockfish
+* historical distribution of dead zones in the Bay
+* forecast flows of major Bay tributaries
+* Bay salinity data
+* Bay water temperature data
+* dissolved oxygen data in the Bay and major tributaries
+
+## Scenario B:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast
+Major spring and summer feeding grounds for baleen whales are located off the New England Coast.  The NMFS Office of Protected Resources wishes to forecast the biomass off the New England Coast that is available to feed baleen whales during the upcoming spring and summer. 
+
+### Questions to Guide Corresponding IPython Notebooks
+* Where are the main baleen whale feeding grounds located?
+* What is the bathymetry of the feed grounds?
+* What is  the history of water tempature in the feeding grounds?
+* What are the historical levels of phytoplankton in the feeding grounds?
+* What are the historical levels of zooplankton in the feeding grounds?
+* What is the historical density and distribution of major baleen whale species off the New England Coast (Right Whales, Finback Whales, Humpback Whales)
+
+### Data Required to Answer Questions
+* GPS data on whale feeding grounds
+* bathymetry data for feeding grounds
+* water temperature measurements
+* phytoplankton and zooplankton survey data
+* whale population survey data
+
+
+
 
 # RESOURCES AND REFERENCES FOR TESTING APPROACH
 
