@@ -18,7 +18,7 @@ The DMAC integration testing project will assesses the maturity of DMAC implemen
 7. Ensure that we can repeat the assessment easily to measure progress over time
 
 
-* [Project Management Plan](Project-Management-Plan)
+* [Project Management Plan](https://github.com/ioos/system-test/wiki/Project-Management-Plan)
 * [Test Themes](https://github.com/ioos/system-test/wiki/Development-of-Test-Themes)
 * [Service Registries and Catalogs](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs)
 * [References](https://github.com/ioos/system-test/wiki/References)
