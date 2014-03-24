@@ -42,7 +42,8 @@ I prepared a presentation on my work so far on the project which I'll be present
 
 
 
-NOTES
+###NOTES
+
 Proposed Policy Analysis Tasks for DMAC DATE Project:
 TASK 1: Review and Provide Summary of Policy Documents, with focus on Data Integration Objectives in order to 1. Summarize Policy; 2. Identify Areas of Policy into which the IOOS Enterprise could fit
 PPD-21 - Presidential Policy Directive -- Critical Infrastructure Security and Resilience (http://www.whitehouse.gov/the-press-office/2013/02/12/presidential-policy-directive-critical-infrastructure-security-and-resil)
@@ -110,4 +111,18 @@ Policy:
 Greater information sharing within the government and with the private sector can and must be done while respecting privacy and civil liberties. Federal departments and agencies shall ensure that all existing privacy principles, policies, and procedures are implemented consistent with applicable law and policy and shall include senior agency officials for privacy in their efforts to govern and oversee information sharing properly.
 ….3) Identification of Baseline Data and Systems Requirements for the Federal Government to Enable Efficient Information Exchange. Within 180 days of the date of this directive, the Secretary of Homeland Security, in coordination with the SSAs and other Federal departments and agencies, shall convene a team of experts to identify baseline data and systems requirements to enable the efficient exchange of information and intelligence relevant to strengthening the security and resilience of critical infrastructure. The experts should include representatives from those entities that routinely possess information important to critical infrastructure security and resilience; those that determine and manage information technology systems used to exchange information; and those responsible for the security of information being exchanged. Interoperability with critical infrastructure partners; identification of key data and the information requirements of key Federal, SLTT, and private sector entities; availability, accessibility, and formats of data; the ability to exchange various classifications of information; and the security of those systems to be used; and appropriate protections for individual privacy and civil liberties should be included in the analysis. The analysis should result in baseline requirements for sharing of data and interoperability of systems to enable the timely exchange of data and information to secure critical infrastructure and make it more resilient. The Secretary shall provide that analysis to the President through the Assistant to the President for Homeland Security and Counterterrorism.
 
+####Marine Energy Planning
+The following notes are from Hannah Dean, and were originally written as presenter's notes for the March 2014 RA Directors briefing.  There were a bit too detailed for that setting, but should be preserved for reference, so they have been copied here.
 
+Questions for Theme 3: Marine Energy Planning
+1. What data is needed for particular energy planning policies (Outer Continental Shelf Lands Act, National Environmental Policy Act, etc)?
+2. Can that data be easily accessed from the set of registries and catalogues that the IOOS Systems Test is examining?  If so, which registries can each dataset be accessed through?  And, using baseline metrics developed under Theme 1 for registries, are there certain registries that are better or worse for accessing particular data sets?
+
+Example:
+A. Specific Questions using OCSLA as a starting point:
+1. Can we plot bottom character/bathymetry against historical primary productivity (chlorophyll a, gC.m^2/year, phytoplankton abundance and species, zooplankton abundance and species) for a particular planning area (e.g. Gulf of Mexico) as might be required in the context of planning for mineral extraction under the OCSLA and corresponding policy?
+2. Can we plot jurisdictional boundaries (fisheries management, leasing blocks, marine sanctuaries, marine protected areas, etc.) against data sets for the IOOS core variables, and in particular data sets that might be used to estimate primary productivity (chlorophyll a, gC.m^2/year, phytoplankton abundance and species, zooplankton abundance and species)?
+
+B. Projected outcomes:
+1. For each question listed under part A, the IPython notebooks would result in a set of metrics for each registry assessing whether or not the plot could be completed
+2. Aggregating the notebooks developed for this example would result in a summary of those registries where metadata, particular variables, or particular formats make it hard to overlay and integrate information needed to meeting the planning objectives of the particular policy
