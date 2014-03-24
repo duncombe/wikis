@@ -54,7 +54,7 @@ NOTE: See github.com/osgeo/Cat-Interop for a project that should be included as 
 # Theme 2: Extreme Events 
 The Extreme Events theme, as its name suggests, focuses on the analysis of data related to events that produce extreme adverse effects across a geographic area.  Possible topics within this theme may include, but not be limited to, the following:
 
-## Scenario 2A: Severe Coastal Storm
+## Scenario A: Severe Coastal Storm
 As a severe storm is approaching the U.S. East Coast which will result in inundation, flooding, and wind damage over an extensive area. Coastal emergency managers must prepare for and respond to flooding as well as plan and implement evacuations.  Emergency managers, forecasters, and researchers currently rely on a number of data sources to do their work, including observations and forecast models:
 * Forecasters are interested to know how federal and non-federal models compare to observed waves, river flows, and water levels, throughout the storm.
 * Coastal emergency managers use inundation and flood data to identify where first responders should dedicate resources. 
@@ -107,7 +107,7 @@ The ability to quickly and easily integrate these complementary datasets and pre
     *  [NERACOOS Water Level Display](http://p5.neracoos.org/products/modeldata/popup.html?page=popup&platform=hampton&model_type=NEC)
     *  [NERACOOS Water Level Obs/Model Viewer](http://www.neracoos.org/datatools/forecast/modelobs)
 
-## Scenario 2B: Oil Tanker Spill
+## Scenario B: Oil Tanker Spill
 An oil tanker loaded has collided with another vessel 5 nautical miles SE of the entrance to Delaware Bay _(NOTE: can we use another coast, maybe SF Bay?)_.  A large quantity of oil has been released into the marine environment, threatening the shoreline of a particular coastline. 
 
 #### Questions to Guide Corresponding IPython Notebooks
@@ -145,7 +145,7 @@ An oil tanker loaded has collided with another vessel 5 nautical miles SE of the
     *  [General NOAA Operational Modeling Environment](http://response.restoration.noaa.gov/gnome)
     *  [Gulf of Mexico Research Initiative Data Discovery](https://data.gulfresearchinitiative.org/)
 
-## Scenario 2C: Search & Rescue - Commercial Aircraft Crash
+## Scenario C: Search & Rescue - Commercial Aircraft Crash
 A large commercial aircraft en route LAX from Honolulu with several hundred passengers onboard has crashed into the Pacific Ocean midway between the Hawaiian Islands and the California coast.  A massive search and rescue effort is underway.  This effort can be improved by integrated knowledge of the physical/chemical/biological conditions of the atmosphere and ocean.
 
 ###Questions to Guide Corresponding IPython Notebooks
@@ -177,7 +177,7 @@ A large commercial aircraft en route LAX from Honolulu with several hundred pass
 # Theme 3:   Ecologically Sustainable Marine Energy Planning
 The driver behind many state based marine conflict resolution programs has been the siting of energy projects. Because state and federal governments working to site new energy or additional ocean energy extraction in state/federal waters must consider a suite of existing uses, including species and areas of biological importance, siting energy implicitly requires governments and private entities to utilize and overlay ecological data sets with physical data sets.  Therefore, planning for marine energy presents an ideal way to test the IOOS system for both physical and biological data that is needed to plan for energy extraction in the ocean in an ecologically sustainable way.   
 
-## Scenario 3A:  Planning for Wind Turbine Sites using Ecosystem Base Approach
+## Scenario A:  Planning for Wind Turbine Sites using Ecosystem Base Approach
 A state is is the process of delimiting an area off its coast that is suitable for the placement of a major wind turbine farm.  The state must adhere to a number of laws and implementing policies before it can formally delineate an area for wind turbine development and solicit bids.
 
 ### Questions to Guide Corresponding IPython Notebooks
@@ -202,7 +202,7 @@ A state is is the process of delimiting an area off its coast that is suitable f
 * sediment transport
 * nutrients
 
-## Scenario 3B:  Mineral Extraction
+## Scenario B:  Mineral Extraction
 The Department of Interior Bureau of Ocean Energy Management is considering opening several tracts in the Gulf of Mexico for petroleum exploration. As part of their due diligence under regulations implementing the Outer Continental Shelf Lands Act, the Bureau must prepare an environmental impact statement before opening the tract to bids. The environmental impact statement must consider the potential impact of exploration and drilling on area fisheries.
 
 ### Questions to Guide Corresponding IPython Notebooks
