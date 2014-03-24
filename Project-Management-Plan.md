@@ -1,10 +1,10 @@
-This document describes the procedures we'll adhere to in carrying out the project.  It is comprehensive in that it includes management of all relevant knowledge areas, with the exception of cost management. Areas addressed by this document include the following:
-* Scope Management: Track Development of [Test Themes](https://github.com/ioos/system-test/wiki/Development-of-Test-Themes)
-* Time Management: Track [Milestones](https://github.com/ioos/system-test/issues/milestones)
+This document describes the procedures we'll adhere to in carrying out the project.  Areas addressed by this document include the following:
+* Scope: Track Development of [Test Themes](https://github.com/ioos/system-test/wiki/Development-of-Test-Themes)
+* Schedule: Track [Milestones](https://github.com/ioos/system-test/issues/milestones)
 * Quality Management: Track [System-Test Metrics](https://github.com/ioos/system-test/graphs)
-* Communication Management: Track [Issues](../issues)
-* Risk Management 
-* Integration Management: Track List of [Services Registries and Data Catalogues](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs)
+* Communication: Track [Issues](../issues)
+* Risk  
+* Integration: Track List of [Services Registries and Data Catalogues](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs)
 
 This document does not address procurement management, as there are no procurement actions planned for the project.
 
