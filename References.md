@@ -148,18 +148,18 @@ https://www.wakari.io/sharing/bundle/rsignell/UGRID_Subset_with_time)
 
 <a name="5"/>
 ## Abbreviated Terms
-API Application Program Interface 
-DCP Distributed Computing Platform 
-GML Geographic Markup Language 
-ISO International Organization for Standardization 
-OGC Open Geospatial Consortium
-OWS OGC Web Services 
-O&M Observations and Measurements 
-SensorML Sensor Model Language 
-SOS Sensor Observation Service [formerly Sensor Collection Service, SCS] 
-SPS Sensor Planning Service 
-SWE Sensor Web Enablement 
-TML Transducer Markup Language 
-UML Unified Modeling Language 
-WNS Web Notification Service 
-XML eXtended Markup Language
+**API** Application Program Interface   
+**DCP** Distributed Computing Platform  
+**GML** Geographic Markup Language  
+**ISO** International Organization for Standardization   
+**OGC** Open Geospatial Consortium  
+**OWS** OGC Web Services  
+**O&M** Observations and Measurements   
+**SensorML** Sensor Model Language   
+**SOS** Sensor Observation Service [formerly Sensor Collection Service, SCS]   
+**SPS** Sensor Planning Service   
+**SWE** Sensor Web Enablement   
+**TML** Transducer Markup Language   
+**UML** Unified Modeling Language   
+**WNS** Web Notification Service   
+**XML** eXtended Markup Language  
