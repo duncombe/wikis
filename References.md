@@ -1,3 +1,10 @@
+[General Data Resources and References](#1)  
+[Policy Documents/References](#2)  
+[Wakari Tutorials and References](#3)  
+[Rich Signell Notebooks By Category](#4)  
+[Abbreviated Terms](#5)  
+
+<a name="1"/>
 ## General Data Resources and References
 *  [The Open Geospatial Consortium. Open Geospatial Consortium Reference Model](www.opengis.net/doc/orm/2.1.)
 *  [Catalog Services for the Web Features](http://docs.geoserver.org/latest/en/user/extensions/csw/features.html)
@@ -18,10 +25,12 @@
     *  [USGS Documenting, Mapping, and Predicting Invasive Species Model](http://www.fort.usgs.gov/Research/research_tasks.asp?TaskID=2190)
     *  [USDA Aquatic Species Databases](http://www.invasivespeciesinfo.gov/aquatics/databases.shtml)
 
+<a name="2"/>
 ### Policy Documents/References
 *  [IOOS Build Out Plan Synthesis](http://www.ioosassociation.org/sites/nfra/files/documents/ioos_documents/regional/BOP%20Synthesis%20Final.pdf)
 *  [FEMA report on post Sandy](http://www.fema.gov/media-library/assets/documents/33772)
 
+<a name="3"/>
 ### Wakari Tutorials and References
 *  [IPython Notebook Documents](http://ipython.org/ipython-doc/dev/interactive/notebook.html)
 *  [Tutorial on Wakari Environments](https://www.youtube.com/watch?v=6mxCf8a_rMM)
@@ -33,6 +42,7 @@
 *  [IPython Tutorial on Accessing Geospatial Data, including NASA data](http://nbviewer.ipython.org/github/profLewis/geogg122/blob/master/Chapter4_GDAL/GDAL_HDF.ipynb)
 *  [Install Instructions for Wakari Environment](https://github.com/esc24/installation-recipes/blob/78e4b70345c0d093bc2a68f747ad464f584f648e/wakari/install.txt)
 
+<a name="4"/>
 ##Rich Signell Notebooks By Category
 
 ###NetCDF4 files
@@ -108,7 +118,7 @@ https://www.wakari.io/sharing/bundle/rsignell/UGRID_Subset_with_time)
         *  Additional Resources: [VTK Data Model](http://www.paraview.org/Wiki/ParaView/Users_Guide/VTK_Data_Model) for visualizations of unstructured vs. structured grid data; [IOOS DIF Model Data Interoperability](https://geo-ide.noaa.gov/wiki/index.php?title=IOOS_DIF_Model_Data_Interoperability)
     *  [UGRID Interoperability Forum](https://groups.google.com/forum/#!forum/ugrid-interoperability)
 
-###Comparing Data Catalogues
+###Comparing Data Catalogs
 *  [Comparing NOAA Geoportal to Data.Gov](https://www.wakari.io/sharing/bundle/rsignell/NODC_and_Data.gov)
     *  using CSW to compare NODC geoportal to data.gov
 *  [Comparing model results from NODC and NGDC](https://www.wakari.io/sharing/bundle/rsignell/Model_check)
@@ -135,3 +145,21 @@ https://www.wakari.io/sharing/bundle/rsignell/UGRID_Subset_with_time)
 
 ###Miscellaneous 
 *  [Package for creating IPython Blog Environment](https://www.wakari.io/sharing/bundle/rsignell/blog)
+
+<a name="5"/>
+## Abbreviated Terms
+API Application Program Interface 
+DCP Distributed Computing Platform 
+GML Geographic Markup Language 
+ISO International Organization for Standardization 
+OGC Open Geospatial Consortium
+OWS OGC Web Services 
+O&M Observations and Measurements 
+SensorML Sensor Model Language 
+SOS Sensor Observation Service [formerly Sensor Collection Service, SCS] 
+SPS Sensor Planning Service 
+SWE Sensor Web Enablement 
+TML Transducer Markup Language 
+UML Unified Modeling Language 
+WNS Web Notification Service 
+XML eXtended Markup Language
