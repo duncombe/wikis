@@ -52,7 +52,7 @@
 *  [Examining Longitude and Latitude Extent in Directory Access Protocol endpoint (GLOS)](https://www.wakari.io/sharing/bundle/rsignell/glos_range)
 *  [Extract and plot data from a NetCDF file or OPeNDAP dataset](https://www.wakari.io/sharing/bundle/rsignell/NetCDF_plot)
 *  [Using pyugrid to examine netCDF4 Dataset](https://www.wakari.io/sharing/bundle/rsignell/pyugrid_test)
-    *  uses [pyugrid](https://github.com/pyugrid/pyugrid), a Python API to utilize data written using the unstructured grid [UGRID conventions](https://github.com/ugrid-conventions/ugrid-conventions), as well as matplotlib.tri to plot a contour amp
+    *  uses [pyugrid](https://github.com/pyugrid/pyugrid), a Python API to utilize data written using the unstructured grid [UGRID conventions](https://github.com/ugrid-conventions/ugrid-conventions), as well as matplotlib.tri to plot a contour map
 
 ###[ERDDAP](http://coastwatch.pfeg.noaa.gov/erddap/index.html)
 *  [Examining and Plotting GTS Data from ERDDAP](https://www.wakari.io/sharing/bundle/rsignell/ERDDAP_GTS_Test)
