@@ -1,7 +1,12 @@
-This document describes the procedures we'll adhere to in carrying out the project.  Areas addressed by this document include the following:
-* Scope: The DMAC integration test is organized around major scientific and public policy themes.  Themes contain one or more scenarios that narrow the scope and generate questions that can be used to test the discovery, access and use of metadata and data.  It is important to note that test themes and their constituent parts are living documents that may be modified, based on the advice of subject matter experts and the experience of the testers.  More information on test themes may be found at the [Test Themes](https://github.com/ioos/system-test/wiki/Development-of-Test-Themes) page.
-* Schedule: Information about the project schedule is found in the Milestones [Milestones](https://github.com/ioos/system-test/issues/milestones) section of the DMAC GitHub repository. One or more Issues are associated with each Milestone. To reach a given Milestone all associated Issues must be closed.
-* Quality Management: Track [System-Test Metrics](https://github.com/ioos/system-test/graphs)
+This document describes the resources and techniques to be used in managing important aspects of the DMAC Integration Test Project.  Areas to be managed, as well as the tools and techniques to be used in managing each area, are described below.
+
+# Scope
+The DMAC integration test is organized around major scientific and public policy themes.  Themes contain one or more scenarios that narrow the scope and generate questions that can be used to test the discovery, access and use of metadata and data.  It is important to note that test themes and their constituent parts are living documents that may be modified, based on the advice of subject matter experts and the experience of the testers.  Detailed information on test themes may be found at the [Test Themes](https://github.com/ioos/system-test/wiki/Development-of-Test-Themes) page.
+
+It is unlikely that the DMAC Integration Test will be able to fully explore all test themes within the project's schedule and budget constraints. The 
+
+* Schedule: Information about the project schedule is found in the [Milestones](https://github.com/ioos/system-test/issues/milestones) section of the DMAC GitHub repository. One or more Issues are associated with each Milestone. To reach a given Milestone all associated Issues must be closed.
+* Quality Management: The DMAC GitHub repository uses information from the status of Milestones and associated Issues to compile [System-Test Metrics](https://github.com/ioos/system-test/graphs).
 * Communication: Track [Issues](../issues)
 * Risk  
 * Integration: Track List of [Services Registries and Data Catalogues](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs)
