@@ -19,7 +19,7 @@ Communication within the DMAC IT project team relies on several channels:
 * In-person or online meetings using WebEx sessions.
 
 # Risk  
-An ongoing risk registry is maintained on the [Project Dashboard] , which is published weekly by COB every Thursday.  
+An ongoing risk registry is maintained on the [Project Dashboard] (https://github.com/ioos/system-test/wiki/Latest-Project-Dashboard) , which is published weekly by COB every Thursday.  Please be aware that not all DMAC IT project team members may have access to the Project Dashboard.  If you do not have access to the Project Dashboard and wish to gain access, please contact [John Kupiec] (john.kupiec@noaa.gov) or [Derrick Snowden] (derrick.snowden@noaa.gov).
 * Integration: Track List of [Services Registries and Data Catalogues](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs)
 
 This document does not address procurement management, as there are no procurement actions planned for the project.
