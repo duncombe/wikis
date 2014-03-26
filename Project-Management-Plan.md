@@ -15,12 +15,11 @@ Quality management within the DMAC project is accomplished by treating every wor
 Communication within the DMAC IT project team relies on several channels:
 * GitHub Issues,which automatically generate e-mail messages to the person assigned the issue, as well as messages to other people specified by the person who logs the issue.  The DMAC project managers should always be included on the e-mail address list for every GitHub Issue.
 * E-mail messages may be exchanged between project members using [G-Mail accounts] (https://mail.google.com/mail/?tab=wm#inbox)  within the noaa.gov domain.
-* [GitHub Wiki pages] (https://github.com/ioos/system-test/wiki) such as this one within the DMAC GitHub repository.
+* [GitHub Wiki pages] (https://github.com/ioos/system-test/wiki/_pages) such as this one within the DMAC GitHub repository.
 * In-person or online meetings using WebEx sessions.
 
-
- Track [Issues](../issues)
-* Risk  
+# Risk  
+An ongoing risk registry is maintained on the [Project Dashboard] , which is published weekly by COB every Thursday.  
 * Integration: Track List of [Services Registries and Data Catalogues](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs)
 
 This document does not address procurement management, as there are no procurement actions planned for the project.
