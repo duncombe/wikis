@@ -3,11 +3,23 @@ This document describes the resources and techniques to be used in managing impo
 # Scope
 The DMAC integration test is organized around major scientific and public policy themes.  Themes contain one or more scenarios that narrow the scope and generate questions that can be used to test the discovery, access and use of metadata and data.  It is important to note that test themes and their constituent parts are living documents that may be modified, based on the advice of subject matter experts and the experience of the testers.  Detailed information on test themes may be found at the [Test Themes](https://github.com/ioos/system-test/wiki/Development-of-Test-Themes) page.
 
-It is unlikely that the DMAC Integration Test will be able to fully explore all test themes within the project's schedule and budget constraints. The 
+The [Baseline] (https://github.com/ioos/system-test/wiki/Development-of-Test-Themes#theme1) will be fully explored, because it includes basic functionality that underlies all subsequent test themes and their constituent scenarios.  However, it is unlikely that the DMAC Integration Test will be able to fully explore all the other test themes within the project's schedule and budget constraints. Test themes that are not explored will provide the basis for follow-on testing as DMAC features and functions are enhanced in later years.
 
-* Schedule: Information about the project schedule is found in the [Milestones](https://github.com/ioos/system-test/issues/milestones) section of the DMAC GitHub repository. One or more Issues are associated with each Milestone. To reach a given Milestone all associated Issues must be closed.
-* Quality Management: The DMAC GitHub repository uses information from the status of Milestones and associated Issues to compile [System-Test Metrics](https://github.com/ioos/system-test/graphs).
-* Communication: Track [Issues](../issues)
+# Schedule
+The project schedule is maintained as a set of Milestones within the DMAC GitHub repository.  Within the [Milestones](https://github.com/ioos/system-test/issues/milestones) section of the DMAC GitHub repository, one or more Issues are associated with each Milestone. To reach a given Milestone all associated Issues must be closed.  Each Milestone had a target date.  GitHub uses the target date of each Milestone to track the scheduling of issues. Be aware that unlike other scheduling software like Microsoft Project,  GitHub does not allow a given Issue or Milestone to have a relationship with an Issue or Milestone that has been scheduled to be completed previously.  In other words, GitHub treats every Issue and Milestone as an indedepndent entity, with no dependencies between any Issues or Milestones. One consequence of this is that GitHub cannot by itself construct a critical path for project activities.  Relationships between Issues and Milestones are handled manually by DMAC project managers.
+
+# Quality Management 
+Quality management within the DMAC project is accomplished by treating every work package as an Issue, and requiring the resolution of every Issue to be verified by DMAC project managers before it can be closed.  DMAC project managers are the only ones empowered to close Issues.  The DMAC GitHub repository uses information from the status of Milestones and associated Issues to compile [System-Test Metrics](https://github.com/ioos/system-test/graphs).  DMAC proejctmanagers track each Issue and Milestone to determine if project work packages are being completed on schedule.
+ 
+# Communication
+Communication within the DMAC IT project team relies on several channels:
+* GitHub Issues,which automatically generate e-mail messages to the person assigned the issue, as well as messages to other people specified by the person who logs the issue.  The DMAC project managers should always be included on the e-mail address list for every GitHub Issue.
+* E-mail messages may be exchanged between project members using [G-Mail accounts] (https://mail.google.com/mail/?tab=wm#inbox)  within the noaa.gov domain.
+* [GitHub Wiki pages] (https://github.com/ioos/system-test/wiki) such as this one within the DMAC GitHub repository.
+* In-person or online meetings using WebEx sessions.
+
+
+ Track [Issues](../issues)
 * Risk  
 * Integration: Track List of [Services Registries and Data Catalogues](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs)
 
