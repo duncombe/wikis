@@ -225,9 +225,10 @@ The Department of Interior Bureau of Ocean Energy Management is considering open
   *  [Planning for Offshore Energy Development](http://www.analysisgroup.com/uploadedFiles/Publishing/Articles/Planning_for_Ocean_Energy_Development_Complete.pdf)
         *  This document covers both offshore oil/gas permitting and offshore wind permitting.
         *  See Table 1 for comprehensive list of legislation, subject matter, and responsible federal agencies that could serve as starting point for data to policy trace-ability mapping.
+  *  [Solutions for Multi-Objective Marine Planning](http://www.marineplanning.org/index.html)
 
 <a name="theme4"/>
-# Species Protection & Marine Habitat Conservation
+# Theme 4: Species Protection & Marine Habitat Conservation
 The mission of the NOAA National Marine Fisheries Service is to safeguard the viability of key marine species within the US economic zone.  That mission includes conserving sensitive marine habitat and restoring marine habitat that has been degraded by factors such as destructive fishing techniques and water pollution.  It also includes monitoring and protecting threatened marine species such as sea turtles and whales. The National Marine Fisheries service includes IOOS data in their assessments of habitat and threatened marine species.
 
 ## Scenario A:  Assessing Chesapeake Bay Biology
@@ -285,6 +286,6 @@ The the GEOSS Architecture Implementation Pilot, Phase 3, [Use Case Engineering 
 
 *  Nota Bene: The structure and style of the GEOSS use cases should not be lifted and used without revision in DMAC testing. Rather, the GEOSS use cases can suggest procedures that can be easily adapted to test DMAC functionality.  Of particular interest to DMAC are three GEOSS general use cases:
 
-* Search for Resources
-* Present Services
-* Exploit Data Visually and Analytically
+* DISCOVERY: Search for Resources
+* ACCESS: Present Services
+* USE: Exploit Data Visually and Analytically
