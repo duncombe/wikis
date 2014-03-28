@@ -31,7 +31,7 @@
 *  [FEMA report on post Sandy](http://www.fema.gov/media-library/assets/documents/33772)
 
 <a name="3"/>
-### Wakari Tutorials and References
+### Tutorials and References
 *  [IPython Notebook Documents](http://ipython.org/ipython-doc/dev/interactive/notebook.html)
 *  [Tutorial on Wakari Environments](https://www.youtube.com/watch?v=6mxCf8a_rMM)
 *  [Anaconda Environments How To](https://www.wakari.io/docs/anaconda.html)
@@ -42,6 +42,8 @@
 *  [IPython Tutorial on Accessing Geospatial Data, including NASA data](http://nbviewer.ipython.org/github/profLewis/geogg122/blob/master/Chapter4_GDAL/GDAL_HDF.ipynb)
 *  [Install Instructions for Wakari Environment](https://github.com/esc24/installation-recipes/blob/78e4b70345c0d093bc2a68f747ad464f584f648e/wakari/install.txt)
 *  [The Python Standard Library](http://docs.python.org/2/library/)
+*  [IOOS Service Registries Github](https://github.com/ioos/registry)
+    *  This site also provides informative webinars about how data is harvested from the regions.
 
 <a name="4"/>
 ##Rich Signell Notebooks By Category
