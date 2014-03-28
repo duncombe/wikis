@@ -2,9 +2,7 @@
 [Introduction](#intro)  
 [Theme 1: Baseline Assessment](#theme1)  
 [Theme 2: Extreme Events](#theme2)  
-[Theme 3: Ecologically Sustainable Marine Energy Planning](#theme3)  
-[Theme 4: Marine Habitat Conservation](#theme4)   
-
+[Theme 3: Species Protection & Marine Habitat Conservation](#theme3)  
 
 <a name="intro"/>
 # Introduction
@@ -173,63 +171,8 @@ A large commercial aircraft en route LAX from Honolulu with several hundred pass
         *  [Description of SAROPS](http://www.sarapp.com/docs/SAROPS%20Description.pdf)
 
 <a name="theme3"/>
-# Theme 3:   Ecologically Sustainable Marine Energy Planning
-The driver behind many state based marine conflict resolution programs has been the siting of energy projects. Because state and federal governments working to site new energy or additional ocean energy extraction in state/federal waters must consider a suite of existing uses, including species and areas of biological importance, siting energy implicitly requires governments and private entities to utilize and overlay ecological data sets with physical data sets.  Therefore, planning for marine energy presents an ideal way to test the IOOS system for both physical and biological data that is needed to plan for energy extraction in the ocean in an ecologically sustainable way.   
-
-## Scenario A:  Planning for Wind Turbine Sites using Ecosystem Base Approach
-A state is is the process of delimiting an area off its coast that is suitable for the placement of a major wind turbine farm.  The state must adhere to a number of laws and implementing policies before it can formally delineate an area for wind turbine development and solicit bids.
-
-### Questions to Guide Corresponding IPython Notebooks
-* Pre-IPython Notebook Policy Question and Policy-to-Data Mapping Exercise: What data is needed for particular energy planning policies (Outer Continental Shelf Lands Act, National Environmental Policy Act, etc.)?
-* Can we discover, access, and overlay on a time series time series data for wind speed and direction for set of proposed wind turbine locations (lat, long) over the past 30 years?
-* Can we discover, access, and overlay a map of proposed wind turbine locations with data sets showing ship traffic and/or other human uses (e.g. recreation, commercial fisheries, VMS data)?
-* Can we discover, access, and overlay a map of proposed wind turbine locations with core IOOS variable data over a certain bounding box and/or ecologically sensitive areas and/or Marine Protected Areas designated by law?
-
-### Required Data to Answer Questions
-* wind 
-* bathymetry
-* land polygon for distance calculations
-* global wind energy parameters
-* turbine type
-* minimum depth for offshore wind farm installation
-* maximum depth for offshore wind farm installation
-* minimum distance for offshore wind farm installation
-* maximum distance for offshore wind farm installation
-* habitat
-* wildlife distribution
-* migratory pathways
-* sediment transport
-* nutrients
-
-## Scenario B:  Mineral Extraction
-The Department of Interior Bureau of Ocean Energy Management is considering opening several tracts in the Gulf of Mexico for petroleum exploration. As part of their due diligence under regulations implementing the Outer Continental Shelf Lands Act, the Bureau must prepare an environmental impact statement before opening the tract to bids. The environmental impact statement must consider the potential impact of exploration and drilling on area fisheries.
-
-### Questions to Guide Corresponding IPython Notebooks
-*  Can we discover, access and map phytoplankton species and abundance trend in an area of interest over the past 30 years? 
-*  Can we discover, access and map zooplankton species and abundance trend in an area of interest over the past 30 years? 
-*  Can we discover, access and map fish species and abundance trend in an area of interest over the past 30 years? 
-
-### Data Required to Answer Questions
-* high resolution coastline
-* bottom type
-* bathymetry
-* phytoplankton species and abundance
-* zooplankton species and abundance
-* fish species and abundance
-* water quality metrics
-
-* RESOURCES Consulted:
-    *  The [InVEST Model for Wind Energy Siting](http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/wind_energy.html#required-inputs) is a good starting place for required data sets (See, "Required input" section in the link).
-    *  [Wind Power Sitin, Incentives and Wildlife Guidelines in the United States](http://www.fws.gov/habitatconservation/windpower/afwa%20wind%20power%20final%20report.pdf) 
-        *  This document provides a comprehensive break down of the laws and applications to energy siting and could be used as a starting point for mapping legislative and executive policy to required data sets for planning purpose.
-  *  [Planning for Offshore Energy Development](http://www.analysisgroup.com/uploadedFiles/Publishing/Articles/Planning_for_Ocean_Energy_Development_Complete.pdf)
-        *  This document covers both offshore oil/gas permitting and offshore wind permitting.
-        *  See Table 1 for comprehensive list of legislation, subject matter, and responsible federal agencies that could serve as starting point for data to policy trace-ability mapping.
-  *  [Solutions for Multi-Objective Marine Planning](http://www.marineplanning.org/index.html)
-
-<a name="theme4"/>
-# Theme 4: Species Protection & Marine Habitat Conservation
-The mission of the NOAA National Marine Fisheries Service is to safeguard the viability of key marine species within the US economic zone.  That mission includes conserving sensitive marine habitat and restoring marine habitat that has been degraded by factors such as destructive fishing techniques and water pollution.  It also includes monitoring and protecting threatened marine species such as sea turtles and whales. The National Marine Fisheries service includes IOOS data in their assessments of habitat and threatened marine species.
+# Theme 3: Species Protection & Marine Habitat Conservation
+The mission of the NOAA National Marine Fisheries Service is to safeguard the viability of key marine species within the US economic zone.  That mission includes conserving sensitive marine habitat and restoring marine habitat that has been degraded by factors such as destructive fishing techniques and water pollution.  It also includes monitoring and protecting threatened marine species such as sea turtles and whales. The National Marine Fisheries service includes IOOS data in their assessments of habitat and threatened marine species.  Part of the value of integrating species and habitat data into the IOOS system is enabling the resolution of conflicts between human uses of our oceans and the protection of fragile marine habitats and the natural resources that they support.  Activities such as mineral extraction and energy siting require the use of a suite of marine habitat and species data in order to ensure that operations comply with marine conservation laws designed to require managers and policy makers to consider the ecological impacts of human activities.  
 
 ## Scenario A:  Assessing Chesapeake Bay Biology
 The NMFS Chesapeake Bay Office is updating its assessment of Chesapeake Bay biology, using updated information from recent assessment of Bay habitat.  In particular, The Chesapeake Bay Office is preparing a forecast of dead zones in the Bay for the upcoming season, and how the dead zones might affect populations of blue crab and rockfish. 
@@ -273,10 +216,58 @@ Major spring and summer feeding grounds for baleen whales are located off the Ne
 * bathymetry data for feeding grounds
 * water temperature measurements
 * phytoplankton and zooplankton survey data
-* whale population survey data
+* whale population survey data 
 
+## Scenario C:  Planning for Wind Turbine Sites using Ecosystem Base Approach
+A state is is the process of delimiting an area off its coast that is suitable for the placement of a major wind turbine farm.  The state must adhere to a number of laws and implementing policies before it can formally delineate an area for wind turbine development and solicit bids.
 
+### Questions to Guide Corresponding IPython Notebooks
+* Pre-IPython Notebook Policy Question and Policy-to-Data Mapping Exercise: What data is needed for particular energy planning policies (Outer Continental Shelf Lands Act, National Environmental Policy Act, etc.)?
+* Can we discover, access, and overlay on a time series time series data for wind speed and direction for set of proposed wind turbine locations (lat, long) over the past 30 years?
+* Can we discover, access, and overlay a map of proposed wind turbine locations with data sets showing ship traffic and/or other human uses (e.g. recreation, commercial fisheries, VMS data)?
+* Can we discover, access, and overlay a map of proposed wind turbine locations with core IOOS variable data over a certain bounding box and/or ecologically sensitive areas and/or Marine Protected Areas designated by law?
 
+### Required Data to Answer Questions
+* wind 
+* bathymetry
+* land polygon for distance calculations
+* global wind energy parameters
+* turbine type
+* minimum depth for offshore wind farm installation
+* maximum depth for offshore wind farm installation
+* minimum distance for offshore wind farm installation
+* maximum distance for offshore wind farm installation
+* habitat
+* wildlife distribution
+* migratory pathways
+* sediment transport
+* nutrients
+
+## Scenario D:  Mineral Extraction
+The Department of Interior Bureau of Ocean Energy Management is considering opening several tracts in the Gulf of Mexico for petroleum exploration. As part of their due diligence under regulations implementing the Outer Continental Shelf Lands Act, the Bureau must prepare an environmental impact statement before opening the tract to bids. The environmental impact statement must consider the potential impact of exploration and drilling on area fisheries.
+
+### Questions to Guide Corresponding IPython Notebooks
+*  Can we discover, access and map phytoplankton species and abundance trend in an area of interest over the past 30 years? 
+*  Can we discover, access and map zooplankton species and abundance trend in an area of interest over the past 30 years? 
+*  Can we discover, access and map fish species and abundance trend in an area of interest over the past 30 years? 
+
+### Data Required to Answer Questions
+* high resolution coastline
+* bottom type
+* bathymetry
+* phytoplankton species and abundance
+* zooplankton species and abundance
+* fish species and abundance
+* water quality metrics
+
+* RESOURCES Consulted:
+    *  The [InVEST Model for Wind Energy Siting](http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/wind_energy.html#required-inputs) is a good starting place for required data sets (See, "Required input" section in the link).
+    *  [Wind Power Sitin, Incentives and Wildlife Guidelines in the United States](http://www.fws.gov/habitatconservation/windpower/afwa%20wind%20power%20final%20report.pdf) 
+        *  This document provides a comprehensive break down of the laws and applications to energy siting and could be used as a starting point for mapping legislative and executive policy to required data sets for planning purpose.
+  *  [Planning for Offshore Energy Development](http://www.analysisgroup.com/uploadedFiles/Publishing/Articles/Planning_for_Ocean_Energy_Development_Complete.pdf)
+        *  This document covers both offshore oil/gas permitting and offshore wind permitting.
+        *  See Table 1 for comprehensive list of legislation, subject matter, and responsible federal agencies that could serve as starting point for data to policy trace-ability mapping.
+  *  [Solutions for Multi-Objective Marine Planning](http://www.marineplanning.org/index.html)
 
 # RESOURCES AND REFERENCES FOR TESTING APPROACH
 
