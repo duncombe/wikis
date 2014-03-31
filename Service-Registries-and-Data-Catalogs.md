@@ -43,6 +43,9 @@
     * NOAA Climate Data CSW: http://gis.ncdc.noaa.gov/geoportal/csw202/discovery?request=GetCapabilities&service=CSW&version=2.0.2
     *  See also NCDC Web Services/Climate: http://www.ncdc.noaa.gov/cdo-web/webservices
 
+####Additional Data Sources
+*  [Global Climate Change Impacts in the U.S. 2009 Report(Data Sets)](http://nca2009.globalchange.gov/data-sets)
+
 ####References For Creating and Documenting Baseline Test
 *  Rich's [blog](http://rsignell-usgs.github.io/blog/blog/2014/01/15/csw_ngdc_dap/)
 
