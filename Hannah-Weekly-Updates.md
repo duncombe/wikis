@@ -51,6 +51,9 @@ I prepared a presentation on my work so far on the project which I'll be present
 
 <a name="week8"/>
 # Week 8
+I continued working on a notebook for the Theme 2 and tried to think about best ways to summarize the outputs in a result section.  I also met with Hassan to learn more about ERDDAP and Ecosystem based management as well as ecological forecasting and observing.  The meeting was valuable in that it helped solidify and explain some of the larger issues with Biological Data.
+
+I talked to the Bio TT about the DATE Project and set up a briefing with the head of the IOOC Bio TT to review the purpose of the DATE project and talk about ways that the information from the Bio TT survey might feed into additional DATE Projects.  I also began to catalog Existing notebooks into the Extreme Even Themes.
 
 <a name="week9"/>
 # Week 9
