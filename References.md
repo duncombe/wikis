@@ -1,6 +1,6 @@
 [General Data Resources and References](#1)  
 [Policy Documents/References](#2)  
-[Wakari Tutorials and References](#3)  
+[Tutorials and References](#3)  
 [Rich Signell Notebooks By Category](#4)  
 [Abbreviated Terms](#5)  
 
@@ -44,6 +44,8 @@
 *  [The Python Standard Library](http://docs.python.org/2/library/)
 *  [IOOS Service Registries Github](https://github.com/ioos/registry)
     *  This site also provides informative webinars about how data is harvested from the regions.
+*  [Step By Step Approach to Exploring Web Map Services](http://nbviewer.ipython.org/github/Unidata/tds-python-workshop/blob/master/wms_sample.ipynb)
+    *  This Notebook is really valuable for looking at code to access various aspects of a map layer and print out available data on those aspect and is written as a tutorial.
 
 <a name="4"/>
 ##Rich Signell Notebooks By Category
