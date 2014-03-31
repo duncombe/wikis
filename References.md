@@ -47,6 +47,7 @@
 *  [Step By Step Approach to Exploring Web Map Services](http://nbviewer.ipython.org/github/Unidata/tds-python-workshop/blob/master/wms_sample.ipynb)
     *  This Notebook is really valuable for looking at code to access various aspects of a map layer and print out available data on those aspect and is written as a tutorial.
 *  [matplotlib Overview and User's Guides](http://matplotlib.org/contents.html)
+*  [Python Lists and Loops](http://www.icrar.org/__data/assets/pdf_file/0008/1436615/challenge09b-notes3.pdf)
 
 <a name="4"/>
 ##Rich Signell Notebooks By Category
