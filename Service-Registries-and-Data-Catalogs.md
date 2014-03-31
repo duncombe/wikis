@@ -42,6 +42,7 @@
 *  Climate.data.gov
     * NOAA Climate Data CSW: http://gis.ncdc.noaa.gov/geoportal/csw202/discovery?request=GetCapabilities&service=CSW&version=2.0.2
     *  See also NCDC Web Services/Climate: http://www.ncdc.noaa.gov/cdo-web/webservices
+*  [NASA's Global Change Master Directory (GCMD) CSW Service](http://gcmdsrv.gsfc.nasa.gov/csw)
 
 ####Additional Data Sources
 *  [Global Climate Change Impacts in the U.S. 2009 Report(Data Sets)](http://nca2009.globalchange.gov/data-sets)
