@@ -131,7 +131,8 @@ https://www.wakari.io/sharing/bundle/rsignell/UGRID_Subset_with_time)
     *  [Unstructured Grids] (https://publicwiki.deltares.nl/display/NETCDF/Unstructured+grids) are a more primitive form of data set that stores topology and point coordinates explicitly, meaning that information about relationship to other polygons is part of the data, and the data takes up more memory.  In contrast, structured grids store information implicitly, meaning that they tag information with an ID that is based on the position of the information in a data file. 
         *  Additional Resources: [VTK Data Model](http://www.paraview.org/Wiki/ParaView/Users_Guide/VTK_Data_Model) for visualizations of unstructured vs. structured grid data; [IOOS DIF Model Data Interoperability](https://geo-ide.noaa.gov/wiki/index.php?title=IOOS_DIF_Model_Data_Interoperability)
     *  [UGRID Interoperability Forum](https://groups.google.com/forum/#!forum/ugrid-interoperability)
-
+*  [Assessing OWSLIB SOS] (https://www.wakari.io/sharing/bundle/emayorga/OWSLibSOSAccess_Test1)
+    *  This notebook may be valuable as it does not use pyoos, which seems to require the development of a custom environment in wakari.
 ###Comparing Data Catalogs
 *  [Comparing NOAA Geoportal to Data.Gov](https://www.wakari.io/sharing/bundle/rsignell/NODC_and_Data.gov)
     *  using CSW to compare NODC geoportal to data.gov
