@@ -26,10 +26,12 @@
     *  [USDA Aquatic Species Databases](http://www.invasivespeciesinfo.gov/aquatics/databases.shtml)
 
 <a name="2"/>
-### Policy Documents/References
+### Policy and Standards Documents
 *  [IOOS Build Out Plan Synthesis](http://www.ioosassociation.org/sites/nfra/files/documents/ioos_documents/regional/BOP%20Synthesis%20Final.pdf)
 *  [FEMA report on post Sandy](http://www.fema.gov/media-library/assets/documents/33772)
 *  [NMFS Data Documentation Procedural Directive](https://inport.nmfs.noaa.gov/inport/downloads/data-documentation-procedural-directive.pdf)
+*  [Dublin Core Metadata Initiative](http://dublincore.org/documents/dces/)
+*  [ISO Standards](http://www.iso.org/iso/home/standards.htm)
 
 <a name="3"/>
 ### Tutorials and References
