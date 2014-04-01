@@ -32,6 +32,7 @@
 *  [NMFS Data Documentation Procedural Directive](https://inport.nmfs.noaa.gov/inport/downloads/data-documentation-procedural-directive.pdf)
 *  [Dublin Core Metadata Initiative](http://dublincore.org/documents/dces/)
 *  [ISO Standards](http://www.iso.org/iso/home/standards.htm)
+*  [NISO Standards](http://www.niso.org/apps/group_public/download.php/10256/Z39-85-2012_dublin_core.pdf)
 
 <a name="3"/>
 ### Tutorials and References
