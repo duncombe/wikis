@@ -54,7 +54,10 @@
 *  [Python Lists and Loops](http://www.icrar.org/__data/assets/pdf_file/0008/1436615/challenge09b-notes3.pdf)
 
 <a name="4"/>
-##Rich Signell Notebooks By Category
+## Existing Notebooks By Category
+
+*  [Collections of Notebooks by emayorga](https://www.wakari.io/emayorga)
+*  [Collections of Notebooks by rsignell](https://www.wakari.io/rsignell)
 
 ###NetCDF4 files
 --> ([NetCDF](http://www.unidata.ucar.edu/software/netcdf/docs/group__datasets.html) simply provides a way of opening datasets as files or remote access URLs and offers a library of functions to use on those datasets)
