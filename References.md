@@ -1,7 +1,7 @@
 [General Data Resources and References](#1)  
 [Policy Documents/References](#2)  
 [Tutorials and References](#3)  
-[Rich Signell Notebooks By Category](#4)  
+[Notebooks By Category](#4)  
 [Abbreviated Terms](#5)  
 
 <a name="1"/>
