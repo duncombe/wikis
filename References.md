@@ -1,11 +1,11 @@
-[General Data Resources and References](#1)  
+[General Resources and References](#1)  
 [Policy Documents/References](#2)  
 [Tutorials and References](#3)  
 [Notebooks By Category](#4)  
 [Abbreviated Terms](#5)  
 
 <a name="1"/>
-## General Data Resources and References
+## General Resources and References
 *  [The Open Geospatial Consortium. Open Geospatial Consortium Reference Model](www.opengis.net/doc/orm/2.1.)
 *  [Catalog Services for the Web Features](http://docs.geoserver.org/latest/en/user/extensions/csw/features.html)
      *  Provides operations supported, information on supported schemes, mapping files, 
@@ -53,6 +53,7 @@
 *  [matplotlib Overview and User's Guides](http://matplotlib.org/contents.html)
 *  [Python Lists and Loops](http://www.icrar.org/__data/assets/pdf_file/0008/1436615/challenge09b-notes3.pdf)
 *  [Online Stats Reference](https://www.statsoft.com/Textbook/Elementary-Statistics-Concepts/button/1)
+*  [Library of Python Packages](https://github.com/asascience-open)
 
 <a name="4"/>
 ## Existing Notebooks By Category
