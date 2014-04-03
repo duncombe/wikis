@@ -262,6 +262,7 @@ The Department of Interior Bureau of Ocean Energy Management is considering open
 
 * RESOURCES Consulted:
     *  The [InVEST Model for Wind Energy Siting](http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/wind_energy.html#required-inputs) is a good starting place for required data sets (See, "Required input" section in the link).
+    *  [The Role of Metocean Data in Addressing Project Planning, Design, and Operational Needs](http://www.ametsoc.org/boardpges/cwce/docs/BEP/Offshore-Wind/2013-05-Offshore-Wind-APT-Final-Report.pdf)
     *  [Wind Power Sitin, Incentives and Wildlife Guidelines in the United States](http://www.fws.gov/habitatconservation/windpower/afwa%20wind%20power%20final%20report.pdf) 
         *  This document provides a comprehensive break down of the laws and applications to energy siting and could be used as a starting point for mapping legislative and executive policy to required data sets for planning purpose.
   *  [Planning for Offshore Energy Development](http://www.analysisgroup.com/uploadedFiles/Publishing/Articles/Planning_for_Ocean_Energy_Development_Complete.pdf)
