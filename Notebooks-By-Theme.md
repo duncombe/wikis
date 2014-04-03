@@ -14,7 +14,7 @@
 
 <a name="theme1"/>
 ### Theme 1: Baseline Assessment
-*  [Baseline Assessment of Web Services for Endpoint CSWs within date range and bounding box](https://www.wakari.io/sharing/bundle/hdean/Theme%202_Scenario%20B_Oil%20Tanker%20Spill_Web%20Services%20Count)
+*  [Baseline Assessment of Web Services](https://www.wakari.io/sharing/bundle/hdean/Theme%202_Scenario%20B_Oil%20Tanker%20Spill_Web%20Services%20Count)
 
 <a name="theme2"/>
 ### Theme 2: Extreme Events 
