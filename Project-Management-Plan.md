@@ -70,7 +70,7 @@ The current official end date for this project is approximately Sep 2014.  Tight
 ##Documentation Process and Approach:
 These wiki pages should serve as working documents that are updated as the project progresses.  Some material will be moved from the wiki to the project site as it matures.  The project site will consist of two types of material:  
   1.  Blog Environment with IPython Scripts and Results using [Pelican](http://docs.getpelican.com/en/3.3.0/)
-    * Model: [Filipe Fernandes' blog](http://ocefpaf.github.io/blog/2013/12/23/blog/)      
+    * Model: [Filipe Fernandes' blog](http://ocefpaf.github.io/python4oceanographers/blog/2013/12/23/blog/)      
   2.  [Project Page with Static Documentation](https://github.com/ioos/system-test/wiki)  
 
 For the early part of the project we will concentrate on the IPython notebooks until we have a critical mass of material to begin summarizing.  
