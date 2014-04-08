@@ -52,7 +52,8 @@ NOTE: See github.com/osgeo/Cat-Interop for a project that should be included as 
 The Extreme Events theme, as its name suggests, focuses on the analysis of data related to events that produce extreme adverse effects across a geographic area.  Possible topics within this theme may include, but not be limited to, the following:
 
 ## Scenario A: Severe Coastal Storm
-[IPython Notebook comparing observed and modeled water levels using CSW, SOS and OPeNDAP](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/rsignell-usgs/notebook/master/CSW/IOOS_inundation.ipynb)
+* [IPython Notebook comparing observed and modeled water levels using CSW, SOS and OPeNDAP](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/rsignell-usgs/notebook/master/CSW/IOOS_inundation.ipynb)
+
 As a severe storm is approaching the U.S. East Coast which will result in inundation, flooding, and wind damage over an extensive area. Coastal emergency managers must prepare for and respond to flooding as well as plan and implement evacuations.  Emergency managers, forecasters, and researchers currently rely on a number of data sources to do their work, including observations and forecast models:
 * Forecasters are interested to know how federal and non-federal models compare to observed waves, river flows, and water levels, throughout the storm.
 * Coastal emergency managers use inundation and flood data to identify where first responders should dedicate resources. 
