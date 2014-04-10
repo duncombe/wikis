@@ -4,10 +4,9 @@ The distributed, service oriented architecture of DMAC has been implemented most
   
 The DMAC system integration test  (SIT) will evaluate whether the services we have deployed (i.e. SOS, OPeNDAP, WMS, CS/W) to Federal partners and Regional Associations can solve real world problems. 
 
-TODO Insert picture of publish/find/bind.
 
 # What will the system test achieve?
-The DMAC integration testing project will assesses the maturity of DMAC implementation across IOOS Regional Associations and partner federal agencies.  The DMAC System Integration Test will:
+The DMAC system integration test project will assesses the maturity of DMAC implementation across IOOS Regional Associations and partner federal agencies.  The DMAC System Integration Test will:
 
 1. Create test cases which incorporate multiple IOOS Regions and partners, cover a large geographic scope, employ multiple types of data, and cross scientific disciplines.  These test cases demonstrate that data consumers can use DMAC data discovery and access services to get IOOS data in a repeatable way.   
 2. Apply these test cases to real world problems related to Extreme Events and Ecologically Sustainable Marine Energy Planning.
