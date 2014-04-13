@@ -8,11 +8,11 @@ The DMAC system integration test  (SIT) will evaluate whether the services we ha
 # What will the system test achieve?
 The DMAC system integration test project will assesses the maturity of DMAC implementation across IOOS Regional Associations and partner federal agencies.  The DMAC System Integration Test will:
 
-1. Create test cases which incorporate multiple IOOS Regions and partners, cover a large geographic scope, employ multiple types of data, and cross scientific disciplines.  These test cases demonstrate that data consumers can [discover](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs), access, and use data services in a reliable and repeatable way.   
-2. Apply these test cases to real [world problems](https://github.com/ioos/system-test/wiki/Development-of-Test-Themes) related to Extreme Events and Ecologically Sustainable Marine Energy Planning.
+1. Create test themes which incorporate multiple IOOS Regions and partners, cover a large geographic scope,  employ multiple types of data, and cross scientific disciplines.  These test themes demonstrate data that consumers can [discover](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs), access, and use data services in a reliable and repeatable way.   
+2. Apply these test themes to real [world problems](https://github.com/ioos/system-test/wiki/Development-of-Test-Themes) in the form of scenarios related to Extreme Events, Species Protection & Marine Habitat Conservation.
 3. Compile a set of prioritized fixes and enhancements to DMAC data [discovery](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs) and access services
 4. Complete highest priority fixes and enhancements
-5. Publish the test cases to encourage community education and involvement in IOOS
+5. Publish the test scenarios and their associated test scripts to encourage community education and involvement in IOOS
 6. Demonstrate the added value of federal and non-federal data integration by IOOS data management to the ocean and coastal community
 7. Ensure that we can repeat the assessment easily to measure progress over time
 
@@ -30,4 +30,3 @@ The DMAC system integration test project will assesses the maturity of DMAC impl
 *  The project should not require new scientific insights or be designed to enable research.  The object is to test the combined capabilities of the DMAC system, not to challenge the scientific users of the system.  The system cannot grow to support the full creativity of the scientific enterprise until some of the more basic engineering concerns are tested;
 *  The system test should include one or more performance requirements or metrics.  The system components thus far have been designed primarily with functional requirements in mind.  Relatively less attention has been paid to the performance characteristics of the combined systems (think about timing or volume restrictions like downloading an entire HD movie over a 3G cell connection);
 *  The test shouldn't be overly reliant on components over which we have no control.  If a critical failure point is in another agency then it's possible that the test cannot actually proceed without their cooperation;
-
