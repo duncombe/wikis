@@ -15,6 +15,7 @@
 <a name="theme1"/>
 ### Theme 1: Baseline Assessment
 *  [Baseline Assessment of Web Services](https://www.wakari.io/sharing/bundle/hdean/Theme%202_Scenario%20B_Oil%20Tanker%20Spill_Web%20Services%20Count-Copy0)
+*  [Assessment of Model Records](https://www.wakari.io/sharing/bundle/hdean/Test%20Catalogs%20for%20Model%20Outputs)
 
 <a name="theme2"/>
 ### Theme 2: Extreme Events 
