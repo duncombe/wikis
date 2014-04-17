@@ -24,7 +24,7 @@
 
 #### Scenario B: Oil Tanker Spill
 #####Question 1: Can we discover and access the core variables applicable to analysis of an Oil Tanker Spill from the available list of Registries?
-*  [Notebook 2.B.1](https://www.wakari.io/sharing/bundle/hdean/Theme%202_Scenario%20B_Oil%20Tanker%20Spill)
+*  [Notebook 2.B.1](https://www.wakari.io/sharing/bundle/hdean/Theme%202_Scenario%20B_Oil%20Tanker%20Spill_Web%20Services%20Count-Copy0)
 
 #### Scenario C: Search & Rescue - Commercial Aircraft Crash
 
