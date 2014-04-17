@@ -56,6 +56,7 @@
 *  [Python Lists and Loops](http://www.icrar.org/__data/assets/pdf_file/0008/1436615/challenge09b-notes3.pdf)
 *  [Online Stats Reference](https://www.statsoft.com/Textbook/Elementary-Statistics-Concepts/button/1)
 *  [Library of Python Packages](https://github.com/asascience-open)
+*  [WMS Documentation](http://mapserver.org/ogc/wms_server.html#changing-the-online-resource-url)
 
 <a name="4"/>
 ## Existing Notebooks By Category
