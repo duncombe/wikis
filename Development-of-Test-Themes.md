@@ -107,6 +107,10 @@ The ability to quickly and easily integrate these complementary datasets and pre
     *  [NERACOOS Water Level Display](http://p5.neracoos.org/products/modeldata/popup.html?page=popup&platform=hampton&model_type=NEC)
     *  [NERACOOS Water Level Obs/Model Viewer](http://www.neracoos.org/datatools/forecast/modelobs)
 
+### Vertical temperature gradients in a storm forecast region?
+Collect all in situ observations in a given geographical region and determine which are sufficient to calculate vertical gradients.  For those platforms with vertical profiles, search for one or more models covering the same area in time and space and compare models to obs.
+
+
 ## Scenario B: Oil Tanker Spill
 An oil tanker loaded has collided with another vessel 5 nautical miles SE of the entrance to Delaware Bay _(NOTE: can we use another coast, maybe SF Bay?)_.  A large quantity of oil has been released into the marine environment, threatening the shoreline of a particular coastline. 
 
