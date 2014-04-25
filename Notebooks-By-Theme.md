@@ -30,7 +30,7 @@
 
 <a name="theme3"/>
 ### Theme 3: Species Protection & Marine Habitat Conservation
-*  [Assessing Seabird Vulnerability in the Bering Sea](https://www.wakari.io/sharing/bundle/hdean/Theme%203,%20Scenario%20-%20Assessing%20Seabird%20Vulnerability%20in%20the%20Bering%20Sea)
+*  [Assessing Seabird Vulnerability in the Bering Sea](https://www.wakari.io/sharing/bundle/hdean/Theme%203%2C%20Scenario%20-%20Assessing%20Seabird%20Vulnerability%20in%20the%20Bering%20Sea)
 
 #### Scenario A:  Assessing Chesapeake Bay Biology
 #### Scenario B:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast
