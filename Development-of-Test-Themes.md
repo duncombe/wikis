@@ -65,13 +65,15 @@ The ability to quickly and easily integrate these complementary datasets and pre
 
 ### Questions to Guide Corresponding IPython Notebooks
 
-* Can we discover, access and compare modeled water levels by accessing a CSW/CKAN interface or multiple CSW/CKAN interfaces (See, [Service Registries and Data Catalogues](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs) for all available water level models, and then constrain the output for an example bounding box and time period?
-* Can we discover, access, and compare observed water levels from different agencies (e.g. USGS and CO-OPS) to modeled water levels within a particular bounding box and time period? 
+* Can we discover, access and compare modeled water levels, waves, and winds by accessing a CSW/CKAN interface or multiple CSW/CKAN interfaces (See, [Service Registries and Data Catalogues](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs) for all available water level models, and then constrain the output for an example bounding box and time period?
+* Can we discover, access, and compare observed water levels, waves, and winds from different agencies (e.g. USGS and CO-OPS) to modeled water levels, waves, and winds within a particular bounding box and time period? 
 * Is the associated metadata sufficient to provide necessary information about the datasets and to compare the different models and observations on the same reference frame / vertical datum?
 * Can we discover, access, and overlay model data from both non-federal catalogs and federal catalogs?
 * Can we discover, access, and overlay data from federal and non-federal river and coastal flood models including coastal elevation data and baythmetric data in a single IPython notebook?
 * Can we discover, access, and overlay water quality data or inputs to statistical or dynamical water quality models (e.g. precipitation) to determine impacts of inundation to human health?
-* Can we identify models or observations that are routinely used by the community but are not discoverable using these interfaces? 
+* Can we identify models or observations that are routinely used by the community but are not discoverable using these interfaces?
+* Can we estimate the return period of a storm by comparing modeled and/or observed water levels with NOAA exceedance probability plots? 
+* Can we use observed or modeling wind and water level data to help differential between flood and wind damage?
 
 
 ### Required Data to Answer Questions (source identified in parentheses):
