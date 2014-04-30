@@ -188,11 +188,12 @@ The mission of the NOAA National Marine Fisheries Service is to safeguard the vi
 ## Theme 3: Species Protection & Marine Habitat Conservation
 
 <a name="scenario1"/>
-###Scenario: Assessing Seabird Vulnerability in the Bering Sea
+###Scenario 1: Assessing Seabird Vulnerability in the Bering Sea
 
 The climate is changing in the Bering Sea and Aleutian Islands region. Residents, stakeholders, scientists, and natural resource managers are all concerned about the impacts of future climate change on important species, systems and habitats. But projections of future climate are uncertain, and different approaches have different strengths and limitations. With variation in projections, and with different impacts depending on species and systems of concern, how can stakeholders and managers realistically anticipate and plan for the impacts of climate change?
 
 Over the past months, an interdisciplinary team of scientists has begun an effort to assess the vulnerability of  key resources and ecosystem services including marine mammals, fish and commercial fisheries, terrestrial vegetation, human community sustainability and seabirds. Vulnerability assessment is a well-developed, systematic way to “synthesize and integrate scientific information, quantitative analyses, and expert-derived information in order to determine the degree to which specific resources, ecosystems, or other features of interest are susceptible to the effects of climate change” (USFS 2011). The Aleutian and Bering Climate Vulnerability Assessment (ABCVA) proposed to integrate model projections from two recent climate downscaling approaches; one from the Bering Sea Project, and one from the Spatial Tools for Arctic Mapping and Planning (STAMP). Both of these model outputs were ingested into the AOOS data system and results were shared with a team of 30 leading researchers and managers at the recent Alaska Marine Science Symposium in January. Since then, volunteer teams of expert working groups have begun to develop preliminary vulnerability assessment.  Teams have identified specific information gaps and questions of greatest relevance to resource managers and other stakeholders in the region relative to projected changes in climate. 
+
 One team, focused on seabirds, has identified the need for an analytical process that would allow the the exploration of multiple climate projection data sets.  This analytical process, described below, provides an ideal opportunity to evaluate the DMAC system integration capabilities within an existing project with Federal and non-Federal partners and Regional Associations. This project is a collaboration between the Aleutian and Bering Sea Islands Landscape Conservation Cooperative (ABSI LCC), the Alaska Climate Science Center and the Alaska Ocean Observing System (AOOS). It represents approximately a $150,000 investment, contributed in-kind staff time from the three organizations leading the effort, as well as substantial investments of in-kind investments from the 30 members that make up our 5 focal teams.
 The seabird team, which includes collaborators from Audubon Alaska and the U.S. Fish and Wildlife Service, has identified the need for a change detection analysis using 13 projected climate, and climate-derived, raster data layers within the boundaries of Audubon’s recently established  Important Bird Areas (IBAs). Important Bird Areas are zones of high biological productivity and conservation priority for marine bird species extend throughout the Pacific Flyway up the coast of North America, from Mexico to the Gulf of Alaska, through the Bering Sea and into the Arctic Ocean (Smith et al. 2014). Almost 80% of the breeding seabirds within the U.S. are dependent on the Bering Sea and Aleutian Islands making IBAs within our study region especially important.  This process will enable access to complex model outputs, and will create new pathways to discover and explore a broad suite of projected model variables that impact seabirds. Pairing this change detection analysis with expert knowledge on seabird ecology will strengthen the ability of managers to proactively plan for seabird monitoring and conservation. 
 
@@ -252,7 +253,7 @@ SNAP Projections of Sea Ice Area Fraction from CESM-CAM5, CMCC-CM, ACCESS-1, MIR
 
 <a name="scenario2"/>
 
-##Scenario 2: Continental Shelf Use Case Scenario:  
+##Scenario 2: Continental Shelf Use Case 
 
 The Cold Pool is a distinctive along-shelf band of remnant winter bottom water over the mid and outer continental shelf peculiar to the area between the Northeast Peak of Georges Bank and Cape Hatteras that, beginning in April and May each year is defined by its low temperature after the water column stratifies due to increased solar insolation, local fresh water runoff, and reduced wind mixing. Because the Cold Pool is bottom-trapped, it is virtually undetectable by ocean surface remote sensing measurements. Thus existing pictures of Cold Pool distribution are aliased and incomplete and so one of the most poorly understood major MAB features.  The dynamics in this water masses has a disproportionately large role in structuring the biogeochemistry and ecology of the Mid-Atlantic continental shelf.  For example the cold pool defines the thermal refuge provided by the Cold Pool for cold-water fisheries species.  This water masses also is directly relevant to the tropical storm and hurricane intensity.  
 
@@ -273,7 +274,7 @@ Assets that the Broker(s) would potentially access:
 *  NSF BCODMO data repositories
 
 <a name="scenario3"/>
-##Scenario 3: Deep Blue Water Use Case Scenario: 
+##Scenario 3: Deep Blue Water Use Case 
 
 A large community of NSF-funded, field biological and chemical oceanographers utilize the BCODMO data repositories (http://bco-dmo.org/), and a science use-case built to utilize BCO-DMO provides a good entry point for accessing the ocean science "dark data" collected by individual researchers and small teams. BCO-DMO hosts a wide range of data products, primarily discrete data collected from water samples and continuous data from underway instruments and profiling instruments.
 ####Questions to Guide Corresponding IPython Notebooks
