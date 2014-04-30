@@ -252,7 +252,9 @@ SNAP Projections of Sea Ice Area Fraction from CESM-CAM5, CMCC-CM, ACCESS-1, MIR
 
 <a name="scenario2"/>
 
-Continental Shelf Use Case Scenario:  The Cold Pool is a distinctive along-shelf band of remnant winter bottom water over the mid and outer continental shelf peculiar to the area between the Northeast Peak of Georges Bank and Cape Hatteras that, beginning in April and May each year is defined by its low temperature after the water column stratifies due to increased solar insolation, local fresh water runoff, and reduced wind mixing. Because the Cold Pool is bottom-trapped, it is virtually undetectable by ocean surface remote sensing measurements. Thus existing pictures of Cold Pool distribution are aliased and incomplete and so one of the most poorly understood major MAB features.  The dynamics in this water masses has a disproportionately large role in structuring the biogeochemistry and ecology of the Mid-Atlantic continental shelf.  For example the cold pool defines the thermal refuge provided by the Cold Pool for cold-water fisheries species.  This water masses also is directly relevant to the tropical storm and hurricane intensity.  
+##Scenario 2: Continental Shelf Use Case Scenario:  
+
+The Cold Pool is a distinctive along-shelf band of remnant winter bottom water over the mid and outer continental shelf peculiar to the area between the Northeast Peak of Georges Bank and Cape Hatteras that, beginning in April and May each year is defined by its low temperature after the water column stratifies due to increased solar insolation, local fresh water runoff, and reduced wind mixing. Because the Cold Pool is bottom-trapped, it is virtually undetectable by ocean surface remote sensing measurements. Thus existing pictures of Cold Pool distribution are aliased and incomplete and so one of the most poorly understood major MAB features.  The dynamics in this water masses has a disproportionately large role in structuring the biogeochemistry and ecology of the Mid-Atlantic continental shelf.  For example the cold pool defines the thermal refuge provided by the Cold Pool for cold-water fisheries species.  This water masses also is directly relevant to the tropical storm and hurricane intensity.  
 
 ####Questions to Guide Corresponding IPython Notebooks
 
@@ -271,7 +273,9 @@ Assets that the Broker(s) would potentially access:
 *  NSF BCODMO data repositories
 
 <a name="scenario3"/>
-Deep Blue Water Use Case Scenario: A large community of NSF-funded, field biological and chemical oceanographers utilize the BCODMO data repositories (http://bco-dmo.org/), and a science use-case built to utilize BCO-DMO provides a good entry point for accessing the ocean science "dark data" collected by individual researchers and small teams. BCO-DMO hosts a wide range of data products, primarily discrete data collected from water samples and continuous data from underway instruments and profiling instruments.
+##Scenario 3: Deep Blue Water Use Case Scenario: 
+
+A large community of NSF-funded, field biological and chemical oceanographers utilize the BCODMO data repositories (http://bco-dmo.org/), and a science use-case built to utilize BCO-DMO provides a good entry point for accessing the ocean science "dark data" collected by individual researchers and small teams. BCO-DMO hosts a wide range of data products, primarily discrete data collected from water samples and continuous data from underway instruments and profiling instruments.
 ####Questions to Guide Corresponding IPython Notebooks
 Can we compare contemporaneous data from other field programs with ship based field programs in the regional context, VOS lines, autonomous platform networks, satellite remote sensting, and ocean and atmospheric model handcarts.
 
