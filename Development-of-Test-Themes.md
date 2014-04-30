@@ -3,8 +3,8 @@
 [Theme 1: Baseline Assessment](#theme1)  
 [Theme 2: Extreme Events](#theme2)  
 [Theme 3: Species Protection & Marine Habitat Conservation](#theme3)  
-[Scenario: Assessing Seabird Vulnerability in the Bering Sea](#scenario1)
-[Scenario:  Assessing the Atlantic Continental Shelf Cold Pool](#scenario2)
+*  [Scenario: Assessing Seabird Vulnerability in the Bering Sea](#scenario1)
+*  [Scenario:  Assessing the Atlantic Continental Shelf Cold Pool](#scenario2)
 
 <a name="intro"/>
 # Introduction
