@@ -3,9 +3,9 @@
 [Theme 1: Baseline Assessment](#theme1)  
 [Theme 2: Extreme Events](#theme2)  
 [Theme 3: Species Protection & Marine Habitat Conservation](#theme3)  
-*  [Scenario: Assessing Seabird Vulnerability in the Bering Sea](#scenario1)
-*  [Scenario:  Assessing the Atlantic Continental Shelf Cold Pool](#scenario2)
-
+*  [Scenario 1:  Assessing Seabird Vulnerability in the Bering Sea](#scenario1)
+*  [Scenario 2:  Assessing the Atlantic Continental Shelf Cold Pool](#scenario2)
+*  [Scenario 3:  Deep Blue Water Use Case Scenario](#scenario3)
 <a name="intro"/>
 # Introduction
 
@@ -197,7 +197,7 @@ The seabird team, which includes collaborators from Audubon Alaska and the U.S. 
 
 Opportunities to replicate and adapt the workflow processes established by the IOOS System Integration Test could include any other regions where user-defined polygons and IOOS held model projects can be used to define statistical reports for IOOS resources using open-source computing resources. Other examples include using a very similar process to explore the projection space with IBAs in California using the same types of models, or marine mammal distribution areas and how they relate to projections of food sources (e.g., foraging areas associated with rookeries for northern fur seals and Steller sea lions have similarly been identified by NOAA managers). The proposed IPython Notebooks could also be used to explore projected changes in the marine ecosystem and how they relate to Essential Fish Habitat maps.
 
-Questions to Guide Corresponding IPython Notebooks
+####Questions to Guide Corresponding IPython Notebooks
 
 Can all the PMEL models and their corresponding variables be adequately discovered and accessed using IOOS tools?
 
@@ -268,6 +268,24 @@ Assets that the Broker(s) would potentially access:
 *  NASA ocean color and sea surface temperature
 *  OOI Pioneer Array
 *  NSF BCODMO data repositories
+
+<a name="scenario3"/>
+Deep Blue Water Use Case Scenario: A large community of NSF-funded, field biological and chemical oceanographers utilize the BCODMO data repositories (http://bco-dmo.org/), and a science use-case built to utilize BCO-DMO provides a good entry point for accessing the ocean science "dark data" collected by individual researchers and small teams. BCO-DMO hosts a wide range of data products, primarily discrete data collected from water samples and continuous data from underway instruments and profiling instruments.
+####Questions to Guide Corresponding IPython Notebooks
+Can we compare contemporaneous data from other field programs with ship based field programs in the regional context, VOS lines, autonomous platform networks, satellite remote sensting, and ocean and atmospheric model handcarts.
+
+Can we overlay ship cruise tracks with aggregate contemporaneous regional data from other repositories.
+
+Can we extract and aggregate data for regional bounding boxes (on the order of 10 by 10 degrees) centered on the four global OOI moorings(Irminger Sea, Ocean Station Papa, Southern Ocean, Argentine Basin).
+
+Assets that the Broker(s) would potentially access:
+*  Historical data from the region from BCO-DMO
+*  NASA ocean color and sea surface temperature
+*  AVISO altimeter derived surface currents
+*  Argo float vertical profiles (temperature, salinity, other properties)
+*  VOS data for surface carbon dioxide (e.g. from SOCAT http://www.socat.info/)
+*  Navy HYCOM
+*  NCEP reanalysis
 
 ## Scenario A:  Assessing Chesapeake Bay Biology
 The NMFS Chesapeake Bay Office is updating its assessment of Chesapeake Bay biology, using updated information from recent assessment of Bay habitat.  In particular, The Chesapeake Bay Office is preparing a forecast of dead zones in the Bay for the upcoming season, and how the dead zones might affect populations of blue crab and rockfish. 
