@@ -4,7 +4,7 @@
 [Theme 2: Extreme Events](#theme2)  
 [Theme 3: Species Protection & Marine Habitat Conservation](#theme3)  
 [Scenario: Assessing Seabird Vulnerability in the Bering Sea](#scenario1)
-[Scenario:  Assaying the Atlantic Continental Shelf Cold Pool] (#scenario2)
+[Scenario:  Assessing the Atlantic Continental Shelf Cold Pool] (#scenario2)
 
 <a name="intro"/>
 # Introduction
@@ -249,6 +249,26 @@ SNAP AR5 Climate Models from AR5 MRI-CGCM3, RCP 8.5 (Near Surface Winds, Air Tem
 SNAP AR5 Climate Models from AR5 IPSL-CM5A-LR, RCP 8.5 (Near Surface Winds, Air Temperature)
 SNAP Projections of Sea Ice Area Fraction from CESM-CAM5, CMCC-CM, ACCESS-1, MIROC-5, and HAD-GEM2-AO
 
+<a name="scenario2"/>
+
+Continental Shelf Use Case Scenario:  The Cold Pool is a distinctive along-shelf band of remnant winter bottom water over the mid and outer continental shelf peculiar to the area between the Northeast Peak of Georges Bank and Cape Hatteras that, beginning in April and May each year is defined by its low temperature after the water column stratifies due to increased solar insolation, local fresh water runoff, and reduced wind mixing. Because the Cold Pool is bottom-trapped, it is virtually undetectable by ocean surface remote sensing measurements. Thus existing pictures of Cold Pool distribution are aliased and incomplete and so one of the most poorly understood major MAB features.  The dynamics in this water masses has a disproportionately large role in structuring the biogeochemistry and ecology of the Mid-Atlantic continental shelf.  For example the cold pool defines the thermal refuge provided by the Cold Pool for cold-water fisheries species.  This water masses also is directly relevant to the tropical storm and hurricane intensity.  
+
+####Questions to Guide Corresponding IPython Notebooks
+
+Currently there is no annual picture of and trended change in the cold pool along with its the associated biogeochemistry and biology of this region.  
+
+Can we discover, access, and combine multiple surface and in situ data sets housed in a variety of data repositories, available regional and basin scale models, remote sensing, and seasonal weather data/models. 
+
+Can the available assets be easily extracted to create a dynamic visualization of the cold pool and the associated correlations to any available biology and chemistry.  This test case would then phase in the OOI pioneer array as it comes online. 
+
+Assets that the Broker(s) would potentially access:
+*  NOAA IOOS regional RAs (Neracoos, Maracoos, Secora): Access the data [moorings, weather stations, gliders, HF CODAR, as well as any available regional model simulations (ROMs)]
+*  Navy HyCOMM and/or NOAA RTOFS
+*  Historical physical/chemical/biological data from the region from BCO-DMO
+*  NASA ocean color and sea surface temperature
+*  OOI Pioneer Array
+*  NSF BCODMO data repositories
+
 ## Scenario A:  Assessing Chesapeake Bay Biology
 The NMFS Chesapeake Bay Office is updating its assessment of Chesapeake Bay biology, using updated information from recent assessment of Bay habitat.  In particular, The Chesapeake Bay Office is preparing a forecast of dead zones in the Bay for the upcoming season, and how the dead zones might affect populations of blue crab and rockfish. 
 
@@ -336,101 +356,7 @@ The Department of Interior Bureau of Ocean Energy Management is considering open
 * water quality metrics
 
 
-Ocean Use Case Scenario candidates for b-Cubed
 
-Oscar Schofield and Scott Doney
-
-Continental Shelf Use Case Scenario: The Cold Pool is a distinctive along-shelf band of 
-
-remnant winter bottom water over the mid and outer continental shelf peculiar to the area 
-
-between the Northeast Peak of Georges Bank and Cape Hatteras that, beginning in April and 
-
-May each year is defined by its low temperature after the water column stratifies due to increased 
-
-solar insolation, local fresh water runoff, and reduced wind mixing. Because the Cold Pool is 
-
-bottom-trapped, it is virtually undetectable by ocean surface remote sensing measurements. 
-
-Thus existing pictures of Cold Pool distribution are aliased and incomplete and so one of 
-
-the most poorly understood major MAB features. The dynamics in this water masses has a 
-
-disproportionately large role in structuring the biogeochemistry and ecology of the Mid-Atlantic 
-
-continental shelf. For example the cold pool defines the thermal refuge provided by the Cold 
-
-Pool for cold-water fisheries species. This water masses also is directly relevant to the tropical 
-
-storm and hurricane intensity. Currently there is no annual picture of and trended change in the 
-
-cold pool along with its the associated biogeochemistry and biology of this region. Therefore 
-
-the need is discover, access, and combine multiple surface and in situ data sets housed in a 
-
-variety of data repositories, available regional and basin scale models, remote sensing, and 
-
-seasonal weather data/models. Can the available assets be easily extracted to create a dynamic 
-
-visualization of the cold pool and the associated correlations to any available biology and 
-
-chemistry. This test case would then phase in the OOI pioneer array as it comes online. 
-
-Assets that the Broker(s) would potentially access:
-
-NOAA IOOS regional RAs (Neracoos, Maracoos, Secora): Access the data [moorings, weather 
-
-stations, gliders, HF CODAR, as well as any available regional model simulations (ROMs)]
-
-Navy HyCOMM and/or NOAA RTOFS
-
-Historical physical/chemical/biological data from the region from BCO-DMO
-
-NASA ocean color and sea surface temperature
-
-OOI Pioneer Array
-
-NSF BCODMO data repositories
-
-Deep Blue Water Use Case Scenario: A large community of NSF-funded, field biological and 
-
-chemical oceanographers utilize the BCODMO data repositories (http://bco-dmo.org/), and a 
-
-science use-case built to utilize BCO-DMO provides a good entry point for accessing the ocean 
-
-science "dark data" collected by individual researchers and small teams. BCO-DMO hosts a wide 
-
-range of data products, primarily discrete data collected from water samples and continuous data 
-
-from underway instruments and profiling instruments.
-
-As part of the pre-cruise planning and post-cruise analysis of these ship-based field 
-
-programs, there is typically a need to put data into a regional context through comparisons with 
-
-contemporaneous data from other field programs, VOS lines, autonomous platform networks, 
-
-satellite remote sensing, and ocean and atmosphere model handcarts. A useful test case would be 
-
-to choose a ship cruise track (either an idealized track or one from a real cruise) and then use the 
-
-broker to aggregate contemporaneous regional data (say) from other repositories. One possibility 
-
-would be to extract and aggregate data for regional boxes (on the order of 10x10 degrees) 
-
-centered on the four global OOI moorings (Irminger Sea, Ocean Station Papa, Southern Ocean, 
-
-Assets that the Broker(s) would potentially access:
-
-Historical data from the region from BCO-DMO
-
-NASA ocean color and sea surface temperature
-
-AVISO altimeter derived surface currents
-
-Argo float vertical profiles (temperature, salinity, other properties)
-
-VOS data for surface carbon dioxide (e.g. from SOCAT http://www.socat.info/)
 * RESOURCES Consulted:
     *  The [InVEST Model for Wind Energy Siting](http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/wind_energy.html#required-inputs) is a good starting place for required data sets (See, "Required input" section in the link).
     *  [The Role of Metocean Data in Addressing Project Planning, Design, and Operational Needs](http://www.ametsoc.org/boardpges/cwce/docs/BEP/Offshore-Wind/2013-05-Offshore-Wind-APT-Final-Report.pdf)
