@@ -2,7 +2,7 @@
 [Introduction](#intro)  
 [Theme 1: Baseline Assessment](#theme1)  
 [Theme 2: Extreme Events](#theme2)
-*  [Scenario A: Coastal Inundation](#scenarioA)
+* [Scenario A: Coastal Inundation](#scenarioA)
 *  [Scenario B:  Oil Tanker Spill](#scenarioB)
 *  {Scenario C:  Search & Rescue] (#scenarioC) 
 [Theme 3: Species Protection & Marine Habitat Conservation](#theme3)  
