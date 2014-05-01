@@ -10,6 +10,10 @@
 *  [Scenario A:  Assessing Seabird Vulnerability in the Bering Sea](#scenarioA)
 *  [Scenario B:  Assessing the Atlantic Continental Shelf Cold Pool](#scenarioB)
 *  [Scenario C:  Deep Blue Water Use Case Scenario](#scenarioC)
+*  [Scenario D:  Assessing Chesapeake Bay Biology] (#scenarioD)
+*  [Scenario E:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast](#scenarioE)
+*  [Scenario F:  Planning for Wind Turbine Sites using Ecosystem Base Approach](#scenarioF)
+*  [Scenario G: Mineral Extraction](#scenarioG)
 <a name="intro"/>
 
 # Introduction
@@ -298,7 +302,8 @@ Assets that the Broker(s) would potentially access:
 *  Navy HYCOM
 *  NCEP reanalysis
 
-## Scenario A:  Assessing Chesapeake Bay Biology
+<a name="scenarioD"/>
+## Scenario D:  Assessing Chesapeake Bay Biology
 The NMFS Chesapeake Bay Office is updating its assessment of Chesapeake Bay biology, using updated information from recent assessment of Bay habitat.  In particular, The Chesapeake Bay Office is preparing a forecast of dead zones in the Bay for the upcoming season, and how the dead zones might affect populations of blue crab and rockfish. 
 
 ### Questions to Guide Corresponding IPython Notebooks
@@ -324,7 +329,8 @@ The NMFS Chesapeake Bay Office is updating its assessment of Chesapeake Bay biol
 * Bay water temperature data
 * dissolved oxygen data in the Bay and major tributaries
 
-## Scenario B:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast
+<a name="scenarioE"/>
+## Scenario E:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast
 Major spring and summer feeding grounds for baleen whales are located off the New England Coast.  The NMFS Office of Protected Resources wishes to forecast the biomass off the New England Coast that is available to feed baleen whales during the upcoming spring and summer. 
 
 ### Questions to Guide Corresponding IPython Notebooks
@@ -342,7 +348,8 @@ Major spring and summer feeding grounds for baleen whales are located off the Ne
 * phytoplankton and zooplankton survey data
 * whale population survey data 
 
-## Scenario C:  Planning for Wind Turbine Sites using Ecosystem Base Approach
+<a name="scenarioF"/>
+## Scenario F:  Planning for Wind Turbine Sites using Ecosystem Base Approach
 A state is is the process of delimiting an area off its coast that is suitable for the placement of a major wind turbine farm.  The state must adhere to a number of laws and implementing policies before it can formally delineate an area for wind turbine development and solicit bids.
 
 ### Questions to Guide Corresponding IPython Notebooks
@@ -367,7 +374,8 @@ A state is is the process of delimiting an area off its coast that is suitable f
 * sediment transport
 * nutrients
 
-## Scenario D:  Mineral Extraction
+<a name="scenarioG"/>
+## Scenario G:  Mineral Extraction
 The Department of Interior Bureau of Ocean Energy Management is considering opening several tracts in the Gulf of Mexico for petroleum exploration. As part of their due diligence under regulations implementing the Outer Continental Shelf Lands Act, the Bureau must prepare an environmental impact statement before opening the tract to bids. The environmental impact statement must consider the potential impact of exploration and drilling on area fisheries.
 
 ### Questions to Guide Corresponding IPython Notebooks
