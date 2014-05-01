@@ -213,34 +213,33 @@ Can we create a standardized matrix or other display method for output variables
 
 Can we develop a set of process-specific guidelines and a standardized set of outputs for a tool that would allow researchers to address a diversity of resource management questions relative to projected changes in climate for specific zones of interest?
 
-Data Required to Answer Questions
+####Data Required to Answer Questions
 
-Important Bird Areas (IBAs) defined by the Arctic Marine Synthesis study (http://portal.aoos.org/?v=rand&portal_id=25#metadata/cd96fa58-aeb5-11e2-8a9a-00219bfe5678)
+*  Important Bird Areas (IBAs) defined by the Arctic Marine Synthesis study (http://portal.aoos.org/?v=rand&portal_id=25#metadata/cd96fa58-aeb5-11e2-8a9a-00219bfe5678)
+*  PMEL-run Model Forecasts for Bering Sea (hosted by AOOS) that are oceanographic-climate coupled models:
+    *  ECHO-G
+    *  CCCma
+    *  MIROC
 
-PMEL-run Model Forecasts for Bering Sea (hosted by AOOS) that are oceanographic-climate coupled models:
-ECHO-G
-CCCma
-MIROC
-
-Variables contained in each PMEL Model:
-Sea Water Temperature
-Small Phytoplankton Concentration
-Euphausiids Concentration
-Benthic Infauna
-Current Velocity
-Benthic Detritus Concentration
-Small Coastal Copepod Concentration
-Large Microzooplankton Concentration
-Neocalanus Concentration
-Large Phytoplankton Concentration
-Offshore Neocalanus Concentration
-Ice Phytoplankton Concentration
-Sea Ice Area Fraction
+####Variables contained in each PMEL Model:
+*  Sea Water Temperature
+*  Small Phytoplankton Concentration
+*  Euphausiids Concentration
+*  Benthic Infauna
+*  Current Velocity
+*  Benthic Detritus Concentration
+*  Small Coastal Copepod Concentration
+*  Large Microzooplankton Concentration
+*  Neocalanus Concentration
+*  Large Phytoplankton Concentration
+*  Offshore Neocalanus Concentration
+*  Ice Phytoplankton Concentration
+*  Sea Ice Area Fraction
 
 If time permits, secondary PMEL-produced models could also be tested (but results kept separate from the above)
-FORECAST
-NCEP CFS-R
-CLIVAR
+*  FORECAST
+*  NCEP CFS-R
+*  CLIVAR
 
 Other oceanographic-only models held by AOOS that could be tested for changes in projected climate variability (but not projected biological variability) include:
 SNAP AR5 Climate Models from AR5 GFDL-CM3, RCP 6.0 (Near Surface Winds, Air Temperature)
