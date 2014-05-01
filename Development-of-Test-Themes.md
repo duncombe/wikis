@@ -1,10 +1,11 @@
  
 [Introduction](#intro)  
 [Theme 1: Baseline Assessment](#theme1)  
-[Theme 2: Extreme Events](#theme2)
+[Theme 2: Extreme Events](#theme2)   
 * [Scenario A: Coastal Inundation](#scenarioA)
-*  [Scenario B:  Oil Tanker Spill](#scenarioB)
-*  [Scenario C:  Search & Rescue] (#scenarioC)      
+* [Scenario B:  Oil Tanker Spill](#scenarioB)
+* [Scenario C:  Search & Rescue] (#scenarioC)  
+    
 [Theme 3: Species Protection & Marine Habitat Conservation](#theme3)  
 *  [Scenario A:  Assessing Seabird Vulnerability in the Bering Sea](#scenarioA)
 *  [Scenario B:  Assessing the Atlantic Continental Shelf Cold Pool](#scenarioB)
