@@ -1,8 +1,9 @@
-[General Resources and References](#1)  
-[Policy Documents/References](#2)  
-[Tutorials and References](#3)  
-[Notebooks By Category](#4)  
-[Abbreviated Terms](#5)  
+[General Resources and References](#1)
+[Gridded Ocean Data Available for Visualization and Download](#2)  
+[Policy Documents/References](#3)  
+[Tutorials and References](#4)  
+[Notebooks By Category](#5)  
+[Abbreviated Terms](#6)  
 
 <a name="1"/>
 ## General Resources and References
@@ -28,6 +29,10 @@
     *  [Elevated East Coast Sea Level Anomaly, NOAA Technical Report NOS CO-OPS 051](http://tidesandcurrents.noaa.gov/publications/EastCoastSeaLevelAnomaly_2009.pdf)
 
 <a name="2"/>
+### Gridded Ocean Data Available for Visualization and Download
+A number of visualization models are linked from the Marineexplore.com blog [http://blog.marinexplore.com/15-beautiful-ocean-data-visualizations/](http://blog.marinexplore.com/15-beautiful-ocean-data-visualizations/)
+
+<a name="3"/>
 ### Policy and Standards Documents
 *  [IOOS Build Out Plan Synthesis](http://www.ioosassociation.org/sites/nfra/files/documents/ioos_documents/regional/BOP%20Synthesis%20Final.pdf)
 *  [FEMA report on post Sandy](http://www.fema.gov/media-library/assets/documents/33772)
@@ -38,7 +43,7 @@
 *  [ISO Standards](http://www.iso.org/iso/home/standards.htm)
 *  [NISO Standards](http://www.niso.org/apps/group_public/download.php/10256/Z39-85-2012_dublin_core.pdf)
 
-<a name="3"/>
+<a name="4"/>
 ### Tutorials and References
 *  [IPython Notebook Documents](http://ipython.org/ipython-doc/dev/interactive/notebook.html)
 *  [Tutorial on Wakari Environments](https://www.youtube.com/watch?v=6mxCf8a_rMM)
@@ -60,7 +65,7 @@
 *  [Library of Python Packages](https://github.com/asascience-open)
 *  [WMS Documentation](http://mapserver.org/ogc/wms_server.html#changing-the-online-resource-url)
 
-<a name="4"/>
+<a name="5"/>
 ## Existing Notebooks By Category
 
 *  [Collections of Notebooks by emayorga](https://www.wakari.io/emayorga)
@@ -168,7 +173,7 @@ https://www.wakari.io/sharing/bundle/rsignell/UGRID_Subset_with_time)
 ###Miscellaneous 
 *  [Package for creating IPython Blog Environment](https://www.wakari.io/sharing/bundle/rsignell/blog)
 
-<a name="5"/>
+<a name="6"/>
 ## Abbreviated Terms
 **API** Application Program Interface   
 **DCP** Distributed Computing Platform  
