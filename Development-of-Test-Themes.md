@@ -1,7 +1,10 @@
  
 [Introduction](#intro)  
 [Theme 1: Baseline Assessment](#theme1)  
-[Theme 2: Extreme Events](#theme2)  
+[Theme 2: Extreme Events](#theme2) 
+*  [Scenario A: Coastal Inundation](#scenarioA)
+*  [Scenario B:  Oil Tanker Spill](#scenarioB)
+*  {Scenario C:  Search & Rescue] (#scenarioC) 
 [Theme 3: Species Protection & Marine Habitat Conservation](#theme3)  
 *  [Scenario A:  Assessing Seabird Vulnerability in the Bering Sea](#scenarioA)
 *  [Scenario B:  Assessing the Atlantic Continental Shelf Cold Pool](#scenarioB)
@@ -54,7 +57,8 @@ NOTE: See github.com/osgeo/Cat-Interop for a project that should be included as 
 # Theme 2: Extreme Events 
 The Extreme Events theme, as its name suggests, focuses on the analysis of data related to events that produce extreme adverse effects across a geographic area.  Possible topics within this theme may include, but not be limited to, the following:
 
-## Scenario A: Severe Coastal Storm
+<a name="scenarioA"/>
+## Scenario A: Coastal Inundation
 * [IPython Notebook comparing observed and modeled water levels using CSW, SOS and OPeNDAP](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/rsignell-usgs/notebook/master/CSW/IOOS_inundation.ipynb)
 
 As a severe storm is approaching the U.S. East Coast which will result in inundation, flooding, and wind damage over an extensive area. Coastal emergency managers must prepare for and respond to flooding as well as plan and implement evacuations.  Emergency managers, forecasters, and researchers currently rely on a number of data sources to do their work, including observations and forecast models:
@@ -114,7 +118,7 @@ The ability to quickly and easily integrate these complementary datasets and pre
 ### Vertical temperature gradients in a storm forecast region?
 Collect all in situ observations in a given geographical region and determine which are sufficient to calculate vertical gradients.  For those platforms with vertical profiles, search for one or more models covering the same area in time and space and compare models to obs.
 
-
+<a name="scenarioB"/>
 ## Scenario B: Oil Tanker Spill
 An oil tanker loaded has collided with another vessel 5 nautical miles SE of the entrance to Delaware Bay _(NOTE: can we use another coast, maybe SF Bay?)_.  A large quantity of oil has been released into the marine environment, threatening the shoreline of a particular coastline. 
 
@@ -153,6 +157,7 @@ An oil tanker loaded has collided with another vessel 5 nautical miles SE of the
     *  [General NOAA Operational Modeling Environment](http://response.restoration.noaa.gov/gnome)
     *  [Gulf of Mexico Research Initiative Data Discovery](https://data.gulfresearchinitiative.org/)
 
+<a name="scenarioC"/>
 ## Scenario C: Search & Rescue - Commercial Aircraft Crash
 A large commercial aircraft en route LAX from Honolulu with several hundred passengers onboard has crashed into the Pacific Ocean midway between the Hawaiian Islands and the California coast.  A massive search and rescue effort is underway.  This effort can be improved by integrated knowledge of the physical/chemical/biological conditions of the atmosphere and ocean.
 
@@ -187,8 +192,8 @@ The mission of the NOAA National Marine Fisheries Service is to safeguard the vi
 
 ## Theme 3: Species Protection & Marine Habitat Conservation
 
-<a name="scenario1"/>
-###Scenario 1: Assessing Seabird Vulnerability in the Bering Sea
+<a name="scenarioA"/>
+###Scenario A: Assessing Seabird Vulnerability in the Bering Sea
 
 The climate is changing in the Bering Sea and Aleutian Islands region. Residents, stakeholders, scientists, and natural resource managers are all concerned about the impacts of future climate change on important species, systems and habitats. But projections of future climate are uncertain, and different approaches have different strengths and limitations. With variation in projections, and with different impacts depending on species and systems of concern, how can stakeholders and managers realistically anticipate and plan for the impacts of climate change?
 
@@ -250,9 +255,9 @@ SNAP AR5 Climate Models from AR5 MRI-CGCM3, RCP 8.5 (Near Surface Winds, Air Tem
 SNAP AR5 Climate Models from AR5 IPSL-CM5A-LR, RCP 8.5 (Near Surface Winds, Air Temperature)
 SNAP Projections of Sea Ice Area Fraction from CESM-CAM5, CMCC-CM, ACCESS-1, MIROC-5, and HAD-GEM2-AO
 
-<a name="scenario2"/>
+<a name="scenarioB"/>
 
-##Scenario 2: Continental Shelf Use Case 
+##Scenario B: Continental Shelf Use Case 
 
 The Cold Pool is a distinctive along-shelf band of remnant winter bottom water over the mid and outer continental shelf peculiar to the area between the Northeast Peak of Georges Bank and Cape Hatteras that, beginning in April and May each year is defined by its low temperature after the water column stratifies due to increased solar insolation, local fresh water runoff, and reduced wind mixing. Because the Cold Pool is bottom-trapped, it is virtually undetectable by ocean surface remote sensing measurements. Thus existing pictures of Cold Pool distribution are aliased and incomplete and so one of the most poorly understood major MAB features.  The dynamics in this water masses has a disproportionately large role in structuring the biogeochemistry and ecology of the Mid-Atlantic continental shelf.  For example the cold pool defines the thermal refuge provided by the Cold Pool for cold-water fisheries species.  This water masses also is directly relevant to the tropical storm and hurricane intensity.  
 
@@ -272,8 +277,8 @@ Assets that the Broker(s) would potentially access:
 *  OOI Pioneer Array
 *  NSF BCODMO data repositories
 
-<a name="scenario3"/>
-##Scenario 3: Deep Blue Water Use Case 
+<a name="scenarioC"/>
+##Scenario C: Deep Blue Water Use Case 
 
 A large community of NSF-funded, field biological and chemical oceanographers utilize the BCODMO data repositories (http://bco-dmo.org/), and a science use-case built to utilize BCO-DMO provides a good entry point for accessing the ocean science "dark data" collected by individual researchers and small teams. BCO-DMO hosts a wide range of data products, primarily discrete data collected from water samples and continuous data from underway instruments and profiling instruments.
 ####Questions to Guide Corresponding IPython Notebooks
