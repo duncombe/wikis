@@ -82,6 +82,7 @@ http://www.neracoos.org/datatools/forecast/modelobs
 
 <a name="4"/>
 ### Policy and Standards Documents
+*  [NetCDF CF Metadata Conventions](http://cfconventions.org)
 *  [IOOS Build Out Plan Synthesis](http://www.ioosassociation.org/sites/nfra/files/documents/ioos_documents/regional/BOP%20Synthesis%20Final.pdf)
 *  [FEMA report on post Sandy](http://www.fema.gov/media-library/assets/documents/33772)
 *  [Strategic Plan for Federal Research and Monitoring of Ocean Acidification](http://www.whitehouse.gov/sites/default/files/microsites/ostp/NSTC/iwg-oa_strategic_plan_march_2014.pdf)
