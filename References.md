@@ -93,25 +93,31 @@ http://www.neracoos.org/datatools/forecast/modelobs
 
 <a name="5"/>
 ### Tutorials and References
-*  [IPython Notebook Documents](http://ipython.org/ipython-doc/dev/interactive/notebook.html)
-*  [Tutorial on Wakari Environments](https://www.youtube.com/watch?v=6mxCf8a_rMM)
-*  [Anaconda Environments How To](https://www.wakari.io/docs/anaconda.html)
-*  [Custom Wakari Environments](http://continuum.io/blog/wakari_custom_envs)
-*  [owslib Installation Instructions](https://binstar.org/rsignell/owslib/0.8.6)
-*  [OWSLib 0.8.6 documentation](http://geopython.github.io/OWSLib/) 
-*  [Python Tutorial](http://nbviewer.ipython.org/github/profLewis/geogg122/blob/master/Chapter2_Python_intro/python101.ipynb)
-*  [IPython Tutorial on Accessing Geospatial Data, including NASA data](http://nbviewer.ipython.org/github/profLewis/geogg122/blob/master/Chapter4_GDAL/GDAL_HDF.ipynb)
-*  [Install Instructions for Wakari Environment](https://github.com/esc24/installation-recipes/blob/78e4b70345c0d093bc2a68f747ad464f584f648e/wakari/install.txt)
-*  [The Python Standard Library](http://docs.python.org/2/library/)
-*  [IOOS Service Registries Github](https://github.com/ioos/registry)
-    *  This site also provides informative webinars about how data is harvested from the regions.
-*  [Step By Step Approach to Exploring Web Map Services](http://nbviewer.ipython.org/github/Unidata/tds-python-workshop/blob/master/wms_sample.ipynb)
-    *  This Notebook is really valuable for looking at code to access various aspects of a map layer and print out available data on those aspect and is written as a tutorial.
-*  [matplotlib Overview and User's Guides](http://matplotlib.org/contents.html)
-*  [Python Lists and Loops](http://www.icrar.org/__data/assets/pdf_file/0008/1436615/challenge09b-notes3.pdf)
-*  [Online Stats Reference](https://www.statsoft.com/Textbook/Elementary-Statistics-Concepts/button/1)
-*  [Library of Python Packages](https://github.com/asascience-open)
-*  [WMS Documentation](http://mapserver.org/ogc/wms_server.html#changing-the-online-resource-url)
+*  Exploring Catalogs
+    *  [IOOS Service Registries Github](https://github.com/ioos/registry)
+        *  This site also provides informative webinars about how data is harvested from the regions.
+    *  [Step By Step Approach to Exploring Web Map Services](http://nbviewer.ipython.org/github/Unidata/tds-python-workshop/blob/master/wms_sample.ipynb)
+        *  This Notebook is really valuable for looking at code to access various aspects of a map layer and print out available data on those aspect and is written as a tutorial.
+    *  [WMS Documentation](http://mapserver.org/ogc/wms_server.html#changing-the-online-resource-url)
+*  Wakari Tutorials
+    *  [IPython Notebook Documents](http://ipython.org/ipython-doc/dev/interactive/notebook.html)
+    *  [Tutorial on Wakari Environments](https://www.youtube.com/watch?v=6mxCf8a_rMM)
+    *  [Anaconda Environments How To](https://www.wakari.io/docs/anaconda.html)
+    *  [Custom Wakari Environments](http://continuum.io/blog/wakari_custom_envs)
+    *  [owslib Installation Instructions](https://binstar.org/rsignell/owslib/0.8.6)
+    *  [OWSLib 0.8.6 documentation](http://geopython.github.io/OWSLib/) 
+    *  [IPython Tutorial on Accessing Geospatial Data, including NASA data](http://nbviewer.ipython.org/github/profLewis/geogg122/blob/master/Chapter4_GDAL/GDAL_HDF.ipynb)
+    *  [Install Instructions for Wakari Environment](https://github.com/esc24/installation-recipes/blob/78e4b70345c0d093bc2a68f747ad464f584f648e/wakari/install.txt)
+*  Python Tutorials
+    *  [The Python Standard Library](http://docs.python.org/2/library/)
+    *  [Python Lists and Loops](http://www.icrar.org/__data/assets/pdf_file/0008/1436615/challenge09b-notes3.pdf)
+    *  [Python Dicts](https://developers.google.com/edu/python/dict-files)
+    *  [Library of Python Packages](https://github.com/asascience-open)
+    *  [Python Tutorial in Ipython notebooks](http://nbviewer.ipython.org/github/profLewis/geogg122/blob/master/Chapter2_Python_intro/python101.ipynb)
+    *  *  [matplotlib Overview and User's Guides](http://matplotlib.org/contents.html)
+*  Miscelaneous
+    *  [Online Stats Reference](https://www.statsoft.com/Textbook/Elementary-Statistics-Concepts/button/1)
+
 
 <a name="6"/>
 ## Existing Notebooks By Category
