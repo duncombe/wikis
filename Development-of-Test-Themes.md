@@ -85,6 +85,7 @@ The ability to quickly and easily integrate these complementary datasets and pre
 * Can we identify models or observations that are routinely used by the community but are not discoverable using these interfaces?
 * Can we estimate the return period of a storm by comparing modeled and/or observed water levels with NOAA exceedance probability plots? 
 * Can we use observed or modeled wind and water level data to help differentiate between flood and wind damage?
+* Can we detect seiche events from Great Lakes water level data?  Can we characterize the meteorological forcing that caused a seiche?
 
 
 ### Required Data to Answer Questions (source identified in parentheses):
