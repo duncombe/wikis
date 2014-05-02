@@ -30,7 +30,7 @@
     *  [Elevated East Coast Sea Level Anomaly, NOAA Technical Report NOS CO-OPS 051](http://tidesandcurrents.noaa.gov/publications/EastCoastSeaLevelAnomaly_2009.pdf)
 
 <a name="2"/>
-### Gridded Ocean Data Available for Visualization and Download
+## Gridded Ocean Data Available for Visualization and Download
 A number of visualization models are linked from the Marineexplore.com blog [http://blog.marinexplore.com/15-beautiful-ocean-data-visualizations/](http://blog.marinexplore.com/15-beautiful-ocean-data-visualizations/)
 
 <a name="3"/>
