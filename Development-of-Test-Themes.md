@@ -76,16 +76,17 @@ The ability to quickly and easily integrate these complementary datasets and pre
 
 ### Questions to Guide Corresponding IPython Notebooks
 
-* Can we discover, access and compare modeled water levels, waves, and winds by accessing a CSW/CKAN interface or multiple CSW/CKAN interfaces (See, [Service Registries and Data Catalogues](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs) for all available water level models, and then constrain the output for an example bounding box and time period?
-* Can we discover, access, and compare observed water levels, waves, and winds from different agencies (e.g. USGS and CO-OPS) to modeled water levels, waves, and winds within a particular bounding box and time period? 
+* Can we discover, access and compare modeled water levels, waves, winds, and currents by accessing a CSW/CKAN interface or multiple CSW/CKAN interfaces (See, [Service Registries and Data Catalogues](https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs) for all available water level models, and then constrain the output for an example bounding box and time period?
+* Can we discover, access, and compare observed water levels, waves, winds, and currents from different agencies (e.g. USGS and CO-OPS) to modeled water levels, waves, winds, and currents within a particular bounding box and time period? 
 * Is the associated metadata sufficient to provide necessary information about the datasets and to compare the different models and observations on the same reference frame / vertical datum?
 * Can we discover, access, and overlay model data from both non-federal catalogs and federal catalogs?
-* Can we discover, access, and overlay data from federal and non-federal river and coastal flood models including coastal elevation data and baythmetric data in a single IPython notebook?
+* Can we discover, access, and overlay data from federal and non-federal river and coastal flood models including coastal elevation data and bathymetric data in a single IPython notebook?
 * Can we discover, access, and overlay water quality data or inputs to statistical or dynamical water quality models (e.g. precipitation) to determine impacts of inundation to human health?
 * Can we identify models or observations that are routinely used by the community but are not discoverable using these interfaces?
-* Can we estimate the return period of a storm by comparing modeled and/or observed water levels with NOAA exceedance probability plots? 
+* Can we estimate the return period of a water level by comparing modeled and/or observed water levels with NOAA exceedance probability plots? 
 * Can we use observed or modeled wind and water level data to help differentiate between flood and wind damage?
 * Can we detect seiche events from Great Lakes water level data?  Can we characterize the meteorological forcing that caused a seiche?
+* Can we plot the estimated extent of inundation (and associated depths) using USGS storm tide sensors and rapid deployment gages?
 
 
 ### Required Data to Answer Questions (source identified in parentheses):
@@ -100,7 +101,7 @@ The ability to quickly and easily integrate these complementary datasets and pre
 - Near real-time water levels (NOAA)
 - Long-term coastal tidal gauges (USGS, NOAA, USACE) [NOAA Tides Online](http://tidesonline.nos.noaa.gov/plotcomp.shtml?station_info=8410140+-+Eastport,%20ME&type=Tide+Data)
 - Long-term stream gauges (USGS)
-- Rapid deployment tide gauges (USGS)
+- Rapid deployment tide gauges (USGS - e.g. https://water.usgs.gov/floods/events/2011/irene/SurgeAndRDG.html)
 - Rapid deployment stream gauges (USGS)
 - Wave heights sensors (NOAA, IOOS Regions)
 - Barometric pressure data (NOAA NOS, NOAA NWS)
@@ -110,6 +111,7 @@ The ability to quickly and easily integrate these complementary datasets and pre
 - River stage forecast models (NOAA)
 - SLOSH Model (NOAA NHC)
 - ASGS (NOAA NOS)
+- HFRADAR
 - ESTOFS Surge Model, Hurricane Wave Model, etc. (NOAA NWS -[NOMADS Access](http://nomads.ncep.noaa.gov/))
 - OFS Models (NOS - [OFS Model Page] (http://tidesandcurrents.noaa.gov/models.html))
 - Stevens Storm Warning System - [CMS Storm Warning System](http://hudson.dl.stevens-tech.edu/SSWS/)
