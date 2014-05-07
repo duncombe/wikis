@@ -3,6 +3,7 @@
 [Theme 1: Baseline Assessment](#theme1)  
 [Theme 2: Extreme Events](#theme2)   
 * [Scenario A: Coastal Inundation](#scenarioA)
+    *  [Scenario A1: Coastal Flooding Information](#3)
 * [Scenario B:  Oil Tanker Spill](#scenarioB)
 * [Scenario C:  Search & Rescue] (#scenarioC)  
     
@@ -125,6 +126,42 @@ The ability to quickly and easily integrate these complementary datasets and pre
 
 ### Vertical temperature gradients in a storm forecast region?
 Collect all in situ observations in a given geographical region and determine which are sufficient to calculate vertical gradients.  For those platforms with vertical profiles, search for one or more models covering the same area in time and space and compare models to obs.
+
+<a name="3"/>
+####Northeast U.S. Integrated Coastal Flooding Information System
+#####Northeast (or East Coast) Integrated Coastal Flooding Information System Product Description
+The northeast coastal zone (or eastern seaboard) is subject to significant coastal storms such as hurricanes and nor’easters, which can result in significant damage to property and loss of life. Much of the impact from these storms is a result of coastal flooding and erosion. 
+
+NWS forecasters are responsible for forecasting coastal hazards and issuing coastal warnings. Coastal emergency managers must prepare for and respond to flooding as well as plan and implement evacuations. Forecasters and emergency managers often rely on various and disparate data sources to perform there work. Some of the critical data sources used include observations from coastal water level monitoring stations as well as forecasted water level from a variety of models. Local observations of impacts and coastal land elevation data are also important data sources. Integrating these complementary data sets and predictions into a set of tools and displays that effectively delivers information to forecasters and emergency managers and responders could significantly improve their ability to forecast, prepare for and respond to coastal storms.
+
+#####User Community Addressed
+The primary user communities for this product are NWS marine forecasters, coastal emergency managers and responders and coastal resource managers. Additional stakeholders include coastal municipal officials and coastal property owners.
+
+#####Questions to Guide Corresponding IPython Notebooks
+This product will integrate critical coastal water level information from water level monitoring stations and various forecasts into a set of interactive visual tools. The displays will include both spatial and temporal display of observed and predicted water level and potential flooding.  The tools will allow the user to view one or more forecasts of water level and view what the predicted surge could be. Specific functional requirements include:
+* Map displays of locations and/or regions that includes information about current water level and potential for flooding
+* Presentation of observed, predicted, surge water height on an interactive graph
+* Ability to set start and end dates of graphs
+* Water level displays allow user to select among various datums (e.g. NAVD88, MLLW) and units (e.g. cm, inches)
+* Water level display integrates local information about flooding if available
+* When available allow user to view multiple forecasts of water level from different models
+* Include a calculation of “consensus” prediction from various models
+* Ability to look at data from past events
+* Display street level flooding predictions in a map view where elevation and high resolution predictions are available
+
+#####Impact
+This integrated information product potentially has high impact because it will integrate critical observations and predictions into a tool that will allow NWS marine forecasters to view multiple predictions ultimately giving them more confidence and improved ability to predict coastal hazards. It will also give emergency managers and responders coastal water level information they need to more effectively prepare and respond to a coastal storm.
+
+#####Feasibility
+This product is highly feasible because many of the required elements currently exist but need to be integrated. There are real-time water level monitoring stations and various water level prediction models operating in the region. There are also data standards/services in place or available that would allow standardized access to observations and forecasts. Additionally, much of the functionality desired for this integrated product already exists in various products (see listing below) and could be enhanced and brought together into an integrated tool. 
+
+####Existing water level and coastal flooding products that have components of the functionality desired in an integrated product:
+*  [NOAA Tides Online](http://tidesonline.nos.noaa.gov/plotcomp.shtml?station_info=8410140+-+Eastport,%20ME&type=Tide+Data)
+*  [CMS Storm warning system](http://hudson.dl.stevens-tech.edu/SSWS/)
+*  [Delaware Coastal Flood Monitoring System](http://www.coastal-flood.udel.edu/)
+*  [NERACOOS coastal flooding and erosion tool](http://www.neracoos.org/dataproducts/forecast/coastal_flooding_forecast/portland)
+*  [NERACOOS Water Level Display](http://p5.neracoos.org/products/modeldata/popup.html?page=popup&platform=hampton&model_type=NEC)
+*  [NERACOOS water level obs/model viewer](http://www.neracoos.org/datatools/forecast/modelobs)
 
 <a name="scenarioB"/>
 ## Scenario B: Oil Tanker Spill
