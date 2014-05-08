@@ -70,6 +70,7 @@
     *  [pycsw Workshop Materials](http://www.coastalmarinedata.net/pycsw-workshop-materials-now-posted/)
 *  Miscelaneous
     *  [Online Stats Reference](https://www.statsoft.com/Textbook/Elementary-Statistics-Concepts/button/1)
+    *  [KML Documentation](https://developers.google.com/kml/documentation/kml_tut)
 
 
 <a name="6"/>
