@@ -18,7 +18,10 @@ The Baseline Assessment theme will compile basic summary statistics for each cat
 
 1. Count the records in each CSW: Theme1.ScenarioA.csw_count.ipynb
 2. Summarize the usage of service endpoint identifiers: Theme1.ScenarioA.service_identifiers.ipynb
-3. 
+3. Vocabulary related summaries
+   * Presence absence of CF Standard names
+   * Presence/absence of IOOS core variables, IOOS Vocab at MMI, SWEET terms, BODC P02 terms
+
 *  [Examining CSW Endpoints](http://nbviewer.ipython.org/gist/emiliom/7459209) (Emilio Mayorga, 11/15/2013)
 *  [Baseline Assessment of Web Services](https://www.wakari.io/sharing/bundle/hdean/Theme%202_Scenario%20B_Oil%20Tanker%20Spill_Web%20Services%20Count-Copy0)
 *  [Assessment of Model Records](https://www.wakari.io/sharing/bundle/hdean/Test%20Catalogs%20for%20Model%20Outputs)
