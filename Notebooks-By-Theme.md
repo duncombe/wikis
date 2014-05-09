@@ -14,6 +14,11 @@
 
 <a name="theme1"/>
 ### Theme 1: Baseline Assessment
+The Baseline Assessment theme will compile basic summary statistics for each catalog that will be used in the other science themes.  For example, how many records are loaded in each CSW?  For each record, assess whether or not service endpoints are present and [identifiable using standard vocabularies](https://github.com/OSGeo/Cat-Interop).
+
+1. Count the records in each CSW: Theme1.ScenarioA.csw_count.ipynb
+2. Summarize the usage of service endpoint identifiers: Theme1.ScenarioA.service_identifiers.ipynb
+3. 
 *  [Examining CSW Endpoints](http://nbviewer.ipython.org/gist/emiliom/7459209) (Emilio Mayorga, 11/15/2013)
 *  [Baseline Assessment of Web Services](https://www.wakari.io/sharing/bundle/hdean/Theme%202_Scenario%20B_Oil%20Tanker%20Spill_Web%20Services%20Count-Copy0)
 *  [Assessment of Model Records](https://www.wakari.io/sharing/bundle/hdean/Test%20Catalogs%20for%20Model%20Outputs)
