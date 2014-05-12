@@ -8,13 +8,13 @@
 * [Scenario C:  Search & Rescue] (#scenarioC)  
     
 [Theme 3: Species Protection & Marine Habitat Conservation](#theme3)  
-*  [Scenario D:  Assessing Seabird Vulnerability in the Bering Sea](#scenarioD)
-*  [Scenario E:  Assessing the Atlantic Continental Shelf Cold Pool](#scenarioE)
-*  [Scenario F:  Deep Blue Water Use Case Scenario](#scenarioF)
-*  [Scenario G:  Assessing Chesapeake Bay Biology] (#scenarioG)
-*  [Scenario H:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast](#scenarioH)
-*  [Scenario I:  Planning for Wind Turbine Sites using Ecosystem Base Approach](#scenarioI)
-*  [Scenario J: Mineral Extraction](#scenarioJ)
+*  [Scenario A:  Assessing Seabird Vulnerability in the Bering Sea](#scenarioD)
+*  [Scenario B:  Assessing the Atlantic Continental Shelf Cold Pool](#scenarioE)
+*  [Scenario C:  Deep Blue Water Use Case Scenario](#scenarioF)
+*  [Scenario D:  Assessing Chesapeake Bay Biology] (#scenarioG)
+*  [Scenario E:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast](#scenarioH)
+*  [Scenario A:  Planning for Wind Turbine Sites using Ecosystem Base Approach](#scenarioI)
+*  [Scenario B: Mineral Extraction](#scenarioJ)
 <a name="intro"/>
 
 # Introduction
@@ -238,7 +238,7 @@ The mission of the NOAA National Marine Fisheries Service is to safeguard the vi
 ## Theme 3: Species Protection & Marine Habitat Conservation
 
 <a name="scenarioD"/>
-###Scenario D: Assessing Seabird Vulnerability in the Bering Sea
+###Scenario A: Assessing Seabird Vulnerability in the Bering Sea
 
 The climate is changing in the Bering Sea and Aleutian Islands region. Residents, stakeholders, scientists, and natural resource managers are all concerned about the impacts of future climate change on important species, systems and habitats. But projections of future climate are uncertain, and different approaches have different strengths and limitations. With variation in projections, and with different impacts depending on species and systems of concern, how can stakeholders and managers realistically anticipate and plan for the impacts of climate change?
 
@@ -302,7 +302,7 @@ SNAP Projections of Sea Ice Area Fraction from CESM-CAM5, CMCC-CM, ACCESS-1, MIR
 
 <a name="scenarioE"/>
 
-##Scenario E: Continental Shelf Use Case 
+##Scenario B: Continental Shelf Use Case 
 
 The Cold Pool is a distinctive along-shelf band of remnant winter bottom water over the mid and outer continental shelf peculiar to the area between the Northeast Peak of Georges Bank and Cape Hatteras that, beginning in April and May each year is defined by its low temperature after the water column stratifies due to increased solar insolation, local fresh water runoff, and reduced wind mixing. Because the Cold Pool is bottom-trapped, it is virtually undetectable by ocean surface remote sensing measurements. Thus existing pictures of Cold Pool distribution are aliased and incomplete and so one of the most poorly understood major MAB features.  The dynamics in this water masses has a disproportionately large role in structuring the biogeochemistry and ecology of the Mid-Atlantic continental shelf.  For example the cold pool defines the thermal refuge provided by the Cold Pool for cold-water fisheries species.  This water masses also is directly relevant to the tropical storm and hurricane intensity.  
 
@@ -343,7 +343,7 @@ Assets that the Broker(s) would potentially access:
 *  NCEP reanalysis
 
 <a name="scenarioG"/>
-## Scenario G:  Assessing Chesapeake Bay Biology
+## Scenario C:  Assessing Chesapeake Bay Biology
 The NMFS Chesapeake Bay Office is updating its assessment of Chesapeake Bay biology, using updated information from recent assessment of Bay habitat.  In particular, The Chesapeake Bay Office is preparing a forecast of dead zones in the Bay for the upcoming season, and how the dead zones might affect populations of blue crab and rockfish. 
 
 ### Questions to Guide Corresponding IPython Notebooks
@@ -370,7 +370,7 @@ The NMFS Chesapeake Bay Office is updating its assessment of Chesapeake Bay biol
 * dissolved oxygen data in the Bay and major tributaries
 
 <a name="scenarioH"/>
-## Scenario H:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast
+## Scenario D:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast
 Major spring and summer feeding grounds for baleen whales are located off the New England Coast.  The NMFS Office of Protected Resources wishes to forecast the biomass off the New England Coast that is available to feed baleen whales during the upcoming spring and summer. 
 
 ### Questions to Guide Corresponding IPython Notebooks
@@ -389,7 +389,7 @@ Major spring and summer feeding grounds for baleen whales are located off the Ne
 * whale population survey data 
 
 <a name="scenarioI"/>
-## Scenario I:  Planning for Wind Turbine Sites using Ecosystem Base Approach
+## Scenario A:  Planning for Wind Turbine Sites using Ecosystem Base Approach
 A state is is the process of delimiting an area off its coast that is suitable for the placement of a major wind turbine farm.  The state must adhere to a number of laws and implementing policies before it can formally delineate an area for wind turbine development and solicit bids.
 
 ### Questions to Guide Corresponding IPython Notebooks
@@ -415,7 +415,7 @@ A state is is the process of delimiting an area off its coast that is suitable f
 * nutrients
 
 <a name="scenarioJ"/>
-## Scenario J:  Mineral Extraction
+## Scenario B:  Mineral Extraction
 The Department of Interior Bureau of Ocean Energy Management is considering opening several tracts in the Gulf of Mexico for petroleum exploration. As part of their due diligence under regulations implementing the Outer Continental Shelf Lands Act, the Bureau must prepare an environmental impact statement before opening the tract to bids. The environmental impact statement must consider the potential impact of exploration and drilling on area fisheries.
 
 ### Questions to Guide Corresponding IPython Notebooks
