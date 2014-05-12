@@ -53,6 +53,7 @@
         *  This Notebook is really valuable for looking at code to access various aspects of a map layer and print out available data on those aspect and is written as a tutorial.
     *  [WMS Documentation](http://mapserver.org/ogc/wms_server.html#changing-the-online-resource-url)
 *  Wakari Tutorials
+    *  [Versioning Wakari notebooks on Github](https://www.youtube.com/watch?v=0SQa2a18tMM)
     *  [IPython Notebook Documents](http://ipython.org/ipython-doc/dev/interactive/notebook.html)
     *  [Tutorial on Wakari Environments](https://www.youtube.com/watch?v=6mxCf8a_rMM)
     *  [Anaconda Environments How To](https://www.wakari.io/docs/anaconda.html)
