@@ -13,8 +13,8 @@
 *  [Scenario C:  Deep Blue Water Use Case Scenario](#scenarioF)
 *  [Scenario D:  Assessing Chesapeake Bay Biology] (#scenarioG)
 *  [Scenario E:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast](#scenarioH)
-*  [Scenario A:  Planning for Wind Turbine Sites using Ecosystem Base Approach](#scenarioI)
-*  [Scenario B: Mineral Extraction](#scenarioJ)
+*  [Scenario F:  Planning for Wind Turbine Sites using Ecosystem Base Approach](#scenarioI)
+*  [Scenario G: Mineral Extraction](#scenarioJ)
 <a name="intro"/>
 
 # Introduction
@@ -389,7 +389,7 @@ Major spring and summer feeding grounds for baleen whales are located off the Ne
 * whale population survey data 
 
 <a name="scenarioI"/>
-## Scenario A:  Planning for Wind Turbine Sites using Ecosystem Base Approach
+## Scenario F:  Planning for Wind Turbine Sites using Ecosystem Base Approach
 A state is is the process of delimiting an area off its coast that is suitable for the placement of a major wind turbine farm.  The state must adhere to a number of laws and implementing policies before it can formally delineate an area for wind turbine development and solicit bids.
 
 ### Questions to Guide Corresponding IPython Notebooks
@@ -415,7 +415,7 @@ A state is is the process of delimiting an area off its coast that is suitable f
 * nutrients
 
 <a name="scenarioJ"/>
-## Scenario B:  Mineral Extraction
+## Scenario G:  Mineral Extraction
 The Department of Interior Bureau of Ocean Energy Management is considering opening several tracts in the Gulf of Mexico for petroleum exploration. As part of their due diligence under regulations implementing the Outer Continental Shelf Lands Act, the Bureau must prepare an environmental impact statement before opening the tract to bids. The environmental impact statement must consider the potential impact of exploration and drilling on area fisheries.
 
 ### Questions to Guide Corresponding IPython Notebooks
