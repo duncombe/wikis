@@ -45,6 +45,7 @@
 
 <a name="5"/>
 ### Tutorials and References
+*  [Editor Commands](http://www.cs.rit.edu/~cslab/vi.html)
 *  Exploring Catalogs
     *  [IOOS Service Registries Github](https://github.com/ioos/registry)
         *  This site also provides informative webinars about how data is harvested from the regions.
