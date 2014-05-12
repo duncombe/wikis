@@ -23,7 +23,7 @@ The Baseline Assessment theme will compile basic summary statistics for each cat
    * Presence/absence of IOOS core variables, IOOS Vocab at MMI, SWEET terms, BODC P02 terms
 
 *  [Examining CSW Endpoints](http://nbviewer.ipython.org/gist/emiliom/7459209) (Emilio Mayorga, 11/15/2013)
-*  [Baseline Assessment of Web Services](https://www.wakari.io/sharing/bundle/hdean/Theme%202_Scenario%20B_Oil%20Tanker%20Spill_Web%20Services%20Count-Copy0)
+*  [Baseline Assessment of Web Services](https://www.wakari.io/sharing/bundle/hdean/Test%20Catalogs%20for%20WMS%20Layers)
 *  [Assessment of Model Records](https://www.wakari.io/sharing/bundle/hdean/Test%20Catalogs%20for%20Model%20Outputs)
 *  [Assessing Catalogs for inclusion of Agency Records](https://www.wakari.io/sharing/bundle/hdean/Theme%201_Baseline_Federal%20Agency%20Metrics)
 
