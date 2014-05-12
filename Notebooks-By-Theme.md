@@ -32,6 +32,8 @@ The Baseline Assessment theme will compile basic summary statistics for each cat
 #### Scenario A: Severe Coastal Storm
    *  [Inundation Notebook](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/rsignell-usgs/notebook/fef9438303b49a923024892db1ef3115e34d8271/CSW/IOOS_inundation.ipynb?create=1)
 
+ *  [Waterlevel Extremes Notebook](http://nbviewer.ipython.org/github/asascience-open/ioos_system_test/blob/master/notebooks/theme_2/ioos_extreme_events.ipynb?create=1)
+
 #### Scenario B: Oil Tanker Spill
 #####Question 1: Can we discover and access the core variables applicable to analysis of an Oil Tanker Spill from the available list of Registries?
 *  [Notebook 2.B.1](https://www.wakari.io/sharing/bundle/hdean/Theme%202_Scenario%20B_Oil%20Tanker%20Spill_Web%20Services%20Count-Copy0)
