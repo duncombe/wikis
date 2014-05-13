@@ -14,7 +14,7 @@
 *  [Scenario 3D:  Assessing Chesapeake Bay Biology] (#scenario3D)
 *  [Scenario 3E:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast](#scenario3E)
 *  [Scenario 3F:  Planning for Wind Turbine Sites using Ecosystem Base Approach](#scenario3F)
-*  [Scenario 3G: Mineral Extraction](#scenarioJ)
+*  [Scenario 3G: Mineral Extraction](#scenario3G)
 <a name="intro"/>
 
 # Introduction
