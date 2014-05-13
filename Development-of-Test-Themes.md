@@ -2,19 +2,19 @@
 [Introduction](#intro)  
 [Theme 1: Baseline Assessment](#theme1)  
 [Theme 2: Extreme Events](#theme2)   
-* [Scenario A: Coastal Inundation](#scenarioA)
-    *  [Scenario A1: Coastal Flooding Information](#3)
-* [Scenario B:  Oil Tanker Spill](#scenarioB)
-* [Scenario C:  Search & Rescue] (#scenarioC)  
+* [Scenario 2A: Coastal Inundation](#scenarioA)
+*  [Scenario 2B: Coastal Flooding Information](#3)
+* [Scenario 2C:  Oil Tanker Spill](#scenarioB)
+* [Scenario 2D:  Search & Rescue] (#scenarioC)  
     
 [Theme 3: Species Protection & Marine Habitat Conservation](#theme3)  
-*  [Scenario A:  Assessing Seabird Vulnerability in the Bering Sea](#scenarioD)
-*  [Scenario B:  Assessing the Atlantic Continental Shelf Cold Pool](#scenarioE)
-*  [Scenario C:  Deep Blue Water Use Case Scenario](#scenarioF)
-*  [Scenario D:  Assessing Chesapeake Bay Biology] (#scenarioG)
-*  [Scenario E:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast](#scenarioH)
-*  [Scenario F:  Planning for Wind Turbine Sites using Ecosystem Base Approach](#scenarioI)
-*  [Scenario G: Mineral Extraction](#scenarioJ)
+*  [Scenario 3A:  Assessing Seabird Vulnerability in the Bering Sea](#scenarioD)
+*  [Scenario 3B:  Assessing the Atlantic Continental Shelf Cold Pool](#scenarioE)
+*  [Scenario 3C:  Deep Blue Water Use Case Scenario](#scenarioF)
+*  [Scenario 3D:  Assessing Chesapeake Bay Biology] (#scenarioG)
+*  [Scenario 3E:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast](#scenarioH)
+*  [Scenario 3F:  Planning for Wind Turbine Sites using Ecosystem Base Approach](#scenarioI)
+*  [Scenario 3G: Mineral Extraction](#scenarioJ)
 <a name="intro"/>
 
 # Introduction
@@ -63,8 +63,8 @@ NOTE: See github.com/osgeo/Cat-Interop for a project that should be included as 
 # Theme 2: Extreme Events 
 The Extreme Events theme, as its name suggests, focuses on the analysis of data related to events that produce extreme adverse effects across a geographic area.  Possible topics within this theme may include, but not be limited to, the following:
 
-<a name="scenarioA"/>
-## Scenario A: Coastal Inundation
+<a name="scenario2A"/>
+## Scenario 2A: Coastal Inundation
 * [IPython Notebook comparing observed and modeled water levels using CSW, SOS and OPeNDAP](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/rsignell-usgs/notebook/master/CSW/IOOS_inundation.ipynb)
 
 As a severe storm is approaching the U.S. East Coast which will result in inundation, flooding, and wind damage over an extensive area. Coastal emergency managers must prepare for and respond to flooding as well as plan and implement evacuations.  Emergency managers, forecasters, and researchers currently rely on a number of data sources to do their work, including observations and forecast models:
@@ -127,8 +127,8 @@ The ability to quickly and easily integrate these complementary datasets and pre
 ### Vertical temperature gradients in a storm forecast region?
 Collect all in situ observations in a given geographical region and determine which are sufficient to calculate vertical gradients.  For those platforms with vertical profiles, search for one or more models covering the same area in time and space and compare models to obs.
 
-<a name="3"/>
-####Northeast U.S. Integrated Coastal Flooding Information System
+<a name="2B"/>
+## Scenario 2B:  U.S. Integrated Coastal Flooding Information System
 #####Northeast (or East Coast) Integrated Coastal Flooding Information System Product Description
 The northeast coastal zone (or eastern seaboard) is subject to significant coastal storms such as hurricanes and nor’easters, which can result in significant damage to property and loss of life. Much of the impact from these storms is a result of coastal flooding and erosion. 
 
@@ -163,8 +163,8 @@ This product is highly feasible because many of the required elements currently 
 *  [NERACOOS Water Level Display](http://p5.neracoos.org/products/modeldata/popup.html?page=popup&platform=hampton&model_type=NEC)
 *  [NERACOOS water level obs/model viewer](http://www.neracoos.org/datatools/forecast/modelobs)
 
-<a name="scenarioB"/>
-## Scenario B: Oil Tanker Spill
+<a name="scenario2C"/>
+## Scenario 2C: Oil Tanker Spill
 An oil tanker loaded has collided with another vessel 5 nautical miles SE of the entrance to Delaware Bay _(NOTE: can we use another coast, maybe SF Bay?)_.  A large quantity of oil has been released into the marine environment, threatening the shoreline of a particular coastline. 
 
 #### Questions to Guide Corresponding IPython Notebooks
@@ -202,8 +202,8 @@ An oil tanker loaded has collided with another vessel 5 nautical miles SE of the
     *  [General NOAA Operational Modeling Environment](http://response.restoration.noaa.gov/gnome)
     *  [Gulf of Mexico Research Initiative Data Discovery](https://data.gulfresearchinitiative.org/)
 
-<a name="scenarioC"/>
-## Scenario C: Search & Rescue - Commercial Aircraft Crash
+<a name="scenario2D"/>
+## Scenario 2D: Search & Rescue - Commercial Aircraft Crash
 A large commercial aircraft en route LAX from Honolulu with several hundred passengers onboard has crashed into the Pacific Ocean midway between the Hawaiian Islands and the California coast.  A massive search and rescue effort is underway.  This effort can be improved by integrated knowledge of the physical/chemical/biological conditions of the atmosphere and ocean.
 
 ###Questions to Guide Corresponding IPython Notebooks
@@ -235,10 +235,8 @@ A large commercial aircraft en route LAX from Honolulu with several hundred pass
 # Theme 3: Species Protection & Marine Habitat Conservation
 The mission of the NOAA National Marine Fisheries Service is to safeguard the viability of key marine species within the US economic zone.  That mission includes conserving sensitive marine habitat and restoring marine habitat that has been degraded by factors such as destructive fishing techniques and water pollution.  It also includes monitoring and protecting threatened marine species such as sea turtles and whales. The National Marine Fisheries service includes IOOS data in their assessments of habitat and threatened marine species.  Part of the value of integrating species and habitat data into the IOOS system is enabling the resolution of conflicts between human uses of our oceans and the protection of fragile marine habitats and the natural resources that they support.  Activities such as mineral extraction and energy siting require the use of a suite of marine habitat and species data in order to ensure that operations comply with marine conservation laws designed to require managers and policy makers to consider the ecological impacts of human activities.  
 
-## Theme 3: Species Protection & Marine Habitat Conservation
-
-<a name="scenarioD"/>
-###Scenario A: Assessing Seabird Vulnerability in the Bering Sea
+<a name="scenario3A"/>
+###Scenario 3A: Assessing Seabird Vulnerability in the Bering Sea
 
 The climate is changing in the Bering Sea and Aleutian Islands region. Residents, stakeholders, scientists, and natural resource managers are all concerned about the impacts of future climate change on important species, systems and habitats. But projections of future climate are uncertain, and different approaches have different strengths and limitations. With variation in projections, and with different impacts depending on species and systems of concern, how can stakeholders and managers realistically anticipate and plan for the impacts of climate change?
 
@@ -300,9 +298,9 @@ SNAP AR5 Climate Models from AR5 MRI-CGCM3, RCP 8.5 (Near Surface Winds, Air Tem
 SNAP AR5 Climate Models from AR5 IPSL-CM5A-LR, RCP 8.5 (Near Surface Winds, Air Temperature)
 SNAP Projections of Sea Ice Area Fraction from CESM-CAM5, CMCC-CM, ACCESS-1, MIROC-5, and HAD-GEM2-AO
 
-<a name="scenarioE"/>
+<a name="scenario3B"/>
 
-##Scenario B: Continental Shelf Use Case 
+##Scenario 3B: Continental Shelf Use Case 
 
 The Cold Pool is a distinctive along-shelf band of remnant winter bottom water over the mid and outer continental shelf peculiar to the area between the Northeast Peak of Georges Bank and Cape Hatteras that, beginning in April and May each year is defined by its low temperature after the water column stratifies due to increased solar insolation, local fresh water runoff, and reduced wind mixing. Because the Cold Pool is bottom-trapped, it is virtually undetectable by ocean surface remote sensing measurements. Thus existing pictures of Cold Pool distribution are aliased and incomplete and so one of the most poorly understood major MAB features.  The dynamics in this water masses has a disproportionately large role in structuring the biogeochemistry and ecology of the Mid-Atlantic continental shelf.  For example the cold pool defines the thermal refuge provided by the Cold Pool for cold-water fisheries species.  This water masses also is directly relevant to the tropical storm and hurricane intensity.  
 
@@ -322,8 +320,8 @@ Assets that the Broker(s) would potentially access:
 *  OOI Pioneer Array
 *  NSF BCODMO data repositories
 
-<a name="scenarioF"/>
-##Scenario F: Deep Blue Water Use Case 
+<a name="scenario3C"/>
+##Scenario 3C: Deep Blue Water Use Case 
 
 A large community of NSF-funded, field biological and chemical oceanographers utilize the BCODMO data repositories (http://bco-dmo.org/), and a science use-case built to utilize BCO-DMO provides a good entry point for accessing the ocean science "dark data" collected by individual researchers and small teams. BCO-DMO hosts a wide range of data products, primarily discrete data collected from water samples and continuous data from underway instruments and profiling instruments.
 ####Questions to Guide Corresponding IPython Notebooks
@@ -342,8 +340,8 @@ Assets that the Broker(s) would potentially access:
 *  Navy HYCOM
 *  NCEP reanalysis
 
-<a name="scenarioG"/>
-## Scenario C:  Assessing Chesapeake Bay Biology
+<a name="scenario3D"/>
+## Scenario 3D:  Assessing Chesapeake Bay Biology
 The NMFS Chesapeake Bay Office is updating its assessment of Chesapeake Bay biology, using updated information from recent assessment of Bay habitat.  In particular, The Chesapeake Bay Office is preparing a forecast of dead zones in the Bay for the upcoming season, and how the dead zones might affect populations of blue crab and rockfish. 
 
 ### Questions to Guide Corresponding IPython Notebooks
@@ -369,8 +367,8 @@ The NMFS Chesapeake Bay Office is updating its assessment of Chesapeake Bay biol
 * Bay water temperature data
 * dissolved oxygen data in the Bay and major tributaries
 
-<a name="scenarioH"/>
-## Scenario D:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast
+<a name="scenario3E"/>
+## Scenario 3E:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast
 Major spring and summer feeding grounds for baleen whales are located off the New England Coast.  The NMFS Office of Protected Resources wishes to forecast the biomass off the New England Coast that is available to feed baleen whales during the upcoming spring and summer. 
 
 ### Questions to Guide Corresponding IPython Notebooks
@@ -388,8 +386,8 @@ Major spring and summer feeding grounds for baleen whales are located off the Ne
 * phytoplankton and zooplankton survey data
 * whale population survey data 
 
-<a name="scenarioI"/>
-## Scenario F:  Planning for Wind Turbine Sites using Ecosystem Base Approach
+<a name="scenario3F"/>
+## Scenario 3F:  Planning for Wind Turbine Sites using Ecosystem Base Approach
 A state is is the process of delimiting an area off its coast that is suitable for the placement of a major wind turbine farm.  The state must adhere to a number of laws and implementing policies before it can formally delineate an area for wind turbine development and solicit bids.
 
 ### Questions to Guide Corresponding IPython Notebooks
@@ -414,8 +412,8 @@ A state is is the process of delimiting an area off its coast that is suitable f
 * sediment transport
 * nutrients
 
-<a name="scenarioJ"/>
-## Scenario G:  Mineral Extraction
+<a name="scenario3G"/>
+## Scenario 3G:  Mineral Extraction
 The Department of Interior Bureau of Ocean Energy Management is considering opening several tracts in the Gulf of Mexico for petroleum exploration. As part of their due diligence under regulations implementing the Outer Continental Shelf Lands Act, the Bureau must prepare an environmental impact statement before opening the tract to bids. The environmental impact statement must consider the potential impact of exploration and drilling on area fisheries.
 
 ### Questions to Guide Corresponding IPython Notebooks
