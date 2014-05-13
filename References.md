@@ -70,6 +70,7 @@
     *  [Python Tutorial in Ipython notebooks](http://nbviewer.ipython.org/github/profLewis/geogg122/blob/master/Chapter2_Python_intro/python101.ipynb)
     *  [matplotlib Overview and User's Guides](http://matplotlib.org/contents.html)
     *  [pycsw Workshop Materials](http://www.coastalmarinedata.net/pycsw-workshop-materials-now-posted/)
+    *  [Shell Commands](http://learncodethehardway.org/cli/book/cli-crash-course.html#introduction-shut-up-and-shell)
 *  Miscelaneous
     *  [Online Stats Reference](https://www.statsoft.com/Textbook/Elementary-Statistics-Concepts/button/1)
     *  [KML Documentation](https://developers.google.com/kml/documentation/kml_tut)
