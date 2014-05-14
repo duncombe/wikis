@@ -1,4 +1,4 @@
-Environments
+Environments in wakari depend on the channel URLs that are 
 `[~]$ conda info`
 `Current conda install:`
                                                                                                                                                                       
@@ -18,7 +18,7 @@ Environments
     `is foreign system : False`
 
 
-:  OMG!!!
+
 You should be able to do:
 conda install pyoos
 also
