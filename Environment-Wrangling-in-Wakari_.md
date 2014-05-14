@@ -29,6 +29,11 @@ https://conda.binstar.org/wakari1/linux-64/``
 `is foreign system : False`
 
 
+If any of the channel URLs listed above do not appear, you can use the following command to install them:
+
+conda
+
+------my terminal blanked out before I could write down/record the command used to add channels....
 
 You should be able to do:
 conda install pyoos
