@@ -1,4 +1,5 @@
 ###Cell 1:
+```python
 import pandas as pd
 from pandas import Series, DataFrame
 import numpy as np
@@ -28,9 +29,11 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 from SPARQLWrapper import SPARQLWrapper2
 from zipfile import ZipFile
 import xml.sax, xml.sax.handler
+```
 
 ###Cell 2:
 ####This Cell will contain all of your lists that you will access throughout this code.
+```python 
 endpoints = ['http://www.nodc.noaa.gov/geoportal/csw',
              'http://www.ngdc.noaa.gov/geoportal/csw',
              'http://catalog.data.gov/csw-all',
@@ -42,9 +45,11 @@ endpoints = ['http://www.nodc.noaa.gov/geoportal/csw',
              'http://geodiscover.cgdi.ca/wes/serviceManagerCSW/csw', 
              'http://geoport.whoi.edu/gi-cat/services/cswiso']
 var_key = [**Inside this bracket enter in a Comma Separated List of Variables of Interest**]
+```
 
 ###Cell 3:
 ####This cell compiles a list of variables based on your list that might be included in IOOS catalogs in different formats utilizing SPARQLWrapper, and prints out that final list.
+```python
 sparql = SPARQLWrapper("http://mmisw.org/sparql")
 
 Q = []
@@ -81,7 +86,7 @@ ORDER BY ?parameter
             
 RecVarsMerg = RecVars + var_key
 print RecVarsMerg
-
+```
 ###Cell 4:
 ####This Cell prints out records and titles for your list of variables available via the first three endpoints.  If you would like to see the output for all endpoints or a different number of endpoints, simply replace the number on the first line "For endpoint in endpoints[:3]:"
 
