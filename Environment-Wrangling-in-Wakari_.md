@@ -11,7 +11,8 @@ After entering conda info, you should see the following output:
 `default environment : /opt/anaconda/envs/np18py27-1.9`
      `envs directories : /opt/anaconda/envs`
         `package cache : /opt/anaconda/pkgs`
-         `channel URLs : https://conda.binstar.org/wakari1/linux-64/`
+         
+`channel URLs : https://conda.binstar.org/wakari1/linux-64/`
                         `https://conda.binstar.org/r/linux-64/`
                         `http://conda.binstar.org/rsignell/linux-64/`
                         `http://repo.continuum.io/pkgs/free/linux-64/`
