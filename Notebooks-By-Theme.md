@@ -51,7 +51,7 @@ Extreme Value Analyses:
 
 Overland Flooding:
 
-* Storm Surge Measurements - Can we discover data from USGS rapid deployment storm surge gages and map locations and water levels
+* Storm Surge Measurements - Can we discover data from  USGS storm tide sensors and rapid deployment gages and map locations and water levels
 
 
 #### Scenario B: Oil Tanker Spill
