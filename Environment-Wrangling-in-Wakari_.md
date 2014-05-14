@@ -17,12 +17,15 @@ After entering conda info, you should see the following output:
 
 `package cache : /opt/anaconda/pkgs`
 
-``channel URLs : https://conda.binstar.org/wakari1/linux-64/``
-                        ``https://conda.binstar.org/r/linux-64/``
-                        ``http://conda.binstar.org/rsignell/linux-64/``
-                        ``http://repo.continuum.io/pkgs/free/linux-64/``
-                        ``http://repo.continuum.io/pkgs/pro/linux-64/``
+``channel URLs : 
+https://conda.binstar.org/wakari1/linux-64/``
+``https://conda.binstar.org/r/linux-64/``
+``http://conda.binstar.org/rsignell/linux-64/``
+``http://repo.continuum.io/pkgs/free/linux-64/``
+``http://repo.continuum.io/pkgs/pro/linux-64/``
+
 `config file : /user_home/w_hdean/.condarc`
+
 `is foreign system : False`
 
 
