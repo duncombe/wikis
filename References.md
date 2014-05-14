@@ -125,7 +125,7 @@
 *  [Using Pyoos to access Axiom 52North IOOS SOS "Stable Demo"](https://www.wakari.io/sharing/bundle/emayorga/pyoos_ioos_sos_demo1)
 *  [Access the operational NDBC SOS service with two methods: Pyoos NDBC SOS collector, and OWSLib/SOS](https://www.wakari.io/sharing/bundle/emayorga/ndbc_old_sos_pyoos_and_owslib_demo2)
 *  [Ingesting USGS data with ulmo via CUAHSI HIS Central](https://www.wakari.io/sharing/bundle/emayorga/ulmo_usgsdata_viacuahsi)
-*  [Use OWSLib to examine a DescribeSensor/SensorML response from IOOS SOS Milestone 1 (AOOS 52N SOS), then check vocabulary terms against MMI IOOS vocabularies](https://www.wakari.io/sharing/bundle/emayorga
+*  [Use OWSLib to examine a DescribeSensor/SensorML response from IOOS SOS Milestone 1 (AOOS 52N SOS), then check vocabulary terms against MMI IOOS vocabularies](https://www.wakari.io/sharing/bundle/emayorga/ioossos_owslib_SensorML_MMIcheck_demo1_)
 * [IOOS Models displayed in Iris and using CSW to query (with environment)](https://www.wakari.io/sharing/bundle/rsignell/IOOS_Models-CSW)
 *  [IOOS 52 North SOS](http://ioossos.axiomalaska.com) / [Pyoos Testing Notebook](https://www.wakari.io/sharing/bundle/rsignell/pyoos_axiom)
     *  uses [pyoos](https://pypi.python.org/pypi/pyoos), a Python library for collecting Met/Ocean observations, to test and examine a particular IOOS service
