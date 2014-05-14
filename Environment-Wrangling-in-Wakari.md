@@ -22,10 +22,11 @@ Environments in wakari depend on the channel URLs that are accessible.  You can 
 > is foreign system : False  
 
 If any of the channel URLs listed above do not appear, you can use the following command to install them:  
-`conda config --add channels https://conda.binstar.org/rsignell`
+`conda config --add channels https://conda.binstar.org/rsignell`  
+`conda config --add channels https://conda.binstar.org/wakari1`  
+`conda config --add channels https://conda.binstar.org/r`  
 
-
-You should be able to do:  
-'conda install pyoos'
+At this point, you should be able to do:  
+`conda install pyoos`  
 
 You don't need to include the -c rsignell now, since that's in your list of channels automagically searched. Don't forget to restart kernel after any package installs.
