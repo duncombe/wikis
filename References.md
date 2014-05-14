@@ -62,6 +62,8 @@
     *  [OWSLib 0.8.6 documentation](http://geopython.github.io/OWSLib/) 
     *  [IPython Tutorial on Accessing Geospatial Data, including NASA data](http://nbviewer.ipython.org/github/profLewis/geogg122/blob/master/Chapter4_GDAL/GDAL_HDF.ipynb)
     *  [Install Instructions for Wakari Environment](https://github.com/esc24/installation-recipes/blob/78e4b70345c0d093bc2a68f747ad464f584f648e/wakari/install.txt)
+    *  [pyoos](https://github.com/asascience-open/pyoos) 
+    *  [ulmo](http://ulmo.readthedocs.org/en/latest/) sites and documentation
 *  Python Tutorials
     *  [The Python Standard Library](http://docs.python.org/2/library/)
     *  [Python Lists and Loops](http://www.icrar.org/__data/assets/pdf_file/0008/1436615/challenge09b-notes3.pdf)
@@ -74,6 +76,7 @@
 *  Miscelaneous
     *  [Online Stats Reference](https://www.statsoft.com/Textbook/Elementary-Statistics-Concepts/button/1)
     *  [KML Documentation](https://developers.google.com/kml/documentation/kml_tut)
+    *  [Instructions for building my Wakari environment](https://github.com/ioos/ipython-notebooks/blob/master/creating_wakari_environments.md), and the [Wakari notebook that bundles the environment (so you can install it easily)](https://www.wakari.io/sharing/bundle/emayorga/pyoos_ioos_sos_demo1)
 
 
 <a name="6"/>
@@ -117,6 +120,13 @@
     *  See Also, [Using Iris to Access IOOS Models, identifying Iris Bug](https://www.wakari.io/sharing/bundle/rsignell/Possible_Iris_bug)
 
 ###Testing IOOS/Regional Services
+*  [Ingesting USGS Data with ulmo via CUAHSI HIS Central](https://www.wakari.io/sharing/bundle/emayorga/ulmo_usgsdata_viacuahsi)
+*  [Accessing CUAHSI HIS Central "discovery" web services](http://nbviewer.ipython.org/gist/emiliom/d50ca9e02877984194f5)
+*  [Using Pyoos to access Axiom 52North IOOS SOS "Stable Demo"](https://www.wakari.io/sharing/bundle/emayorga/pyoos_ioos_sos_demo1)
+*  [Access the operational NDBC SOS service with two methods: Pyoos NDBC SOS collector, and OWSLib/SOS](https://www.wakari.io/sharing/bundle/emayorga/ndbc_old_sos_pyoos_and_owslib_demo2)
+*  [Ingesting USGS data with ulmo via CUAHSI HIS Central](https://www.wakari.io/sharing/bundle/emayorga/ulmo_usgsdata_viacuahsi)
+*  [Use OWSLib to examine a DescribeSensor/SensorML response from IOOS SOS Milestone 1 (AOOS 52N SOS), then check vocabulary terms against MMI IOOS vocabularies](https://www.wakari.io/sharing/bundle/emayorga
+* [IOOS Models displayed in Iris and using CSW to query (with environment)](https://www.wakari.io/sharing/bundle/rsignell/IOOS_Models-CSW)
 *  [IOOS 52 North SOS](http://ioossos.axiomalaska.com) / [Pyoos Testing Notebook](https://www.wakari.io/sharing/bundle/rsignell/pyoos_axiom)
     *  uses [pyoos](https://pypi.python.org/pypi/pyoos), a Python library for collecting Met/Ocean observations, to test and examine a particular IOOS service
 *  [Accessing IOOS Coastal Ocean Modeling Testbed (COMT)](https://www.wakari.io/sharing/bundle/rsignell/ADCIRC_water_level_and_velocity)
