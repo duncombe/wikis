@@ -2,6 +2,7 @@ Environments in wakari depend on the channel URLs that are accessible.  You can 
 After entering conda info, you should see the following output:
  
 `[~]$ conda info`
+
 `Current conda install:`
                                                                                                                                                                      `platform : linux-64`
 
@@ -30,10 +31,8 @@ https://conda.binstar.org/wakari1/linux-64/``
 
 
 If any of the channel URLs listed above do not appear, you can use the following command to install them:
+conda config --add channels https://conda.binstar.org/rsignell
 
-conda
-
-------my terminal blanked out before I could write down/record the command used to add channels....
 
 You should be able to do:
 conda install pyoos
