@@ -1,4 +1,6 @@
-Environments in wakari depend on the channel URLs that are 
+Environments in wakari depend on the channel URLs that are accessible.  You can make sure that the right channels are accessible via a command shell using a "conda info" command.  
+After entering conda info, you should see the following output:
+ 
 `[~]$ conda info`
 `Current conda install:`
                                                                                                                                                                       
