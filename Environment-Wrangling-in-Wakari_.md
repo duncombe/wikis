@@ -5,7 +5,7 @@
         `conda version : 3.4.1`
        `python version : 2.7.6.final.0`
      `root environment : /opt/anaconda  (writable)`
-  `default environment : /opt/anaconda/envs/np18py27-1.9`
+`default environment : /opt/anaconda/envs/np18py27-1.9`
      `envs directories : /opt/anaconda/envs`
         `package cache : /opt/anaconda/pkgs`
          `channel URLs : https://conda.binstar.org/wakari1/linux-64/`
