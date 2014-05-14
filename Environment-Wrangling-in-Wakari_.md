@@ -1,3 +1,4 @@
+Environments
 `[~]$ conda info`
 `Current conda install:`
                                                                                                                                                                       
@@ -15,3 +16,11 @@
                         `http://repo.continuum.io/pkgs/pro/linux-64/`
           `config file : /user_home/w_hdean/.condarc`
     `is foreign system : False`
+
+
+:  OMG!!!
+You should be able to do:
+conda install pyoos
+also
+(don't need to include the -c rsignell now, since that's in your list of channels automagically searched)
+don't forget to restart kernel after any package installs
