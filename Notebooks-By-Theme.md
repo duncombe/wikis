@@ -30,9 +30,29 @@ The Baseline Assessment theme will compile basic summary statistics for each cat
 <a name="theme2"/>
 ### Theme 2: Extreme Events 
 #### Scenario A: Severe Coastal Storm
-   *  [Inundation Notebook](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/rsignell-usgs/notebook/fef9438303b49a923024892db1ef3115e34d8271/CSW/IOOS_inundation.ipynb?create=1)
 
+Model - Data Comparison Notebooks:
+   *  [Inundation Notebook](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/rsignell-usgs/notebook/fef9438303b49a923024892db1ef3115e34d8271/CSW/IOOS_inundation.ipynb?create=1) - to compare observed and modeled water levels
+
+* Waves Notebook - to compare observed and modeled wave parameters
+
+* Winds Notebook - to compare observed and modeled wind speeds and directions
+
+* Currents Notebook - to compare observed (HFRADAR) and modeled currents
+
+Extreme Value Analyses:
 *  [Waterlevel Extremes Notebook](http://nbviewer.ipython.org/github/asascience-open/ioos_system_test/blob/master/notebooks/theme_2/ioos_extreme_events.ipynb?create=1)
+
+* Wave Extremes Notebook - to discover whether sufficient record lengths exist for calculating return periods for wave parameters
+
+* Wind Extremes Notebook - to discover whether sufficient record lengths exist for calculating return periods for wave parameters
+
+*Currents Extremes Notebooks - to discover whether sufficient record lengths exist for calculating return periods for wave parameters
+
+Overland Flooding:
+
+* Storm Surge Measurements - Can we discover data from USGS rapid deployment storm surge gages and map locations and water levels
+
 
 #### Scenario B: Oil Tanker Spill
 #####Question 1: Can we discover and access the core variables applicable to analysis of an Oil Tanker Spill from the available list of Registries?
