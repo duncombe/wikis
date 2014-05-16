@@ -84,7 +84,11 @@
 *  [Marine Metadata Interoperability Ontology Registry and Repository/Biological Terms](http://mmisw.org/orr/#http://mmisw.org/ont/ioos/biological)
     *  [Additional MMI Endpoints for "Biological" Terms](http://mmisw.org/orr/#b)
 *  [NOAA ERDDAP](http://coastwatch.pfeg.noaa.gov/erddap/index.html)
-*  
+    *  [Setting up ERDDAP](http://coastwatch.pfeg.noaa.gov/erddap/download/setup.html)
+    *  [NOAA ERDDAP API](http://www.programmableweb.com/api/noaa-erddap)
+    *  Regional ERDDAP Data Set Searches
+      *  [PACIOOS ERDDAP](http://oos.soest.hawaii.edu/erddap/info/index.html?page=1&itemsPerPage=1000)
+      *  [NERACOOS ERDDAP](http://www.neracoos.org/erddap/index.html)
 
 <a name="6"/>
 ## Existing Notebooks By Category
@@ -173,6 +177,7 @@ https://www.wakari.io/sharing/bundle/rsignell/UGRID_Subset_with_time)
     *  [UGRID Interoperability Forum](https://groups.google.com/forum/#!forum/ugrid-interoperability)
 *  [Assessing OWSLIB SOS] (https://www.wakari.io/sharing/bundle/emayorga/OWSLibSOSAccess_Test1)
     *  This notebook may be valuable as it does not use pyoos, which seems to require the development of a custom environment in wakari.
+
 ###Comparing Data Catalogs
 *  [Comparing NOAA Geoportal to Data.Gov](https://www.wakari.io/sharing/bundle/rsignell/NODC_and_Data.gov)
     *  using CSW to compare NODC geoportal to data.gov
