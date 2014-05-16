@@ -79,7 +79,7 @@
     *  [KML Documentation](https://developers.google.com/kml/documentation/kml_tut)
     *  [Instructions for building my Wakari environment](https://github.com/ioos/ipython-notebooks/blob/master/creating_wakari_environments.md), and the [Wakari notebook that bundles the environment (so you can install it easily)](https://www.wakari.io/sharing/bundle/emayorga/pyoos_ioos_sos_demo1)
 
-<a name="5A"/>
+<a name="5a"/>
 ## Ontologies
 *  [Marine Metadata Interoperability Ontology Registry and Repository/Biological Terms](http://mmisw.org/orr/#http://mmisw.org/ont/ioos/biological)
     *  [Additional MMI Endpoints for "Biological" Terms](http://mmisw.org/orr/#b)
