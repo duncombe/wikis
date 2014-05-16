@@ -1,7 +1,8 @@
 [General Resources and References](#1)    
 [Gridded Ocean Data Available for Visualization and Download](#2) 
 [Policy Documents/References](#4)  
-[Tutorials and References](#5)  
+[Tutorials and References](#5)
+[Ontologies](#5a)  
 [Notebooks By Category](#6)  
 [Abbreviated Terms](#7)  
 
@@ -78,6 +79,12 @@
     *  [KML Documentation](https://developers.google.com/kml/documentation/kml_tut)
     *  [Instructions for building my Wakari environment](https://github.com/ioos/ipython-notebooks/blob/master/creating_wakari_environments.md), and the [Wakari notebook that bundles the environment (so you can install it easily)](https://www.wakari.io/sharing/bundle/emayorga/pyoos_ioos_sos_demo1)
 
+<a name="5A"/>
+## Ontologies
+*  [Marine Metadata Interoperability Ontology Registry and Repository/Biological Terms](http://mmisw.org/orr/#http://mmisw.org/ont/ioos/biological)
+    *  [Additional MMI Endpoints for "Biological" Terms](http://mmisw.org/orr/#b)
+*  [NOAA ERDDAP](http://coastwatch.pfeg.noaa.gov/erddap/index.html)
+*  
 
 <a name="6"/>
 ## Existing Notebooks By Category
