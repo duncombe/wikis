@@ -62,11 +62,10 @@ Overland Flooding:
 
 <a name="theme3"/>
 ### Theme 3: Species Protection & Marine Habitat Conservation
-*  [Assessing Raw number of records that map to IOOS Core Biological Variables via CSWs](https://www.wakari.io/sharing/bundle/hdean/Theme_3_CoreVars)
-    *  This notebook utilizes MMIs and SPARQLWrapper
-*  [Assessing Seabird Vulnerability in the Bering Sea](https://www.wakari.io/sharing/bundle/hdean/Theme%203,%20Scenario%20-%20Assessing%20Seabird%20Vulnerability%20in%20the%20Bering%20Sea)
 
-#### Scenario A:  Assessing Chesapeake Bay Biology
-#### Scenario B:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast
-#### Scenario C:  Planning for Wind Turbine Sites using Ecosystem Base Approach
-#### Scenario D:  Mineral Extraction
+* Notebook from hdean - [Assessing Raw number of records that map to IOOS Core Biological Variables via CSWs](https://www.wakari.io/sharing/bundle/hdean/Theme_3_CoreVars) (This notebook utilizes MMIs and SPARQLWrapper)
+
+#### Scenario A:  Assessing Seabird Vulnerability in the Bering Sea - [Description](https://github.com/ioos/system-test/wiki/Development-of-Test-Themes#scenario-3a-assessing-seabird-vulnerability-in-the-bering-sea)
+
+##### Notebooks
+* [Hannah's contribution](https://www.wakari.io/sharing/bundle/hdean/Theme%203,%20Scenario%20-%20Assessing%20Seabird%20Vulnerability%20in%20the%20Bering%20Sea)
