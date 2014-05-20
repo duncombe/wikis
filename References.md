@@ -74,6 +74,8 @@
     *  [matplotlib Overview and User's Guides](http://matplotlib.org/contents.html)
     *  [pycsw Workshop Materials](http://www.coastalmarinedata.net/pycsw-workshop-materials-now-posted/)
     *  [Shell Commands](http://learncodethehardway.org/cli/book/cli-crash-course.html#introduction-shut-up-and-shell)
+*  Geospatial Tools In Python
+    *  [Notebook on Geospatial analysis in Python including Tutorial Video](http://nbviewer.ipython.org/github/mqlaql/geospatial-data/blob/master/Geospatial-Data-with-Python.ipynb)
 *  Miscelaneous
     *  [Online Stats Reference](https://www.statsoft.com/Textbook/Elementary-Statistics-Concepts/button/1)
     *  [KML Documentation](https://developers.google.com/kml/documentation/kml_tut)
