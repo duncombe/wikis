@@ -41,9 +41,9 @@ Model - Data Comparison Notebooks:
 * Currents Notebook - to compare observed (HFRADAR) and modeled currents
 
 Extreme Value Analyses:
-*  [Water level Extremes Notebook](http://nbviewer.ipython.org/github/ioos/system-test/blob/master/theme2_extreme_events/ioos_extreme_events_water_level.ipynb)
+*  [Water level Extremes Notebook](http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A_Coastal_Inundation/Scenario_2A_Water_Level_Bird.ipynb)
 
-* [Wave Extremes Notebook](http://nbviewer.ipython.org/github/ioos/system-test/blob/master/theme2_extreme_events/ioos_extreme_events_waves.ipynb) - to discover whether sufficient record lengths exist for calculating return periods for wave parameters
+* [Wave Extremes Notebook](http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A_Coastal_Inundation/Scenario_2A_Waves.ipynb) - to discover whether sufficient record lengths exist for calculating return periods for wave parameters
 
 * Wind Extremes Notebook - to discover whether sufficient record lengths exist for calculating return periods for wave parameters
 
