@@ -69,3 +69,4 @@ Overland Flooding:
 
 ##### Notebooks
 * [Hannah's contribution](https://www.wakari.io/sharing/bundle/hdean/Theme%203,%20Scenario%20-%20Assessing%20Seabird%20Vulnerability%20in%20the%20Bering%20Sea)
+* [Seabirds notebook](http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_3_Species_Protection_and_Marine_Habitat_Conservation/Scenario_3A_Assessing_Seabird_Vulnerability_in_the_Bering_Sea/Scenario_3A_SeaBirds.ipynb) - to generate simple statistics from climate and food source projections for areas defined as critical for seabird survival in the Pacific Flyway (Bering Sea).
