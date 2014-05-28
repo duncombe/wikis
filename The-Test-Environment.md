@@ -1,1 +1,0 @@
-This page contains a high level description of the activities and resources that were required to build the DMAC test environment.
