@@ -16,25 +16,31 @@
 |     |     |---- Scenario_[theme number][scenario letter]_[some unique term].py
 |     |     |---- Scenario_[theme number][scenario letter]_[some unique term].ipynb
 ````
-
+These guides to the `Fork=>Branch=>Pull Request` process are useful:
+* http://nathanhoad.net/git-workflow-forks-remotes-and-pull-requests
+* https://gun.io/blog/how-to-github-fork-branch-and-pull-request/
  
 # Testing and Merging Pull Requests
 1. Make sure your local branch is up to date.  
 
 2. Create a new branch in your local repo named after the target you're testing. e.g. in the case of @Bobfrat 's recent PR #77 
 
-`git branch waves_notebook`
-`git checkout waves_notebook`
+```
+git branch waves_notebook
+git checkout waves_notebook
+```
 
 3. Merge from Bobfrat:waves_notebook into your local copy of ioos:waves_notebook
+```
+ git remote add bobfrat https://github.com/Bobfrat/system-test.git
+ git pull bobfrat waves_notebook
+```
 
-`git pull https://github.com/Bobfrat/system-test.git waves_notebook`
-
-4. Now it is `waves_notebook` 
+4. Now you have the PR as `waves_notebook` 
 
 5. Test how you see fit but at least verify that the output is visible in the *,ipynb and that the *.py is generated.  Also test to see that the README.md has been updated to include any new issues/bugs etc discovered during the development of the notebook.
 
-6. Figure out how to merge   (Little help here @daf, @kwilcox, @bueller)
+6. If all is well, go back to github and click the green "okay to merge" button. 
 
 
 # Documenting Issues
