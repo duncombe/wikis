@@ -1,7 +1,8 @@
 # Creating or updating notebooks
 1.  Generation of `.py` files along side the `.ipynb` files.  You can generate the `.py` files in **one** of two ways:
   1.  Run `ipython notebook --script`.  This will save a .py file every time the notebook is saved.
-  2.  After you are done editing your notebook, `cd` to the directory the `.ipynb` file is in and run `ipython nbconvert --to python [your_notebook_file]`
+  2.  Add the line `c.FileNotebookManager.save_script = True` to your `ipython_notebook_config.py` file and restart the notebook. 
+  3.  After you are done editing your notebook, `cd` to the directory the `.ipynb` file is in and run `ipython nbconvert --to python [your_notebook_file]`
 2.  Organization of "helper' libraries.  Each scenario folder should contain a single file called `utilities.py`.  Keep all helper functions in here.  Use this utilities option to help keep the notebooks readable.  When importing from `utilities.py`, please use specific imports like `from .utilities import my_cool_function, my_method`.  Please do **not** do: `from .utilities import *`.
 3.  Installation requirements.  To assist in someone being able to replicate the work of the system-test, we need to start documenting the specifics on how to setup each scenario notebook.  In each scenario folder, please start creating a `README.md` file containing information about the scenario, what its intentions are, and how to set it up to run.  I've included some examples in this PR for existing scenarios.  Bonus points if the documentation covers using both `conda` and `pip`.
 4.  Commit the `.ipynb` files with **ALL** cells successfully run.  If you can't run the entire notebook, don't commit it!
