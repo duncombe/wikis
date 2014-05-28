@@ -33,6 +33,7 @@
    * csw: http://geo.gov.ckan.org/csw  
 * EPA
    * csw: https://edg.epa.gov/metadata/csw
+   * csw: https://edg.epa.gov/metadata/catalog/main/home.page  from epa.gov/data
 * CWIC
    * csw: http://cwic.csiss.gmu.edu/cwicv1/discovery
 * West Coast Governors Alliance (Based on ESRI Geoportal back end)
