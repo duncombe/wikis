@@ -79,6 +79,7 @@
     *  [Chapter4_GDAL/OGR_Python](http://nbviewer.ipython.org/github/profLewis/geogg122/blob/master/Chapter4_GDAL/OGR_Python.ipynb)
     *  [Bounding Box Documentation](http://rk700.github.io/python-fitz/bbox.html)
     *  [Shapely User Manual](http://toblerity.org/shapely/manual.html)
+    *  [Useful Bounding Box Finder](http://bboxfinder.com/)
 *  Miscelaneous
     *  [Online Stats Reference](https://www.statsoft.com/Textbook/Elementary-Statistics-Concepts/button/1)
     *  [KML Documentation](https://developers.google.com/kml/documentation/kml_tut)
