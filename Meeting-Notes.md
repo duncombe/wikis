@@ -43,11 +43,13 @@ There were several minutes of discussion on the appropriate configuration protoc
 
 To the best of this scribe’s knowledge, only one decision was made: for the immediate future, individual pull requests will not be merged.  At some future point, one of the developers who are skilled in GitHub may merge the pull requests.  The issues associated with using Git to manage configuration need to be discussed further.  
 
+A straw man proposal was written https://github.com/ioos/system-test/wiki/Contributing-to-the-Project and comments are needed.
+
 ### Iris
 Iris is currently not working on Python notebooks running off the OSX platforms. Rich said that he would troubleshoot this issue by using a build from NYU.  Kyle said that he would assist Rich in this effort.  Rich also said that he would attempt to confirm that Iris works on Anaconda.  Rich stressed that it is reasonable for members of the scientific community to expect that Python notebooks would run successfully within Anaconda, since Anaconda is a subset of Python that is customized for use in scientific analyses.
 
 ### Weekly Taskings
-There was a general request for some way to document the essential elements of an Agile stand-up for each team.  Rich suggested using GitHub Markdown to compile stand-up information for each status meeting.  Rich’s suggestion was received tepidly. An alternative would be for each team to document their stand-up elements within the How You Can Contribute wiki page.  There was not much enthusiasm for this alternative.  The need for each team to document their agile stand-up lists (Accomplishments, Underway, and Issues) remains, but is unresolved.
+There was a general request for some way to document the essential elements of an Agile stand-up for each team.  Rich suggested using GitHub Markdown file to compile stand-up information for each status meeting.  Rich’s suggestion was received tepidly. An alternative would be for each team to document their stand-up elements within the [How You Can Contribute wiki page](https://github.com/ioos/system-test/wiki/Contributing-to-the-Project).  There was not much enthusiasm for this alternative.  The need for each team to document their agile stand-up lists (Accomplishments, Underway, and Issues) remains, but is unresolved.
 
 
 
