@@ -45,9 +45,9 @@ Extreme Value Analyses:
 
 * [Wave Extremes Notebook](http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A_Coastal_Inundation/Scenario_2A_Waves.ipynb) - to discover whether sufficient record lengths exist for calculating return periods for wave parameters
 
-* Wind Extremes Notebook - to discover whether sufficient record lengths exist for calculating return periods for wave parameters
+* Wind Extremes Notebook - to discover whether sufficient record lengths exist for calculating return periods for wind speeds
 
-* Currents Extremes Notebooks - to discover whether sufficient record lengths exist for calculating return periods for wave parameters
+* Currents Extremes Notebooks - to discover whether sufficient record lengths exist for calculating return periods for current speeds
 
 Overland Flooding:
 
