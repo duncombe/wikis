@@ -6,3 +6,12 @@ Please use the following format:
 ### Accomplishments, aka, What we've done in the past week
 ### Anticipated activities, aka, What we're planning to do in the coming week
 ### Issues,i.e., recurring issues that may span a number of individual issues reported in GitHub
+
+# Week of 9 June 2014
+
+
+## Stand-up for Axiom
+
+
+## Stand-up for ASA
+
