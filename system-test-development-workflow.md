@@ -103,7 +103,7 @@ upstream        https://github.com/ioos/system-test.git (push)
 ```
 
 We added the upstream using `git://` for the URL rather than `git@`.  The
-`git://` URL is read only.  This means we that we can't accidentally
+`git://` URL is read only.  This means that we can't accidentally
 (or deliberately) write to the upstream repo, and we are only going to
 use it to merge into our own code and send PRs.
 
