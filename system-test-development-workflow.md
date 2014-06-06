@@ -150,14 +150,16 @@ have configured git.  Now you are ready for some real work.
 5. Ask for people to review and merge your modifications.  We can elect a
    maintainer to be the "merging" guy, but all should help for the review.
    Try to call the reviewers by interest, tagging their username in the PR (like
-   @ocefpaf check my code!!! :smile:.
+   @ocefpaf check my code!!! :smile:).
 
 This way of working helps to keep work well organized, with readable history.
 This in turn makes it easier for project maintainers (that might be you) to see
 what you've done, and why you did it.
 
-**Always** repeat step 1. before starting a new branch.  This will pull down
+**Always** repeat step 1 before starting a new branch.  This will pull down
 any commits you don't have.
+
+Feel free to ask me for help and clarifications.
 
 For more details read the iris
 [Development workflow](http://scitools.org.uk/iris/docs/latest/developers_guide/gitwash/development_workflow.html).
