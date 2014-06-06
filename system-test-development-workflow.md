@@ -139,7 +139,7 @@ have configured git.  Now you are ready for some real work.
 3. Keep working normally, committing code, and pushing to your branch.  Git is
    smart enough to tell you that, during the first `push`, there is nothing pointing
    to your branch, just follow git instructions.  It should be something like:
-   `git push --set-upstream origin branch_name`, than keep pushing.
+   `git push --set-upstream origin branch_name`, then keep pushing.
 4. When you are ready go to the URL of your forked repo,
    `http://github.com/your-user-name/system-test`.  Use the 'Switch Branches'
    dropdown menu near the top left of the page to select the branch with your
