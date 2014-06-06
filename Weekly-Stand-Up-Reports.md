@@ -7,6 +7,28 @@ Please use the following format:
 ### Anticipated activities, aka, What we're planning to do in the coming week
 ### Issues,i.e., recurring issues that may span a number of individual issues reported in GitHub
 
+# Week of 2 June 2014
+
+## Stand-up for ASA
+
+Accomplishments:
+* Install iris on mac using condo
+* Use iris to get model data.
+* Plot modeled vs obs data in Scenario_A_Model_Obs_Compare_Waves.ipynb  (see pull request https://github.com/ioos/system-test/pull/89)
+* Start new notebook for comparing model and obs currents
+
+Anticipated Activities:
+* Implement sub directory structure discussed on 5/30 call
+* Organize all notebooks in new sub directories
+* Compare model and obs current speed/direction; try bounding boxes in different locations, e.g. near Puerto Rico
+* Use Iris to get model data for comparison in Extreme Waves and Water Level notebooks
+* Start notebook for extreme current values
+
+Issues
+* Installing Iris on mac - resolved
+* Getting NDBC SOS current data for stations near Puerto Rico such as station 41051 (Still investigating whether this merits an actual issue in GitHub)
+
+
 # Week of 9 June 2014
 
 
