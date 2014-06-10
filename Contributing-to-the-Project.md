@@ -10,6 +10,7 @@
 6.  Adhere to the folder structure this PR lays out:
 ```bash
 |---- Theme_[theme number]_[theme name]
+|---- README.md
 |     |---- Scenario_[theme number][scenario letter]_[scenario title]
 |     |     |---- README.md
 |     |     |---- Scenario_[theme number][scenario letter]_[sub scenario title]
