@@ -12,9 +12,11 @@
 |---- Theme_[theme number]_[theme name]
 |     |---- Scenario_[theme number][scenario letter]_[scenario title]
 |     |     |---- README.md
-|     |     |---- utilities.py
-|     |     |---- Scenario_[theme number][scenario letter]_[some unique term].py
-|     |     |---- Scenario_[theme number][scenario letter]_[some unique term].ipynb
+|     |     |---- Scenario_[theme number][scenario letter]_[sub scenario title]
+|     |     |     |---- utilities.py
+|     |     |     |---- README.md
+|     |     |     |---- Scenario_[theme number][scenario letter]_[some unique term].py
+|     |     |     |---- Scenario_[theme number][scenario letter]_[some unique term].ipynb
 ````
 These guides to the `Fork=>Branch=>Pull Request` process are useful:
 * http://nathanhoad.net/git-workflow-forks-remotes-and-pull-requests
