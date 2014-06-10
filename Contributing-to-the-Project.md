@@ -14,8 +14,8 @@
 |     |---- Scenario_[theme number][scenario letter]_[scenario title]
 |     |     |---- README.md
 |     |     |---- Scenario_[theme number][scenario letter]_[sub scenario title]
-|     |     |     |---- utilities.py
 |     |     |     |---- README.md
+|     |     |     |---- utilities.py
 |     |     |     |---- Scenario_[theme number][scenario letter]_[some unique term].py
 |     |     |     |---- Scenario_[theme number][scenario letter]_[some unique term].ipynb
 ````
