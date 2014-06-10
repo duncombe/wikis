@@ -9,22 +9,34 @@ Please use the following format:
 
 # Week of 2 June 2014
 
+## Stand-up for Axiom
+
+#### Accomplishments
+* Reworked the Scenario 3A goals and notebook to be as more general solution.  Starting with a polygon/bbox/wfs layer, we are now searching all catalogs for overlapping datasets.  This allows the polygon to represent any number of things.
+* Moved to the new folder structure via: https://github.com/ioos/system-test/wiki/Contributing-to-the-Project#creating-or-updating-notebooks
+
+#### Anticipated Activities
+* Finish Scenario 3A notebook
+
+#### Issues
+* The WFS server hosting the Important Bird Area polygon is not available in any CSW endpoint.
+
 ## Stand-up for ASA
 
-Accomplishments:
+#### Accomplishments
 * Install iris on mac using condo
 * Use iris to get model data.
 * Plot modeled vs obs data in Scenario_A_Model_Obs_Compare_Waves.ipynb  (see pull request https://github.com/ioos/system-test/pull/89)
 * Start new notebook for comparing model and obs currents
 
-Anticipated Activities:
+#### Anticipated Activities
 * Implement sub directory structure discussed on 5/30 call
 * Organize all notebooks in new sub directories
 * Compare model and obs current speed/direction; try bounding boxes in different locations, e.g. near Puerto Rico
 * Use Iris to get model data for comparison in Extreme Waves and Water Level notebooks
 * Start notebook for extreme current values
 
-Issues
+#### Issues
 * Installing Iris on mac - resolved
 * Getting NDBC SOS current data for stations near Puerto Rico such as station 41051 (Still investigating whether this merits an actual issue in GitHub)
 
