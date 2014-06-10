@@ -14,9 +14,12 @@ Please use the following format:
 #### Accomplishments
 * Reworked the Scenario 3A goals and notebook to be as more general solution.  Starting with a polygon/bbox/wfs layer, we are now searching all catalogs for overlapping datasets.  This allows the polygon to represent any number of things.
 * Moved to the new folder structure via: https://github.com/ioos/system-test/wiki/Contributing-to-the-Project#creating-or-updating-notebooks
+* Forked repositories and Will learned a lot about git
 
 #### Anticipated Activities
-* Finish Scenario 3A notebook
+* Search and discovery of new AOOS CSWs should be good to go (crossed fingers)
+* Polygon areas will be used to list available data and access actual numbers (Kyle)
+* Develop format to pass to Will for data analysis and graphing
 
 #### Issues
 * The WFS server hosting the Important Bird Area polygon is not available in any CSW endpoint.
