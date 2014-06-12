@@ -57,20 +57,20 @@ Please use the following format:
 
 ## Stand-up for ASA
 #### Accomplishments 
-*Sorted out lingering iris install issues.
-*Use iris to get modeled water level in Scenario_2A_Water_Level_Bird_Redux.ipynb.
+* Sorted out lingering iris install issues.
+* Use iris to get modeled water level in Scenario_2A_Water_Level_Bird_Redux.ipynb.
 Scenario_2A_Water_Level_Bird_Redux.ipynb Progress Report as a git issue (by Friday)
-*Continued development on Scenario_2A_ModelDataCompare_Currents notebook.
-*Identified missing HF radar data sets
+* Continued development on Scenario_2A_ModelDataCompare_Currents notebook.
+* Identified missing HF radar data sets
 
 #### Anticipated Activities:
-*Finish currents obs vs model data comparison notebook
-*Add model data to extreme waves notebook using iris
-*Start winds obs vs model data comparison notebook 
+* Finish currents obs vs model data comparison notebook
+* Add model data to extreme waves notebook using iris
+* Start winds obs vs model data comparison notebook 
 
 #### Issues
-*HF Radar data sets not available (issue addressed and closed in https://github.com/ioos/registry/issues/29#event-130915695)
-*SOS stations near Puerto Rico not available from Coops collectors (will create an issue Friday)
+* HF Radar data sets not available (issue addressed and closed in https://github.com/ioos/registry/issues/29#event-130915695)
+* SOS stations near Puerto Rico not available from Coops collectors (will create an issue Friday)
 
 
 ## Stand-up for Rich Signell, USGS
