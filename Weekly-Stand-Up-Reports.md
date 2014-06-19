@@ -75,3 +75,19 @@ Scenario_2A_Water_Level_Bird_Redux.ipynb Progress Report as a git issue (by Frid
 
 ## Stand-up for Rich Signell, USGS
 
+# Week of 16 June 2014
+
+## Stand-up for ASA
+#### Accomplishments 
+* Added model data to extreme water level notebook using iris
+* Added model data to extreme waves notebook using iris
+* Continued development on Scenario_2A_ModelDataCompare_Currents notebook 
+
+#### Anticipated Activities:
+* Finish currents obs vs model data comparison notebook (HFRADAR issue not solved until 6/19, so this activity was on hold much of week of 6/16)
+* Continue work on winds model/obs comparison notebook
+* Continue development on Scenario_2A_ModelDataCompare_Currents notebook 
+
+#### Issues
+* SOS stations near Puerto Rico not available from Coops collectors (will create an issue Friday)
+* Potential issue with record length returned from tides and currents needs more investigation before posting as a true issue.
