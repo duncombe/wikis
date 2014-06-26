@@ -303,15 +303,15 @@ SNAP Projections of Sea Ice Area Fraction from CESM-CAM5, CMCC-CM, ACCESS-1, MIR
 
 ##Scenario 3B: Continental Shelf Use Case 
 
-The Cold Pool is a distinctive along-shelf band of remnant winter bottom water over the mid and outer continental shelf peculiar to the area between the Northeast Peak of Georges Bank and Cape Hatteras that, beginning in April and May each year is defined by its low temperature after the water column stratifies due to increased solar insolation, local fresh water runoff, and reduced wind mixing. Because the Cold Pool is bottom-trapped, it is virtually undetectable by ocean surface remote sensing measurements. Thus existing pictures of Cold Pool distribution are aliased and incomplete and so one of the most poorly understood major MAB features.  The dynamics in this water masses has a disproportionately large role in structuring the biogeochemistry and ecology of the Mid-Atlantic continental shelf.  For example the cold pool defines the thermal refuge provided by the Cold Pool for cold-water fisheries species.  This water masses also is directly relevant to the tropical storm and hurricane intensity.  
+The Cold Pool is a distinctive, along-shelf band of remnant winter bottom water over the mid and outer continental shelf particular to the area between the Northeast Peak of Georges Bank and Cape Hatteras. The Cold Pool is defined by its low temperature, and develops after the water column stratifies due to increased solar insolation, local fresh water runoff, and reduced wind mixing in April and May each year. Because the Cold Pool is bottom-trapped, it is virtually undetectable by ocean surface remote sensing measurements. Thus, existing pictures of Cold Pool distribution are aliased, incomplete, and one of the most poorly understood major Mid Atlantic Bight (MAB) features. The dynamics of this water mass has a disproportionately large role in structuring the biogeochemistry and ecology of the Mid-Atlantic continental shelf. For example the Cold Pool provides a thermal refuge for important fish species. This water mass also influences tropical storm and hurricane intensity.  
 
 ####Questions to Guide Corresponding IPython Notebooks
 
-Currently there is no annual picture of and trended change in the cold pool along with its the associated biogeochemistry and biology of this region.  
+Currently there is no annual picture of trends or change in the Cold Pool along with its the associated biogeochemistry and biology of this region.
 
-Can we discover, access, and combine multiple surface and in situ data sets housed in a variety of data repositories, available regional and basin scale models, remote sensing, and seasonal weather data/models. 
+Can we discover, access, and combine multiple surface and in situ data sets housed in a variety of data repositories, available regional and basin scale models, remote sensing, and seasonal weather data/models? 
 
-Can the available assets be easily extracted to create a dynamic visualization of the cold pool and the associated correlations to any available biology and chemistry.  This test case would then phase in the OOI pioneer array as it comes online. 
+Can the available assets be easily extracted to create a dynamic visualization of the Cold Pool and the associated correlations to any available biology and chemistry. This test case would then phase in the Ocean and Observatory Initiative's [Pioneer Array](http://www.whoi.edu/ooi_cgsn/pioneer-array) as it comes online. 
 
 Assets that the Broker(s) would potentially access:
 *  NOAA IOOS regional RAs (Neracoos, Maracoos, Secora): Access the data [moorings, weather stations, gliders, HF CODAR, as well as any available regional model simulations (ROMs)]
