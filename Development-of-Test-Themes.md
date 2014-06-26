@@ -15,6 +15,7 @@
 *  [Scenario 3E:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast](#scenario3E)
 *  [Scenario 3F:  Planning for Wind Turbine Sites using Ecosystem Base Approach](#scenario3F)
 *  [Scenario 3G: Mineral Extraction](#scenario3G)
+*  [Scenario 3H: Exploring environmental changes affecting Polar Bears](#scenario3H)
 <a name="intro"/>
 
 # Introduction
@@ -431,6 +432,22 @@ The Department of Interior Bureau of Ocean Energy Management is considering open
 * fish species and abundance
 * water quality metrics
 
+<a name="scenario3H"/>
+## Scenario 3H:  Exploring environmental changes affecting Polar Bears
+Polar bears were the first vertebrate species to be listed by the U.S. Endangered Species Act as threatened by extinction primarily because of climate change. Polar bears use persistent sea ice as a platform from which to hunt seals. However, as Arctic sea ice recedes, they have to swim further from shore to reach it and, ultimately, have a shorter hunting season. Additionally, the new sea ice edge may lie over unproductive waters.
+
+### Questions to Guide Corresponding IPython Notebooks
+*  Can we discover, access and map polar bear denning locations?
+*  Can we discover, access and map the sea ice edge using NSIDC passive microwave satellite data?
+*  What is the distance between polar bear denning locations and the closest sea ice edge through time?
+*  What is the minimum distance between the shoreline containing known polar bear distributions and the closest sea ice edge through time?
+* Are certain sections of the coastline more susceptible to long distances from sea ice?
+
+### Data Required to Answer Questions
+* polar bear denning locations ([at USGS](http://pubs.usgs.gov/ds/568/) | [at AOOS](http://portal.aoos.org/#metadata/13a03d02-4296-11e2-88f7-00219bfe5678))
+* NSIDC Sea Ice data ([at NSIDC](http://nsidc.org/data/nsidc-0051)| [at AOOS](http://portal.aoos.org/#metadata/c4d14166-cae8-4bb0-8cd5-fc876f07d63c))
+* high resolution coastline
+* polar bear distribution ([at AOOS](http://portal.aoos.org/#metadata/cd96d028-aeb5-11e2-8653-00219bfe5678))
 
 
 * RESOURCES Consulted:
