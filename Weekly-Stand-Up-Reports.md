@@ -91,3 +91,23 @@ Scenario_2A_Water_Level_Bird_Redux.ipynb Progress Report as a git issue (by Frid
 #### Issues
 * SOS stations near Puerto Rico not available from Coops collectors (will create an issue Friday)
 * Potential issue with record length returned from tides and currents needs more investigation before posting as a true issue.
+
+# Week of 23 June 2014
+
+## Stand-up for ASA
+#### Accomplishments
+* Continued work (almost complete) on currents obs vs model data comparison notebook
+	Includes 3d color contour plots of observed currents vs time and depth 
+* Start work on extremal analysis currents notebook
+* Identified new issues (see below)
+
+#### Anticipated Activities:
+* Write progress report for model vs obs waves notebook
+* Write progress report for extreme waves notebook
+* Complete notebook and write progress report for currents obs vs model data comparison
+* Complete notebook and write progress report for extreme currents 
+
+#### Issues: 
+* CO-OPS SOS service only allows 4 day current requests https://github.com/ioos/system-test/issues/101
+* When looking at DAP endpoints from currents data, unable to discern between model and obs (HFRadar) data sets https://github.com/ioos/system-test/issues/102
+
