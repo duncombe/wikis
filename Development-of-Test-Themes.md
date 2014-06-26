@@ -445,7 +445,7 @@ Polar bears were the first vertebrate species to be listed by the U.S. Endangere
 
 ### Data Required to Answer Questions
 * polar bear denning locations: [at USGS](http://pubs.usgs.gov/ds/568/) | [at AOOS](http://portal.aoos.org/#metadata/13a03d02-4296-11e2-88f7-00219bfe5678)
-* NSIDC Sea Ice data: [at NSIDC](http://nsidc.org/data/nsidc-0051)| [at AOOS](http://portal.aoos.org/#metadata/c4d14166-cae8-4bb0-8cd5-fc876f07d63c)
+* NSIDC Sea Ice data: [at NSIDC](http://nsidc.org/data/nsidc-0051)| [at AOOS](http://thredds.axiomalaska.com/thredds/ncss/grid/NSIDC_SEA_ICE_CON.nc/dataset.html)
 * high resolution coastline
 * polar bear distribution: [at AOOS](http://portal.aoos.org/#metadata/cd96d028-aeb5-11e2-8653-00219bfe5678)
 
