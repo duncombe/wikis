@@ -444,21 +444,11 @@ Polar bears were the first vertebrate species to be listed by the U.S. Endangere
 * Are certain sections of the coastline more susceptible to long distances from sea ice?
 
 ### Data Required to Answer Questions
-* polar bear denning locations ([at USGS](http://pubs.usgs.gov/ds/568/) | [at AOOS](http://portal.aoos.org/#metadata/13a03d02-4296-11e2-88f7-00219bfe5678))
-* NSIDC Sea Ice data ([at NSIDC](http://nsidc.org/data/nsidc-0051)| [at AOOS](http://portal.aoos.org/#metadata/c4d14166-cae8-4bb0-8cd5-fc876f07d63c))
+* polar bear denning locations: [at USGS](http://pubs.usgs.gov/ds/568/) | [at AOOS](http://portal.aoos.org/#metadata/13a03d02-4296-11e2-88f7-00219bfe5678)
+* NSIDC Sea Ice data: [at NSIDC](http://nsidc.org/data/nsidc-0051)| [at AOOS](http://portal.aoos.org/#metadata/c4d14166-cae8-4bb0-8cd5-fc876f07d63c)
 * high resolution coastline
-* polar bear distribution ([at AOOS](http://portal.aoos.org/#metadata/cd96d028-aeb5-11e2-8653-00219bfe5678))
+* polar bear distribution: [at AOOS](http://portal.aoos.org/#metadata/cd96d028-aeb5-11e2-8653-00219bfe5678)
 
-
-* RESOURCES Consulted:
-    *  The [InVEST Model for Wind Energy Siting](http://ncp-dev.stanford.edu/~dataportal/invest-releases/documentation/current_release/wind_energy.html#required-inputs) is a good starting place for required data sets (See, "Required input" section in the link).
-    *  [The Role of Metocean Data in Addressing Project Planning, Design, and Operational Needs](http://www.ametsoc.org/boardpges/cwce/docs/BEP/Offshore-Wind/2013-05-Offshore-Wind-APT-Final-Report.pdf)
-    *  [Wind Power Sitin, Incentives and Wildlife Guidelines in the United States](http://www.fws.gov/habitatconservation/windpower/afwa%20wind%20power%20final%20report.pdf) 
-        *  This document provides a comprehensive break down of the laws and applications to energy siting and could be used as a starting point for mapping legislative and executive policy to required data sets for planning purpose.
-  *  [Planning for Offshore Energy Development](http://www.analysisgroup.com/uploadedFiles/Publishing/Articles/Planning_for_Ocean_Energy_Development_Complete.pdf)
-        *  This document covers both offshore oil/gas permitting and offshore wind permitting.
-        *  See Table 1 for comprehensive list of legislation, subject matter, and responsible federal agencies that could serve as starting point for data to policy trace-ability mapping.
-  *  [Solutions for Multi-Objective Marine Planning](http://www.marineplanning.org/index.html)
 
 # RESOURCES AND REFERENCES FOR TESTING APPROACH
 
