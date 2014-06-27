@@ -54,6 +54,11 @@ Please use the following format:
 
 ## Stand-up for Axiom
 
+All hands company meeting all week.  Not much to report.
+
+#### Accomplishments
+* Tested and merged pull requests as needed 
+* Reorganized directory structure (https://github.com/ioos/system-test/commit/9b874fcd45892279c604dac56658d29f09311022)
 
 ## Stand-up for ASA
 #### Accomplishments 
@@ -77,6 +82,10 @@ Scenario_2A_Water_Level_Bird_Redux.ipynb Progress Report as a git issue (by Frid
 
 # Week of 16 June 2014
 
+## Stand-up for Axiom
+
+Both Will and Kyle on vacation, nothing to report.
+
 ## Stand-up for ASA
 #### Accomplishments 
 * Added model data to extreme water level notebook using iris
@@ -93,6 +102,16 @@ Scenario_2A_Water_Level_Bird_Redux.ipynb Progress Report as a git issue (by Frid
 * Potential issue with record length returned from tides and currents needs more investigation before posting as a true issue.
 
 # Week of 23 June 2014
+
+## Stand-up for Axiom
+#### Accomplishments
+* Added Scenario 3H: polar bears
+* Improvements to Scenario 3A, including plotting the bounds of all available datasets found that overlap the given polygon. 
+
+#### Anticipated Activities
+* Adding missing scenarios
+* Focusing on visual improvements to outstanding and existing scenarios
+* Putting Scenario 3A data into Pandas for analysis 
 
 ## Stand-up for ASA
 #### Accomplishments
