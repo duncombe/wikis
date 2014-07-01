@@ -130,3 +130,35 @@ Both Will and Kyle on vacation, nothing to report.
 * CO-OPS SOS service only allows 4 day current requests https://github.com/ioos/system-test/issues/101
 * When looking at DAP endpoints from currents data, unable to discern between model and obs (HFRadar) data sets https://github.com/ioos/system-test/issues/102
 
+# Week of 30 June 2014
+
+## Stand-up for ASA  
+#### Accomplishments  
+* What we've done in the past week  
+
+#### Anticipated activities  
+* What we're planning to do in the coming week 
+
+#### Issues  
+* Recurring issues that may span a number of individual issues reported in GitHub  
+
+
+## Stand-up for Axiom  
+#### Accomplishments  
+* What we've done in the past week  
+
+#### Anticipated activities  
+* What we're planning to do in the coming week 
+
+#### Issues  
+* Recurring issues that may span a number of individual issues reported in GitHub  
+
+## Stand-up for IOOC  
+#### Accomplishments  
+* What we've done in the past week  
+
+#### Anticipated activities  
+* What we're planning to do in the coming week 
+
+#### Issues  
+* Recurring issues that may span a number of individual issues reported in GitHub  
