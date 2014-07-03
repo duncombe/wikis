@@ -137,13 +137,17 @@ Both Will and Kyle on vacation, nothing to report.
 
 ## Stand-up for ASA  
 #### Accomplishments  
-* What we've done in the past week  
+* Progress issue written for Scenario 2a modeled vs obs waves notebook https://github.com/ioos/system-test/issues/105
+* Continued work on currents obs vs model data comparison notebook.
+* Worked on display of sideways looking ADCPs
 
 #### Anticipated activities  
-* What we're planning to do in the coming week 
-
+* Write progress report for extreme waves notebook
+* Complete notebook and write progress report for currents obs vs model data comparison
+* Complete notebook and write progress report for extreme currents 
+ 
 #### Issues  
-* Recurring issues that may span a number of individual issues reported in GitHub  
+* Had some trouble accessing modeled current data with IRIS, which impeded progress with currents obs vs model comparison notebook; resolved
 
 
 ## Stand-up for Axiom  
