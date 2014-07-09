@@ -38,7 +38,7 @@ Model - Data Comparison Notebooks:
 
 * Winds Notebook - to compare observed and modeled wind speeds and directions
 
-* Currents Notebook - to compare observed (HFRADAR) and modeled currents
+* [Currents Notebook](http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A_Coastal_Inundation/Scenario_2A_ModelDataCompare_Currents/Scenario_2A_Model_Obs_Compare_Currents.ipynb) - to compare observed (sensor) and modeled currents
 
 Extreme Value Analyses:
 *  [Water level Extremes Notebook](http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A_Coastal_Inundation/Scenario_2A_Extremes_Inundation/Scenario_2A_Water_Level_Bird_Redux.ipynb)
