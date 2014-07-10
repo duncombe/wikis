@@ -169,3 +169,24 @@ Both Will and Kyle on vacation, nothing to report.
 
 #### Issues  
 * Recurring issues that may span a number of individual issues reported in GitHub  
+
+# Week of 7 July 2014
+
+## Stand-up for ASA  
+#### Accomplishments  
+* Completed currents obs vs model data comparison [notebook](http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A_Coastal_Inundation/Scenario_2A_ModelDataCompare_Currents/Scenario_2A_Model_Obs_Compare_Currents.ipynb) and progress report #113
+* Continued progress on [extreme currents notebook](http://nbviewer.ipython.org/github/birdage/system-test/blob/hf_radar/Theme_2_Extreme_Events/Scenario_2A_Coastal_Inundation/Scenario_2A_Extremes_Currents/Scenario_2A_Extreme_Currents.ipynb)
+ and progress report #110
+* Starting on winds notebook.
+
+#### Anticipated activities  
+* Write progress report for extreme waves notebook and add modeled wave data
+* Finish extreme currents notebook and progress report
+* Complete winds notebook
+* Start creating spin off notebooks to demonstrate more functionality such as new data catalogs
+
+ 
+#### Issues  
+* Encountered some challenges getting modeled currents #112
+* Retrieving long time series of current data is painful. Getting multiple years of 6 minute data for multiple years results in many requests and huge data sets
+
