@@ -3,19 +3,19 @@
 [Theme 1: Baseline Assessment](#theme1)  [The Elusive Theme.  Is it dead, alive or both?]
 [Theme 2: Extreme Events](#theme2)   
 * [Scenario 2A: Coastal Inundation](#scenario2A) [Under development.  Nearing completion]
-* [Scenario 2B: Coastal Flooding Information](#scenario2B) [Should it be developed?]
+* [Scenario 2B: Coastal Flooding Information](#scenario2B) [Should it be developed? Probably not.]
 * [Scenario 2C:  Oil Tanker Spill](#scenario2C) [Not under development.  Should it be developed?]
-* [Scenario 2D:  Search & Rescue] (#scenario2D)  [ Stop searching.  It's beyond rescue]
+* [Scenario 2D:  Search & Rescue] (#scenario2D)  [Stop searching.  This scenario is beyond rescue]
     
 [Theme 3: Species Protection & Marine Habitat Conservation](#theme3)  
 *  [Scenario 3A:  Assessing Seabird Vulnerability in the Bering Sea](#scenario3A) [Consider it done]
-*  [Scenario 3B:  Assessing the Atlantic Continental Shelf Cold Pool](#scenario3B) [Are there any data for this one?]
-*  [Scenario 3C:  Deep Blue Water Use Case Scenario](#scenario3C)
-*  [Scenario 3D:  Assessing Chesapeake Bay Biology] (#scenario3D)
-*  [Scenario 3E:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast](#scenario3E) [Leave this one to Captain Ahab]
-*  [Scenario 3F:  Planning for Wind Turbine Sites using Ecosystem Base Approach](#scenario3F) [
-*  [Scenario 3G: Mineral Extraction](#scenario3G)
-*  [Scenario 3H: Exploring environmental changes affecting Polar Bears](#scenario3H) [Endangered species.  Endangered scenario, too.]
+*  [Scenario 3B:  Assessing the Atlantic Continental Shelf Cold Pool](#scenario3B) [Are there any data for this one? Not feasible within project schedule]
+*  [Scenario 3C:  Deep Blue Water Use Case Scenario](#scenario3C) [Not feasible within project schedule]
+*  [Scenario 3D:  Assessing Chesapeake Bay Biology] (#scenario3D) [Not feasible within project schedule]
+*  [Scenario 3E:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast](#scenario3E) [Put a harpoon in this one and leave this one to Captain Ahab]
+*  [Scenario 3F:  Planning for Wind Turbine Sites using Ecosystem Base Approach](#scenario3F) [Is this feasible within current schedule?]
+*  [Scenario 3G: Mineral Extraction](#scenario3G) [Is this feasible within current schedule?]
+*  [Scenario 3H: Exploring environmental changes affecting Polar Bears](#scenario3H) [Endangered species.  Endangered scenario, too. Not feasible.  Registry population is too small.]
 <a name="intro"/>
 
 # Introduction
