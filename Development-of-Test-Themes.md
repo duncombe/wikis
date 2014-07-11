@@ -3,9 +3,9 @@
 [Theme 1: Baseline Assessment](#theme1)  [The Elusive Theme.  Is it dead, alive or both?]
 [Theme 2: Extreme Events](#theme2)   
 * [Scenario 2A: Coastal Inundation](#scenario2A) [Under development.  Nearing completion]
-* [Scenario 2B: Coastal Flooding Information](#scenario2B) [Is this the same as Coastal Inundation?]
+* [Scenario 2B: Coastal Flooding Information](#scenario2B) [Should i be developed?]
 * [Scenario 2C:  Oil Tanker Spill](#scenario2C) [Not under development.  Should it be developed?]
-* [Scenario 2D:  Search & Rescue] (#scenario2D)  [ Beyond rescue]
+* [Scenario 2D:  Search & Rescue] (#scenario2D)  [ Stop searching.  It's beyond rescue]
     
 [Theme 3: Species Protection & Marine Habitat Conservation](#theme3)  
 *  [Scenario 3A:  Assessing Seabird Vulnerability in the Bering Sea](#scenario3A) [Consider it done]
@@ -41,7 +41,12 @@ The procedures will employ IPython scripts that interrogate DMAC registries and 
 This is the elusive theme.  The logic and approaches used in this theme are inherent within all subsequent themes, and the techniques used for discovery, access and use are common to most, if not all scenarios.  This theme needs a very simple operational definition:
 
 > Researcher Jane Doe is new to IOOS, and wants to find out what information is available for further research.  She decides to cast a broad net over all the IOOS registries to find out 
-* how much information is available on several common, core oceanographic variables, 
+* how much time series information is available on several common, core oceanographic variables:
+** wind speed and direction
+** wave height and duration
+** water temperature as measured at different depths
+** water salinity as measured at different depths
+** the direction and speed of any current
 * where this information resides, and 
 * whether this information can be used as input to a few of the most common data models.< 
 
@@ -54,7 +59,7 @@ The baseline assessment theme includes test cases that, as the name of theme sta
 
 Information obtained through the use of IPython scripts will be compared against corresponding information retained by registry, catalog, or data repository owners to evaluate the success of the tests.
 
-Baseline Python notebooks can be found [here.](http://nbviewer.ipython.org/github/ioos/system-test/tree/master/Theme_1_Baseline/).  
+Baseline Python notebooks can be found [here.](http://nbviewer.ipython.org/github/ioos/system-test/tree/master/Theme_1_Baseline/)
 
 
 ### Questions to Guide Corresponding IPython Notebooks
@@ -144,6 +149,7 @@ Collect all in situ observations in a given geographical region and determine wh
 
 <a name="scenario2B"/>
 ## Scenario 2B:  U.S. Integrated Coastal Flooding Information System
+This scenario has not been touched as of July 11, 2014.  Unless there is a compelling case to be made for this scenario, it should not be pursued.
 #####Northeast (or East Coast) Integrated Coastal Flooding Information System Product Description
 The northeast coastal zone (or eastern seaboard) is subject to significant coastal storms such as hurricanes and nor’easters, which can result in significant damage to property and loss of life. Much of the impact from these storms is a result of coastal flooding and erosion. 
 
@@ -180,6 +186,7 @@ This product is highly feasible because many of the required elements currently 
 
 <a name="scenario2C"/>
 ## Scenario 2C: Oil Tanker Spill
+Not under development as of July 11, 2014. Is this scenario feasible to pursue in the next 45 days?
 An oil tanker loaded has collided with another vessel 5 nautical miles SE of the entrance to Delaware Bay _(NOTE: can we use another coast, maybe SF Bay?)_.  A large quantity of oil has been released into the marine environment, threatening the shoreline of a particular coastline. 
 
 #### Questions to Guide Corresponding IPython Notebooks
@@ -219,6 +226,7 @@ An oil tanker loaded has collided with another vessel 5 nautical miles SE of the
 
 <a name="scenario2D"/>
 ## Scenario 2D: Search & Rescue - Commercial Aircraft Crash
+Stop searching.  This scenario is beyond rescue.
 A large commercial aircraft en route LAX from Honolulu with several hundred passengers onboard has crashed into the Pacific Ocean midway between the Hawaiian Islands and the California coast.  A massive search and rescue effort is underway.  This effort can be improved by integrated knowledge of the physical/chemical/biological conditions of the atmosphere and ocean.
 
 ###Questions to Guide Corresponding IPython Notebooks
@@ -252,6 +260,7 @@ The mission of the NOAA National Marine Fisheries Service is to safeguard the vi
 
 <a name="scenario3A"/>
 ###Scenario 3A: Assessing Seabird Vulnerability in the Bering Sea
+As of July 11, 2014, this scenario has been taken about as far as it can reasonably go. Python notebooks should be submitted for pull requests ASAP.
 
 The climate is changing in the Bering Sea and Aleutian Islands region. Residents, stakeholders, scientists, and natural resource managers are all concerned about the impacts of future climate change on important species, systems and habitats. But projections of future climate are uncertain, and different approaches have different strengths and limitations. With variation in projections, and with different impacts depending on species and systems of concern, how can stakeholders and managers realistically anticipate and plan for the impacts of climate change?
 
@@ -316,6 +325,7 @@ SNAP Projections of Sea Ice Area Fraction from CESM-CAM5, CMCC-CM, ACCESS-1, MIR
 <a name="scenario3B"/>
 
 ##Scenario 3B: Continental Shelf Use Case 
+No development on this scenario as of July 11, 2014.  While interesting, this scenario is not feasible for development within the next 45 days.
 
 The Cold Pool is a distinctive, along-shelf band of remnant winter bottom water over the mid and outer continental shelf particular to the area between the Northeast Peak of Georges Bank and Cape Hatteras. The Cold Pool is defined by its low temperature, and develops after the water column stratifies due to increased solar insolation, local fresh water runoff, and reduced wind mixing in April and May each year. Because the Cold Pool is bottom-trapped, it is virtually undetectable by ocean surface remote sensing measurements. Thus, existing pictures of Cold Pool distribution are aliased, incomplete, and one of the most poorly understood major Mid Atlantic Bight (MAB) features. The dynamics of this water mass has a disproportionately large role in structuring the biogeochemistry and ecology of the Mid-Atlantic continental shelf. For example the Cold Pool provides a thermal refuge for important fish species. This water mass also influences tropical storm and hurricane intensity.  
 
@@ -337,6 +347,7 @@ Assets that the Broker(s) would potentially access:
 
 <a name="scenario3C"/>
 ##Scenario 3C: Deep Blue Water Use Case 
+No development on this scenario as of July 11, 2014.  While interesting, this scenario is not feasible for development within the next 45 days.
 
 A large community of NSF-funded, field biological and chemical oceanographers utilize the BCODMO data repositories (http://bco-dmo.org/), and a science use-case built to utilize BCO-DMO provides a good entry point for accessing the ocean science "dark data" collected by individual researchers and small teams. BCO-DMO hosts a wide range of data products, primarily discrete data collected from water samples and continuous data from underway instruments and profiling instruments.
 ####Questions to Guide Corresponding IPython Notebooks
@@ -357,6 +368,7 @@ Assets that the Broker(s) would potentially access:
 
 <a name="scenario3D"/>
 ## Scenario 3D:  Assessing Chesapeake Bay Biology
+No development on this scenario as of July 11, 2014.  While interesting, this scenario is not feasible for development within the next 45 days.
 The NMFS Chesapeake Bay Office is updating its assessment of Chesapeake Bay biology, using updated information from recent assessment of Bay habitat.  In particular, The Chesapeake Bay Office is preparing a forecast of dead zones in the Bay for the upcoming season, and how the dead zones might affect populations of blue crab and rockfish. 
 
 ### Questions to Guide Corresponding IPython Notebooks
@@ -384,6 +396,7 @@ The NMFS Chesapeake Bay Office is updating its assessment of Chesapeake Bay biol
 
 <a name="scenario3E"/>
 ## Scenario 3E:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast
+No development planned for this scenario.  Leave it for the next Captain Ahab.
 Major spring and summer feeding grounds for baleen whales are located off the New England Coast.  The NMFS Office of Protected Resources wishes to forecast the biomass off the New England Coast that is available to feed baleen whales during the upcoming spring and summer. 
 
 ### Questions to Guide Corresponding IPython Notebooks
@@ -429,6 +442,7 @@ A state is is the process of delimiting an area off its coast that is suitable f
 
 <a name="scenario3G"/>
 ## Scenario 3G:  Mineral Extraction
+No development on this scenario as of July 11, 2014. Is development of this scenario feasible within the next 45 days?
 The Department of Interior Bureau of Ocean Energy Management is considering opening several tracts in the Gulf of Mexico for petroleum exploration. As part of their due diligence under regulations implementing the Outer Continental Shelf Lands Act, the Bureau must prepare an environmental impact statement before opening the tract to bids. The environmental impact statement must consider the potential impact of exploration and drilling on area fisheries.
 
 ### Questions to Guide Corresponding IPython Notebooks
@@ -447,6 +461,7 @@ The Department of Interior Bureau of Ocean Energy Management is considering open
 
 <a name="scenario3H"/>
 ## Scenario 3H:  Exploring environmental changes affecting Polar Bears
+No development on this scenario as of July 11, 2014.  While interesting, this scenario is not feasible for development within the next 45 days.  Further, the registries involved in testing this scenario are limited.  For initial DMAC testing, a large population of registries and repositories should be surveyed.
 Polar bears were the first vertebrate species to be listed by the U.S. Endangered Species Act as threatened by extinction primarily because of climate change. Polar bears use persistent sea ice as a platform from which to hunt seals. However, as Arctic sea ice recedes, they have to swim further from shore to reach it and, ultimately, have a shorter hunting season. Additionally, the new sea ice edge may lie over unproductive waters.
 
 ### Questions to Guide Corresponding IPython Notebooks
