@@ -54,7 +54,7 @@ The baseline assessment theme includes test cases that, as the name of theme sta
 
 Information obtained through the use of IPython scripts will be compared against corresponding information retained by registry, catalog, or data repository owners to evaluate the success of the tests.
 
-Baseline Python notebooks can be found here:  
+Baseline Python notebooks can be found [here.](http://nbviewer.ipython.org/github/ioos/system-test/tree/master/Theme_1_Baseline/).  
 
 
 ### Questions to Guide Corresponding IPython Notebooks
@@ -77,7 +77,10 @@ The Extreme Events theme, as its name suggests, focuses on the analysis of data 
 
 <a name="scenario2A"/>
 ## Scenario 2A: Coastal Inundation
-* [IPython Notebook comparing observed and modeled water levels using CSW, SOS and OPeNDAP](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/rsignell-usgs/notebook/master/CSW/IOOS_inundation.ipynb)
+This scenario is nearing completion as of 11 July 2014.
+
+The Python notebooks for this scenario can be found [here.](http://nbviewer.ipython.org/github/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A_Coastal_Inundation/)
+
 
 As a severe storm is approaching the U.S. East Coast which will result in inundation, flooding, and wind damage over an extensive area. Coastal emergency managers must prepare for and respond to flooding as well as plan and implement evacuations.  Emergency managers, forecasters, and researchers currently rely on a number of data sources to do their work, including observations and forecast models:
 * Forecasters are interested to know how federal and non-federal models compare to observed waves, river flows, and water levels, throughout the storm.
