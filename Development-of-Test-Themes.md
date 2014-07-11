@@ -12,7 +12,7 @@
 *  [Scenario 3B:  Assessing the Atlantic Continental Shelf Cold Pool](#scenario3B) [Are there any data for this one? Not feasible within project schedule]
 *  [Scenario 3C:  Deep Blue Water Use Case Scenario](#scenario3C) [Not feasible within project schedule]
 *  [Scenario 3D:  Assessing Chesapeake Bay Biology] (#scenario3D) [Not feasible within project schedule]
-*  [Scenario 3E:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast](#scenario3E) [Put a harpoon in this one and leave this one to Captain Ahab]
+*  [Scenario 3E:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast](#scenario3E) [Put a harpoon in this one and leave it to Captain Ahab]
 *  [Scenario 3F:  Planning for Wind Turbine Sites using Ecosystem Base Approach](#scenario3F) [Is this feasible within current schedule?]
 *  [Scenario 3G: Mineral Extraction](#scenario3G) [Is this feasible within current schedule?]
 *  [Scenario 3H: Exploring environmental changes affecting Polar Bears](#scenario3H) [Endangered species.  Endangered scenario, too. May be too similar to Seabird scenario. Registry population is too small.]
