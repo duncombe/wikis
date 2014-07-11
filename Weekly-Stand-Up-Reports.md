@@ -152,13 +152,11 @@ Both Will and Kyle on vacation, nothing to report.
 
 ## Stand-up for Axiom  
 #### Accomplishments  
-* What we've done in the past week  
-
+* No report
 #### Anticipated activities  
-* What we're planning to do in the coming week 
-
+* No report
 #### Issues  
-* Recurring issues that may span a number of individual issues reported in GitHub  
+* No report
 
 ## Stand-up for IOOC  
 #### Accomplishments  
@@ -171,6 +169,15 @@ Both Will and Kyle on vacation, nothing to report.
 * Recurring issues that may span a number of individual issues reported in GitHub  
 
 # Week of 7 July 2014
+
+## Stand-up for Axiom  
+#### Accomplishments  
+* Completed the harvesting of the UNIDATA motherlode catalog into a WAF of ISO XML files: http://thredds.axiomalaska.com/iso/unidata/.  Submitted to the ioos.catalog@noaa.gov email list for incorporation into the IOOS registry system (and eventually available via CSW).
+#### Anticipated activities  
+* Gung-ho on "Theme 1 - Baseline"
+* Get Scenario 3A to a point that we can start producing graphs and analysis
+#### Issues  
+* No report
 
 ## Stand-up for ASA  
 #### Accomplishments  
