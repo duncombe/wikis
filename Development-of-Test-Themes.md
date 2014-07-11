@@ -15,7 +15,7 @@
 *  [Scenario 3E:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast](#scenario3E) [Put a harpoon in this one and leave it to Captain Ahab]
 *  [Scenario 3F:  Planning for Wind Turbine Sites using Ecosystem Base Approach](#scenario3F) [Is this feasible within current schedule?]
 *  [Scenario 3G: Mineral Extraction](#scenario3G) [Is this feasible within current schedule?]
-*  [Scenario 3H: Exploring environmental changes affecting Polar Bears](#scenario3H) [Endangered species.  Endangered scenario, too. May be too similar to Seabird scenario. Registry population is too small.]
+*  [Scenario 3H: Exploring environmental changes affecting Polar Bears](#scenario3H) [As of July 11, Derrick to provide registry information to Kyle, who will finish the associated Notebooks.  Kyle estimates 8 hours of development time]
 <a name="intro"/>
 
 # Introduction
@@ -461,7 +461,7 @@ The Department of Interior Bureau of Ocean Energy Management is considering open
 
 <a name="scenario3H"/>
 ## Scenario 3H:  Exploring environmental changes affecting Polar Bears
-Some development on this scenario as of July 11, 2014.  Is this scenario too similar to the Bering Seabird scenario?  More important, the registries involved in testing this scenario are limited.  For initial DMAC testing, a large population of registries and repositories should be surveyed.
+As of July 11, Derrick to provide registry information to Kyle, who will finish the associated Notebooks.  Kyle estimates 8 hours of development time.
 
 Python notebooks for this scenario can be found [here.](http://nbviewer.ipython.org/github/ioos/system-test/tree/master/Theme_3_Species_Protection_and_Marine_Habitat_Conservation/Scenario_3H_Exploring_Environmental_Changes_Affecting_Polar_Bears/)
 Polar bears were the first vertebrate species to be listed by the U.S. Endangered Species Act as threatened by extinction primarily because of climate change. Polar bears use persistent sea ice as a platform from which to hunt seals. However, as Arctic sea ice recedes, they have to swim further from shore to reach it and, ultimately, have a shorter hunting season. Additionally, the new sea ice edge may lie over unproductive waters.
