@@ -54,6 +54,9 @@ The baseline assessment theme includes test cases that, as the name of theme sta
 
 Information obtained through the use of IPython scripts will be compared against corresponding information retained by registry, catalog, or data repository owners to evaluate the success of the tests.
 
+Baseline Python notebooks can be found here:  
+
+
 ### Questions to Guide Corresponding IPython Notebooks
 
 * Discovery, Access, Use protocol/narratives
