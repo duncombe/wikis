@@ -15,7 +15,7 @@
 *  [Scenario 3E:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast](#scenario3E) [Put a harpoon in this one and leave this one to Captain Ahab]
 *  [Scenario 3F:  Planning for Wind Turbine Sites using Ecosystem Base Approach](#scenario3F) [Is this feasible within current schedule?]
 *  [Scenario 3G: Mineral Extraction](#scenario3G) [Is this feasible within current schedule?]
-*  [Scenario 3H: Exploring environmental changes affecting Polar Bears](#scenario3H) [Endangered species.  Endangered scenario, too. Not feasible.  Registry population is too small.]
+*  [Scenario 3H: Exploring environmental changes affecting Polar Bears](#scenario3H) [Endangered species.  Endangered scenario, too. May be too similar to Seabird scenario. Registry population is too small.]
 <a name="intro"/>
 
 # Introduction
@@ -260,7 +260,7 @@ The mission of the NOAA National Marine Fisheries Service is to safeguard the vi
 
 <a name="scenario3A"/>
 ###Scenario 3A: Assessing Seabird Vulnerability in the Bering Sea
-As of July 11, 2014, this scenario has been taken about as far as it can reasonably go. Python notebooks should be submitted for pull requests ASAP.
+As of July 11, 2014, this scenario has been taken about as far as it can reasonably go. Python notebooks should be submitted for pull requests ASAP.  Corresponding Python notebook can be found [here.](http://nbviewer.ipython.org/github/ioos/system-test/tree/master/Theme_3_Species_Protection_and_Marine_Habitat_Conservation/Scenario_3A_Assessing_Seabird_Vulnerability_in_the_Bering_Sea/)
 
 The climate is changing in the Bering Sea and Aleutian Islands region. Residents, stakeholders, scientists, and natural resource managers are all concerned about the impacts of future climate change on important species, systems and habitats. But projections of future climate are uncertain, and different approaches have different strengths and limitations. With variation in projections, and with different impacts depending on species and systems of concern, how can stakeholders and managers realistically anticipate and plan for the impacts of climate change?
 
@@ -461,7 +461,9 @@ The Department of Interior Bureau of Ocean Energy Management is considering open
 
 <a name="scenario3H"/>
 ## Scenario 3H:  Exploring environmental changes affecting Polar Bears
-No development on this scenario as of July 11, 2014.  While interesting, this scenario is not feasible for development within the next 45 days.  Further, the registries involved in testing this scenario are limited.  For initial DMAC testing, a large population of registries and repositories should be surveyed.
+Some development on this scenario as of July 11, 2014.  Is this scenario too similar to the Bering Seabird scenario?  More important, the registries involved in testing this scenario are limited.  For initial DMAC testing, a large population of registries and repositories should be surveyed.
+
+Python notebooks for this scenario can be found [here.](http://nbviewer.ipython.org/github/ioos/system-test/tree/master/Theme_3_Species_Protection_and_Marine_Habitat_Conservation/Scenario_3H_Exploring_Environmental_Changes_Affecting_Polar_Bears/)
 Polar bears were the first vertebrate species to be listed by the U.S. Endangered Species Act as threatened by extinction primarily because of climate change. Polar bears use persistent sea ice as a platform from which to hunt seals. However, as Arctic sea ice recedes, they have to swim further from shore to reach it and, ultimately, have a shorter hunting season. Additionally, the new sea ice edge may lie over unproductive waters.
 
 ### Questions to Guide Corresponding IPython Notebooks
