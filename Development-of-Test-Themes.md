@@ -1,21 +1,21 @@
  
 [Introduction](#intro)  
-[Theme 1: Baseline Assessment](#theme1)  
+[Theme 1: Baseline Assessment](#theme1)  [The Elusive Theme.  Is it dead, alive or both?]
 [Theme 2: Extreme Events](#theme2)   
-* [Scenario 2A: Coastal Inundation](#scenario2A) [Under development.  Nearing Completion]
-* [Scenario 2B: Coastal Flooding Information](#scenario2B)
-* [Scenario 2C:  Oil Tanker Spill](#scenario2C)
-* [Scenario 2D:  Search & Rescue] (#scenario2D)  
+* [Scenario 2A: Coastal Inundation](#scenario2A) [Under development.  Nearing completion]
+* [Scenario 2B: Coastal Flooding Information](#scenario2B) [Is this the same as Coastal Inundation?]
+* [Scenario 2C:  Oil Tanker Spill](#scenario2C) [Not under development.  Should it be developed?]
+* [Scenario 2D:  Search & Rescue] (#scenario2D)  [ Beyond rescue]
     
 [Theme 3: Species Protection & Marine Habitat Conservation](#theme3)  
-*  [Scenario 3A:  Assessing Seabird Vulnerability in the Bering Sea](#scenario3A)
-*  [Scenario 3B:  Assessing the Atlantic Continental Shelf Cold Pool](#scenario3B)
+*  [Scenario 3A:  Assessing Seabird Vulnerability in the Bering Sea](#scenario3A) [Consider it done]
+*  [Scenario 3B:  Assessing the Atlantic Continental Shelf Cold Pool](#scenario3B) [Are there any data for this one?]
 *  [Scenario 3C:  Deep Blue Water Use Case Scenario](#scenario3C)
 *  [Scenario 3D:  Assessing Chesapeake Bay Biology] (#scenario3D)
-*  [Scenario 3E:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast](#scenario3E)
-*  [Scenario 3F:  Planning for Wind Turbine Sites using Ecosystem Base Approach](#scenario3F)
+*  [Scenario 3E:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast](#scenario3E) [Leave this one to Captain Ahab]
+*  [Scenario 3F:  Planning for Wind Turbine Sites using Ecosystem Base Approach](#scenario3F) [
 *  [Scenario 3G: Mineral Extraction](#scenario3G)
-*  [Scenario 3H: Exploring environmental changes affecting Polar Bears](#scenario3H)
+*  [Scenario 3H: Exploring environmental changes affecting Polar Bears](#scenario3H) [Endangered species.  Endangered scenario, too.]
 <a name="intro"/>
 
 # Introduction
@@ -38,6 +38,13 @@ The procedures will employ IPython scripts that interrogate DMAC registries and 
 
 <a name="theme1"/>
 # Theme 1: Baseline Assessment
+This is the elusive theme.  The logic and approaches used in this theme are inherent within all subsequent themes, and the techniques used for discovery, access and use are common to most, if not all scenarios.  This theme needs a very simple operational definition:
+
+> Researcher Jane Doe is new to IOOS, and wants to find out what information is available for further research.  She decides to cast a broad net over all the IOOS registries to find out 
+* how much information is available on several common, core oceanographic variables, 
+* where this information resides, and 
+* whether this information can be used as input to a few of the most common data models.< 
+
 The baseline assessment theme includes test cases that, as the name of theme states, assess the basic functionality of the Data Management and Communications system.  While the test cases for this theme have no slant towards a particular scientific endeavor, the functionality to be tested underlies all subsequent test themes.  These test cases will incorporate multiple IOOS Regions and partners, cover a large geographic scope, employ multiple types of data, and cross scientific disciplines.   Results from this baseline assessment will include:
 * Basic statistics on the number and type of data sets in each chosen registry or catalog
 * The metadata standards and dialects employed within those registries
