@@ -153,8 +153,10 @@ Both Will and Kyle on vacation, nothing to report.
 ## Stand-up for Axiom  
 #### Accomplishments  
 * No report
+
 #### Anticipated activities  
 * No report
+
 #### Issues  
 * No report
 
@@ -173,9 +175,11 @@ Both Will and Kyle on vacation, nothing to report.
 ## Stand-up for Axiom  
 #### Accomplishments  
 * Completed the harvesting of the UNIDATA motherlode catalog into a WAF of ISO XML files: http://thredds.axiomalaska.com/iso/unidata/.  Submitted to the ioos.catalog@noaa.gov email list for incorporation into the IOOS registry system (and eventually available via CSW).
+
 #### Anticipated activities  
 * Gung-ho on "Theme 1 - Baseline"
 * Get Scenario 3A to a point that we can start producing graphs and analysis
+
 #### Issues  
 * No report
 
