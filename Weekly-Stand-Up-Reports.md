@@ -201,3 +201,22 @@ Both Will and Kyle on vacation, nothing to report.
 * Encountered some challenges getting modeled currents #112
 * Retrieving long time series of current data is painful. Getting multiple years of 6 minute data for multiple years results in many requests and huge data sets
 
+# Week of 14 July 2014
+
+## Stand-up for ASA  
+#### Accomplishments  
+* Completed winds obs vs model data comparison [notebook](http://nbviewer.ipython.org/github/Bobfrat/system-test/blob/winds_notebook/Theme_2_Extreme_Events/Scenario_2A_Coastal_Inundation/Scenario_2A_ModelDataCompare_Winds/Scenario_2A_Model_Obs_Compare_Winds.ipynb) 
+* Continued progress on [extreme currents notebook](http://nbviewer.ipython.org/github/birdage/system-test/blob/hf_radar/Theme_2_Extreme_Events/Scenario_2A_Coastal_Inundation/Scenario_2A_Extremes_Currents/Scenario_2A_Extreme_Currents.ipynb)
+ and progress report #110
+* Identified issues (see below)
+
+#### Anticipated activities  
+* Write progress report for extreme waves notebook and add modeled wave data
+* Finish extreme currents notebook and progress report
+* Write winds notebook progress report
+* Start creating spin off notebooks to demonstrate more functionality such as new data catalogues
+
+#### Issues  
+* Issues managing large model grid lat/lon arrays #115
+* Need to abstract and standardize DAP interface using IRIS #117
+* Some services identified as being difficult to obtain long time series data #116
