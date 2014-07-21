@@ -5,14 +5,14 @@
 [Theme 2: Extreme Events](#theme2)   
 * [Scenario 2A: Coastal Inundation](#scenario2A) [Under development.  Nearing completion]
 * [Scenario 2B: Coastal Flooding Information](#scenario2B) [Should it be developed? Probably not.]
-* [Scenario 2C:  Oil Tanker Spill](#scenario2C) [Not under development.  Should it be developed?]
+* [Scenario 2C:  Oil Spill Response Modeling](#scenario2C) [Used to be Oil Tanker Spill.  Can be used by Axiom to apply to oil exploration in the Chukchi Sea.  Much information available from Deepwater Horizon, Exxon Valdez, Cosco Busan S.F. Bay Incident]
 * [Scenario 2D:  Search & Rescue] (#scenario2D)  [Stop searching.  This scenario is beyond rescue]
     
 [Theme 3: Species Protection & Marine Habitat Conservation](#theme3)  
-*  [Scenario 3A:  Assessing Seabird Vulnerability in the Bering Sea](#scenario3A) [Consider it done]
+*  [Scenario 3A:  Identifying Factors Affecting Species Viability(#scenario3A) [ Used to be Assessing Bering Seabird Vulnerability. Much of the code for Seabird Vulnerability can be repurposed for other species in other areas]
 *  [Scenario 3B:  Assessing the Atlantic Continental Shelf Cold Pool](#scenario3B) [Are there any data for this one? Not feasible within project schedule]
 *  [Scenario 3C:  Deep Blue Water Use Case Scenario](#scenario3C) [Not feasible within project schedule]
-*  [Scenario 3D:  Assessing Chesapeake Bay Biology] (#scenario3D) [Might be useful for assessing nutrients.  Worthy of further examination.]
+*  [Scenario 3D:  Assessing Chesapeake Bay Biology] (#scenario3D) [This might be a candidate for another application of Identifying Factors Affecting Species Viability.]
 *  [Scenario 3E:  Assessing the Quality of Baleen Whale Summer Feeding Grounds Off the New England Coast](#scenario3E) [Put a harpoon in this one and leave it to Captain Ahab]
 *  [Scenario 3F:  Planning for Wind Turbine Sites using Ecosystem Base Approach](#scenario3F) [Is this feasible within current schedule?]
 *  [Scenario 3G: Mineral Extraction](#scenario3G) [Is this feasible within current schedule?]
@@ -186,7 +186,7 @@ This product is highly feasible because many of the required elements currently 
 *  [NERACOOS water level obs/model viewer](http://www.neracoos.org/datatools/forecast/modelobs)
 
 <a name="scenario2C"/>
-## Scenario 2C: Oil Tanker Spill
+## Scenario 2C: Oil Spill Response Modeling
 Not under development as of July 11, 2014. Is this scenario feasible to pursue in the next 45 days?
 An oil tanker loaded has collided with another vessel 5 nautical miles SE of the entrance to Delaware Bay _(NOTE: can we use another coast, maybe SF Bay?)_.  A large quantity of oil has been released into the marine environment, threatening the shoreline of a particular coastline. 
 
@@ -260,8 +260,8 @@ A large commercial aircraft en route LAX from Honolulu with several hundred pass
 The mission of the NOAA National Marine Fisheries Service is to safeguard the viability of key marine species within the US economic zone.  That mission includes conserving sensitive marine habitat and restoring marine habitat that has been degraded by factors such as destructive fishing techniques and water pollution.  It also includes monitoring and protecting threatened marine species such as sea turtles and whales. The National Marine Fisheries service includes IOOS data in their assessments of habitat and threatened marine species.  Part of the value of integrating species and habitat data into the IOOS system is enabling the resolution of conflicts between human uses of our oceans and the protection of fragile marine habitats and the natural resources that they support.  Activities such as mineral extraction and energy siting require the use of a suite of marine habitat and species data in order to ensure that operations comply with marine conservation laws designed to require managers and policy makers to consider the ecological impacts of human activities.  
 
 <a name="scenario3A"/>
-###Scenario 3A: Assessing Seabird Vulnerability in the Bering Sea
-As of July 11, 2014, this scenario has been taken about as far as it can reasonably go. Python notebooks should be submitted for pull requests ASAP.  Corresponding Python notebook can be found [here.](http://nbviewer.ipython.org/github/ioos/system-test/tree/master/Theme_3_Species_Protection_and_Marine_Habitat_Conservation/Scenario_3A_Assessing_Seabird_Vulnerability_in_the_Bering_Sea/)
+###Scenario 3A: Identifying Factors Affecting Species Viability
+As of July 11, 2014, the Bering Seabird version of this scenario has been taken about as far as it can reasonably go. Python notebooks should be submitted for pull requests ASAP.  Much of the code can and should be re-used to assess the viability of species in other areas where human activities might cause harm.  Such scenarios might include tuna viability in the Gulf of Mexico after the Deepwater Horizon spill, or Oyster viability in the Chesapeake Bay.Corresponding Python notebook can be found [here.](http://nbviewer.ipython.org/github/ioos/system-test/tree/master/Theme_3_Species_Protection_and_Marine_Habitat_Conservation/Scenario_3A_Assessing_Seabird_Vulnerability_in_the_Bering_Sea/)
 
 The climate is changing in the Bering Sea and Aleutian Islands region. Residents, stakeholders, scientists, and natural resource managers are all concerned about the impacts of future climate change on important species, systems and habitats. But projections of future climate are uncertain, and different approaches have different strengths and limitations. With variation in projections, and with different impacts depending on species and systems of concern, how can stakeholders and managers realistically anticipate and plan for the impacts of climate change?
 
