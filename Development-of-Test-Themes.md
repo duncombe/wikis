@@ -80,14 +80,33 @@ Baseline Python notebooks can be found [here.](http://nbviewer.ipython.org/githu
 NOTE: See github.com/osgeo/Cat-Interop for a project that should be included as a contribution to the system-test.  Standardizing vocabulary of service type descriptions for CS/W 2.0.2 implementations.
 
 <a name="scenario1A"/>
-* [Scenario 1A: Model Strings]
+* Scenario 1A: Model Strings
+Guiding Question: Can we pull out model records from CSW endpoints based on a series of model strings?  And, based on this exercise, is there a need for standardized model strings in order to ensure the discoverability of these records?
+
+Methodology
+*  Strings searched for in endpoints: model_strings = ['roms','selfe','adcirc','ncom','hycom','fvcom']
+*  Notebook provides a data frame with listed endpoints, records, titles of records, and title lengths.
 
 <a name="scenario1A"/>
 * [Scenario 1B: Core Variable Strings]
+Guiding Question: Using a list of Core IOOS Variables and the SPARQLWrapper vocabulary mapping tool, can we search and quantify records from CSW endpoints that relate to core variables?
+
+Methodology
+*  Strings searched for in endpoints: var_key = ['fish','phytoplankton','zooplankton']
+*  Notebook provides code that utilizes SPARQLWrapper tool
+*  Notebook provides output in the form of a dataframe listing endpoints searched, records, record titles, and length of records.
+*  Unresolved Question: The use of SPARQLWrapper does not seem to enhance the search terms based on Core IOOS variables.  
 
 <a name="scenario1A"/>
 * [Scenario 1C: WebService Strings]
+Guiding Question: Based on a series of WebService Strings, can we access web services via a series of CSW endpoints and quantify those results?  And based on those results, is it apparent that some web services are not being discovered as they are utilizing variations on WebService Strings?
 
+Methodology
+*  Strings searched for in endpoints: services =      {'SOS'              : 'urn:x-esri:specification:ServiceType:sos:url',
+                 'WMS'              : 'urn:x-esri:specification:ServiceType:wms:url',
+                 'WCS'              : 'urn:x-esri:specification:ServiceType:wcs:url',
+                 'DAP'              : 'urn:x-esri:specification:ServiceType:odp:url' }
+ 
 <a name="theme2"/>
 # Theme 2: Extreme Events 
 The Extreme Events theme, as its name suggests, focuses on the analysis of data related to events that produce extreme adverse effects across a geographic area.  Possible topics within this theme may include, but not be limited to, the following:
