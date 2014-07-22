@@ -1,6 +1,9 @@
  
 [Introduction](#intro)  
 [Theme 1: Baseline Assessment](#theme1)  [The Elusive Theme.  Is it dead, alive or both?]
+* [Scenario 1A: Model Strings](#scenario1A)
+* [Scenario 1B: Core Variable Strings](#scenario1B)
+* [Scenario 1C: WebService Strings](#scenario1C)
 
 [Theme 2: Extreme Events](#theme2)   
 * [Scenario 2A: Coastal Inundation](#scenario2A) [Under development.  Nearing completion]
@@ -76,6 +79,14 @@ Baseline Python notebooks can be found [here.](http://nbviewer.ipython.org/githu
 
 NOTE: See github.com/osgeo/Cat-Interop for a project that should be included as a contribution to the system-test.  Standardizing vocabulary of service type descriptions for CS/W 2.0.2 implementations.
 
+<a name="scenario1A"/>
+* [Scenario 1A: Model Strings]
+
+<a name="scenario1A"/>
+* [Scenario 1B: Core Variable Strings]
+
+<a name="scenario1A"/>
+* [Scenario 1C: WebService Strings]
 
 <a name="theme2"/>
 # Theme 2: Extreme Events 
