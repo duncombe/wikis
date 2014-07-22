@@ -3,7 +3,7 @@
 [Theme 1: Baseline Assessment](#theme1)  [The Elusive Theme.  Is it dead, alive or both?]
 * [Scenario 1A: Model Strings](#scenario1A)
 * [Scenario 1B: Core Variable Strings](#scenario1B)
-* [Scenario 1C: WebService Strings](#scenario1C)
+* [Scenario 1C: WebService Strings](#scenario1C) [This needs some work in terms of developing a comprehensible output]
 
 [Theme 2: Extreme Events](#theme2)   
 * [Scenario 2A: Coastal Inundation](#scenario2A) [Under development.  Nearing completion]
