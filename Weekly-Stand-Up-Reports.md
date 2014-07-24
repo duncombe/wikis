@@ -214,9 +214,26 @@ Both Will and Kyle on vacation, nothing to report.
 * Write progress report for extreme waves notebook and add modeled wave data
 * Finish extreme currents notebook and progress report
 * Write winds notebook progress report
-* Start creating spin off notebooks to demonstrate more functionality such as new data catalogues
+* Start creating spin off notebooks to demonstrate more functionality such as new data catalogs 
 
 #### Issues  
 * Issues managing large model grid lat/lon arrays #115
 * Need to abstract and standardize DAP interface using IRIS #117
-* Some services identified as being difficult to obtain long time series data #116
+* Some services identified as being difficult to obtain long time series data #116 
+
+# Week of 21 July 2014
+
+## Stand-up for ASA  
+#### Accomplishments
+* Continued work on winds notebook, including testing catalogs other than NGDC.  
+
+#### Anticipated activities
+* Write progress report for extreme waves notebook and add modeled wave data
+* Finish extreme currents notebook and progress report
+* Write winds notebook progress report
+* Continue creating spin off notebooks to demonstrate more functionality such as new data catalogs 
+* Test wind data notebook with additional geographies to determine whether lack of data in other catalogs is location specific.
+
+#### Issues  
+* Initial tests of other catalogs (to find wind data) did not yield any results will investigate further (e.g. for other geographies) before documenting in a progress report
+
