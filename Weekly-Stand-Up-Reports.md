@@ -223,6 +223,19 @@ Both Will and Kyle on vacation, nothing to report.
 
 # Week of 21 July 2014
 
+## Stand-up for Axiom
+#### Accomplishments
+* Reviewed Extreme Wind notebook
+* Organized Theme 1 notebooks into the agreed upon directory structure
+
+#### Anticipated activities
+* Theme 1 progress
+
+#### Issues  
+* Suffering from information overload when trying to make progress.
+* Documentation is everywhere, some is outdated.
+
+
 ## Stand-up for ASA  
 #### Accomplishments
 * Continued work on winds notebook, including testing catalogs other than NGDC.  
