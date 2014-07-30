@@ -1,9 +1,10 @@
  
 [Introduction](#intro)  
-[Theme 1: Baseline Assessment](#theme1)  [The Elusive Theme.  Is it dead, alive or both?]
+[Theme 1: Baseline Assessment](#theme1)
 * [Scenario 1A: Model Strings](#scenario1A)
 * [Scenario 1B: Core Variable Strings](#scenario1B)
 * [Scenario 1C: WebService Strings](#scenario1C) [This needs some work in terms of developing a comprehensible output]
+* [Scenario 1D: Accessing Dissolved Oxygen and Nutrient data](#scenario1D)
 
 [Theme 2: Extreme Events](#theme2)   
 * [Scenario 2A: Coastal Inundation](#scenario2A) [Under development.  Nearing completion]
@@ -12,7 +13,7 @@
 * [Scenario 2D:  Search & Rescue] (#scenario2D)  [Stop searching.  This scenario is beyond rescue]
     
 [Theme 3: Species Protection & Marine Habitat Conservation](#theme3)  
-*  [Scenario 3A:  Identifying Factors Affecting Species Viability(#scenario3A) [ Used to be Assessing Bering Seabird Vulnerability. Much of the code for Seabird Vulnerability can be repurposed for other species in other areas]
+*  [Scenario 3A:  Identifying Factors Affecting Species Viability](#scenario3A) [Used to be Assessing Bering Seabird Vulnerability. Much of the code for Seabird Vulnerability can be repurposed for other species in other areas]
 *  [Scenario 3B:  Assessing the Atlantic Continental Shelf Cold Pool](#scenario3B) [Are there any data for this one? Not feasible within project schedule]
 *  [Scenario 3C:  Deep Blue Water Use Case Scenario](#scenario3C) [Not feasible within project schedule]
 *  [Scenario 3D:  Assessing Chesapeake Bay Biology] (#scenario3D) [This might be a candidate for another application of Identifying Factors Affecting Species Viability.]
