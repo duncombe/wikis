@@ -4,7 +4,8 @@
 * [Scenario 1A: Model Strings](#scenario1A)
 * [Scenario 1B: Core Variable Strings](#scenario1B)
 * [Scenario 1C: WebService Strings](#scenario1C) [This needs some work in terms of developing a comprehensible output]
-* [Scenario 1D: Accessing Dissolved Oxygen and Nutrient data](#scenario1D)
+* [Scenario 1D: Accessing Dissolved Oxygen Data](#scenario1D)
+* [Scenario 1E: Accessing Salinity Data](#scenario1E)
 
 [Theme 2: Extreme Events](#theme2)   
 * [Scenario 2A: Coastal Inundation](#scenario2A) [Under development.  Nearing completion]
@@ -81,15 +82,15 @@ Baseline Python notebooks can be found [here.](http://nbviewer.ipython.org/githu
 NOTE: See github.com/osgeo/Cat-Interop for a project that should be included as a contribution to the system-test.  Standardizing vocabulary of service type descriptions for CS/W 2.0.2 implementations.
 
 <a name="scenario1A"/>
-* Scenario 1A: Model Strings
+##### Scenario 1A: Model Strings
 Guiding Question: Can we pull out model records from CSW endpoints based on a series of model strings?  And, based on this exercise, is there a need for standardized model strings in order to ensure the discoverability of these records?
 
 Methodology
 *  Strings searched for in endpoints: model_strings = ['roms','selfe','adcirc','ncom','hycom','fvcom']
 *  Notebook provides a data frame with listed endpoints, records, titles of records, and title lengths.
 
-<a name="scenario1A"/>
-* [Scenario 1B: Core Variable Strings]
+<a name="scenario1B"/>
+##### Scenario 1B: Core Variable Strings
 Guiding Question: Using a list of Core IOOS Variables and the SPARQLWrapper vocabulary mapping tool, can we search and quantify records from CSW endpoints that relate to core variables?
 
 Methodology
@@ -98,8 +99,8 @@ Methodology
 *  Notebook provides output in the form of a dataframe listing endpoints searched, records, record titles, and length of records.
 *  Unresolved Question: The use of SPARQLWrapper does not seem to enhance the search terms based on Core IOOS variables.  
 
-<a name="scenario1A"/>
-* [Scenario 1C: WebService Strings]
+<a name="scenario1C"/>
+##### Scenario 1C: WebService Strings
 Guiding Question: Based on a series of WebService Strings, can we access web services via a series of CSW endpoints and quantify those results?  And based on those results, is it apparent that some web services are not being discovered as they are utilizing variations on WebService Strings?
 
 Methodology
@@ -108,6 +109,31 @@ Methodology
                  'WCS'              : 'urn:x-esri:specification:ServiceType:wcs:url',
                  'DAP'              : 'urn:x-esri:specification:ServiceType:odp:url' }
  
+<a name="scenario1C"/>
+
+##### Scenario 1D: Dissolved Oxygen Data
+Guiding Question: Based on a series of keywords, can we access dissolved oxygen data through CSWs or other means?  Any issues with finding dissolved oxygen data?
+
+Methodology
+data_dict["doxygen"] = {"names":['fractional_saturation_of_oxygen_in_sea_water',
+                            'mass_concentration_of_oxygen_in_sea_water',
+                            'mole_concentration_of_dissolved_molecular_oxygen_in_sea_water',
+                            'moles_of_oxygen_per_unit_mass_in_sea_water',
+                            'volume_fraction_of_oxygen_in_sea_water',
+                            'oxygen'],
+                      "sos_name":["doxygen"]}
+
+##### Scenario 1E: Salinity Data
+Guiding Question: Based on a series of keywords, can we access dissolved oxygen data through CSWs or other means?  Any issues with finding dissolved oxygen data?
+
+Methodology
+data_dict["salinity"] = {"names":['salinity',
+                                 'sea_surface_salinity',
+                                 'sea_water_absolute_salinity',
+                                 'sea_water_practical_salinity',
+                                 'sea_water_salinity'],
+                      "sos_name":["salinity"]}
+
 <a name="theme2"/>
 # Theme 2: Extreme Events 
 The Extreme Events theme, as its name suggests, focuses on the analysis of data related to events that produce extreme adverse effects across a geographic area.  Possible topics within this theme may include, but not be limited to, the following:
