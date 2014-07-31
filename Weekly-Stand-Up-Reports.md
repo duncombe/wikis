@@ -257,10 +257,9 @@ Both Will and Kyle on vacation, nothing to report.
 * Completed winds obs vs model data [progress report] (https://github.com/ioos/system-test/issues/135) and [notebook] (https://github.com/ioos/system-test/pull/118) (needs to be merged, please)
 
 #### Anticipated activities
-* Develop a single "Spin off notebook" for the basic oceanography variables already being tested (wind, waves, currents, waterlevel) to test all end points for multiple geographies and develop a chart summarizing available endpoints per variable/csw/location.  Idea is to create one nicely organized notebook that tests multiple variations of CSW/location and avoid the need to create many simple spinoffs.
+* Develop a single "spin-off notebook" for the basic oceanography variables already being tested (wind, waves, currents, water level) to test all end points for multiple geographies. Develop a chart summarizing available endpoints per variable/csw/location.  Idea is to create one nicely organized notebook that tests multiple variations of CSW/location for each variable and avoid the need to create many simple spinoffs.
 * Finalize waves extremes notebook
-* Model-HFRadar-Obs comparison notebook
-** coordinate with ASA EDS team about access/use of HFRADAR data
+* Model-HFRadar-Obs comparison notebook; coordinate with ASA EDS team about access/use of HFRADAR data
 * Update folder structure for Theme 2 (to reduce length)
 * Finalize currents extremes notebook
 * Update currents model-obs notebook to (1) point out that the easiest datasets to access are not really comparable the Chesapeake Bay example in the map and (2) look for model data inside CB
