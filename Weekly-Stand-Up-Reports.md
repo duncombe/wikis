@@ -254,7 +254,7 @@ Both Will and Kyle on vacation, nothing to report.
 
 ## Stand-up for ASA  
 #### Accomplishments
-* Completed winds obs vs model data [progress report] [notebook](https://github.com/ioos/system-test/issues/135)
+* Completed winds obs vs model data [progress report] (https://github.com/ioos/system-test/issues/135) [notebook] (https://github.com/ioos/system-test/pull/118) (needs to be merged, please)
 
 #### Anticipated activities
 * Develop a single "Spin off notebook" for the basic oceanography variables already being tested (wind, waves, currents, waterlevel) to test all end points for multiple geographies and develop a chart summarizing available endpoints per variable/csw/location.  Idea is to create one nicely organized notebook that tests multiple variations of CSW/location and avoid the need to create many simple spinoffs.
