@@ -250,3 +250,21 @@ Both Will and Kyle on vacation, nothing to report.
 #### Issues  
 * Initial tests of other catalogs (to find wind data) did not yield any results will investigate further (e.g. for other geographies) before documenting in a progress report
 
+# Week of 28 July 2014
+
+## Stand-up for ASA  
+#### Accomplishments
+* Completed winds obs vs model data [progress report] [notebook](https://github.com/ioos/system-test/issues/135)
+
+#### Anticipated activities
+* Develop a single "Spin off notebook" for the basic oceanography variables already being tested (wind, waves, currents, waterlevel) to test all end points for multiple geographies and develop a chart summarizing available endpoints per variable/csw/location.  Idea is to create one nicely organized notebook that tests multiple variations of CSW/location and avoid the need to create many simple spinoffs.
+* Finalize waves extremes notebook
+* Model-HFRadar-Obs comparison notebook
+** coordinate with ASA EDS team about access/use of HFRADAR data
+* Update folder structure for Theme 2 (to reduce length)
+* Finalize currents extremes notebook
+* Update currents model-obs notebook to (1) point out that the easiest datasets to access are not really comparable the Chesapeake Bay example in the map and (2) look for model data inside CB
+
+#### Issues  
+* Initial tests of other catalogs (to find wind data) did not yield any results; will investigate further (e.g. for other geographies) before documenting in a progress report
+* ASA team has multiple ideas for new notebooks, which don't all fit neatly into existing scenarios
