@@ -251,6 +251,18 @@ Both Will and Kyle on vacation, nothing to report.
 * Initial tests of other catalogs (to find wind data) did not yield any results will investigate further (e.g. for other geographies) before documenting in a progress report
 
 # Week of 28 July 2014
+## Stand-up for Axiom
+#### Accomplishments
+* Began a dissolved oxygen discovery notebook
+* Began a nutrients notebook (but very skeletal)
+* Updated Wiki for Theme 1 Baseline events
+
+#### Anticipated activities
+* Working on dissolved oxygen discovery vs pyoos
+* The python stalwart will cross-check the noob's code
+
+#### Issues
+* NERRS stations are a great resource with known dissolved oxygen data, but don't use a CF standard name for discovery and require IP registration for data access. Emilio was working with Dan Ramage to implement an access key approach that Emilio says went live. End result is that a Dissolved Oxygen notebook targeted at NERRS stations won't work "out-of-the-box".
 
 ## Stand-up for ASA  
 #### Accomplishments
