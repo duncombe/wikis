@@ -284,7 +284,7 @@ Both Will and Kyle on vacation, nothing to report.
 
 ## Stand-up for ASA  
 #### Accomplishments
-* Completed Extreme [currents notebook] (https://github.com/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A_Coastal_Inundation/Scenario_2A_Extremes_Currents/Scenario_2A_Extreme_Currents.ipynb) and [progress report] https://github.com/ioos/system-test/issues/110)
+* Completed Extreme [currents notebook] (https://github.com/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A_Coastal_Inundation/Scenario_2A_Extremes_Currents/Scenario_2A_Extreme_Currents.ipynb) and [progress report] (https://github.com/ioos/system-test/issues/110)
 * Completed Extreme waves [notebook](https://github.com/ioos/system-test/pull/139)
 
 #### Anticipated activities
@@ -294,5 +294,5 @@ Both Will and Kyle on vacation, nothing to report.
 * Update folder structure for [theme 2](https://github.com/ioos/system-test/issues/136)
 
 #### Issues  
-* Large current time series requests cause issues, so using DAP  #116 & #81  
-* NDBC SOS doesn't serve all of its historical wave data #137 
+* Large current time series requests cause issues, so using DAP  [#116] (https://github.com/ioos/system-test/issues/116) & [#81] (https://github.com/ioos/system-test/issues/81)  
+* NDBC SOS doesn't serve all of its historical wave data [#137] (https://github.com/ioos/system-test/issues/137) 
