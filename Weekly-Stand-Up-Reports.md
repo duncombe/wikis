@@ -279,3 +279,20 @@ Both Will and Kyle on vacation, nothing to report.
 #### Issues  
 * Initial tests of other catalogs (to find wind data) did not yield any results; will investigate further (e.g. for other geographies) before documenting in a progress report
 * ASA team has multiple ideas for new notebooks, need to discuss next steps and ensure we're not duplicating effort with others.  Examples include (1) determine whether sea ice is a factor when modeling oil spills (too much overlap with polar bears & ice?); (2) Water temperature - need a scenario simpler than cold pool to start, e.g. Can we discover and access high enough resolution data to support recreational activities (surfing, swim races) or given a fish death event, can we find evidence of hypoxia? More generally, can we compare obs, model, satellite data, etc.; (3) Can we use USGS rapid deploy gages to discover info about overland inundation? 
+
+# Week of 4 August 2014
+
+## Stand-up for ASA  
+#### Accomplishments
+* Completed Extreme [currents notebook] (https://github.com/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A_Coastal_Inundation/Scenario_2A_Extremes_Currents/Scenario_2A_Extreme_Currents.ipynb) and [progress report] https://github.com/ioos/system-test/issues/110)
+* Completed Extreme waves [notebook](https://github.com/ioos/system-test/pull/139)
+
+#### Anticipated activities
+* Develop a single "spin-off notebook" for the basic oceanography variables already being tested (wind, waves, currents, water level) to test all end points for multiple geographies. Develop a chart summarizing available endpoints per variable/csw/location. Idea is to create one nicely organized notebook that tests multiple variations of CSW/location for each variable and avoid the need to create many simple spinoffs.
+* Model-HFRadar-Obs comparison notebook; coordinate with ASA EDS team about access/use of HFRADAR data
+* Update currents model-obs notebook to (1) point out that the easiest datasets to access are not really comparable the Chesapeake Bay example in the map and (2) look for model data inside CB
+* Update folder structure for [theme 2](https://github.com/ioos/system-test/issues/136)
+
+#### Issues  
+* Large current time series requests cause issues, so using DAP  #116 & #81  
+* NDBC SOS doesn't serve all of its historical wave data #137 
