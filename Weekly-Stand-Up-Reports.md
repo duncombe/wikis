@@ -296,3 +296,20 @@ Both Will and Kyle on vacation, nothing to report.
 #### Issues  
 * Large current time series requests cause issues, so using DAP  [#116] (https://github.com/ioos/system-test/issues/116) & [#81] (https://github.com/ioos/system-test/issues/81)  
 * NDBC SOS doesn't serve all of its historical wave data [#137] (https://github.com/ioos/system-test/issues/137) 
+
+# Week of 11 August 2014
+
+## Stand-up for ASA  
+#### Accomplishments
+* Polished Extreme waves [notebook](https://github.com/ioos/system-test/pull/139) using feedback from the 08/08/2014 meeting
+* Ben Adams is getting up to speed and reviewing notebooks
+* Initiated discussion on implementing testing procedure for notebooks. See issue [#147](https://github.com/ioos/system-test/issues/147)
+
+#### Anticipated Activities:
+* Develop a single "spin-off notebook" for the basic oceanography variables already being tested (wind, waves, currents, water level) to test all end points for multiple geographies. Develop a chart summarizing available endpoints per variable/csw/location. Idea is to create one nicely organized notebook that tests multiple variations of CSW/location for each variable and avoid the need to create many simple spinoffs.
+* Model-HFRadar-Obs comparison notebook; coordinate with ASA EDS team about access/use of HFRADAR data
+* Update currents model-obs notebook to (1) point out that the easiest datasets to access are not really comparable the Chesapeake Bay example in the map and (2) look for model data inside CB
+* Update folder structure for [theme 2](https://github.com/ioos/system-test/issues/136)
+
+#### Issues
+None
