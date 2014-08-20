@@ -14,7 +14,7 @@
 * NODC Geoportal: collection level 
    * csw: http://data.nodc.noaa.gov/geoportal/csw  
 * data.noaa.gov
-   * ckan: ???
+   * ckan api: https://data.noaa.gov/api
    * csw: https://data.noaa.gov/csw
 * data.gov
    * ckan: http://geo.gov.ckan.org/csw'  # CKAN testing site for new Data.gov
