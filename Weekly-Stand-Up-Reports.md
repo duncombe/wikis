@@ -299,6 +299,18 @@ Both Will and Kyle on vacation, nothing to report.
 
 # Week of 11 August 2014
 
+## Stand-up for Axiom  
+#### Accomplishments  
+* Add documentation to baseline tests
+* Began work developing other baseline tests
+
+#### Anticipated Activities:
+* Work on developing additional baseline tests that test the system as a whole, rather than individual components  
+* Continue to develop notebooks for nutrients, salinity, dissolved oxygen, and other variables that haven't been tested in other notebooks (Baseline Scenarios 1D and 1E)
+
+#### Issues
+* Some discussion occurred over which time units are CF-compliant, which are acceptable for udunits, which can be used by the NetCDF library, and what is actually used by model developers. Issue #146 
+
 ## Stand-up for ASA  
 #### Accomplishments
 * Polished Extreme waves [notebook](https://github.com/ioos/system-test/pull/139) using feedback from the 08/08/2014 meeting
