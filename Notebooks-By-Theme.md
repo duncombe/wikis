@@ -34,7 +34,7 @@ The Baseline Assessment theme will compile basic summary statistics for each cat
 Model - Data Comparison Notebooks:
 *  [Inundation Notebook](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/rsignell-usgs/notebook/fef9438303b49a923024892db1ef3115e34d8271/CSW/IOOS_inundation.ipynb?create=1) - to compare observed and modeled water levels
 
-* [Waves Notebook](http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Inundation/Water_Level_Signell.ipynb) - to compare observed and modeled wave parameters
+* [Waves Notebook](http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Waves/Model_Obs_Compare_Waves.ipynb) - to compare observed and modeled wave parameters
 
 * [Winds Notebook](http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Winds/Model_Obs_Compare_Winds.ipynb) - to compare observed and modeled wind speeds and directions
 
