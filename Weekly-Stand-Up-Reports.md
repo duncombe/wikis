@@ -332,12 +332,13 @@ None
 * Progress report written for extreme waves [notebook](https://github.com/ioos/system-test/issues/151)
 * Updated model/obs waves [notebook](https://github.com/ioos/system-test/pull/154)
 * Working towards an automated testing of the notebooks using Travis CI (https://github.com/ioos/system-test/issues/147)
+* Update folder structure for [theme 2](https://github.com/ioos/system-test/pull/158)
 
 #### Anticipated Activities:
 * Develop a single "spin-off notebook" for the basic oceanography variables already being tested (wind, waves, currents, water level) to test all end points for multiple geographies. Develop a chart summarizing available endpoints per variable/csw/location. Idea is to create one nicely organized notebook that tests multiple variations of CSW/location for each variable and avoid the need to create many simple spinoffs.
 * Model-HFRadar-Obs comparison notebook
 * Update currents model-obs notebook to (1) point out that the easiest datasets to access are not really comparable the Chesapeake Bay example in the map and (2) look for model data inside CB
-* Update folder structure for [theme 2](https://github.com/ioos/system-test/issues/136)
+
 
 #### Issues
 None
