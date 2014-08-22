@@ -32,22 +32,22 @@ The Baseline Assessment theme will compile basic summary statistics for each cat
 #### Scenario A: Severe Coastal Storm
 
 Model - Data Comparison Notebooks:
-   *  [Inundation Notebook](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/rsignell-usgs/notebook/fef9438303b49a923024892db1ef3115e34d8271/CSW/IOOS_inundation.ipynb?create=1) - to compare observed and modeled water levels
+*  [Inundation Notebook](http://nbviewer.ipython.org/urls/raw.githubusercontent.com/rsignell-usgs/notebook/fef9438303b49a923024892db1ef3115e34d8271/CSW/IOOS_inundation.ipynb?create=1) - to compare observed and modeled water levels
 
-* [Waves Notebook](http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A_Coastal_Inundation/Scenario_2A_ModelDataCompare_Waves/Scenario_A_Model_Obs_Compare_Waves.ipynb) - to compare observed and modeled wave parameters
+* [Waves Notebook](http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Inundation/Water_Level_Signell.ipynb) - to compare observed and modeled wave parameters
 
-* Winds Notebook - to compare observed and modeled wind speeds and directions
+* [Winds Notebook](http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Winds/Model_Obs_Compare_Winds.ipynb) - to compare observed and modeled wind speeds and directions
 
-* [Currents Notebook](http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A_Coastal_Inundation/Scenario_2A_ModelDataCompare_Currents/Scenario_2A_Model_Obs_Compare_Currents.ipynb) - to compare observed (sensor) and modeled currents
+* [Currents Notebook](http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Currents/Model_Obs_Compare_Currents.ipynb) - to compare observed (sensor) and modeled currents
 
 Extreme Value Analyses:
-*  [Water level Extremes Notebook](http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A_Coastal_Inundation/Scenario_2A_Extremes_Inundation/Scenario_A_Extreme_Water_Level.ipynb)
+*  [Water level Extremes Notebook](http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A/Extremes_Inundation/Extreme_Water_Level.ipynb)
 
-* [Wave Extremes Notebook](http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A_Coastal_Inundation/Scenario_2A_Extremes_Waves/Scenario_2A_Waves.ipynb) - to discover whether sufficient record lengths exist for calculating return periods for wave parameters
+* [Wave Extremes Notebook](http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A/Extremes_Waves/Extreme_Waves.ipynb) - to discover whether sufficient record lengths exist for calculating return periods for wave parameters
 
-* Wind Extremes Notebook - to discover whether sufficient record lengths exist for calculating return periods for wind speeds
+* [Wind Extremes Notebook](http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A/Extremes_Winds/Extreme_Winds.ipynb) - to discover whether sufficient record lengths exist for calculating return periods for wind speeds
 
-* Currents Extremes Notebooks - to discover whether sufficient record lengths exist for calculating return periods for current speeds
+* [Currents Extremes Notebooks](http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A/Extremes_Currents/Extreme_Currents.ipynb) - to discover whether sufficient record lengths exist for calculating return periods for current speeds
 
 Overland Flooding:
 
