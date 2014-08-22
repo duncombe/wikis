@@ -142,7 +142,7 @@ The Extreme Events theme, as its name suggests, focuses on the analysis of data 
 ## Scenario 2A: Coastal Inundation
 This scenario is nearing completion as of 11 July 2014.
 
-The Python notebooks for this scenario can be found [here.](http://nbviewer.ipython.org/github/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A_Coastal_Inundation/)
+The Python notebooks for this scenario can be found [here.](http://nbviewer.ipython.org/github/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/)
 
 
 As a severe storm is approaching the U.S. East Coast which will result in inundation, flooding, and wind damage over an extensive area. Coastal emergency managers must prepare for and respond to flooding as well as plan and implement evacuations.  Emergency managers, forecasters, and researchers currently rely on a number of data sources to do their work, including observations and forecast models:
