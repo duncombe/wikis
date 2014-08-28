@@ -343,7 +343,7 @@ None
 #### Issues
 None
 
-# Week of 18 August 2014
+# Week of 25 August 2014
 ## Stand-up for ASA  
 #### Accomplishments
 * Develop a single "spin-off notebook" for the basic oceanography variables to test all end points for multiple geographies. See [pull request](https://github.com/ioos/system-test/pull/163)
