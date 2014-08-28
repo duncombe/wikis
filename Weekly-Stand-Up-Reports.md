@@ -342,3 +342,22 @@ None
 
 #### Issues
 None
+
+# Week of 18 August 2014
+## Stand-up for ASA  
+#### Accomplishments
+* Develop a single "spin-off notebook" for the basic oceanography variables to test all end points for multiple geographies. See [pull request](https://github.com/ioos/system-test/pull/163)
+* Initial implementation of Travis CI on IOOS system test repo
+* HF Radar – Obs – Model notebook complete (@Birdage needs to make a pull request)
+* Started on the USGS rapid deployment gauges notebook
+
+#### Anticipated Activities:
+* Progress report for spin off notebook
+* Update currents model-obs notebook documentation
+* Extreme winds notebook
+* Update Theme 2 progress README.md to reflect current status of Theme 2 notebooks
+
+
+#### Issues
+* Found an issue with the USGS Woods Hole Geoportal CSW. See [issue](https://github.com/ioos/system-test/issues/162)
+
