@@ -1,15 +1,19 @@
 # Background
 The distributed, service oriented architecture of DMAC has been implemented independently by IOOS partners, using different software approaches and different levels of implementation.  IOOS partners differ in their online data discovery and access protocols they offer, the percent of their datasets available through their online services, and the percent of datasets registered with the IOOS catalog.  These differences can present difficulties to researchers and policy makers who are looking for oceanographic data to address important scientific endeavors and policy issues.
 
-The DMAC system integration test (DMAC-IT) will evaluate whether the services that IOOS has deployed  to Federal partners and Regional Associations can assist resarchers and policy makers in finding, accessing and using oceanographic data to address important research questions and policy issues.  IOOS services tested include the following:
+# Objective
+
+The DMAC system integration test (DMAC-IT) evaluates the extent to which the services that IOOS has deployed  to Federal partners and Regional Associations can assist resarchers and policy makers in finding, accessing and using oceanographic data to address important research questions and policy issues.  IOOS services tested include the following:
 
 * OPeNDAP Data Access Protocol (DAP) and/or Open Geospatial Consortium (OGC) Web Coverage Service (WCS) for access to gridded data
 * OGC Sensor Observation Service (SOS) for access to in situ observations
 * OGC Web Map Service (WMS) for access to geo-referenced image data
 * OGC Catalog Service for the Web (CSW)
 
+The DMAC-IT does not fit the common definition of Integration Testing.  All of the data services involved in the test are established protocols. None of the data registries, catalogs and repositories are new.  The DMAC architecture employs data structures and code that are widely used in the scientific community. The DMAC architecture is largely outside of IOOS control.  The objective of the DMAC-IT is not to ascertain whether the DMAC architecture works.  Every component of the DMAC architecture is known to work.  The objectives of the test is to gauge the level of maturity of DMAC, as measured by the the extent to which query tools and techniques commonly used by the IOOS community can identify, access and use information from IOOS data providers.
 
-* Structure of the test
+
+# Structure of the test
 
 * Conduct of the test
 
