@@ -14,7 +14,8 @@
 *  [OpenSearch](http://www.opensearch.org/Home): A collection of simple formats for sharing of search results
 *  [GEOSS AIP-6 Architecture Document](http://www.earthobservations.org/documents/cfp/201302_geoss_cfp_aip6_architecture.pdf)
 *  [GEOSS AIP-3 Use Cases Engineering Report GEOSS Architecture Implementation Pilot, Phase3,](http://www.ogcnetwork.net/pub/ogcnetwork/GEOSS/AIP3/documents/AIP-3_Use_Cases_ER110210.pdf)
-*  [Paper on DMAC technologies in support of modeling](https://docs.google.com/a/noaa.gov/file/d/0B8Z5uQGdxxJBcGk2UFlKU1IzOEpfS2NrMHV5M3k0dUlRM1dr/edit)
+*  [Paper on DMAC technologies in support of modeling](http://www.mdpi.com/2077-1312/2/1/194)
+  *  
 *  Karl Benedicts presentation to the DMAC ST on 2013-11-19.
 *  Links to the DATE project presentation materials for tomorrow morning's session:
     *  [Presentation (self-contained web page. arrow-keys advance)](https://www.dropbox.com/s/ehlu0p3s7caxp8i/presentation.slides.html)
