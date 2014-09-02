@@ -12,6 +12,10 @@ The DMAC system integration test (DMAC-IT) evaluates the extent to which the ser
 
 The DMAC-IT does not fit the common definition of Integration Testing.  All of the data services involved in the test are established protocols. None of the data registries, catalogs and repositories are new.  The DMAC architecture employs data structures and code that are widely used in the scientific community. The DMAC architecture is largely outside of IOOS control.  The objective of the DMAC-IT is not to ascertain whether the DMAC architecture works.  Every component of the DMAC architecture is known to work.  The objectives of the test is to gauge the level of maturity of DMAC, as measured by the the extent to which query tools and techniques commonly used by the IOOS community can identify, access and use information from IOOS data providers.
 
+Revisions: We are testing the OCG standards themselves and the degree to which they have been implemented.  We are also testing the underlying architecture itself, to see how well it works, according to several objectives.
+
+Community development.  This is a system of systems, because IOOS has not control over the architecture.
+
 
 # Structure of the test
 
