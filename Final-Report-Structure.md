@@ -54,45 +54,48 @@ The following general questions have been used to guide the development of IPyth
 * For a given registry, are clear, human-readable titles/abstracts/summaries/identifiers contained in the metadata?
 * Within a given registry are there present keywords and references to standardized keyword vocabularies (preferably machine readable)?
 
-Scenario 1A: Model Strings
+### Scenario 1A: Model Strings
 
-Guiding Question: Can we pull out model records from CSW endpoints based on a series of model strings? And, based on this exercise, is there a need for standardized model strings in order to ensure the discoverability of these records?
+####Guiding Question 
+Can we pull out model records from CSW endpoints based on a series of model strings? And, based on this exercise, is there a need for standardized model strings in order to ensure the discoverability of these records?
 
-Methodology
-
+####Methodology
 Strings searched for in endpoints: model_strings = ['roms','selfe','adcirc','ncom','hycom','fvcom']
 Notebook provides a data frame with listed endpoints, records, titles of records, and title lengths.
 
-Scenario 1B: Core Variable Strings
+###Scenario 1B: Core Variable Strings
 
-Guiding Question: Using a list of Core IOOS Variables and the SPARQLWrapper vocabulary mapping tool, can we search and quantify records from CSW endpoints that relate to core variables?
+####Guiding Question 
+Using a list of Core IOOS Variables and the SPARQLWrapper vocabulary mapping tool, can we search and quantify records from CSW endpoints that relate to core variables?
 
-Methodology
-
+####Methodology
 Strings searched for in endpoints: var_key = ['fish','phytoplankton','zooplankton']
 Notebook provides code that utilizes SPARQLWrapper tool
 Notebook provides output in the form of a dataframe listing endpoints searched, records, record titles, and length of records.
-Unresolved Question: The use of SPARQLWrapper does not seem to enhance the search terms based on Core IOOS variables.
 
-Scenario 1C: WebService Strings
+####Unresolved Question: The use of SPARQLWrapper does not seem to enhance the search terms based on Core IOOS variables.
 
-Guiding Question: Based on a series of WebService Strings, can we access web services via a series of CSW endpoints and quantify those results? And based on those results, is it apparent that some web services are not being discovered as they are utilizing variations on WebService Strings?
+###Scenario 1C: WebService Strings
 
-Methodology
+####Guiding Question 
+Based on a series of WebService Strings, can we access web services via a series of CSW endpoints and quantify those results? And based on those results, is it apparent that some web services are not being discovered as they are utilizing variations on WebService Strings?
 
+####Methodology
 Strings searched for in endpoints: services = {'SOS' : 'urn:x-esri:specification:ServiceType:sos:url', 'WMS' : 'urn:x-esri:specification:ServiceType:wms:url', 'WCS' : 'urn:x-esri:specification:ServiceType:wcs:url', 'DAP' : 'urn:x-esri:specification:ServiceType:odp:url' }
 
-Scenario 1D: Dissolved Oxygen Data
+###Scenario 1D: Dissolved Oxygen Data
 
-Guiding Question: Based on a series of keywords, can we access dissolved oxygen data through CSWs or other means? Any issues with finding dissolved oxygen data?
+####Guiding Question 
+Based on a series of keywords, can we access dissolved oxygen data through CSWs or other means? Any issues with finding dissolved oxygen data?
 
-Methodology data_dict["doxygen"] = {"names":['fractional_saturation_of_oxygen_in_sea_water', 'mass_concentration_of_oxygen_in_sea_water', 'mole_concentration_of_dissolved_molecular_oxygen_in_sea_water', 'moles_of_oxygen_per_unit_mass_in_sea_water', 'volume_fraction_of_oxygen_in_sea_water', 'oxygen'], "sos_name":["doxygen"]}
+####Methodology data_dict["doxygen"] = {"names":['fractional_saturation_of_oxygen_in_sea_water', 'mass_concentration_of_oxygen_in_sea_water', 'mole_concentration_of_dissolved_molecular_oxygen_in_sea_water', 'moles_of_oxygen_per_unit_mass_in_sea_water', 'volume_fraction_of_oxygen_in_sea_water', 'oxygen'], "sos_name":["doxygen"]}
 
-Scenario 1E: Salinity Data
+###Scenario 1E: Salinity Data
 
-Guiding Question: Based on a series of keywords, can we access dissolved oxygen data through CSWs or other means? Any issues with finding dissolved oxygen data?
+####Guiding Question
+Based on a series of keywords, can we access dissolved oxygen data through CSWs or other means? Any issues with finding dissolved oxygen data?
 
-Methodology data_dict["salinity"] = {"names":['salinity', 'sea_surface_salinity', 'sea_water_absolute_salinity', 'sea_water_practical_salinity', 'sea_water_salinity'], "sos_name":["salinity"]}
+####Methodology data_dict["salinity"] = {"names":['salinity', 'sea_surface_salinity', 'sea_water_absolute_salinity', 'sea_water_practical_salinity', 'sea_water_salinity'], "sos_name":["salinity"]}
 
 * Conduct of the test
 
