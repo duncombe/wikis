@@ -94,7 +94,7 @@ data_dict["doxygen"] = {"names":['fractional_saturation_of_oxygen_in_sea_water',
 
 ###Scenario 1E: Salinity Data
 
-####Guiding Question
+####Guiding Questions
 Based on a series of keywords, can we access dissolved oxygen data through CSWs or other means? Any issues with finding dissolved oxygen data?
 
 ####Methodology data_dict["salinity"] = {"names":['salinity', 'sea_surface_salinity', 'sea_water_absolute_salinity', 'sea_water_practical_salinity', 'sea_water_salinity'], "sos_name":["salinity"]}
@@ -115,28 +115,14 @@ Can we compare observed and modeled wind speeds at stations located within a bou
 * Plot observation stations on a map (red marker for model grid points) and draw a line between each station and the model grid point used for comparison
 * Plot modeled and observed time series wind speed on same axes for comparison
 
-* Observation datasets containing wind speed and direction were discovered, accessed, and plotted for multiple stations in the Gulf of Mexico.
-* Catalog-driven search using OGC CSW allowed for dynamic updating as new datasets become available (or inactive).
-* Data from both OPeNDAP-CF and SOS endpoints were discovered, accessed and used. The accessing of SOS endpoint leveraged IOOS driven tools (PYOOS).
-* Forecast model datasets were discovered, accessed, and plotted for points near the observation stations.
-* Standards-based tools allowed extraction of NOAA/NCEP GFS structured grid model output, courtesy of the British Met Office Iris package.
-* Time series plots were created visualizing wind speed and gusts on a single plot for observation stations  and wind direction .
-* An inline interactive map interface displays the locations of observation data and corresponding model grid points. A line was drawn on the map to show the distance between observation stations and the corresponding nearest model grid point.
-* Modeled and observation data were compared via a time series plot.
+###Scenario 2B:  U.S. Integrated Coastal Flooding Information System
 
-  * c. Evaluation of  the level of regional adoption of DMAC
+####Guiding Question
+Can we estimate the return period of a water level by comparing modeled and/or observed water levels with NOAA Annual Exceedance Probability Curves?
 
-  * d. Identified priority data sets that support the selected scenarios
+####Methodology
 
-  * e. Identified system constraints, especially regarding performance.
-### Easy Issues That Have Been Resolved
 
-####Wind Data (2A)
-* Some models have different longitude conventions ([0 360] and [-180 180]). This was accounted for by converting all longitude values to [-180 180].
-* Of all the CSW endpoints tested NGDC and NODC were the only ones with very recent wind data available. The NGDC CSW end point was used.
-* As of 07/31/2014, the NOAA/NCEP GFS model can't be accessed.
-
-  * f. Reusable aspects of framework that can be used in future tests and continuing integration
 * Conduct of the test
 
 * Results and Findings
