@@ -99,17 +99,22 @@ Based on a series of keywords, can we access dissolved oxygen data through CSWs 
 
 ####Methodology data_dict["salinity"] = {"names":['salinity', 'sea_surface_salinity', 'sea_water_absolute_salinity', 'sea_water_practical_salinity', 'sea_water_salinity'], "sos_name":["salinity"]}
 
-* Conduct of the test
+##Theme 2:  Extreme Weather/Water Events
 
-* Results and Findings
+### Scenario 2A:  Wind-Related Factors
 
-  * a. New or Revised Requirements
+####Guiding Question
+Can we compare observed and modeled wind speeds at stations located within a bounding box? 
 
-  * b. State of initial operating capability of IOOS
-###Model Strings (1A)
-* Able to query many different CSW servers on a variety of model strings
-* Able to summarize service types by model, service type, and source URL.
-### Winds (Scenario 2A)
+####Methodology
+* Define temporal and spatial bounds of interest, as well as parameters of interest
+* Search for available service endpoints in the NGDC CSW catalog meeting search criteria
+* Extract OPeNDAP data endpoints from model datasets and SOS endpoints from observational datasets
+* Obtain observation data sets from stations within the spatial boundaries
+* Using DAP (model) endpoints find all available models data sets that fall in the area of interest, for the specified time range, and extract a model grid cell closest to all the given station locations
+* Plot observation stations on a map (red marker for model grid points) and draw a line between each station and the model grid point used for comparison
+* Plot modeled and observed time series wind speed on same axes for comparison
+
 * Observation datasets containing wind speed and direction were discovered, accessed, and plotted for multiple stations in the Gulf of Mexico.
 * Catalog-driven search using OGC CSW allowed for dynamic updating as new datasets become available (or inactive).
 * Data from both OPeNDAP-CF and SOS endpoints were discovered, accessed and used. The accessing of SOS endpoint leveraged IOOS driven tools (PYOOS).
@@ -132,5 +137,14 @@ Based on a series of keywords, can we access dissolved oxygen data through CSWs 
 * As of 07/31/2014, the NOAA/NCEP GFS model can't be accessed.
 
   * f. Reusable aspects of framework that can be used in future tests and continuing integration
+* Conduct of the test
+
+* Results and Findings
+
+  * a. New or Revised Requirements
+
+  * b. State of initial operating capability of IOOS
+
+
 
 * Recommendations
