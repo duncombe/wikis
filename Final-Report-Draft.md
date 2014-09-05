@@ -97,7 +97,8 @@ data_dict["doxygen"] = {"names":['fractional_saturation_of_oxygen_in_sea_water',
 ####Guiding Questions
 Based on a series of keywords, can we access dissolved oxygen data through CSWs or other means? Any issues with finding dissolved oxygen data?
 
-####Methodology data_dict["salinity"] = {"names":['salinity', 'sea_surface_salinity', 'sea_water_absolute_salinity', 'sea_water_practical_salinity', 'sea_water_salinity'], "sos_name":["salinity"]}
+####Methodology 
+data_dict["salinity"] = {"names":['salinity', 'sea_surface_salinity', 'sea_water_absolute_salinity', 'sea_water_practical_salinity', 'sea_water_salinity'], "sos_name":["salinity"]}
 
 ##Theme 2:  Extreme Weather/Water Events
 
