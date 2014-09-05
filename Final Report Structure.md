@@ -73,7 +73,8 @@ Strings searched for in endpoints: var_key = ['fish','phytoplankton','zooplankto
 Notebook provides code that utilizes SPARQLWrapper tool
 Notebook provides output in the form of a dataframe listing endpoints searched, records, record titles, and length of records.
 
-####Unresolved Question: The use of SPARQLWrapper does not seem to enhance the search terms based on Core IOOS variables.
+####Unresolved Question
+The use of SPARQLWrapper does not seem to enhance the search terms based on Core IOOS variables.
 
 ###Scenario 1C: WebService Strings
 
