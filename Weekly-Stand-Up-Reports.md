@@ -1,3 +1,9 @@
+# TODO
+* Combine the various "progress notes" wiki pages into this page.  
+  * https://github.com/ioos/system-test/wiki/Hannah-Weekly-Updates
+  * https://github.com/ioos/system-test/wiki/Meeting-Notes
+  * 
+
 # Directions
 Please use this page for a weekly stand-up report from each development team.  Once a week, preferably on Thursday, a person appointed by each team should access this page and post a short summary of the team's status. There is no need for lots of detail.  When in doubt, use fewer words.  The stand-ups will become a basis of the agendas of our bi-weekly teleconferences.
 
