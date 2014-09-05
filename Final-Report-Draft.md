@@ -25,13 +25,13 @@ Within each theme there is a top level _problem statement_, which contains the o
 
 IPython notebooks use the following common format:
 
-Theme Title
-Scenario Description and Title
-Questions
-DISCOVERY Process (code and narrative)
-ACCESS Process (code and narrative)
-USE Process (code, narrative, and graphics where appropriate)
-Results and Conclusions (narrative)
+* Theme Title
+* Scenario Description and Title
+* Questions
+* DISCOVERY Process (code and narrative)
+* ACCESS Process (code and narrative)
+* USE Process (code, narrative, and graphics where appropriate)
+* Results and Conclusions (narrative)
 
 The procedures employ IPython scripts that interrogate DMAC registries and repositories, and analyze the returned data against expected results. There is not necessarily a one-to one correspondence between a Question and a notebook product. Each question may correspond to a number of notebooks in order to increase readability and modularity of the IPython notebook tools.
 
