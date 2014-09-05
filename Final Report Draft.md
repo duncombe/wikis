@@ -3,7 +3,7 @@ The distributed, service oriented architecture of DMAC has been implemented inde
 
 # Objective
 
-The DMAC system integration test (DMAC-IT) evaluates the extent to which the services that IOOS has deployed  to Federal partners and Regional Associations can assist resarchers and policy makers in finding, accessing and using oceanographic data to address important research questions and policy issues.  IOOS services tested include the following:
+The DMAC System Integration Test (SIT) evaluates the extent to which the services that IOOS has deployed  to Federal partners and Regional Associations can assist researchers and policy makers in finding, accessing and using oceanographic data to address important research questions and policy issues.  IOOS services tested include the following:
 
 * OPeNDAP Data Access Protocol (DAP) and/or Open Geospatial Consortium (OGC) Web Coverage Service (WCS) for access to gridded data
 * OGC Sensor Observation Service (SOS) for access to in situ observations
@@ -25,13 +25,13 @@ Within each theme there is a top level _problem statement_, which contains the o
 
 IPython notebooks use the following common format:
 
-* Theme Title
-* Scenario Description and Title
-* Questions
-* DISCOVERY Process (code and narrative)
-* ACCESS Process (code and narrative)
-* USE Process (code, narrative, and graphics where appropriate)
-* Results and Conclusions (narrative)
+Theme Title
+Scenario Description and Title
+Questions
+DISCOVERY Process (code and narrative)
+ACCESS Process (code and narrative)
+USE Process (code, narrative, and graphics where appropriate)
+Results and Conclusions (narrative)
 
 The procedures employ IPython scripts that interrogate DMAC registries and repositories, and analyze the returned data against expected results. There is not necessarily a one-to one correspondence between a Question and a notebook product. Each question may correspond to a number of notebooks in order to increase readability and modularity of the IPython notebook tools.
 
