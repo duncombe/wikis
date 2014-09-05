@@ -35,6 +35,81 @@ Results and Conclusions (narrative)
 
 The procedures employ IPython scripts that interrogate DMAC registries and repositories, and analyze the returned data against expected results. There is not necessarily a one-to one correspondence between a Question and a notebook product. Each question may correspond to a number of notebooks in order to increase readability and modularity of the IPython notebook tools.
 
+# Test Themes
+## Theme 1: Baseline Assessment
+The baseline assessment theme includes test scenarios that, as the name of theme states, assess the basic functionality of DMAC.  While the test scenarios for this theme have no focus on a particular scientific endeavor, the functionality to be tested underlies all subsequent test themes. These scenarios incorporate multiple IOOS Regions and partners, cover a large geographic scope, employ multiple types of data, and cross scientific disciplines. Results from baseline scenarios include:
+
+* Basic statistics on the number and type of data sets in each chosen registry or catalog
+* Metadata standards and dialects employed within those registries
+* Statistics on the number of types of service protocols/endpoints to access the data
+* For a given area of interest, a listing of the total number of variables/data sets available in a given catalog, as well as a listing of the variables in the catalog
+
+Examples of the types of questions used to drive Baseline scenarios are:
+
+* How much time series information is available on several common, core oceanographic variables? 
+** wind speed and direction 
+** wave height and duration 
+** water temperature as measured at different depths 
+** water salinity as measured at different depths 
+** the direction and speed of any current
+* Where does the above information reside?
+* Chether this information can be used as input to a few of the most common data models?
+
+Baseline Python notebooks can be found here.
+
+Questions to Guide Corresponding IPython Notebooks
+
+Discovery, Access, Use protocol/narratives
+What are the essential elements that dictate whether a search was successful or not?
+List the interfaces that a catalog provides (html page with forms, csw, opensearch, ckan etc)
+For each registry, summarize the contents along several important query parameters
+Variable names (IOOS core variables, CF standard names etc)
+Presence/absence of well defined service interfaces
+Clear human-readable titles/abstracts/summaries/identifiers contained in the metadata
+Presence/absence of keywords and references to standardized keyword vocabularies (preferably machine readable)
+NOTE: See github.com/osgeo/Cat-Interop for a project that should be included as a contribution to the system-test. Standardizing vocabulary of service type descriptions for CS/W 2.0.2 implementations.
+
+
+Scenario 1A: Model Strings
+
+Guiding Question: Can we pull out model records from CSW endpoints based on a series of model strings? And, based on this exercise, is there a need for standardized model strings in order to ensure the discoverability of these records?
+
+Methodology
+
+Strings searched for in endpoints: model_strings = ['roms','selfe','adcirc','ncom','hycom','fvcom']
+Notebook provides a data frame with listed endpoints, records, titles of records, and title lengths.
+
+Scenario 1B: Core Variable Strings
+
+Guiding Question: Using a list of Core IOOS Variables and the SPARQLWrapper vocabulary mapping tool, can we search and quantify records from CSW endpoints that relate to core variables?
+
+Methodology
+
+Strings searched for in endpoints: var_key = ['fish','phytoplankton','zooplankton']
+Notebook provides code that utilizes SPARQLWrapper tool
+Notebook provides output in the form of a dataframe listing endpoints searched, records, record titles, and length of records.
+Unresolved Question: The use of SPARQLWrapper does not seem to enhance the search terms based on Core IOOS variables.
+
+Scenario 1C: WebService Strings
+
+Guiding Question: Based on a series of WebService Strings, can we access web services via a series of CSW endpoints and quantify those results? And based on those results, is it apparent that some web services are not being discovered as they are utilizing variations on WebService Strings?
+
+Methodology
+
+Strings searched for in endpoints: services = {'SOS' : 'urn:x-esri:specification:ServiceType:sos:url', 'WMS' : 'urn:x-esri:specification:ServiceType:wms:url', 'WCS' : 'urn:x-esri:specification:ServiceType:wcs:url', 'DAP' : 'urn:x-esri:specification:ServiceType:odp:url' }
+
+Scenario 1D: Dissolved Oxygen Data
+
+Guiding Question: Based on a series of keywords, can we access dissolved oxygen data through CSWs or other means? Any issues with finding dissolved oxygen data?
+
+Methodology data_dict["doxygen"] = {"names":['fractional_saturation_of_oxygen_in_sea_water', 'mass_concentration_of_oxygen_in_sea_water', 'mole_concentration_of_dissolved_molecular_oxygen_in_sea_water', 'moles_of_oxygen_per_unit_mass_in_sea_water', 'volume_fraction_of_oxygen_in_sea_water', 'oxygen'], "sos_name":["doxygen"]}
+
+Scenario 1E: Salinity Data
+
+Guiding Question: Based on a series of keywords, can we access dissolved oxygen data through CSWs or other means? Any issues with finding dissolved oxygen data?
+
+Methodology data_dict["salinity"] = {"names":['salinity', 'sea_surface_salinity', 'sea_water_absolute_salinity', 'sea_water_practical_salinity', 'sea_water_salinity'], "sos_name":["salinity"]}
+
 * Conduct of the test
 
 * Results and Findings
