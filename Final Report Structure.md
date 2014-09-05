@@ -18,7 +18,22 @@ The DMAC-IT varies from the common notion of system integration test in two impo
 
 The objective of the DMAC-IT is to assess the current level of maturity of DMAC, as measured by the the extent to which Open Geospatial Consortium (OGC) standard query tools and techniques can successfully identify, access and use information from IOOS data providers.  
 
-# Structure of the test
+# Testing Framework
+The approach for DMAC-IT has been to package discrete test cases and their scripts within larger contexts called _themes_. Each theme provides one or more _scenarios_ that generates specific questions that require discovery, access and use of appropriate metadata and data. The themes provide a realistic testing framework within which to frame and and address public policy questions with IOOS data.
+
+Within each theme there is a top level _problem statement_, which contains the overall objective of the theme. For a theme with more than more objective, two or more scenarios will address particular objectives within the theme. Themes are accompanied by IPython Notebooks which address particular questions under each theme. Each IPython notebook includes comments that identify the theme for which the notebook is used, the question areas that the notebook addresses, the results from executing the python scripts, and the conclusions that can be drawn from the results. A particular IPython notebook may address questions of discovery, questions of access and questions of use.
+
+IPython notebooks use the following common format:
+
+Theme Title
+Scenario Description and Title
+Questions
+DISCOVERY Process (code and narrative)
+ACCESS Process (code and narrative)
+USE Process (code, narrative, and graphics where appropriate)
+Results and Conclusions (narrative)
+
+The procedures employ IPython scripts that interrogate DMAC registries and repositories, and analyze the returned data against expected results. There is not necessarily a one-to one correspondence between a Question and a notebook product. Each question may correspond to a number of notebooks in order to increase readability and modularity of the IPython notebook tools.
 
 * Conduct of the test
 
