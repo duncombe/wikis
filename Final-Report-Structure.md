@@ -18,11 +18,6 @@ The DMAC-IT varies from the common notion of system integration test in two impo
 
 The objective of the DMAC-IT is to assess the current level of maturity of DMAC, as measured by the the extent to which Open Geospatial Consortium (OGC) standard query tools and techniques can successfully identify, access and use information from IOOS data providers.  
 
-Revisions: We are testing the OCG standards themselves and the degree to which they have been implemented.  We are also testing the underlying architecture itself, to see how well it works, according to several objectives.
-
-Community development.  This is a system of systems, because IOOS has not control over the architecture.
-
-
 # Structure of the test
 
 * Conduct of the test
