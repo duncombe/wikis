@@ -44,31 +44,15 @@ The baseline assessment theme includes test scenarios that, as the name of theme
 * Statistics on the number of types of service protocols/endpoints to access the data
 * For a given area of interest, a listing of the total number of variables/data sets available in a given catalog, as well as a listing of the variables in the catalog
 
-Examples of the types of questions used to drive Baseline scenarios are:
+The following general questions have been used to guide the development of IPython notebooks within the Baseline Theme.
 
-* How much time series information is available on several common, core oceanographic variables? 
-** wind speed and direction 
-** wave height and duration 
-** water temperature as measured at different depths 
-** water salinity as measured at different depths 
-** the direction and speed of any current
-* Where does the above information reside?
-* Chether this information can be used as input to a few of the most common data models?
-
-Baseline Python notebooks can be found here.
-
-Questions to Guide Corresponding IPython Notebooks
-
-Discovery, Access, Use protocol/narratives
-What are the essential elements that dictate whether a search was successful or not?
-List the interfaces that a catalog provides (html page with forms, csw, opensearch, ckan etc)
-For each registry, summarize the contents along several important query parameters
-Variable names (IOOS core variables, CF standard names etc)
-Presence/absence of well defined service interfaces
-Clear human-readable titles/abstracts/summaries/identifiers contained in the metadata
-Presence/absence of keywords and references to standardized keyword vocabularies (preferably machine readable)
-NOTE: See github.com/osgeo/Cat-Interop for a project that should be included as a contribution to the system-test. Standardizing vocabulary of service type descriptions for CS/W 2.0.2 implementations.
-
+* What are the essential elements that determine whether a search has been successful?
+* What are the interfaces that a particular catalog provides (html page with forms, csw, opensearch, ckan etc)?
+* What are the contents of a given registry when summarized along several important query parameters?
+* What variable names (IOOS core variables, CF standard names etc) appear within a given registry?
+* Which well-defined service interfaces are present for a given registry?
+* For a given registry, are clear, human-readable titles/abstracts/summaries/identifiers contained in the metadata?
+* Within a given registry are there present keywords and references to standardized keyword vocabularies (preferably machine readable)?
 
 Scenario 1A: Model Strings
 
