@@ -134,9 +134,9 @@ data_dict["salinity"] = {"names":['salinity',
                                  'sea_water_practical_salinity',
                                  'sea_water_salinity'],
                       "sos_name":["salinity"]}
-
+<a name="scenario1F"/>
 ##### Scenario 1F: Water Temperature Data
-Guiding Question: Can we access water temperature data (model and observation) through CSWs?  Is the data available in high resolution in both space and time to support recreational activities like swimming and surfing? Can we compare model and observation data? 
+Guiding Questions: Can we access water temperature data (model and observation) through CSWs?  Is the data available in high resolution in both space and time to support recreational activities like swimming and surfing? Can we compare model and observation data? 
 
 
 <a name="theme2"/>
