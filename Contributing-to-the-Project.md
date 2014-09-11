@@ -5,7 +5,7 @@
 * https://github.com/ioos/system-test/wiki/system-test-development-workflow
 
 # Creating or updating notebooks
-1.  Generation of `.py` files along side the `.ipynb` files.  You can generate the `.py` files in **one** of two ways:
+1.  Generation of `.py` files along side the `.ipynb` files.  You can generate the `.py` files in **one** of three ways:
   1.  Run `ipython notebook --script`.  This will save a .py file every time the notebook is saved.
   2.  Add the line `c.FileNotebookManager.save_script = True` to your `ipython_notebook_config.py` file and restart the notebook. 
   3.  After you are done editing your notebook, `cd` to the directory the `.ipynb` file is in and run `ipython nbconvert --to python [your_notebook_file]`
