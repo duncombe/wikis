@@ -382,3 +382,20 @@ None
 
 #### Issues
 None
+
+# Week of 08 September 2014
+## Stand-up for ASA  
+#### Accomplishments:
+* Updated notebook for discovering water temperature datasets based on comments from 09/05 meeting.
+* Updated spinoff notebook based on comments from 09/05 meeting
+* Started on Winds Extreme notebook
+
+#### Anticipated Activities:
+
+Anticipated Activities:
+* Progress reports for all new notebooks (Spin off,  water temps,  USGS rapid deploy, currents spin off)
+* Update currents model-obs notebook documentation
+* Complete Extreme winds notebook
+
+#### Issues
+None
