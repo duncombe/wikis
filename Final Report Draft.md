@@ -146,7 +146,39 @@ Can we compare observed and modeled wind speeds at stations located within a bou
 * Plot observation stations on a map (red marker for model grid points) and draw a line between each station and the model grid point used for comparison
 * Plot modeled and observed time series wind speed on same axes for comparison
 
-###Scenario 2D:  U.S. Integrated Coastal Flooding Information System
+###Scenario 2D:  Extreme Value Analysis of Wave Data
+
+#### Guiding Question
+Can we estimate the return period of a wave height by obtaining long term wave height records from observed and modeled datasets?
+
+#### Methodology
+* Define temporal and spatial bounds of interest 
+* Define standard names of variable of interest to search for in data sets
+* Search for available service endpoints in the NGDC CSW catalog meeting search criteria
+* Extract OPeNDAP data endpoints from model datasets and SOS endpoints from station observation datasets
+* Obtain long term observation data sets from a station within bounding box (10+ years)
+* Define a new temporal range to search for a particular event (Hurricane Sandy)
+* Using DAP (model) endpoints find all available model data sets in the bounding box, for the specified time range, and extract a model grid cell closest to the observation station
+* Show observation stations and model grid points on a map (red marker for model grid points) 
+* Find the maximum wave height during the event.
+* Perform return period analysis on the long time series observation data and see where the modeled data falls
+* Extract the annual maximum wave heights from the nearest WIS hindcast location (Over 20 Years!)
+* Perform return period analysis on the long time series WIS hindcast
+
+###Scenario 2F:  HF Radar Current Data
+
+#### Guiding Question
+Can we obtain HF radar current data at stations located within a bounding box?
+
+#### Methodology
+* Define temporal and spatial bounds of interest, as well as parameters of interest
+* Search for available OPeNDAP data endpoints
+* Obtain observation data sets from stations within the spatial boundaries from DAP endpoints
+* Extract time series for locations
+* Plot time series data, current rose, annual max values per station
+* Plot observation stations on a map 
+
+###Scenario 2F:  U.S. Integrated Coastal Flooding Information System
 
 ####Guiding Question
 Can we estimate the return period of a water level by comparing modeled and/or observed water levels with NOAA Annual Exceedance Probability Curves?
@@ -160,6 +192,8 @@ Can we estimate the return period of a water level by comparing modeled and/or o
 * Plot the annual max for each station as a timeseries plot
 * Plot the annual exceedance probability curve for the Nantucket Island, Ma station and compare to NOAA Tides and Currents plot
 * The annual exceedance probability curve can be used to estimate the return period of a particular water level, whether it be modeled or observed data
+
+
 
 
 
