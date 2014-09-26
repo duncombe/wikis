@@ -146,7 +146,21 @@ Can we compare observed and modeled wind speeds at stations located within a bou
 * Plot observation stations on a map (red marker for model grid points) and draw a line between each station and the model grid point used for comparison
 * Plot modeled and observed time series wind speed on same axes for comparison
 
-###Scenario 2D:  Extreme Value Analysis of Wave Data
+### Scenario 2 D:  Comparing Modeled and Observed Wave Parameters
+
+#### Guiding Question
+Can we compare observed and modeled wave parameters? 
+
+####Methodology
+* Define temporal and spatial bounds of interest, as well as parameters of interest
+* Search for available service endpoints in the NGDC CSW catalog meeting search criteria
+* Extract OPeNDAP data endpoints from model datasets and SOS endpoints from observational datasets
+* Obtain observation data sets from stations within the spatial boundaries
+* Plot observation stations on a map (red marker if not enough data)
+* Using DAP (model) endpoints find all available models data sets that fall in the area of interest, for the specified time range, and extract a model grid cell closest to all the given station locations
+* Plot modelled and observed time series wave data on same axes for comparison
+
+###Scenario 2E:  Extreme Value Analysis of Wave Data
 
 #### Guiding Question
 Can we estimate the return period of a wave height by obtaining long term wave height records from observed and modeled datasets?
@@ -178,7 +192,7 @@ Can we obtain HF radar current data at stations located within a bounding box?
 * Plot time series data, current rose, annual max values per station
 * Plot observation stations on a map 
 
-### Scenario 2G:  Comparison of Observed and Modeled Current Data
+### Scenario 2G:  Comparison of Observed and Modeled Current Speed Data
 
 ####Guiding Question
 Can we compare observed and modeled current speeds at stations located within a bounding box? 
@@ -193,7 +207,7 @@ Can we compare observed and modeled current speeds at stations located within a 
 * Plot modeled and observed time series current data on same axes for comparison
 
 
-###Scenario 2F:  U.S. Integrated Coastal Flooding Information System
+###Scenario 2H:  U.S. Integrated Coastal Flooding Information System
 
 ####Guiding Question
 Can we estimate the return period of a water level by comparing modeled and/or observed water levels with NOAA Annual Exceedance Probability Curves?
