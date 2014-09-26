@@ -233,6 +233,18 @@ Can we estimate the return period of a water level by comparing modeled and/or o
 * Can we create a standardized matrix or other display method for output variables that allow resource experts to easily assess projected changes in climate variables, within given ranges of time, and compare projected changes across multiple coupled oceanographic and climate models?
 * Can we develop a set of process-specific guidelines and a standardized set of outputs for a tool that would allow researchers to address a diversity of resource management questions relative to projected changes in climate for specific zones of interest?
 
+####Methodology
+* Load 'known' WFS endpoint with Important Bird Area polygons
+* Convert to Shapely geometry objects
+* Map the geometry objects
+* Setup BCSW Filters to find models in the area of the Important Bird Polygon
+* Find all models contain in all CSW endpoints
+* Filter out CSW servers that do not support a BBOX query
+* Get bounding polygons from each dataset 
+* Filter out DAP servers that are taking FOREVER
+* Overlay dataset polygons on top of Important Bird Area polygons
+
+
 
 
 
