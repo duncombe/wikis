@@ -116,7 +116,7 @@ Can we obtain observed current and recent historical data at stations located wi
 * Plot time series data, current rose, annual max values per station
 * Plot observation stations on a map
 
-### Scenario 2B:  Inundation: Model Versus Actual
+### Scenario 2B:  Comparing Modeled Versus Actual Water Levels During Inundation Event
 
 #### Guiding Question
 Can we meaningfully compare modeled water levels with observations for a specified bounding box,and time period using IOOS recommended service standards for catalog search (CSW) and data retrieval (OPeNDAP & SOS)?
