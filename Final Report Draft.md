@@ -222,6 +222,16 @@ Can we estimate the return period of a water level by comparing modeled and/or o
 * Plot the annual exceedance probability curve for the Nantucket Island, Ma station and compare to NOAA Tides and Currents plot
 * The annual exceedance probability curve can be used to estimate the return period of a particular water level, whether it be modeled or observed data
 
+## Theme 3:  Marine Habitat Conservation
+
+### Theme 3A:   Assessing Vulnerability of Bird Species in Bering Sea
+
+#### Guiding Questions
+* Can we discover, access, and overlay Important Bird Area polygons (and therefore other similar layers for additional important resource areas) on modeled datasets in the Bering Sea?
+* Is metadata for projected climate data layers and Important Bird Area polygons sufficient to determine a subset of polygons desired by a query?
+* Can a simple set statistics (e.g., mean and standard deviation) be derived from multiple variables in each of the six models to derive the forecast variability of climate conditions through time, through the end of the model runs (2003-2040)?
+* Can we create a standardized matrix or other display method for output variables that allow resource experts to easily assess projected changes in climate variables, within given ranges of time, and compare projected changes across multiple coupled oceanographic and climate models?
+* Can we develop a set of process-specific guidelines and a standardized set of outputs for a tool that would allow researchers to address a diversity of resource management questions relative to projected changes in climate for specific zones of interest?
 
 
 
