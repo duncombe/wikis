@@ -102,7 +102,21 @@ data_dict["salinity"] = {"names":['salinity', 'sea_surface_salinity', 'sea_water
 
 ##Theme 2:  Extreme Weather/Water Events
 
-### Scenario 2A:  Inundation: Model Versus Actual
+###Scenario 2A:  Accessing Data from Reporting Stations
+
+#### Guiding Question
+Can we obtain observed current and recent historical data at stations located within a bounding box?
+
+#### Methodology
+* Define temporal and spatial bounds of interest, as well as parameters of interest
+* Search for available service endpoints in the NGDC CSW catalog meeting search criterion
+* Search for available OPeNDAP data endpoints
+* Obtain observation data sets from stations within the spatial boundaries (from CO-OPS and NDBC)
+* Extract time series for identified stations
+* Plot time series data, current rose, annual max values per station
+* Plot observation stations on a map
+
+### Scenario 2B:  Inundation: Model Versus Actual
 
 #### Guiding Question
 Can we meaningfully compare modeled water levels with observations for a specified bounding box,and time period using IOOS recommended service standards for catalog search (CSW) and data retrieval (OPeNDAP & SOS)?
@@ -118,7 +132,7 @@ Can we meaningfully compare modeled water levels with observations for a specifi
 * Compare time series data on same vertical datum"
      ]
 
-### Scenario 2B:  Wind-Related Factors
+### Scenario 2C:  Wind-Related Factors
 
 ####Guiding Question
 Can we compare observed and modeled wind speeds at stations located within a bounding box? 
@@ -132,7 +146,7 @@ Can we compare observed and modeled wind speeds at stations located within a bou
 * Plot observation stations on a map (red marker for model grid points) and draw a line between each station and the model grid point used for comparison
 * Plot modeled and observed time series wind speed on same axes for comparison
 
-###Scenario 2C:  U.S. Integrated Coastal Flooding Information System
+###Scenario 2D:  U.S. Integrated Coastal Flooding Information System
 
 ####Guiding Question
 Can we estimate the return period of a water level by comparing modeled and/or observed water levels with NOAA Annual Exceedance Probability Curves?
@@ -147,7 +161,7 @@ Can we estimate the return period of a water level by comparing modeled and/or o
 * Plot the annual exceedance probability curve for the Nantucket Island, Ma station and compare to NOAA Tides and Currents plot
 * The annual exceedance probability curve can be used to estimate the return period of a particular water level, whether it be modeled or observed data
 
-###Scenario 2C:  
+
 
 * Conduct of the test
 
