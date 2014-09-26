@@ -18,7 +18,8 @@
    * csw: https://data.noaa.gov/csw
 * data.gov
    * ckan: http://geo.gov.ckan.org/csw'  # CKAN testing site for new Data.gov
-   * csw: ???
+   * csw: http://catalog.data.gov/csw  (collections)
+   * csw: http://catalog.data.gov/csw-all  (granules)
 * NRCAN CUSTOM
    * csw: http://geodiscover.cgdi.ca/wes/serviceManagerCSW/csw
 * USGS Woods Hole GI_CAT
