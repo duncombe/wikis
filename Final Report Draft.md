@@ -124,10 +124,21 @@ The Python test code, along with supporting utilities and a README file, can be 
 ###Scenario 1E: Salinity Data
 
 ####Guiding Questions
-Based on a series of keywords, can we access dissolved oxygen data through CSWs or other means? Any issues with finding dissolved oxygen data?
+* Can we discover, access, and overlay salinity information in sensors?
+* Can we discover, access, and overlay salinity information from models?
+* Are data from different sensors and satellite data (or models) directly comparable? Same units? Same scales?
+* If not, how much work is necessary to aggregate these data streams?
+* Are metadata for these data intelligible?"
 
 ####Methodology 
-data_dict["salinity"] = {"names":['salinity', 'sea_surface_salinity', 'sea_water_absolute_salinity', 'sea_water_practical_salinity', 'sea_water_salinity'], "sos_name":["salinity"]}
+* Define the web-service endpoints to check
+* Define what possible variables we're looking for using CF standard names
+* Put the names in a data dictionary for ease of access
+*Set up OWSlib and it's FES filter capabilities. This puts  bounding box and data dictionary into a form that OWSLib can use to hit OGC web-service endpoints.
+* Convert User Input (e.g. search terms) into FES filters 
+* Connect to each CSW and explore it's properties using the filters
+* Compile results
+
 
 ##Theme 2:  Extreme Weather/Water Events
 
