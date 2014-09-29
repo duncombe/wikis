@@ -139,6 +139,10 @@ The Python test code, along with supporting utilities and a README file, can be 
 * Connect to each CSW and explore it's properties using the filters
 * Compile results
 
+####Test Code
+The Python test code, along with supporting utilities and a README file, can be found in the Theme 1 code library:
+[https://github.com/ioos/system-test/tree/master/Theme_1_Baseline](https://github.com/ioos/system-test/tree/master/Theme_1_Baseline)
+
 
 ##Theme 2:  Extreme Weather/Water Events
 
@@ -156,6 +160,10 @@ Can we obtain observed current and recent historical data at stations located wi
 * Plot time series data, current rose, annual max values per station
 * Plot observation stations on a map
 
+####Test Code
+The Python test code, along with supporting utilities and a README file, can be found here:
+[https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/Extremes_Currents](https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/Extremes_Currents)
+
 ### Scenario 2B:  Comparing Modeled Versus Actual Water Levels During Inundation Event
 
 #### Guiding Question
@@ -169,8 +177,12 @@ Can we meaningfully compare modeled water levels with observations for a specifi
 * Filter SOS services to obtain datasets
 * Extract data from SOS datasets
 * Extract data from model datasets at locations of observations      
-* Compare time series data on same vertical datum"
-     ]
+* Compare time series data on same vertical datum
+
+####Test Code
+The Python test code, along with supporting utilities and a README file, can be found here:[https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Inundation](https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Inundation)
+
+  
 
 ### Scenario 2C:  Wind-Related Factors
 
@@ -186,6 +198,11 @@ Can we compare observed and modeled wind speeds at stations located within a bou
 * Plot observation stations on a map (red marker for model grid points) and draw a line between each station and the model grid point used for comparison
 * Plot modeled and observed time series wind speed on same axes for comparison
 
+####Test Code
+The Python test code, along with supporting utilities and a README file, can be found here:[https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Winds](https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Winds)
+
+
+
 ### Scenario 2 D:  Comparing Modeled and Observed Wave Parameters
 
 #### Guiding Question
@@ -199,6 +216,9 @@ Can we compare observed and modeled wave parameters?
 * Plot observation stations on a map (red marker if not enough data)
 * Using DAP (model) endpoints find all available models data sets that fall in the area of interest, for the specified time range, and extract a model grid cell closest to all the given station locations
 * Plot modelled and observed time series wave data on same axes for comparison
+
+####Test Code
+The Python test code, along with supporting utilities and a README file, can be found here: [https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Waves](https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Waves)
 
 ###Scenario 2E:  Extreme Value Analysis of Wave Data
 
@@ -219,6 +239,9 @@ Can we estimate the return period of a wave height by obtaining long term wave h
 * Extract the annual maximum wave heights from the nearest WIS hindcast location (Over 20 Years!)
 * Perform return period analysis on the long time series WIS hindcast
 
+####Test Code
+The Python test code, along with supporting utilities and a README file, can be found here: [https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/Extremes_Waves](https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/Extremes_Waves)
+
 ###Scenario 2F:  HF Radar Current Data
 
 #### Guiding Question
@@ -231,6 +254,9 @@ Can we obtain HF radar current data at stations located within a bounding box?
 * Extract time series for locations
 * Plot time series data, current rose, annual max values per station
 * Plot observation stations on a map 
+
+####Test Code
+The Python test code, along with supporting utilities and a README file, can be found here: [https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/HF_Radar_Currents](https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/HF_Radar_Currents)
 
 ### Scenario 2G:  Comparison of Observed and Modeled Current Speed Data
 
@@ -245,6 +271,9 @@ Can we compare observed and modeled current speeds at stations located within a 
 * Using DAP (model) endpoints find all available models data sets that fall in the area of interest, for the specified time range, and extract a model grid cell closest to all the given station locations
 * Plot observation stations on a map (red marker for model grid points)
 * Plot modeled and observed time series current data on same axes for comparison
+
+####Test Code
+The Python test code, along with supporting utilities and a README file, can be found here: [https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Currents](https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Currents)
 
 
 ###Scenario 2H:  U.S. Integrated Coastal Flooding Information System
@@ -261,6 +290,10 @@ Can we estimate the return period of a water level by comparing modeled and/or o
 * Plot the annual max for each station as a timeseries plot
 * Plot the annual exceedance probability curve for the Nantucket Island, Ma station and compare to NOAA Tides and Currents plot
 * The annual exceedance probability curve can be used to estimate the return period of a particular water level, whether it be modeled or observed data
+
+####Test Code
+The Python test code, along with supporting utilities and a README file, can be found here: 
+[https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/Extremes_Inundation](https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/Extremes_Inundation)
 
 ## Theme 3:  Marine Habitat Conservation
 
@@ -283,6 +316,9 @@ Can we estimate the return period of a water level by comparing modeled and/or o
 * Get bounding polygons from each dataset 
 * Filter out DAP servers that are taking FOREVER
 * Overlay dataset polygons on top of Important Bird Area polygons
+
+####Test Code
+The Python test code, along with supporting utilities and a README file, can be found here: [https://github.com/ioos/system-test/tree/master/Theme_3_Species_Protection_and_Marine_Habitat_Conservation/Scenario_3A_Assessing_Seabird_Vulnerability_in_the_Bering_Sea/Scenario_3A_Important_Bird_Area_Polygon_Analysis](https://github.com/ioos/system-test/tree/master/Theme_3_Species_Protection_and_Marine_Habitat_Conservation/Scenario_3A_Assessing_Seabird_Vulnerability_in_the_Bering_Sea/Scenario_3A_Important_Bird_Area_Polygon_Analysis)
 
 
 
