@@ -60,8 +60,14 @@ The following general questions have been used to guide the development of IPyth
 Can we pull out model records from CSW endpoints based on a series of model strings? And, based on this exercise, is there a need for standardized model strings in order to ensure the discoverability of these records?
 
 ####Methodology
-Strings searched for in endpoints: model_strings = ['roms','selfe','adcirc','ncom','hycom','fvcom']
-Notebook provides a data frame with listed endpoints, records, titles of records, and title lengths.
+* Search for models using CSW keywords
+* Query each CSW catalog for every model found
+* Load results into a Pandas DataFrame
+* Count the number of service types for each model type
+
+####Test Code
+The Python test code, along with supporting utilities and a README file, can be found here:
+[https://github.com/ioos/system-test/tree/master/Theme_1_Baseline/Scenario_1A_Model_Strings](https://github.com/ioos/system-test/tree/master/Theme_1_Baseline/Scenario_1A_Model_Strings)
 
 ###Scenario 1B: Core Variable Strings
 
@@ -69,28 +75,51 @@ Notebook provides a data frame with listed endpoints, records, titles of records
 Using a list of Core IOOS Variables and the SPARQLWrapper vocabulary mapping tool, can we search and quantify records from CSW endpoints that relate to core variables?
 
 ####Methodology
-Strings searched for in endpoints: var_key = ['fish','phytoplankton','zooplankton']
-Notebook provides code that utilizes SPARQLWrapper tool
-Notebook provides output in the form of a dataframe listing endpoints searched, records, record titles, and length of records.
+* Get a list of the IOOS Core Variables from MMI
+* Query MMI for CF standard names related to the IOOS Core Variables
+* Search CSW servers on variable names
+* Determine the variables on which to build queries
+* Load results into a Pandas DataFrame
+* Count the number of service types for each variable
+* Count the number of Variabes per CSW server
 
-####Unresolved Question
-The use of SPARQLWrapper does not seem to enhance the search terms based on Core IOOS variables.
+####Test Code
+The Python test code, along with supporting utilities and a README file, can be found here:
+[https://github.com/ioos/system-test/tree/master/Theme_1_Baseline/Scenario_1B_CoreVariable_Strings](https://github.com/ioos/system-test/tree/master/Theme_1_Baseline/Scenario_1B_CoreVariable_Strings)
+
 
 ###Scenario 1C: WebService Strings
 
-####Guiding Question 
-Based on a series of WebService Strings, can we access web services via a series of CSW endpoints and quantify those results? And based on those results, is it apparent that some web services are not being discovered as they are utilizing variations on WebService Strings?
+####Guiding Questions 
+* Based on a series of WebService Strings, can we access web services via a series of CSW endpoints and quantify those results? 
+* Based on those results, is it apparent that some web services are not being discovered as they are utilizing variations on WebService Strings?
 
 ####Methodology
-Strings searched for in endpoints: services = {'SOS' : 'urn:x-esri:specification:ServiceType:sos:url', 'WMS' : 'urn:x-esri:specification:ServiceType:wms:url', 'WCS' : 'urn:x-esri:specification:ServiceType:wcs:url', 'DAP' : 'urn:x-esri:specification:ServiceType:odp:url' }
+* Search for endpoints in a list of CSW catalogs
+* Output an array of identified catalog endpoints
+
+####Test Code
+The Python test code, along with supporting utilities and a README file, can be found in the Theme 1 code library:
+[https://github.com/ioos/system-test/tree/master/Theme_1_Baseline](https://github.com/ioos/system-test/tree/master/Theme_1_Baseline)
 
 ###Scenario 1D: Dissolved Oxygen Data
 
-####Guiding Question 
-Based on a series of keywords, can we access dissolved oxygen data through CSWs or other means? Any issues with finding dissolved oxygen data?
+####Guiding Questions 
+* Can we discover, access, and overlay dissolved oxygen information?
+* Are data from different sensors or sources directly comparable?
+* If data from different sources are not directly comparable, how much work is necessary to aggregate these streams?
+* Are metadata for these data intelligable?
 
 ####Methodology
-data_dict["doxygen"] = {"names":['fractional_saturation_of_oxygen_in_sea_water', 'mass_concentration_of_oxygen_in_sea_water', 'mole_concentration_of_dissolved_molecular_oxygen_in_sea_water', 'moles_of_oxygen_per_unit_mass_in_sea_water', 'volume_fraction_of_oxygen_in_sea_water', 'oxygen'], "sos_name":["doxygen"]}
+* Define what possible variables we're looking for using CF standard names
+* Put the names in a data dictionary for ease of access
+* Set up OWSlib and it's FES filter capabilities. This puts bounding box and data dictionary into a form that OWSLib can use to hit OGC web-service endpoints.
+* Convert User Input (e.g. search terms) into FES filters  
+* Compile results
+
+####Test Code
+The Python test code, along with supporting utilities and a README file, can be found in the Theme 1 code library:
+[https://github.com/ioos/system-test/tree/master/Theme_1_Baseline](https://github.com/ioos/system-test/tree/master/Theme_1_Baseline)
 
 ###Scenario 1E: Salinity Data
 
@@ -224,7 +253,7 @@ Can we estimate the return period of a water level by comparing modeled and/or o
 
 ## Theme 3:  Marine Habitat Conservation
 
-### Theme 3A:   Assessing Vulnerability of Bird Species in Bering Sea
+### Scenario 3A:   Assessing Vulnerability of Bird Species in Bering Sea
 
 #### Guiding Questions
 * Can we discover, access, and overlay Important Bird Area polygons (and therefore other similar layers for additional important resource areas) on modeled datasets in the Bering Sea?
@@ -238,11 +267,14 @@ Can we estimate the return period of a water level by comparing modeled and/or o
 * Convert to Shapely geometry objects
 * Map the geometry objects
 * Setup BCSW Filters to find models in the area of the Important Bird Polygon
-* Find all models contain in all CSW endpoints
+* Find all models contained in all CSW endpoints
 * Filter out CSW servers that do not support a BBOX query
 * Get bounding polygons from each dataset 
 * Filter out DAP servers that are taking FOREVER
 * Overlay dataset polygons on top of Important Bird Area polygons
+
+
+
 
 
 
