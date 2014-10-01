@@ -321,7 +321,40 @@ The Python test code, along with supporting utilities and a README file, can be 
 The Python test code, along with supporting utilities and a README file, can be found here: [https://github.com/ioos/system-test/tree/master/Theme_3_Species_Protection_and_Marine_Habitat_Conservation/Scenario_3A_Assessing_Seabird_Vulnerability_in_the_Bering_Sea/Scenario_3A_Important_Bird_Area_Polygon_Analysis](https://github.com/ioos/system-test/tree/master/Theme_3_Species_Protection_and_Marine_Habitat_Conservation/Scenario_3A_Assessing_Seabird_Vulnerability_in_the_Bering_Sea/Scenario_3A_Important_Bird_Area_Polygon_Analysis)
 
 
+# Conduct of the Test
+Responsibility for developing, executing and refining tests was divided by scenario among the developers, with each scenario having a dedicated team to develop, execute and refine the Python Notebooks.  Two versions of each Notebook were developed:  one in Python, and one optimized to run in a iPython shell. GitHub was used to store and track testing information, including the Notebook code, supporting files like READ.ME and utilities, test documentation, and issues.  
 
+## GitHub Issues
+GitHub issues were used as a repository for all activities related to the development and execution of the test.
+Every member of the DMAC SIT Team was empowered to initiate, comment on, assign, resolve and close GitHub issues.  Each GitHub issue was labeled for its priority, as well as which aspect of the test to which it related.  A listing of the GitHub labels appears below, and label descriptions are provided as needed:
+
+MMI --issues dealing with the Python Model Message Interface (MMI)
+bug -- Python Notebook execution issues not otherwise classified
+client-issue -- issues related to Python client applications
+data-provider-issue  -- issues dealing with identification, access or use of data from a data provider
+documentation
+duplicate
+enhancement 
+high priority
+invalid
+low priority
+medium priority
+progress -- summary test report on a Python Notebook
+project-management
+question
+registry-issue -- issues dealing with IOOS data regsitries
+scenario-baseline
+scenario-biology
+scenario-brainstorming -- discussion of possible test scenarios
+scenario-extremeevents
+wakari -- discussion of issues related to the use of the Wakari suite of Python data analysis tools
+wontfix -- issues that were not fixed during the DMAC SIT
+
+## Bi-Weekly Stand Ups
+Stand Up teleconferences were held an average of once every 2 weeks, at which each development and test team highlighted their accomplishments of the past two weeks, reviewed their development and test plans for the upcoming two weeks, and raised general issues for discussion.  Discussion issues focused mostly on good practices for Python coding, the use of Python utilities, repositories of oceanographic metadata and data for testing, and techniques for dealing with problems particular to the scientific analysis of oceanographic data.
+
+## Progress Issues
+Testing teams summarized their efforts in GitHub Progress issues, with each Progress issue summarizing the results of a given test scenario. Information included in a Progress issue includes examples of successful use of IOOS data in data analysis tools, short term issues that were or can be easily resolved, and long term issues requiring further research and development.
 
 
 
