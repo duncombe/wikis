@@ -362,11 +362,17 @@ Because the DMAC SIT used GitHub as the code repository, standard GitHub workflo
 * When a developer/tester was satisfied with the code in a particular branch, he or she pushed the code to his or er forked copy of the code repository and submmitted a Pull Request.
 * One of two designated System Administrators reviewed the code, reviewed the code for any obvious issues, and if no issues were identified, the System Administrator pulled the submitted code into the master code repository.
 
+# Results and Findings
+ A summary of DMAC SIT results follows, organized by test scenario.  Detailed results are found in the Progress issues on GitHub:  [https://github.com/ioos/system-test/labels/progress](https://github.com/ioos/system-test/labels/progress).
+
+## Baseline Assessment
+### Scenario 1 A:  Model Strings
+The test successfully queried many different CSW servers on a variety of model strings, and the Python Notebook was able to compile a summary of service types by model, service type, and source URL.  Several examples are illustrated below:
+
+![Number of Services by Type of Scema](https://cloud.githubusercontent.com/assets/13939/3861910/945a5b04-1f34-11e4-96ec-f7d7456638c3.png)
 
 
 
-
-* Conduct of the test
 
 * Results and Findings
 
