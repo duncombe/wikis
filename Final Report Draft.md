@@ -339,7 +339,7 @@ high priority
 invalid
 low priority
 medium priority
-progress -- summary test report on a Python Notebook
+progress -- summary test report on a Python Notebook (See Progress heading below)
 project-management
 question
 registry-issue -- issues dealing with IOOS data regsitries
@@ -355,6 +355,12 @@ Stand Up teleconferences were held an average of once every 2 weeks, at which ea
 
 ## Progress Issues
 Testing teams summarized their efforts in GitHub Progress issues, with each Progress issue summarizing the results of a given test scenario. Information included in a Progress issue includes examples of successful use of IOOS data in data analysis tools, short term issues that were or can be easily resolved, and long term issues requiring further research and development.
+
+## Code Configuration Management
+Because the DMAC SIT used GitHub as the code repository, standard GitHub workflow practices were used for code configuration management:
+* Each developer/tester forked a copy of the code repository and branched off that working copy to develop his or her own code
+* When a developer/tester was satisfied with the code in a particular branch, he or she pushed the code to his or er forked copy of the code repository and submmitted a Pull Request.
+* One of two designated System Administrators reviewed the code, reviewed the code for any obvious issues, and if no issues were identified, the System Administrator pulled the submitted code into the master code repository.
 
 
 
