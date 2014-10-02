@@ -371,6 +371,8 @@ The test successfully queried many different CSW servers on a variety of model s
 
 ![Number of Services by Type of Scema](https://cloud.githubusercontent.com/assets/13939/3861910/945a5b04-1f34-11e4-96ec-f7d7456638c3.png)
 
+                      Number of services discovered by type of schema.
+
 
 
 
