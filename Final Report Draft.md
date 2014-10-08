@@ -374,14 +374,7 @@ The test successfully queried many different CSW servers on a variety of model s
                       Number of services discovered by type of schema.
 
 
+###Scenario 1B: Core Variable Strings
+The test successfully queried the Marine Metadata Interoperability (MMI) ontology for a list of IOOS Core Variables, was able to obtain Climate & Forecast (CF) standard metadata named through MMI for all IOOS Parameter Vocabulary, and was able to successfully obtain CF Standard Names through MMI related to IOOS Parameter Vocabulary.  The test was also able to successfully search Catalog Service Web (CSW) servers on CF Standard names to get back a summary of offerings
 
 
-* Results and Findings
-
-  * a. New or Revised Requirements
-
-  * b. State of initial operating capability of IOOS
-
-
-
-* Recommendations
