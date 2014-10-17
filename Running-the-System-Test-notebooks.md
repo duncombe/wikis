@@ -1,0 +1,1 @@
+We recommend using the Anaconda python environment.  If you use anaconda, you should be able to create a system-test environment using the conda-requirements.txt file found in each system-test directory.
