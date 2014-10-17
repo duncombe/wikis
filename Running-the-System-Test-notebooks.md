@@ -14,14 +14,14 @@ First add rsignell's binstar repo which contains many of the binary packages use
 ```
 conda config --add channels https://conda.binstar.org/rsignell
 ```
-1. If you are not using Wakari,  you should be able to be able to create a new custom environment that only installs the packages in use the requirements file.  
-
+* If you are NOT using Wakari,  you should be able to be able to create a new custom environment that only installs the packages in use the requirements file.  
+```
 conda create -n systest --file conda-requirements.txt
 source activate systest
 ```
 and then use the `systest` environment to run the notebook.
 
-2. If you are using Wakari, creating a new environment doesn't seem to work, so you can add the packages an existing environment.  For example, go to `Terminals`, choose `Shell` and `np18py27-1.9` and click on `+Tab` to open a terminal with the `np18py27-1.9` environment.   Then type
+* If you are using Wakari, creating a new environment doesn't seem to work, so you can add the packages an existing environment.  For example, go to `Terminals`, choose `Shell` and `np18py27-1.9` and click on `+Tab` to open a terminal with the `np18py27-1.9` environment.   Then type
 
 ```
 conda config --add channels https://conda.binstar.org/rsignell
