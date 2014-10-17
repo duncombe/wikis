@@ -4,9 +4,13 @@ First clone the system-test repo:
 ```
 git clone git@github.com:ioos/system-test.git
 ```
-and navigate to the subdirectory that contains the system-test notebook you want to run.   In that subdirectory, you should find a `conda-requirements.txt` file.
+and navigate to the subdirectory that contains the system-test notebook you want to run.   In that subdirectory, you should find a `conda-requirements.txt` file.  For example:
+```
+cd system-test/Theme_2_Extreme_Events/Scenario_2A/Extremes_Waves
+```
+you should see a notebook file ending in `.ipynb` as well as a `conda-requirements.txt` file.
 
-To create an environment that can run the system-test notebook, you should be able to do:
+To create an environment that can run the notebook file, you should be able to be able to just use the requirements file, but first adding rsignell's binstar repo which contains many of the binary packages used in they system test:
 ```
 conda config --add channels https://conda.binstar.org/rsignell
 conda create -n systest --file conda-requirements.txt
