@@ -1,0 +1,192 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en-us" dir="ltr" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en-us" dir="ltr" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-us" dir="ltr" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-us" dir="ltr" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-us" dir="ltr" class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" >
+  <meta charset="utf-8">
+
+  <title>Project Management Plan || HTML5 Boilerplate - A rock-solid default template for HTML5 awesome.</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/public/css/style.css" >
+  <link rel="stylesheet" href="/public/css/docs.css" >
+
+</head>
+<body>
+  <div id="container" class="wikiconvertor"> 
+    <b class="border-a"></b>
+    <b class="border-b"></b>
+    <b class="border-c"></b>
+    <b class="border-d"></b>
+
+    <div id="header">
+         <p class="lang">
+           <a href="/">Return to the HTML5 Boilerplate website &#8618;</a>
+         </p>
+         <h1>HTML5  <i>&#x2605;</i> <b>Boilerplate Docs</b></h1> 
+         <h2>A rock-solid default for HTML5 awesome.</h2>  
+    </div>
+
+    <div id="body">
+      <div class="wikiconvertor-pages">
+        <ul>
+            <li><a href="&#x2F;_Sidebar&#x2F;">_Sidebar</a></li>
+            <li><a href="&#x2F;Contributing-to-the-Project&#x2F;">Contributing to the Project</a></li>
+            <li><a href="&#x2F;Development-of-Test-Themes&#x2F;">Development of Test Themes</a></li>
+            <li><a href="&#x2F;Environment-Wrangling-in-Wakari&#x2F;">Environment Wrangling in Wakari</a></li>
+            <li><a href="&#x2F;Final Report Draft&#x2F;">Final Report Draft</a></li>
+            <li><a href="&#x2F;Hannah-Weekly-Updates&#x2F;">Hannah Weekly Updates</a></li>
+            <li><a href="&#x2F;">Home</a></li>
+            <li><a href="&#x2F;Meeting-Notes&#x2F;">Meeting Notes</a></li>
+            <li><a href="&#x2F;Notebooks By Theme&#x2F;">Notebooks By Theme</a></li>
+            <li><a href="&#x2F;Project-Management-Plan&#x2F;">Project Management Plan</a></li>
+            <li><a href="&#x2F;References&#x2F;">References</a></li>
+            <li><a href="&#x2F;Running-the-System-Test-notebooks&#x2F;">Running the System Test notebooks</a></li>
+            <li><a href="&#x2F;Service-Registries-and-Data-Catalogs&#x2F;">Service Registries and Data Catalogs</a></li>
+            <li><a href="&#x2F;system-test-development-workflow&#x2F;">system test development workflow</a></li>
+            <li><a href="&#x2F;Weekly Stand Up Reports&#x2F;">Weekly Stand Up Reports</a></li>
+        </ul>
+      </div>
+
+      <div class="wikiconvertor-content wikistyle relative">
+        <p class="dwn">
+          <span class="right"><a class="edit-page" href="http://github.com/h5bp/html5-boilerplate/wiki/Project-Management-Plan/_edit">Edit this page</a></span>
+        </P>
+
+        <p>This document describes the resources and techniques to be used in managing important aspects of the DMAC Integration Test Project.  Areas to be managed, as well as the tools and techniques to be used in managing each area, are described below.</p>
+<h1 id="goals-and-objectives">Goals and Objectives</h1>
+<p>The DMAC system integration test  (SIT) will evaluate whether the services we have deployed (i.e. SOS, OPeNDAP, WMS, CS/W) to Federal partners and Regional Associations can solve real world problems. </p>
+<p>The DMAC integration testing project will assesses the maturity of DMAC implementation across IOOS Regional Associations and partner federal agencies. The DMAC System Integration Test will:</p>
+<ol>
+<li>Create test cases which incorporate multiple IOOS Regions and partners, cover a large geographic scope, employ multiple types of data, and cross scientific disciplines. These test cases demonstrate that data consumers can use DMAC data discovery and access services to get data in a repeatable way.</li>
+<li>Apply these test cases to real world problems related to Extreme Events and Ecologically Sustainable Marine Energy Planning.</li>
+<li>Compile a set of prioritized fixes and enhancements to DMAC data discovery and access services</li>
+<li>Complete highest priority fixes and enhancements</li>
+<li>Publish the test cases to encourage community education and involvement in IOOS</li>
+<li>Demonstrate the added value of federal and non-federal data integration by IOOS data management to the ocean and coastal community</li>
+<li>Ensure that we can repeat the assessment easily to measure progress over time</li>
+</ol>
+<h1 id="scope">Scope</h1>
+<p>The system integration test is organized around major scientific and public policy themes.  Themes contain one or more scenarios that narrow the scope and generate questions that can be used to test the discovery, access and use of metadata and data.  It is important to note that test themes and their constituent parts are living documents that may be modified, based on the advice of subject matter experts and the experience of the testers.  Detailed information on test themes may be found at the <a href="https://github.com/ioos/system-test/wiki/Development-of-Test-Themes">Test Themes</a> page.</p>
+<p>The scope of the test is divided among three categories:</p>
+<ol>
+<li>Subject matter scope: <a href="https://github.com/ioos/system-test/wiki/Development-of-Test-Themes">Test Themes</a></li>
+<li>Data Content Scope: <a href="https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs">Services Registries and Data Catalogues</a> </li>
+<li>Technology Scope: <a href="https://github.com/ioos/system-test/tree/master/wakari">Custom Wakari Environments</a></li>
+</ol>
+<h1 id="schedule">Schedule</h1>
+<p>The current official end date for this project is approximately Sep 2014.  Tight timeline to fit it all in!!!</p>
+<ul>
+<li>Track <a href="https://github.com/ioos/system-test/issues/milestones">Milestones</a></li>
+<li>Track <a href="../issues">Issues</a> to manage tasks</li>
+<li>Use issue labels to identify priority (high medium, low) and functionality (registry, data provider, clients etc))</li>
+<li>Use milestones to map tasks to dates.</li>
+<li>Anyone may initiate issues and anyone may select to work on, or own an issue.  If an issue remains unassigned for too long Derrick will assign it.  </li>
+<li>Derrick will brief management every three weeks and will summarize project status prior to these meetings.
+The project schedule is maintained as a set of Milestones within the DMAC GitHub repository.  Within the <a href="https://github.com/ioos/system-test/issues/milestones">Milestones</a> section of the DMAC GitHub repository, one or more Issues are associated with each Milestone. To reach a given Milestone all associated Issues must be closed.  Each Milestone had a target date.  GitHub uses the target date of each Milestone to track the scheduling of issues. Be aware that unlike other scheduling software like Microsoft Project,  GitHub does not allow a given Issue or Milestone to have a relationship with an Issue or Milestone that has been scheduled to be completed previously.  In other words, GitHub treats every Issue and Milestone as an indedepndent entity, with no dependencies between any Issues or Milestones. One consequence of this is that GitHub cannot by itself construct a critical path for project activities.  Relationships between Issues and Milestones are handled manually by DMAC project managers.</li>
+</ul>
+<h1 id="communication">Communication</h1>
+<p>Communication within the DMAC IT project team relies on several channels:</p>
+<ul>
+<li>GitHub Issues,which automatically generate e-mail messages to the person assigned the issue, as well as messages to other people specified by the person who logs the issue.  The DMAC project managers should always be included on the e-mail address list for every GitHub Issue.</li>
+<li>E-mail messages may be exchanged between project members using [G-Mail accounts] (<a href="https://mail.google.com/mail/?tab=wm#inbox">https://mail.google.com/mail/?tab=wm#inbox</a>)  within the noaa.gov domain.</li>
+<li>[GitHub Wiki pages] (<a href="https://github.com/ioos/system-test/wiki/_pages">https://github.com/ioos/system-test/wiki/_pages</a>) such as this one within the DMAC GitHub repository.</li>
+<li>In-person or online meetings using WebEx sessions.</li>
+</ul>
+<h1 id="risk">Risk</h1>
+<p>An ongoing risk registry is maintained on the [Project Dashboard] (<a href="https://github.com/ioos/system-test/wiki/Latest-Project-Dashboard">https://github.com/ioos/system-test/wiki/Latest-Project-Dashboard</a>) , which is published weekly by COB every Thursday.  Please be aware that not all DMAC IT project team members may have access to the Project Dashboard.  If you do not have access to the Project Dashboard and wish to gain access, please contact [John Kupiec] (john.kupiec@noaa.gov) or [Derrick Snowden] (derrick.snowden@noaa.gov).</p>
+<ul>
+<li>Integration: Track List of <a href="https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs">Services Registries and Data Catalogues</a></li>
+</ul>
+<p>This document does not address procurement management, as there are no procurement actions planned for the project.</p>
+<h1 id="quality-management">Quality Management</h1>
+<p>Quality management within the DMAC project is accomplished by treating every work package as an Issue, and requiring the resolution of every Issue to be verified by DMAC project managers before it can be closed.  DMAC project managers are the only ones empowered to close Issues.  The DMAC GitHub repository uses information from the status of Milestones and associated Issues to compile <a href="https://github.com/ioos/system-test/graphs">System-Test Metrics</a>.  DMAC proejct managers track each Issue and Milestone to determine if project work packages are being completed on schedule.</p>
+<h1 id="documentation">Documentation</h1>
+<h2 id="documentation-process-and-approach-">Documentation Process and Approach:</h2>
+<p>These wiki pages should serve as working documents that are updated as the project progresses.  Some material will be moved from the wiki to the project site as it matures.  The project site will consist of two types of material:  </p>
+<ol>
+<li>Blog Environment with IPython Scripts and Results using <a href="http://docs.getpelican.com/en/3.3.0/">Pelican</a><ul>
+<li>Model: <a href="http://ocefpaf.github.io/python4oceanographers/blog/2013/12/23/blog/">Filipe Fernandes&#39; blog</a>      </li>
+</ul>
+</li>
+<li><a href="https://github.com/ioos/system-test/wiki">Project Page with Static Documentation</a>  </li>
+</ol>
+<p>For the early part of the project we will concentrate on the IPython notebooks until we have a critical mass of material to begin summarizing.  </p>
+
+      </div>
+
+    </div>
+    <div id="footer">
+      <p>
+        <em class="focus">Brought to you by</em>
+        <a href="http://paulirish.com">Paul Irish <i>Google Chrome, jQuery</i></a>
+        <a href="http://nimbupani.com">Divya Manian <i>Web Opener @ Opera</i></a>
+        <a href="http://www.blog.highub.com/">Shichuan <i>Open Web Developer</i></a>
+      </p>
+      <ul>
+        <li><a href="http://blog.mklog.fr/">Mickael Daniel</a></li>
+        <li>Dave Kirk</li> 
+        <li><a href="http://mths.be/"></a>Mathias Byenens</li>
+        <li><a href="http://www.html5-css3.fr/">Jonathan Verrecchia</a></li>
+        <li><a href="https://github.com/nlogax">nlogax</a></li>
+        <li><a href="http://htmlcssjavascript.com/">Rob Larsen</a></li>
+        <li><a href="http://www.vervestudios.co/">David Murdoch</a></li>
+        <li><a href="http://www.ad7six.com/">Andy Dawson</a></li>
+        <li><a href="http://www.michael-van-laar.de/">Michael van Laar</a></li>
+        <li><a href="https://github.com/paulirish/html5-boilerplate/contributors">More Contributors</a></li>
+      </ul> <br>
+      <p>It would not have been possible without the efforts of these superheroes:</p>
+      <ul>
+        <li><a href="http://www.phpied.com">Stoyan Stefanov</a></li>
+        <li><a href="http://mathiasbynens.be/">Mathias Bynens</a></li>
+        <li><a href="http://meyerweb.com/">Eric Meyer</a></li>
+        <li><a href="http://richclarkdesign.com/">Richard Clark</a></li>
+        <li><a href="http://www.aestheticallyloyal.com/">Anthony Kolber</a></li>
+        <li><a href="http://www.splintered.co.uk/">Patrick H Lauke</a></li>
+        <li><a href="http://timvandamme.com">Tim Van Damme</a></li>
+        <li><a href="http://farukat.es/">Faruk Ate&#351;</a></li>
+        <li><a href="http://remysharp.com/">Remy Sharp</a></li>
+        <li><a href="http://www.dillerdesign.com/">Drew Diller</a></li>
+        <li><a href="http://blog.amodernfable.com/">Adam McIntyre</a></li>
+        <li><a href="http://tjkdesign.com/">Thierry Koblentz</a></li>
+        <li><a href="http://miketaylr.com">Mike Taylor</a></li>
+        <li><a href="http://iecss.com">Jonathan Neal</a></li>
+        <li><a href="http://camendesign.com">Kroc Camen</a></li>
+        <li><a href="http://fontsquirrel.com">Ethan Dunham</a></li>
+        <li><a href="http://peter.sh">Peter Beverloo</a></li>
+        <li><a href="http://code.flickr.com/blog/">Flickr</a></li>
+        <li><a href="http://www.viget.com/inspire/">Viget</a></li>
+        <li><a href="http://stevesouders.com/">Steve Souders</a></li>
+        <li><a href="http://stuffandnonsense.co.uk/blog">Andy Clarke</a>
+        <li><a href="http://na.isobar.com">Isobar Interface Development team</a></li>
+      </ul>
+      <p>
+        Pretty docs brought to you by <a href="http://github.com/mklabs" style="color:hsl(18, 74%, 54%)">Mickael Daniel</a>
+      </p>
+    </div>
+
+    <img id="html5logo" src="//html5boilerplate.com/images/HTML5_Logo.svg" height="60">
+
+
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js"></script>
+  <script>window.jQuery || document.write('<script src="/public/js/jquery.min.js"><\/script>')</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/json2/20110223/json2.js"></script>
+  <script>window.JSON || document.write("<script src='/public/js/json2.js'>\x3C/script>")</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.1.6/underscore-min.js"></script>
+  <script>window._ || document.write("<script src='/public/js/underscore.min.js'>\x3C/script>")</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/0.5.0/backbone-min.js"></script>
+  <script>window.Backbone || document.write("<script src='/public/js/backbone.min.js'>\x3C/script>")</script>
+
+  <script src="/public/js/script.js"></script>
+
+</body>
+</html>

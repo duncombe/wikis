@@ -1,0 +1,204 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en-us" dir="ltr" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en-us" dir="ltr" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-us" dir="ltr" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-us" dir="ltr" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-us" dir="ltr" class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" >
+  <meta charset="utf-8">
+
+  <title>Contributing to the Project || HTML5 Boilerplate - A rock-solid default template for HTML5 awesome.</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/public/css/style.css" >
+  <link rel="stylesheet" href="/public/css/docs.css" >
+
+</head>
+<body>
+  <div id="container" class="wikiconvertor"> 
+    <b class="border-a"></b>
+    <b class="border-b"></b>
+    <b class="border-c"></b>
+    <b class="border-d"></b>
+
+    <div id="header">
+         <p class="lang">
+           <a href="/">Return to the HTML5 Boilerplate website &#8618;</a>
+         </p>
+         <h1>HTML5  <i>&#x2605;</i> <b>Boilerplate Docs</b></h1> 
+         <h2>A rock-solid default for HTML5 awesome.</h2>  
+    </div>
+
+    <div id="body">
+      <div class="wikiconvertor-pages">
+        <ul>
+            <li><a href="&#x2F;_Sidebar&#x2F;">_Sidebar</a></li>
+            <li><a href="&#x2F;Contributing-to-the-Project&#x2F;">Contributing to the Project</a></li>
+            <li><a href="&#x2F;Development-of-Test-Themes&#x2F;">Development of Test Themes</a></li>
+            <li><a href="&#x2F;Environment-Wrangling-in-Wakari&#x2F;">Environment Wrangling in Wakari</a></li>
+            <li><a href="&#x2F;Final Report Draft&#x2F;">Final Report Draft</a></li>
+            <li><a href="&#x2F;Hannah-Weekly-Updates&#x2F;">Hannah Weekly Updates</a></li>
+            <li><a href="&#x2F;">Home</a></li>
+            <li><a href="&#x2F;Meeting-Notes&#x2F;">Meeting Notes</a></li>
+            <li><a href="&#x2F;Notebooks By Theme&#x2F;">Notebooks By Theme</a></li>
+            <li><a href="&#x2F;Project-Management-Plan&#x2F;">Project Management Plan</a></li>
+            <li><a href="&#x2F;References&#x2F;">References</a></li>
+            <li><a href="&#x2F;Running-the-System-Test-notebooks&#x2F;">Running the System Test notebooks</a></li>
+            <li><a href="&#x2F;Service-Registries-and-Data-Catalogs&#x2F;">Service Registries and Data Catalogs</a></li>
+            <li><a href="&#x2F;system-test-development-workflow&#x2F;">system test development workflow</a></li>
+            <li><a href="&#x2F;Weekly Stand Up Reports&#x2F;">Weekly Stand Up Reports</a></li>
+        </ul>
+      </div>
+
+      <div class="wikiconvertor-content wikistyle relative">
+        <p class="dwn">
+          <span class="right"><a class="edit-page" href="http://github.com/h5bp/html5-boilerplate/wiki/Contributing-to-the-Project/_edit">Edit this page</a></span>
+        </P>
+
+        <h1 id="todo">TODO</h1>
+<ul>
+<li>Combine the three best practices pages into this one.  Alternatively, link to them from here.  </li>
+<li><a href="https://github.com/ioos/system-test/wiki/Environment-Wrangling-in-Wakari">https://github.com/ioos/system-test/wiki/Environment-Wrangling-in-Wakari</a></li>
+<li><a href="https://github.com/ioos/system-test/wiki/system-test-development-workflow">https://github.com/ioos/system-test/wiki/system-test-development-workflow</a></li>
+</ul>
+<h1 id="creating-or-updating-notebooks">Creating or updating notebooks</h1>
+<ol>
+<li>Generation of <code><span class="pun">.</span><span class="pln">py</span></code> files along side the <code><span class="pun">.</span><span class="pln">ipynb</span></code> files.  You can generate the <code><span class="pun">.</span><span class="pln">py</span></code> files in <strong>one</strong> of three ways:<ol>
+<li>Run <code><span class="pln">ipython notebook </span><span class="pun">--</span><span class="pln">script</span></code>.  This will save a .py file every time the notebook is saved.</li>
+<li>Add the line <code><span class="pln">c</span><span class="pun">.</span><span class="typ">FileNotebookManager</span><span class="pun">.</span><span class="pln">save_script </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">True</span></code> to your <code><span class="pln">ipython_notebook_config</span><span class="pun">.</span><span class="pln">py</span></code> file and restart the notebook. </li>
+<li>After you are done editing your notebook, <code><span class="pln">cd</span></code> to the directory the <code><span class="pun">.</span><span class="pln">ipynb</span></code> file is in and run <code><span class="pln">ipython nbconvert </span><span class="pun">--</span><span class="pln">to python </span><span class="pun">[</span><span class="pln">your_notebook_file</span><span class="pun">]</span></code></li>
+</ol>
+</li>
+<li>Organization of &quot;helper&#39; libraries.  Each scenario folder should contain a single file called <code><span class="pln">utilities</span><span class="pun">.</span><span class="pln">py</span></code>.  Keep all helper functions in here.  Use this utilities option to help keep the notebooks readable.  When importing from <code><span class="pln">utilities</span><span class="pun">.</span><span class="pln">py</span></code>, please use specific imports like <code><span class="kwd">from</span><span class="pln"> </span><span class="pun">.</span><span class="pln">utilities </span><span class="kwd">import</span><span class="pln"> my_cool_function</span><span class="pun">,</span><span class="pln"> my_method</span></code>.  Please do <strong>not</strong> do: <code><span class="kwd">from</span><span class="pln"> </span><span class="pun">.</span><span class="pln">utilities </span><span class="kwd">import</span><span class="pln"> </span><span class="pun">*</span></code>.</li>
+<li>Installation requirements.  To assist in someone being able to replicate the work of the system-test, we need to start documenting the specifics on how to setup each scenario notebook.  In each scenario folder, please start creating a <code><span class="pln">README</span><span class="pun">.</span><span class="pln">md</span></code> file containing information about the scenario, what its intentions are, and how to set it up to run.  I&#39;ve included some examples in this PR for existing scenarios.  Bonus points if the documentation covers using both <code><span class="pln">conda</span></code> and <code><span class="pln">pip</span></code>.</li>
+<li>Commit the <code><span class="pun">.</span><span class="pln">ipynb</span></code> files with <strong>ALL</strong> cells successfully run.  If you can&#39;t run the entire notebook, don&#39;t commit it!</li>
+<li>Avoid using ipython notebook magic, aka <code><span class="pun">%</span><span class="pln">pylab</span></code> and <code><span class="pun">%</span><span class="pln">matplotlib</span></code></li>
+<li>Adhere to the folder structure this PR lays out:
+|---- Theme<em>[theme number]</em>[theme name]
+|---- README.md
+|     |---- Scenario<em>[theme number][scenario letter]</em>[scenario title]
+|     |     |---- README.md
+|     |     |---- Scenario<em>[theme number][scenario letter]</em>[sub scenario title]
+|     |     |     |---- README.md
+|     |     |     |---- utilities.py
+|     |     |     |---- Scenario<em>[theme number][scenario letter]</em>[some unique term].py
+|     |     |     |---- Scenario<em>[theme number][scenario letter]</em>[some unique term].ipynb
+<code><span class="typ">These</span><span class="pln"> guides to the</span></code>Fork=&gt;Branch=&gt;Pull Request` process are useful:</li>
+<li><a href="http://nathanhoad.net/git-workflow-forks-remotes-and-pull-requests">http://nathanhoad.net/git-workflow-forks-remotes-and-pull-requests</a></li>
+<li><a href="https://gun.io/blog/how-to-github-fork-branch-and-pull-request/">https://gun.io/blog/how-to-github-fork-branch-and-pull-request/</a></li>
+</ol>
+<h1 id="testing-and-merging-pull-requests">Testing and Merging Pull Requests</h1>
+<ol>
+<li><p>Make sure your local branch is up to date.  </p>
+</li>
+<li><p>Create a new branch in your local repo named after the target you&#39;re testing. e.g. in the case of @Bobfrat &#39;s recent PR #77 </p>
+</li>
+</ol>
+<pre><code><span class="pln">git branch waves_notebook<br />git checkout waves_notebook<br /></span></code></pre><ol>
+<li><p>Merge from Bobfrat:waves_notebook into your local copy of ioos:waves_notebook</p>
+<pre><code><span class="pln">git remote add bobfrat https</span><span class="pun">:</span><span class="com">//github.com/Bobfrat/system-test.git</span><span class="pln"><br />git pull bobfrat waves_notebook<br /></span></code></pre></li>
+<li><p>Now you have the PR as <code><span class="pln">waves_notebook</span></code> </p>
+</li>
+<li><p>Test how you see fit but at least verify that the output is visible in the <em>,ipynb and that the </em>.py is generated.  Also test to see that the README.md has been updated to include any new issues/bugs etc discovered during the development of the notebook.</p>
+</li>
+<li><p>If all is well, go back to github and click the green &quot;okay to merge&quot; button. </p>
+</li>
+</ol>
+<h1 id="documenting-issues">Documenting Issues</h1>
+<p>Recall from the <a href="https://github.com/ioos/system-test/wiki/Project-Management-Plan#goals-and-objectives">project plan</a> that one of the primary objectives of this project is to list all fixes and enhancements that are identified during the test.  These fixes are to be prioritized and <strong>only some of them</strong> will actually be implemented during the course of the test.  However, we must document all of them.  It isn&#39;t an exaggeration to say that the list of bugs/enhancements are arguably more important than the collection of functioning notebooks.  The project time is short and we need to be very judicious when choosing whether to spend time fixing bugs.  Most often the answer is to log it and move on, potentially to another notebook. So, what exactly are bugs, and how do we log them.</p>
+<h2 id="what-types-of-bugs-do-we-expect-">What types of bugs do we expect?</h2>
+<p>The answer here is really anything but at least includes:</p>
+<ul>
+<li>I tried to use client X to plot data and it didn&#39;t understand my data type.</li>
+<li>I searched for dataset Y in catalog Z and couldn&#39;t find it.  I know dataset Y exists so it needs to be published via a service and/or registered in one or more catalogs.</li>
+<li>Dataset Y is available here but the service sucks because...<ul>
+<li>no metadata</li>
+<li>no aggregation</li>
+<li>server times out when I ask for more that NN days worth of data.</li>
+</ul>
+</li>
+<li>This data set is published as a bunch of ascii files and not a standards compliant service.  Please publish.</li>
+<li>I found all of these great records in this catalog but none of them actually point to data published online.</li>
+</ul>
+<p>etc.  You get the idea, these are not just issues with software crashing but also include failure to follow procedures.</p>
+<h2 id="how-do-i-log-issues-">How do I log issues?</h2>
+<p>At the very least all issues should be logged on the system-test issue tracker.  In some cases the issue is actually related to a software bug and the software package exists in another github repository.  For these cases, log the issue on the appropriate repo so that the development team is aware and can factor it in to their plans.  Also, log it in the system-test repo and just include a pointer to the real issue.  The purpose for doing this is to create a record that will get included in the final report from the system-test project.</p>
+<p>TODO: outline the tagging/labeling scheme.</p>
+<p>Additionally, for each notebook, there is a README.md file which includes a description of the notebook and the details of any dependencies.  Issues should be written up in a section of the README that describes the disposition of the issue currently.  Consider this section a storyline describing what was learned in the course of creating the notebook.  </p>
+<p>@rsignell-usgs has some additional thoughts on documenting the things learned from creating the inundation notebook.</p>
+
+      </div>
+
+    </div>
+    <div id="footer">
+      <p>
+        <em class="focus">Brought to you by</em>
+        <a href="http://paulirish.com">Paul Irish <i>Google Chrome, jQuery</i></a>
+        <a href="http://nimbupani.com">Divya Manian <i>Web Opener @ Opera</i></a>
+        <a href="http://www.blog.highub.com/">Shichuan <i>Open Web Developer</i></a>
+      </p>
+      <ul>
+        <li><a href="http://blog.mklog.fr/">Mickael Daniel</a></li>
+        <li>Dave Kirk</li> 
+        <li><a href="http://mths.be/"></a>Mathias Byenens</li>
+        <li><a href="http://www.html5-css3.fr/">Jonathan Verrecchia</a></li>
+        <li><a href="https://github.com/nlogax">nlogax</a></li>
+        <li><a href="http://htmlcssjavascript.com/">Rob Larsen</a></li>
+        <li><a href="http://www.vervestudios.co/">David Murdoch</a></li>
+        <li><a href="http://www.ad7six.com/">Andy Dawson</a></li>
+        <li><a href="http://www.michael-van-laar.de/">Michael van Laar</a></li>
+        <li><a href="https://github.com/paulirish/html5-boilerplate/contributors">More Contributors</a></li>
+      </ul> <br>
+      <p>It would not have been possible without the efforts of these superheroes:</p>
+      <ul>
+        <li><a href="http://www.phpied.com">Stoyan Stefanov</a></li>
+        <li><a href="http://mathiasbynens.be/">Mathias Bynens</a></li>
+        <li><a href="http://meyerweb.com/">Eric Meyer</a></li>
+        <li><a href="http://richclarkdesign.com/">Richard Clark</a></li>
+        <li><a href="http://www.aestheticallyloyal.com/">Anthony Kolber</a></li>
+        <li><a href="http://www.splintered.co.uk/">Patrick H Lauke</a></li>
+        <li><a href="http://timvandamme.com">Tim Van Damme</a></li>
+        <li><a href="http://farukat.es/">Faruk Ate&#351;</a></li>
+        <li><a href="http://remysharp.com/">Remy Sharp</a></li>
+        <li><a href="http://www.dillerdesign.com/">Drew Diller</a></li>
+        <li><a href="http://blog.amodernfable.com/">Adam McIntyre</a></li>
+        <li><a href="http://tjkdesign.com/">Thierry Koblentz</a></li>
+        <li><a href="http://miketaylr.com">Mike Taylor</a></li>
+        <li><a href="http://iecss.com">Jonathan Neal</a></li>
+        <li><a href="http://camendesign.com">Kroc Camen</a></li>
+        <li><a href="http://fontsquirrel.com">Ethan Dunham</a></li>
+        <li><a href="http://peter.sh">Peter Beverloo</a></li>
+        <li><a href="http://code.flickr.com/blog/">Flickr</a></li>
+        <li><a href="http://www.viget.com/inspire/">Viget</a></li>
+        <li><a href="http://stevesouders.com/">Steve Souders</a></li>
+        <li><a href="http://stuffandnonsense.co.uk/blog">Andy Clarke</a>
+        <li><a href="http://na.isobar.com">Isobar Interface Development team</a></li>
+      </ul>
+      <p>
+        Pretty docs brought to you by <a href="http://github.com/mklabs" style="color:hsl(18, 74%, 54%)">Mickael Daniel</a>
+      </p>
+    </div>
+
+    <img id="html5logo" src="//html5boilerplate.com/images/HTML5_Logo.svg" height="60">
+
+
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js"></script>
+  <script>window.jQuery || document.write('<script src="/public/js/jquery.min.js"><\/script>')</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/json2/20110223/json2.js"></script>
+  <script>window.JSON || document.write("<script src='/public/js/json2.js'>\x3C/script>")</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.1.6/underscore-min.js"></script>
+  <script>window._ || document.write("<script src='/public/js/underscore.min.js'>\x3C/script>")</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/0.5.0/backbone-min.js"></script>
+  <script>window.Backbone || document.write("<script src='/public/js/backbone.min.js'>\x3C/script>")</script>
+
+  <script src="/public/js/script.js"></script>
+
+</body>
+</html>

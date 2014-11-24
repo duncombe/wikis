@@ -1,0 +1,464 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en-us" dir="ltr" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en-us" dir="ltr" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-us" dir="ltr" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-us" dir="ltr" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-us" dir="ltr" class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" >
+  <meta charset="utf-8">
+
+  <title>Final Report Draft || HTML5 Boilerplate - A rock-solid default template for HTML5 awesome.</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/public/css/style.css" >
+  <link rel="stylesheet" href="/public/css/docs.css" >
+
+</head>
+<body>
+  <div id="container" class="wikiconvertor"> 
+    <b class="border-a"></b>
+    <b class="border-b"></b>
+    <b class="border-c"></b>
+    <b class="border-d"></b>
+
+    <div id="header">
+         <p class="lang">
+           <a href="/">Return to the HTML5 Boilerplate website &#8618;</a>
+         </p>
+         <h1>HTML5  <i>&#x2605;</i> <b>Boilerplate Docs</b></h1> 
+         <h2>A rock-solid default for HTML5 awesome.</h2>  
+    </div>
+
+    <div id="body">
+      <div class="wikiconvertor-pages">
+        <ul>
+            <li><a href="&#x2F;_Sidebar&#x2F;">_Sidebar</a></li>
+            <li><a href="&#x2F;Contributing-to-the-Project&#x2F;">Contributing to the Project</a></li>
+            <li><a href="&#x2F;Development-of-Test-Themes&#x2F;">Development of Test Themes</a></li>
+            <li><a href="&#x2F;Environment-Wrangling-in-Wakari&#x2F;">Environment Wrangling in Wakari</a></li>
+            <li><a href="&#x2F;Final Report Draft&#x2F;">Final Report Draft</a></li>
+            <li><a href="&#x2F;Hannah-Weekly-Updates&#x2F;">Hannah Weekly Updates</a></li>
+            <li><a href="&#x2F;">Home</a></li>
+            <li><a href="&#x2F;Meeting-Notes&#x2F;">Meeting Notes</a></li>
+            <li><a href="&#x2F;Notebooks By Theme&#x2F;">Notebooks By Theme</a></li>
+            <li><a href="&#x2F;Project-Management-Plan&#x2F;">Project Management Plan</a></li>
+            <li><a href="&#x2F;References&#x2F;">References</a></li>
+            <li><a href="&#x2F;Running-the-System-Test-notebooks&#x2F;">Running the System Test notebooks</a></li>
+            <li><a href="&#x2F;Service-Registries-and-Data-Catalogs&#x2F;">Service Registries and Data Catalogs</a></li>
+            <li><a href="&#x2F;system-test-development-workflow&#x2F;">system test development workflow</a></li>
+            <li><a href="&#x2F;Weekly Stand Up Reports&#x2F;">Weekly Stand Up Reports</a></li>
+        </ul>
+      </div>
+
+      <div class="wikiconvertor-content wikistyle relative">
+        <p class="dwn">
+          <span class="right"><a class="edit-page" href="http://github.com/h5bp/html5-boilerplate/wiki/Final Report Draft/_edit">Edit this page</a></span>
+        </P>
+
+        <h1 id="background">Background</h1>
+<p>The distributed, service oriented architecture of DMAC has been implemented independently by IOOS partners, using different software approaches and different levels of implementation.  IOOS partners differ in their online data discovery and access protocols they offer, the percent of their datasets available through their online services, and the percent of datasets registered with the IOOS catalog.  These differences can present difficulties to researchers and policy makers who are looking for oceanographic data to address important scientific endeavors and policy issues.</p>
+<h1 id="objective">Objective</h1>
+<p>The DMAC System Integration Test (SIT) evaluates the extent to which the services that IOOS has deployed  to Federal partners and Regional Associations can assist researchers and policy makers in finding, accessing and using oceanographic data to address important research questions and policy issues.  IOOS services tested include the following:</p>
+<ul>
+<li>OPeNDAP Data Access Protocol (DAP) and/or Open Geospatial Consortium (OGC) Web Coverage Service (WCS) for access to gridded data</li>
+<li>OGC Sensor Observation Service (SOS) for access to in situ observations</li>
+<li>OGC Web Map Service (WMS) for access to geo-referenced image data</li>
+<li>OGC Catalog Service for the Web (CSW)</li>
+</ul>
+<p>The DMAC-IT varies from the common notion of system integration test in two important ways:</p>
+<ol>
+<li><p>The DMAC architecture is not one system, but rather, a system of systems, each one operated by an IOOS partner, and each one largely outside of IOOS control. Therefore, the IOOS DMAC team cannot control the configuration of IOOS member data registries and repositories.  One consequence is that an IOOS member can make changes to their system that invalidate previous successful DMAC tests.  Therefore, the results of a particular DMAC-IT test for a particular IOOS partner site are reliable only so long as the configuration of the partner&#39;s data resources remains unchanged.  IOOS parnters frequently alter the configuration of their data resources without informing the IOOS program office. Although the DMAC-IT project has an end date, the process of testing whether an IOOS partner&#39;s data resources can be identified, accessed and used will be an ongoing operation.</p>
+</li>
+<li><p>The protocols the DMAC-IT has used to identify, access and use data are in varying states of maturity.  Some of them have been widely adopted by IOOS partners, while others are in the early stage of adoption.  Because the IOOS partners do not yet have a fully standardized set of protocols, a service that might work for 6 partner sites might not work for another 4.  In this context, success is defined as knowing which service protocols work for which IOOS partner sites.</p>
+</li>
+</ol>
+<p>The objective of the DMAC-IT is to assess the current level of maturity of DMAC, as measured by the the extent to which Open Geospatial Consortium (OGC) standard query tools and techniques can successfully identify, access and use information from IOOS data providers.  </p>
+<h1 id="testing-framework">Testing Framework</h1>
+<p>The approach for DMAC-IT has been to package discrete test scenarios and their scripts within larger contexts called <em>themes</em>. Each theme provides one or more <em>scenarios</em> that generates specific questions that require discovery, access and use of appropriate metadata and data. The themes provide a realistic testing framework within which to frame and and address public policy questions with IOOS data.</p>
+<p>Within each theme there is a top level <em>problem statement</em>, which contains the overall objective of the theme. For a theme with more than more objective, two or more scenarios will address particular objectives within the theme. Themes are accompanied by IPython Notebooks which address particular questions under each theme. Each IPython notebook includes comments that identify the theme for which the notebook is used, the question areas that the notebook addresses, the results from executing the python scripts, and the conclusions that can be drawn from the results. A particular IPython notebook may address questions of discovery, questions of access and questions of use.</p>
+<p>IPython notebooks use the following common format:</p>
+<p>Theme Title
+Scenario Description and Title
+Questions
+DISCOVERY Process (code and narrative)
+ACCESS Process (code and narrative)
+USE Process (code, narrative, and graphics where appropriate)
+Results and Conclusions (narrative)</p>
+<p>The procedures employ IPython scripts that interrogate DMAC registries and repositories, and analyze the returned data against expected results. There is not necessarily a one-to one correspondence between a Question and a notebook product. Each question may correspond to a number of notebooks in order to increase readability and modularity of the IPython notebook tools.</p>
+<h1 id="test-themes">Test Themes</h1>
+<h2 id="theme-1-baseline-assessment">Theme 1: Baseline Assessment</h2>
+<p>The baseline assessment theme includes test scenarios that, as the name of theme states, assess the basic functionality of DMAC.  While the test scenarios for this theme have no focus on a particular scientific endeavor, the functionality to be tested underlies all subsequent test themes. These scenarios incorporate multiple IOOS Regions and partners, cover a large geographic scope, employ multiple types of data, and cross scientific disciplines. Results from baseline scenarios include:</p>
+<ul>
+<li>Basic statistics on the number and type of data sets in each chosen registry or catalog</li>
+<li>Metadata standards and dialects employed within those registries</li>
+<li>Statistics on the number of types of service protocols/endpoints to access the data</li>
+<li>For a given area of interest, a listing of the total number of variables/data sets available in a given catalog, as well as a listing of the variables in the catalog</li>
+</ul>
+<p>The following general questions have been used to guide the development of IPython notebooks within the Baseline Theme.</p>
+<ul>
+<li>What are the essential elements that determine whether a search has been successful?</li>
+<li>What are the interfaces that a particular catalog provides (html page with forms, csw, opensearch, ckan etc)?</li>
+<li>What are the contents of a given registry when summarized along several important query parameters?</li>
+<li>What variable names (IOOS core variables, CF standard names etc) appear within a given registry?</li>
+<li>Which well-defined service interfaces are present for a given registry?</li>
+<li>For a given registry, are clear, human-readable titles/abstracts/summaries/identifiers contained in the metadata?</li>
+<li>Within a given registry are there present keywords and references to standardized keyword vocabularies (preferably machine readable)?</li>
+</ul>
+<h3 id="scenario-1a-model-strings">Scenario 1A: Model Strings</h3>
+<h4 id="guiding-question">Guiding Question</h4>
+<p>Can we pull out model records from CSW endpoints based on a series of model strings? And, based on this exercise, is there a need for standardized model strings in order to ensure the discoverability of these records?</p>
+<h4 id="methodology">Methodology</h4>
+<ul>
+<li>Search for models using CSW keywords</li>
+<li>Query each CSW catalog for every model found</li>
+<li>Load results into a Pandas DataFrame</li>
+<li>Count the number of service types for each model type</li>
+</ul>
+<h4 id="test-code">Test Code</h4>
+<p>The Python test code, along with supporting utilities and a README file, can be found here:
+<a href="https://github.com/ioos/system-test/tree/master/Theme_1_Baseline/Scenario_1A_Model_Strings">https://github.com/ioos/system-test/tree/master/Theme_1_Baseline/Scenario_1A_Model_Strings</a></p>
+<h3 id="scenario-1b-core-variable-strings">Scenario 1B: Core Variable Strings</h3>
+<h4 id="guiding-question">Guiding Question</h4>
+<p>Using a list of Core IOOS Variables and the SPARQLWrapper vocabulary mapping tool, can we search and quantify records from CSW endpoints that relate to core variables?</p>
+<h4 id="methodology">Methodology</h4>
+<ul>
+<li>Get a list of the IOOS Core Variables from MMI</li>
+<li>Query MMI for CF standard names related to the IOOS Core Variables</li>
+<li>Search CSW servers on variable names</li>
+<li>Determine the variables on which to build queries</li>
+<li>Load results into a Pandas DataFrame</li>
+<li>Count the number of service types for each variable</li>
+<li>Count the number of Variabes per CSW server</li>
+</ul>
+<h4 id="test-code">Test Code</h4>
+<p>The Python test code, along with supporting utilities and a README file, can be found here:
+<a href="https://github.com/ioos/system-test/tree/master/Theme_1_Baseline/Scenario_1B_CoreVariable_Strings">https://github.com/ioos/system-test/tree/master/Theme_1_Baseline/Scenario_1B_CoreVariable_Strings</a></p>
+<h3 id="scenario-1c-webservice-strings">Scenario 1C: WebService Strings</h3>
+<h4 id="guiding-questions">Guiding Questions</h4>
+<ul>
+<li>Based on a series of WebService Strings, can we access web services via a series of CSW endpoints and quantify those results? </li>
+<li>Based on those results, is it apparent that some web services are not being discovered as they are utilizing variations on WebService Strings?</li>
+</ul>
+<h4 id="methodology">Methodology</h4>
+<ul>
+<li>Search for endpoints in a list of CSW catalogs</li>
+<li>Output an array of identified catalog endpoints</li>
+</ul>
+<h4 id="test-code">Test Code</h4>
+<p>The Python test code, along with supporting utilities and a README file, can be found in the Theme 1 code library:
+<a href="https://github.com/ioos/system-test/tree/master/Theme_1_Baseline">https://github.com/ioos/system-test/tree/master/Theme_1_Baseline</a></p>
+<h3 id="scenario-1d-dissolved-oxygen-data">Scenario 1D: Dissolved Oxygen Data</h3>
+<h4 id="guiding-questions">Guiding Questions</h4>
+<ul>
+<li>Can we discover, access, and overlay dissolved oxygen information?</li>
+<li>Are data from different sensors or sources directly comparable?</li>
+<li>If data from different sources are not directly comparable, how much work is necessary to aggregate these streams?</li>
+<li>Are metadata for these data intelligable?</li>
+</ul>
+<h4 id="methodology">Methodology</h4>
+<ul>
+<li>Define what possible variables we&#39;re looking for using CF standard names</li>
+<li>Put the names in a data dictionary for ease of access</li>
+<li>Set up OWSlib and it&#39;s FES filter capabilities. This puts bounding box and data dictionary into a form that OWSLib can use to hit OGC web-service endpoints.</li>
+<li>Convert User Input (e.g. search terms) into FES filters  </li>
+<li>Compile results</li>
+</ul>
+<h4 id="test-code">Test Code</h4>
+<p>The Python test code, along with supporting utilities and a README file, can be found in the Theme 1 code library:
+<a href="https://github.com/ioos/system-test/tree/master/Theme_1_Baseline">https://github.com/ioos/system-test/tree/master/Theme_1_Baseline</a></p>
+<h3 id="scenario-1e-salinity-data">Scenario 1E: Salinity Data</h3>
+<h4 id="guiding-questions">Guiding Questions</h4>
+<ul>
+<li>Can we discover, access, and overlay salinity information in sensors?</li>
+<li>Can we discover, access, and overlay salinity information from models?</li>
+<li>Are data from different sensors and satellite data (or models) directly comparable? Same units? Same scales?</li>
+<li>If not, how much work is necessary to aggregate these data streams?</li>
+<li>Are metadata for these data intelligible?&quot;</li>
+</ul>
+<h4 id="methodology">Methodology</h4>
+<ul>
+<li>Define the web-service endpoints to check</li>
+<li>Define what possible variables we&#39;re looking for using CF standard names</li>
+<li>Put the names in a data dictionary for ease of access
+*Set up OWSlib and it&#39;s FES filter capabilities. This puts  bounding box and data dictionary into a form that OWSLib can use to hit OGC web-service endpoints.</li>
+<li>Convert User Input (e.g. search terms) into FES filters </li>
+<li>Connect to each CSW and explore it&#39;s properties using the filters</li>
+<li>Compile results</li>
+</ul>
+<h4 id="test-code">Test Code</h4>
+<p>The Python test code, along with supporting utilities and a README file, can be found in the Theme 1 code library:
+<a href="https://github.com/ioos/system-test/tree/master/Theme_1_Baseline">https://github.com/ioos/system-test/tree/master/Theme_1_Baseline</a></p>
+<h2 id="theme-2-extreme-weather-water-events">Theme 2:  Extreme Weather/Water Events</h2>
+<h3 id="scenario-2a-accessing-data-from-reporting-stations">Scenario 2A:  Accessing Data from Reporting Stations</h3>
+<h4 id="guiding-question">Guiding Question</h4>
+<p>Can we obtain observed current and recent historical data at stations located within a bounding box?</p>
+<h4 id="methodology">Methodology</h4>
+<ul>
+<li>Define temporal and spatial bounds of interest, as well as parameters of interest</li>
+<li>Search for available service endpoints in the NGDC CSW catalog meeting search criterion</li>
+<li>Search for available OPeNDAP data endpoints</li>
+<li>Obtain observation data sets from stations within the spatial boundaries (from CO-OPS and NDBC)</li>
+<li>Extract time series for identified stations</li>
+<li>Plot time series data, current rose, annual max values per station</li>
+<li>Plot observation stations on a map</li>
+</ul>
+<h4 id="test-code">Test Code</h4>
+<p>The Python test code, along with supporting utilities and a README file, can be found here:
+<a href="https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/Extremes_Currents">https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/Extremes_Currents</a></p>
+<h3 id="scenario-2b-comparing-modeled-versus-actual-water-levels-during-inundation-event">Scenario 2B:  Comparing Modeled Versus Actual Water Levels During Inundation Event</h3>
+<h4 id="guiding-question">Guiding Question</h4>
+<p>Can we meaningfully compare modeled water levels with observations for a specified bounding box,and time period using IOOS recommended service standards for catalog search (CSW) and data retrieval (OPeNDAP &amp; SOS)?</p>
+<h4 id="methodology">Methodology</h4>
+<ul>
+<li>Query CSW to find datasets that match criteria</li>
+<li>Extract OPeNDAP data endpoints from model datasets and SOS endpoints from observational datasets</li>
+<li>OPeNDAP model datasets will be granules</li>
+<li>SOS endpoints may be datasets (from ncSOS) or collections of datasets (from NDBC, CO-OPS SOS servers)</li>
+<li>Filter SOS services to obtain datasets</li>
+<li>Extract data from SOS datasets</li>
+<li>Extract data from model datasets at locations of observations      </li>
+<li>Compare time series data on same vertical datum</li>
+</ul>
+<h4 id="test-code">Test Code</h4>
+<p>The Python test code, along with supporting utilities and a README file, can be found here:<a href="https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Inundation">https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Inundation</a></p>
+<h3 id="scenario-2c-wind-related-factors">Scenario 2C:  Wind-Related Factors</h3>
+<h4 id="guiding-question">Guiding Question</h4>
+<p>Can we compare observed and modeled wind speeds at stations located within a bounding box? </p>
+<h4 id="methodology">Methodology</h4>
+<ul>
+<li>Define temporal and spatial bounds of interest, as well as parameters of interest</li>
+<li>Search for available service endpoints in the NGDC CSW catalog meeting search criteria</li>
+<li>Extract OPeNDAP data endpoints from model datasets and SOS endpoints from observational datasets</li>
+<li>Obtain observation data sets from stations within the spatial boundaries</li>
+<li>Using DAP (model) endpoints find all available models data sets that fall in the area of interest, for the specified time range, and extract a model grid cell closest to all the given station locations</li>
+<li>Plot observation stations on a map (red marker for model grid points) and draw a line between each station and the model grid point used for comparison</li>
+<li>Plot modeled and observed time series wind speed on same axes for comparison</li>
+</ul>
+<h4 id="test-code">Test Code</h4>
+<p>The Python test code, along with supporting utilities and a README file, can be found here:<a href="https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Winds">https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Winds</a></p>
+<h3 id="scenario-2-d-comparing-modeled-and-observed-wave-parameters">Scenario 2 D:  Comparing Modeled and Observed Wave Parameters</h3>
+<h4 id="guiding-question">Guiding Question</h4>
+<p>Can we compare observed and modeled wave parameters? </p>
+<h4 id="methodology">Methodology</h4>
+<ul>
+<li>Define temporal and spatial bounds of interest, as well as parameters of interest</li>
+<li>Search for available service endpoints in the NGDC CSW catalog meeting search criteria</li>
+<li>Extract OPeNDAP data endpoints from model datasets and SOS endpoints from observational datasets</li>
+<li>Obtain observation data sets from stations within the spatial boundaries</li>
+<li>Plot observation stations on a map (red marker if not enough data)</li>
+<li>Using DAP (model) endpoints find all available models data sets that fall in the area of interest, for the specified time range, and extract a model grid cell closest to all the given station locations</li>
+<li>Plot modelled and observed time series wave data on same axes for comparison</li>
+</ul>
+<h4 id="test-code">Test Code</h4>
+<p>The Python test code, along with supporting utilities and a README file, can be found here: <a href="https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Waves">https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Waves</a></p>
+<h3 id="scenario-2e-extreme-value-analysis-of-wave-data">Scenario 2E:  Extreme Value Analysis of Wave Data</h3>
+<h4 id="guiding-question">Guiding Question</h4>
+<p>Can we estimate the return period of a wave height by obtaining long term wave height records from observed and modeled datasets?</p>
+<h4 id="methodology">Methodology</h4>
+<ul>
+<li>Define temporal and spatial bounds of interest </li>
+<li>Define standard names of variable of interest to search for in data sets</li>
+<li>Search for available service endpoints in the NGDC CSW catalog meeting search criteria</li>
+<li>Extract OPeNDAP data endpoints from model datasets and SOS endpoints from station observation datasets</li>
+<li>Obtain long term observation data sets from a station within bounding box (10+ years)</li>
+<li>Define a new temporal range to search for a particular event (Hurricane Sandy)</li>
+<li>Using DAP (model) endpoints find all available model data sets in the bounding box, for the specified time range, and extract a model grid cell closest to the observation station</li>
+<li>Show observation stations and model grid points on a map (red marker for model grid points) </li>
+<li>Find the maximum wave height during the event.</li>
+<li>Perform return period analysis on the long time series observation data and see where the modeled data falls</li>
+<li>Extract the annual maximum wave heights from the nearest WIS hindcast location (Over 20 Years!)</li>
+<li>Perform return period analysis on the long time series WIS hindcast</li>
+</ul>
+<h4 id="test-code">Test Code</h4>
+<p>The Python test code, along with supporting utilities and a README file, can be found here: <a href="https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/Extremes_Waves">https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/Extremes_Waves</a></p>
+<h3 id="scenario-2f-hf-radar-current-data">Scenario 2F:  HF Radar Current Data</h3>
+<h4 id="guiding-question">Guiding Question</h4>
+<p>Can we obtain HF radar current data at stations located within a bounding box?</p>
+<h4 id="methodology">Methodology</h4>
+<ul>
+<li>Define temporal and spatial bounds of interest, as well as parameters of interest</li>
+<li>Search for available OPeNDAP data endpoints</li>
+<li>Obtain observation data sets from stations within the spatial boundaries from DAP endpoints</li>
+<li>Extract time series for locations</li>
+<li>Plot time series data, current rose, annual max values per station</li>
+<li>Plot observation stations on a map </li>
+</ul>
+<h4 id="test-code">Test Code</h4>
+<p>The Python test code, along with supporting utilities and a README file, can be found here: <a href="https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/HF_Radar_Currents">https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/HF_Radar_Currents</a></p>
+<h3 id="scenario-2g-comparison-of-observed-and-modeled-current-speed-data">Scenario 2G:  Comparison of Observed and Modeled Current Speed Data</h3>
+<h4 id="guiding-question">Guiding Question</h4>
+<p>Can we compare observed and modeled current speeds at stations located within a bounding box? </p>
+<h4 id="methodology">Methodology</h4>
+<ul>
+<li>Define temporal and spatial bounds of interest, as well as parameters of interest</li>
+<li>Search for available service endpoints in the NGDC CSW catalog meeting search criteria</li>
+<li>Extract OPeNDAP data endpoints from model datasets and SOS endpoints from observational datasets</li>
+<li>Obtain observation data sets from stations within the spatial boundaries</li>
+<li>Using DAP (model) endpoints find all available models data sets that fall in the area of interest, for the specified time range, and extract a model grid cell closest to all the given station locations</li>
+<li>Plot observation stations on a map (red marker for model grid points)</li>
+<li>Plot modeled and observed time series current data on same axes for comparison</li>
+</ul>
+<h4 id="test-code">Test Code</h4>
+<p>The Python test code, along with supporting utilities and a README file, can be found here: <a href="https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Currents">https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Currents</a></p>
+<h3 id="scenario-2h-u-s-integrated-coastal-flooding-information-system">Scenario 2H:  U.S. Integrated Coastal Flooding Information System</h3>
+<h4 id="guiding-question">Guiding Question</h4>
+<p>Can we estimate the return period of a water level by comparing modeled and/or observed water levels with NOAA Annual Exceedance Probability Curves?</p>
+<h4 id="methodology">Methodology</h4>
+<ul>
+<li>Define temporal and spatial bounds of interest, as well as parameters of interest</li>
+<li>Search for available service endpoints in the NGDC CSW catalog, then inform the user of the DAP (model) and SOS (observation) services endpoints available</li>
+<li>Obtain the stations in the spatial boundaries, and processed to obtain observation data for temporal constraints, identifying the yearly max</li>
+<li>Plot observation stations on a map and indicate to the user if the minimum number of years has been met for extreme value analysis (red marker if condition is false)</li>
+<li>Using DAP (model) endpoints find all available models data sets that fall in the area of interest, for the specified time range, and extract a model grid cell closest all the given station locations</li>
+<li>Plot the annual max for each station as a timeseries plot</li>
+<li>Plot the annual exceedance probability curve for the Nantucket Island, Ma station and compare to NOAA Tides and Currents plot</li>
+<li>The annual exceedance probability curve can be used to estimate the return period of a particular water level, whether it be modeled or observed data</li>
+</ul>
+<h4 id="test-code">Test Code</h4>
+<p>The Python test code, along with supporting utilities and a README file, can be found here: 
+<a href="https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/Extremes_Inundation">https://github.com/ioos/system-test/tree/master/Theme_2_Extreme_Events/Scenario_2A/Extremes_Inundation</a></p>
+<h2 id="theme-3-marine-habitat-conservation">Theme 3:  Marine Habitat Conservation</h2>
+<h3 id="scenario-3a-assessing-vulnerability-of-bird-species-in-bering-sea">Scenario 3A:   Assessing Vulnerability of Bird Species in Bering Sea</h3>
+<h4 id="guiding-questions">Guiding Questions</h4>
+<ul>
+<li>Can we discover, access, and overlay Important Bird Area polygons (and therefore other similar layers for additional important resource areas) on modeled datasets in the Bering Sea?</li>
+<li>Is metadata for projected climate data layers and Important Bird Area polygons sufficient to determine a subset of polygons desired by a query?</li>
+<li>Can a simple set statistics (e.g., mean and standard deviation) be derived from multiple variables in each of the six models to derive the forecast variability of climate conditions through time, through the end of the model runs (2003-2040)?</li>
+<li>Can we create a standardized matrix or other display method for output variables that allow resource experts to easily assess projected changes in climate variables, within given ranges of time, and compare projected changes across multiple coupled oceanographic and climate models?</li>
+<li>Can we develop a set of process-specific guidelines and a standardized set of outputs for a tool that would allow researchers to address a diversity of resource management questions relative to projected changes in climate for specific zones of interest?</li>
+</ul>
+<h4 id="methodology">Methodology</h4>
+<ul>
+<li>Load &#39;known&#39; WFS endpoint with Important Bird Area polygons</li>
+<li>Convert to Shapely geometry objects</li>
+<li>Map the geometry objects</li>
+<li>Setup BCSW Filters to find models in the area of the Important Bird Polygon</li>
+<li>Find all models contained in all CSW endpoints</li>
+<li>Filter out CSW servers that do not support a BBOX query</li>
+<li>Get bounding polygons from each dataset </li>
+<li>Filter out DAP servers that are taking FOREVER</li>
+<li>Overlay dataset polygons on top of Important Bird Area polygons</li>
+</ul>
+<h4 id="test-code">Test Code</h4>
+<p>The Python test code, along with supporting utilities and a README file, can be found here: <a href="https://github.com/ioos/system-test/tree/master/Theme_3_Species_Protection_and_Marine_Habitat_Conservation/Scenario_3A_Assessing_Seabird_Vulnerability_in_the_Bering_Sea/Scenario_3A_Important_Bird_Area_Polygon_Analysis">https://github.com/ioos/system-test/tree/master/Theme_3_Species_Protection_and_Marine_Habitat_Conservation/Scenario_3A_Assessing_Seabird_Vulnerability_in_the_Bering_Sea/Scenario_3A_Important_Bird_Area_Polygon_Analysis</a></p>
+<h1 id="conduct-of-the-test">Conduct of the Test</h1>
+<p>Responsibility for developing, executing and refining tests was divided by scenario among the developers, with each scenario having a dedicated team to develop, execute and refine the Python Notebooks.  Two versions of each Notebook were developed:  one in Python, and one optimized to run in a iPython shell. GitHub was used to store and track testing information, including the Notebook code, supporting files like READ.ME and utilities, test documentation, and issues.  </p>
+<h2 id="github-issues">GitHub Issues</h2>
+<p>GitHub issues were used as a repository for all activities related to the development and execution of the test.
+Every member of the DMAC SIT Team was empowered to initiate, comment on, assign, resolve and close GitHub issues.  Each GitHub issue was labeled for its priority, as well as which aspect of the test to which it related.  A listing of the GitHub labels appears below, and label descriptions are provided as needed:</p>
+<p>MMI --issues dealing with the Python Model Message Interface (MMI)
+bug -- Python Notebook execution issues not otherwise classified
+client-issue -- issues related to Python client applications
+data-provider-issue  -- issues dealing with identification, access or use of data from a data provider
+documentation
+duplicate
+enhancement 
+high priority
+invalid
+low priority
+medium priority
+progress -- summary test report on a Python Notebook (See Progress heading below)
+project-management
+question
+registry-issue -- issues dealing with IOOS data regsitries
+scenario-baseline
+scenario-biology
+scenario-brainstorming -- discussion of possible test scenarios
+scenario-extremeevents
+wakari -- discussion of issues related to the use of the Wakari suite of Python data analysis tools
+wontfix -- issues that were not fixed during the DMAC SIT</p>
+<h2 id="bi-weekly-stand-ups">Bi-Weekly Stand Ups</h2>
+<p>Stand Up teleconferences were held an average of once every 2 weeks, at which each development and test team highlighted their accomplishments of the past two weeks, reviewed their development and test plans for the upcoming two weeks, and raised general issues for discussion.  Discussion issues focused mostly on good practices for Python coding, the use of Python utilities, repositories of oceanographic metadata and data for testing, and techniques for dealing with problems particular to the scientific analysis of oceanographic data.</p>
+<h2 id="progress-issues">Progress Issues</h2>
+<p>Testing teams summarized their efforts in GitHub Progress issues, with each Progress issue summarizing the results of a given test scenario. Information included in a Progress issue includes examples of successful use of IOOS data in data analysis tools, short term issues that were or can be easily resolved, and long term issues requiring further research and development.</p>
+<h2 id="code-configuration-management">Code Configuration Management</h2>
+<p>Because the DMAC SIT used GitHub as the code repository, standard GitHub workflow practices were used for code configuration management:</p>
+<ul>
+<li>Each developer/tester forked a copy of the code repository and branched off that working copy to develop his or her own code</li>
+<li>When a developer/tester was satisfied with the code in a particular branch, he or she pushed the code to his or er forked copy of the code repository and submmitted a Pull Request.</li>
+<li>One of two designated System Administrators reviewed the code, reviewed the code for any obvious issues, and if no issues were identified, the System Administrator pulled the submitted code into the master code repository.</li>
+</ul>
+<h1 id="results-and-findings">Results and Findings</h1>
+<p> A summary of DMAC SIT results follows, organized by test scenario.  Detailed results are found in the Progress issues on GitHub:  <a href="https://github.com/ioos/system-test/labels/progress">https://github.com/ioos/system-test/labels/progress</a>.</p>
+<h2 id="baseline-assessment">Baseline Assessment</h2>
+<h3 id="scenario-1-a-model-strings">Scenario 1 A:  Model Strings</h3>
+<p>The test successfully queried many different CSW servers on a variety of model strings, and the Python Notebook was able to compile a summary of service types by model, service type, and source URL.  Several examples are illustrated below:</p>
+<p><img src="https://cloud.githubusercontent.com/assets/13939/3861910/945a5b04-1f34-11e4-96ec-f7d7456638c3.png" alt="Number of Services by Type of Scema"></p>
+<pre><code><span class="pln">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span><span class="typ">Number</span><span class="pln"> of services discovered </span><span class="kwd">by</span><span class="pln"> type of schema</span><span class="pun">.</span><span class="pln"><br /></span></code></pre><h3 id="scenario-1b-core-variable-strings">Scenario 1B: Core Variable Strings</h3>
+<p>The test successfully queried the Marine Metadata Interoperability (MMI) ontology for a list of IOOS Core Variables, was able to obtain Climate &amp; Forecast (CF) standard metadata named through MMI for all IOOS Parameter Vocabulary, and was able to successfully obtain CF Standard Names through MMI related to IOOS Parameter Vocabulary.  The test was also able to successfully search Catalog Service Web (CSW) servers on CF Standard names to get back a summary of offerings</p>
+
+      </div>
+
+    </div>
+    <div id="footer">
+      <p>
+        <em class="focus">Brought to you by</em>
+        <a href="http://paulirish.com">Paul Irish <i>Google Chrome, jQuery</i></a>
+        <a href="http://nimbupani.com">Divya Manian <i>Web Opener @ Opera</i></a>
+        <a href="http://www.blog.highub.com/">Shichuan <i>Open Web Developer</i></a>
+      </p>
+      <ul>
+        <li><a href="http://blog.mklog.fr/">Mickael Daniel</a></li>
+        <li>Dave Kirk</li> 
+        <li><a href="http://mths.be/"></a>Mathias Byenens</li>
+        <li><a href="http://www.html5-css3.fr/">Jonathan Verrecchia</a></li>
+        <li><a href="https://github.com/nlogax">nlogax</a></li>
+        <li><a href="http://htmlcssjavascript.com/">Rob Larsen</a></li>
+        <li><a href="http://www.vervestudios.co/">David Murdoch</a></li>
+        <li><a href="http://www.ad7six.com/">Andy Dawson</a></li>
+        <li><a href="http://www.michael-van-laar.de/">Michael van Laar</a></li>
+        <li><a href="https://github.com/paulirish/html5-boilerplate/contributors">More Contributors</a></li>
+      </ul> <br>
+      <p>It would not have been possible without the efforts of these superheroes:</p>
+      <ul>
+        <li><a href="http://www.phpied.com">Stoyan Stefanov</a></li>
+        <li><a href="http://mathiasbynens.be/">Mathias Bynens</a></li>
+        <li><a href="http://meyerweb.com/">Eric Meyer</a></li>
+        <li><a href="http://richclarkdesign.com/">Richard Clark</a></li>
+        <li><a href="http://www.aestheticallyloyal.com/">Anthony Kolber</a></li>
+        <li><a href="http://www.splintered.co.uk/">Patrick H Lauke</a></li>
+        <li><a href="http://timvandamme.com">Tim Van Damme</a></li>
+        <li><a href="http://farukat.es/">Faruk Ate&#351;</a></li>
+        <li><a href="http://remysharp.com/">Remy Sharp</a></li>
+        <li><a href="http://www.dillerdesign.com/">Drew Diller</a></li>
+        <li><a href="http://blog.amodernfable.com/">Adam McIntyre</a></li>
+        <li><a href="http://tjkdesign.com/">Thierry Koblentz</a></li>
+        <li><a href="http://miketaylr.com">Mike Taylor</a></li>
+        <li><a href="http://iecss.com">Jonathan Neal</a></li>
+        <li><a href="http://camendesign.com">Kroc Camen</a></li>
+        <li><a href="http://fontsquirrel.com">Ethan Dunham</a></li>
+        <li><a href="http://peter.sh">Peter Beverloo</a></li>
+        <li><a href="http://code.flickr.com/blog/">Flickr</a></li>
+        <li><a href="http://www.viget.com/inspire/">Viget</a></li>
+        <li><a href="http://stevesouders.com/">Steve Souders</a></li>
+        <li><a href="http://stuffandnonsense.co.uk/blog">Andy Clarke</a>
+        <li><a href="http://na.isobar.com">Isobar Interface Development team</a></li>
+      </ul>
+      <p>
+        Pretty docs brought to you by <a href="http://github.com/mklabs" style="color:hsl(18, 74%, 54%)">Mickael Daniel</a>
+      </p>
+    </div>
+
+    <img id="html5logo" src="//html5boilerplate.com/images/HTML5_Logo.svg" height="60">
+
+
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js"></script>
+  <script>window.jQuery || document.write('<script src="/public/js/jquery.min.js"><\/script>')</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/json2/20110223/json2.js"></script>
+  <script>window.JSON || document.write("<script src='/public/js/json2.js'>\x3C/script>")</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.1.6/underscore-min.js"></script>
+  <script>window._ || document.write("<script src='/public/js/underscore.min.js'>\x3C/script>")</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/0.5.0/backbone-min.js"></script>
+  <script>window.Backbone || document.write("<script src='/public/js/backbone.min.js'>\x3C/script>")</script>
+
+  <script src="/public/js/script.js"></script>
+
+</body>
+</html>

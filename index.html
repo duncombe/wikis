@@ -1,0 +1,162 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en-us" dir="ltr" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en-us" dir="ltr" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-us" dir="ltr" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-us" dir="ltr" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-us" dir="ltr" class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" >
+  <meta charset="utf-8">
+
+  <title>Home || HTML5 Boilerplate - A rock-solid default template for HTML5 awesome.</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/public/css/style.css" >
+  <link rel="stylesheet" href="/public/css/docs.css" >
+
+</head>
+<body>
+  <div id="container" class="wikiconvertor"> 
+    <b class="border-a"></b>
+    <b class="border-b"></b>
+    <b class="border-c"></b>
+    <b class="border-d"></b>
+
+    <div id="header">
+         <p class="lang">
+           <a href="/">Return to the HTML5 Boilerplate website &#8618;</a>
+         </p>
+         <h1>HTML5  <i>&#x2605;</i> <b>Boilerplate Docs</b></h1> 
+         <h2>A rock-solid default for HTML5 awesome.</h2>  
+    </div>
+
+    <div id="body">
+      <div class="wikiconvertor-pages">
+        <ul>
+            <li><a href="&#x2F;_Sidebar&#x2F;">_Sidebar</a></li>
+            <li><a href="&#x2F;Contributing-to-the-Project&#x2F;">Contributing to the Project</a></li>
+            <li><a href="&#x2F;Development-of-Test-Themes&#x2F;">Development of Test Themes</a></li>
+            <li><a href="&#x2F;Environment-Wrangling-in-Wakari&#x2F;">Environment Wrangling in Wakari</a></li>
+            <li><a href="&#x2F;Final Report Draft&#x2F;">Final Report Draft</a></li>
+            <li><a href="&#x2F;Hannah-Weekly-Updates&#x2F;">Hannah Weekly Updates</a></li>
+            <li><a href="&#x2F;">Home</a></li>
+            <li><a href="&#x2F;Meeting-Notes&#x2F;">Meeting Notes</a></li>
+            <li><a href="&#x2F;Notebooks By Theme&#x2F;">Notebooks By Theme</a></li>
+            <li><a href="&#x2F;Project-Management-Plan&#x2F;">Project Management Plan</a></li>
+            <li><a href="&#x2F;References&#x2F;">References</a></li>
+            <li><a href="&#x2F;Running-the-System-Test-notebooks&#x2F;">Running the System Test notebooks</a></li>
+            <li><a href="&#x2F;Service-Registries-and-Data-Catalogs&#x2F;">Service Registries and Data Catalogs</a></li>
+            <li><a href="&#x2F;system-test-development-workflow&#x2F;">system test development workflow</a></li>
+            <li><a href="&#x2F;Weekly Stand Up Reports&#x2F;">Weekly Stand Up Reports</a></li>
+        </ul>
+      </div>
+
+      <div class="wikiconvertor-content wikistyle relative">
+        <p class="dwn">
+          <span class="right"><a class="edit-page" href="http://github.com/h5bp/html5-boilerplate/wiki/Home/_edit">Edit this page</a></span>
+        </P>
+
+        <h1 id="why-conduct-a-system-test-">Why conduct a system test?</h1>
+<p>The distributed, service oriented architecture of DMAC has been implemented mostly independently by IOOS partners, using different software approaches and different levels of implementation (e.g. services provided, percent of datasets available via services, percent of datasets registered with the IOOS catalog).</p>
+<p>The DMAC system integration test  (SIT) will evaluate whether the services we have deployed (i.e. SOS, OPeNDAP, WMS, CS/W) to Federal partners and Regional Associations can solve real world problems. </p>
+<h1 id="what-will-the-system-test-achieve-">What will the system test achieve?</h1>
+<p>The DMAC system integration test project will assesses the maturity of DMAC implementation across IOOS Regional Associations and partner federal agencies.  The DMAC System Integration Test will:</p>
+<ol>
+<li>Create test themes which incorporate multiple IOOS Regions and partners, cover a large geographic scope,  employ multiple types of data, and cross scientific disciplines.  These test themes demonstrate data that consumers can <a href="https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs">discover</a>, access, and use data services in a reliable and repeatable way.   </li>
+<li>Apply these test themes to real <a href="https://github.com/ioos/system-test/wiki/Development-of-Test-Themes">world problems</a> in the form of scenarios related to Extreme Events, Species Protection &amp; Marine Habitat Conservation.</li>
+<li>Compile a set of prioritized fixes and enhancements to DMAC data <a href="https://github.com/ioos/system-test/wiki/Service-Registries-and-Data-Catalogs">discovery</a> and access services</li>
+<li>Complete highest priority fixes and enhancements</li>
+<li>Publish the test scenarios and their associated test scripts to encourage community education and involvement in IOOS</li>
+<li>Demonstrate the added value of federal and non-federal data integration by IOOS data management to the ocean and coastal community</li>
+<li>Ensure that we can repeat the assessment easily to measure progress over time</li>
+</ol>
+<h1 id="what-will-the-test-look-like-">What will the test look like?</h1>
+<p>  Elements of a successful system integration test include: </p>
+<ul>
+<li>Includes each of the functionalities that are being developed as part of DMAC currently.  The primary functions include data access services (web services that provide in situ, model or satellite data), discovery services (catalogs and registries providing query and look up functionality), and client tools (software packages that find data using catalogs/registries and download/use data from data access services);</li>
+<li>Emphasizes the process over the product, at least at first.  A system integration test is a step towards creating a robust system.  In exercising an integration test we EXPECT problems.  The test must rigorously capture the problems and document the conditions that caused the problems.  These problems may be fixed in the course of the project but ONLY if it can be done with sound engineering and design.  If shortcuts and workarounds are employed to get to the end product then the system will likely fail again when it encounters small (or large) variations upon the initial failure conditions. In the process of rigorously testing and documenting the system, the end product will be improved;</li>
+<li>Measures everything.  For reasons described above, the system integration test must document the conditions of the test;</li>
+<li>Uses the DMAC services as they were intended to be used and without shortcuts.  In typical usage patterns there is always a discovery step where the user is searching for unknown data assets.  If this step is skipped and known data sources are hardcoded into the test, then the efficacy of the test is compromised.  It must exercise the system in total;</li>
+<li>It should combine two or more feature types.  Technologies for in situ data types and gridded model data types differ slightly.  Both should be included in a test to ensure the test is not biased toward one of the preferred data types;</li>
+<li>It should be focused on a scientific or societal problem with &quot;large&quot; geographic scope.  The capabilities of regional associations and federal agencies varies regionally but the system is only as strong as its weakest link.  The test should cross several regional boundaries in order to not be biased;</li>
+<li>Ideally it should require data that crosses disciplinary boundaries.  Biology and physical oceanography for example;</li>
+<li>With all of these characteristics, the test should still be of limited scope.  Do not stretch the capabilities of the system components beyond their advertised capabilities;</li>
+<li>The project should not require new scientific insights or be designed to enable research.  The object is to test the combined capabilities of the DMAC system, not to challenge the scientific users of the system.  The system cannot grow to support the full creativity of the scientific enterprise until some of the more basic engineering concerns are tested;</li>
+<li>The system test should include one or more performance requirements or metrics.  The system components thus far have been designed primarily with functional requirements in mind.  Relatively less attention has been paid to the performance characteristics of the combined systems (think about timing or volume restrictions like downloading an entire HD movie over a 3G cell connection);</li>
+<li>The test shouldn&#39;t be overly reliant on components over which we have no control.  If a critical failure point is in another agency then it&#39;s possible that the test cannot actually proceed without their cooperation;</li>
+</ul>
+
+      </div>
+
+    </div>
+    <div id="footer">
+      <p>
+        <em class="focus">Brought to you by</em>
+        <a href="http://paulirish.com">Paul Irish <i>Google Chrome, jQuery</i></a>
+        <a href="http://nimbupani.com">Divya Manian <i>Web Opener @ Opera</i></a>
+        <a href="http://www.blog.highub.com/">Shichuan <i>Open Web Developer</i></a>
+      </p>
+      <ul>
+        <li><a href="http://blog.mklog.fr/">Mickael Daniel</a></li>
+        <li>Dave Kirk</li> 
+        <li><a href="http://mths.be/"></a>Mathias Byenens</li>
+        <li><a href="http://www.html5-css3.fr/">Jonathan Verrecchia</a></li>
+        <li><a href="https://github.com/nlogax">nlogax</a></li>
+        <li><a href="http://htmlcssjavascript.com/">Rob Larsen</a></li>
+        <li><a href="http://www.vervestudios.co/">David Murdoch</a></li>
+        <li><a href="http://www.ad7six.com/">Andy Dawson</a></li>
+        <li><a href="http://www.michael-van-laar.de/">Michael van Laar</a></li>
+        <li><a href="https://github.com/paulirish/html5-boilerplate/contributors">More Contributors</a></li>
+      </ul> <br>
+      <p>It would not have been possible without the efforts of these superheroes:</p>
+      <ul>
+        <li><a href="http://www.phpied.com">Stoyan Stefanov</a></li>
+        <li><a href="http://mathiasbynens.be/">Mathias Bynens</a></li>
+        <li><a href="http://meyerweb.com/">Eric Meyer</a></li>
+        <li><a href="http://richclarkdesign.com/">Richard Clark</a></li>
+        <li><a href="http://www.aestheticallyloyal.com/">Anthony Kolber</a></li>
+        <li><a href="http://www.splintered.co.uk/">Patrick H Lauke</a></li>
+        <li><a href="http://timvandamme.com">Tim Van Damme</a></li>
+        <li><a href="http://farukat.es/">Faruk Ate&#351;</a></li>
+        <li><a href="http://remysharp.com/">Remy Sharp</a></li>
+        <li><a href="http://www.dillerdesign.com/">Drew Diller</a></li>
+        <li><a href="http://blog.amodernfable.com/">Adam McIntyre</a></li>
+        <li><a href="http://tjkdesign.com/">Thierry Koblentz</a></li>
+        <li><a href="http://miketaylr.com">Mike Taylor</a></li>
+        <li><a href="http://iecss.com">Jonathan Neal</a></li>
+        <li><a href="http://camendesign.com">Kroc Camen</a></li>
+        <li><a href="http://fontsquirrel.com">Ethan Dunham</a></li>
+        <li><a href="http://peter.sh">Peter Beverloo</a></li>
+        <li><a href="http://code.flickr.com/blog/">Flickr</a></li>
+        <li><a href="http://www.viget.com/inspire/">Viget</a></li>
+        <li><a href="http://stevesouders.com/">Steve Souders</a></li>
+        <li><a href="http://stuffandnonsense.co.uk/blog">Andy Clarke</a>
+        <li><a href="http://na.isobar.com">Isobar Interface Development team</a></li>
+      </ul>
+      <p>
+        Pretty docs brought to you by <a href="http://github.com/mklabs" style="color:hsl(18, 74%, 54%)">Mickael Daniel</a>
+      </p>
+    </div>
+
+    <img id="html5logo" src="//html5boilerplate.com/images/HTML5_Logo.svg" height="60">
+
+
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js"></script>
+  <script>window.jQuery || document.write('<script src="/public/js/jquery.min.js"><\/script>')</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/json2/20110223/json2.js"></script>
+  <script>window.JSON || document.write("<script src='/public/js/json2.js'>\x3C/script>")</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.1.6/underscore-min.js"></script>
+  <script>window._ || document.write("<script src='/public/js/underscore.min.js'>\x3C/script>")</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/0.5.0/backbone-min.js"></script>
+  <script>window.Backbone || document.write("<script src='/public/js/backbone.min.js'>\x3C/script>")</script>
+
+  <script src="/public/js/script.js"></script>
+
+</body>
+</html>

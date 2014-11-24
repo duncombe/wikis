@@ -1,0 +1,220 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en-us" dir="ltr" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en-us" dir="ltr" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-us" dir="ltr" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-us" dir="ltr" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-us" dir="ltr" class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" >
+  <meta charset="utf-8">
+
+  <title>Notebooks By Theme || HTML5 Boilerplate - A rock-solid default template for HTML5 awesome.</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/public/css/style.css" >
+  <link rel="stylesheet" href="/public/css/docs.css" >
+
+</head>
+<body>
+  <div id="container" class="wikiconvertor"> 
+    <b class="border-a"></b>
+    <b class="border-b"></b>
+    <b class="border-c"></b>
+    <b class="border-d"></b>
+
+    <div id="header">
+         <p class="lang">
+           <a href="/">Return to the HTML5 Boilerplate website &#8618;</a>
+         </p>
+         <h1>HTML5  <i>&#x2605;</i> <b>Boilerplate Docs</b></h1> 
+         <h2>A rock-solid default for HTML5 awesome.</h2>  
+    </div>
+
+    <div id="body">
+      <div class="wikiconvertor-pages">
+        <ul>
+            <li><a href="&#x2F;_Sidebar&#x2F;">_Sidebar</a></li>
+            <li><a href="&#x2F;Contributing-to-the-Project&#x2F;">Contributing to the Project</a></li>
+            <li><a href="&#x2F;Development-of-Test-Themes&#x2F;">Development of Test Themes</a></li>
+            <li><a href="&#x2F;Environment-Wrangling-in-Wakari&#x2F;">Environment Wrangling in Wakari</a></li>
+            <li><a href="&#x2F;Final Report Draft&#x2F;">Final Report Draft</a></li>
+            <li><a href="&#x2F;Hannah-Weekly-Updates&#x2F;">Hannah Weekly Updates</a></li>
+            <li><a href="&#x2F;">Home</a></li>
+            <li><a href="&#x2F;Meeting-Notes&#x2F;">Meeting Notes</a></li>
+            <li><a href="&#x2F;Notebooks By Theme&#x2F;">Notebooks By Theme</a></li>
+            <li><a href="&#x2F;Project-Management-Plan&#x2F;">Project Management Plan</a></li>
+            <li><a href="&#x2F;References&#x2F;">References</a></li>
+            <li><a href="&#x2F;Running-the-System-Test-notebooks&#x2F;">Running the System Test notebooks</a></li>
+            <li><a href="&#x2F;Service-Registries-and-Data-Catalogs&#x2F;">Service Registries and Data Catalogs</a></li>
+            <li><a href="&#x2F;system-test-development-workflow&#x2F;">system test development workflow</a></li>
+            <li><a href="&#x2F;Weekly Stand Up Reports&#x2F;">Weekly Stand Up Reports</a></li>
+        </ul>
+      </div>
+
+      <div class="wikiconvertor-content wikistyle relative">
+        <p class="dwn">
+          <span class="right"><a class="edit-page" href="http://github.com/h5bp/html5-boilerplate/wiki/Notebooks By Theme/_edit">Edit this page</a></span>
+        </P>
+
+        <h1 id="todo">TODO</h1>
+<ul>
+<li>Migrate the valid links below into the Final Report Draft wiki page and delete this page.  </li>
+<li>Make certain this page is compared to <a href="https://github.com/ioos/system-test/wiki/Development-of-Test-Themes">https://github.com/ioos/system-test/wiki/Development-of-Test-Themes</a> and that the list of the notebooks we actually worked on is up to date.  Keep the notebooks that were proposed but never developed in a clearly labeled section of <a href="https://github.com/ioos/system-test/wiki/Development-of-Test-Themes">https://github.com/ioos/system-test/wiki/Development-of-Test-Themes</a>.</li>
+</ul>
+<p><a href="#theme1">Theme 1: Baseline Assessment</a><br><a href="#theme2">Theme 2: Extreme Events</a><br><a href="#theme3">Theme 3: Species Protection &amp; Marine Habitat Conservation</a>  </p>
+<h5 id="notebook-format-">Notebook Format:</h5>
+<ul>
+<li><strong>Theme Title</strong><ul>
+<li><strong>Scenario Description and Title</strong><ul>
+<li><em><strong>Questions</strong></em><ul>
+<li>DISCOVERY Process (code and narrative)</li>
+<li>ACCESS Process (code and narrative)</li>
+<li>USE Process (code and narrative)</li>
+<li><em><strong>Results and Conclusions</strong></em> (narrative)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Title Scheme for Notebooks: (Theme Number).(Scenario Letter).(Question Number)</li>
+</ul>
+<p><a name="theme1"/></p>
+<h3 id="theme-1-baseline-assessment">Theme 1: Baseline Assessment</h3>
+<p>The Baseline Assessment theme will compile basic summary statistics for each catalog that will be used in the other science themes.  For example, how many records are loaded in each CSW?  For each record, assess whether or not service endpoints are present and <a href="https://github.com/OSGeo/Cat-Interop">identifiable using standard vocabularies</a>.</p>
+<ol>
+<li>Count the records in each CSW: Theme1.ScenarioA.csw_count.ipynb</li>
+<li>Summarize the usage of service endpoint identifiers: Theme1.ScenarioA.service_identifiers.ipynb</li>
+<li><p>Vocabulary related summaries</p>
+<ul>
+<li>Presence absence of CF Standard names</li>
+<li>Presence/absence of IOOS core variables, IOOS Vocab at MMI, SWEET terms, BODC P02 terms</li>
+</ul>
+</li>
+<li><p><a href="http://nbviewer.ipython.org/gist/emiliom/7459209">Examining CSW Endpoints</a> (Emilio Mayorga, 11/15/2013)</p>
+</li>
+<li><a href="https://www.wakari.io/sharing/bundle/hdean/Test%20Catalogs%20for%20WMS%20Layers">Baseline Assessment of Web Services</a></li>
+<li><a href="https://www.wakari.io/sharing/bundle/hdean/Test%20Catalogs%20for%20Model%20Outputs">Assessment of Model Records</a></li>
+<li><a href="https://www.wakari.io/sharing/bundle/hdean/Theme%201_Baseline_Federal%20Agency%20Metrics">Assessing Catalogs for inclusion of Agency Records</a></li>
+</ol>
+<p><a name="theme2"/></p>
+<h3 id="theme-2-extreme-events">Theme 2: Extreme Events</h3>
+<h4 id="scenario-a-severe-coastal-storm">Scenario A: Severe Coastal Storm</h4>
+<p>Model - Data Comparison Notebooks:</p>
+<ul>
+<li><p><a href="http://nbviewer.ipython.org/urls/raw.githubusercontent.com/rsignell-usgs/notebook/fef9438303b49a923024892db1ef3115e34d8271/CSW/IOOS_inundation.ipynb?create=1">Inundation Notebook</a> - to compare observed and modeled water levels</p>
+</li>
+<li><p><a href="http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Waves/Model_Obs_Compare_Waves.ipynb">Waves Notebook</a> - to compare observed and modeled wave parameters</p>
+</li>
+<li><p><a href="http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Winds/Model_Obs_Compare_Winds.ipynb">Winds Notebook</a> - to compare observed and modeled wind speeds and directions</p>
+</li>
+<li><p><a href="http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A/ModelDataCompare_Currents/Model_Obs_Compare_Currents.ipynb">Currents Notebook</a> - to compare observed (sensor) and modeled currents</p>
+</li>
+</ul>
+<p>Extreme Value Analyses:</p>
+<ul>
+<li><p><a href="http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A/Extremes_Inundation/Extreme_Water_Level.ipynb">Water level Extremes Notebook</a></p>
+</li>
+<li><p><a href="http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A/Extremes_Waves/Extreme_Waves.ipynb">Wave Extremes Notebook</a> - to discover whether sufficient record lengths exist for calculating return periods for wave parameters</p>
+</li>
+<li><p><a href="http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A/Extremes_Winds/Extreme_Winds.ipynb">Wind Extremes Notebook</a> - to discover whether sufficient record lengths exist for calculating return periods for wind speeds</p>
+</li>
+<li><p><a href="http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_2_Extreme_Events/Scenario_2A/Extremes_Currents/Extreme_Currents.ipynb">Currents Extremes Notebooks</a> - to discover whether sufficient record lengths exist for calculating return periods for current speeds</p>
+</li>
+</ul>
+<p>Overland Flooding:</p>
+<ul>
+<li>Storm Surge Measurements - Can we discover data from  USGS storm tide sensors and rapid deployment gages and map locations and water levels</li>
+</ul>
+<h4 id="scenario-b-oil-tanker-spill">Scenario B: Oil Tanker Spill</h4>
+<h5 id="question-1-can-we-discover-and-access-the-core-variables-applicable-to-analysis-of-an-oil-tanker-spill-from-the-available-list-of-registries-">Question 1: Can we discover and access the core variables applicable to analysis of an Oil Tanker Spill from the available list of Registries?</h5>
+<ul>
+<li><a href="https://www.wakari.io/sharing/bundle/hdean/Theme%202_Scenario%20B_Oil%20Tanker%20Spill_Web%20Services%20Count-Copy0">Notebook 2.B.1</a></li>
+</ul>
+<h4 id="scenario-c-search-rescue-commercial-aircraft-crash">Scenario C: Search &amp; Rescue - Commercial Aircraft Crash</h4>
+<p><a name="theme3"/></p>
+<h3 id="theme-3-species-protection-marine-habitat-conservation">Theme 3: Species Protection &amp; Marine Habitat Conservation</h3>
+<ul>
+<li>Notebook from hdean - <a href="https://www.wakari.io/sharing/bundle/hdean/Theme_3_CoreVars">Assessing Raw number of records that map to IOOS Core Biological Variables via CSWs</a> (This notebook utilizes MMIs and SPARQLWrapper)</li>
+</ul>
+<h4 id="scenario-a-assessing-seabird-vulnerability-in-the-bering-sea-description-https-github-com-ioos-system-test-wiki-development-of-test-themes-scenario-3a-assessing-seabird-vulnerability-in-the-bering-sea-">Scenario A:  Assessing Seabird Vulnerability in the Bering Sea - <a href="https://github.com/ioos/system-test/wiki/Development-of-Test-Themes#scenario-3a-assessing-seabird-vulnerability-in-the-bering-sea">Description</a></h4>
+<h5 id="notebooks">Notebooks</h5>
+<ul>
+<li><a href="https://www.wakari.io/sharing/bundle/hdean/Theme%203,%20Scenario%20-%20Assessing%20Seabird%20Vulnerability%20in%20the%20Bering%20Sea">Hannah&#39;s contribution</a></li>
+<li><a href="http://nbviewer.ipython.org/github/ioos/system-test/blob/master/Theme_3_Species_Protection_and_Marine_Habitat_Conservation/Scenario_3A_Assessing_Seabird_Vulnerability_in_the_Bering_Sea/Scenario_3A_SeaBirds.ipynb">Seabirds notebook</a> - to generate simple statistics from climate and food source projections for areas defined as critical for seabird survival in the Pacific Flyway (Bering Sea).</li>
+</ul>
+
+      </div>
+
+    </div>
+    <div id="footer">
+      <p>
+        <em class="focus">Brought to you by</em>
+        <a href="http://paulirish.com">Paul Irish <i>Google Chrome, jQuery</i></a>
+        <a href="http://nimbupani.com">Divya Manian <i>Web Opener @ Opera</i></a>
+        <a href="http://www.blog.highub.com/">Shichuan <i>Open Web Developer</i></a>
+      </p>
+      <ul>
+        <li><a href="http://blog.mklog.fr/">Mickael Daniel</a></li>
+        <li>Dave Kirk</li> 
+        <li><a href="http://mths.be/"></a>Mathias Byenens</li>
+        <li><a href="http://www.html5-css3.fr/">Jonathan Verrecchia</a></li>
+        <li><a href="https://github.com/nlogax">nlogax</a></li>
+        <li><a href="http://htmlcssjavascript.com/">Rob Larsen</a></li>
+        <li><a href="http://www.vervestudios.co/">David Murdoch</a></li>
+        <li><a href="http://www.ad7six.com/">Andy Dawson</a></li>
+        <li><a href="http://www.michael-van-laar.de/">Michael van Laar</a></li>
+        <li><a href="https://github.com/paulirish/html5-boilerplate/contributors">More Contributors</a></li>
+      </ul> <br>
+      <p>It would not have been possible without the efforts of these superheroes:</p>
+      <ul>
+        <li><a href="http://www.phpied.com">Stoyan Stefanov</a></li>
+        <li><a href="http://mathiasbynens.be/">Mathias Bynens</a></li>
+        <li><a href="http://meyerweb.com/">Eric Meyer</a></li>
+        <li><a href="http://richclarkdesign.com/">Richard Clark</a></li>
+        <li><a href="http://www.aestheticallyloyal.com/">Anthony Kolber</a></li>
+        <li><a href="http://www.splintered.co.uk/">Patrick H Lauke</a></li>
+        <li><a href="http://timvandamme.com">Tim Van Damme</a></li>
+        <li><a href="http://farukat.es/">Faruk Ate&#351;</a></li>
+        <li><a href="http://remysharp.com/">Remy Sharp</a></li>
+        <li><a href="http://www.dillerdesign.com/">Drew Diller</a></li>
+        <li><a href="http://blog.amodernfable.com/">Adam McIntyre</a></li>
+        <li><a href="http://tjkdesign.com/">Thierry Koblentz</a></li>
+        <li><a href="http://miketaylr.com">Mike Taylor</a></li>
+        <li><a href="http://iecss.com">Jonathan Neal</a></li>
+        <li><a href="http://camendesign.com">Kroc Camen</a></li>
+        <li><a href="http://fontsquirrel.com">Ethan Dunham</a></li>
+        <li><a href="http://peter.sh">Peter Beverloo</a></li>
+        <li><a href="http://code.flickr.com/blog/">Flickr</a></li>
+        <li><a href="http://www.viget.com/inspire/">Viget</a></li>
+        <li><a href="http://stevesouders.com/">Steve Souders</a></li>
+        <li><a href="http://stuffandnonsense.co.uk/blog">Andy Clarke</a>
+        <li><a href="http://na.isobar.com">Isobar Interface Development team</a></li>
+      </ul>
+      <p>
+        Pretty docs brought to you by <a href="http://github.com/mklabs" style="color:hsl(18, 74%, 54%)">Mickael Daniel</a>
+      </p>
+    </div>
+
+    <img id="html5logo" src="//html5boilerplate.com/images/HTML5_Logo.svg" height="60">
+
+
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js"></script>
+  <script>window.jQuery || document.write('<script src="/public/js/jquery.min.js"><\/script>')</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/json2/20110223/json2.js"></script>
+  <script>window.JSON || document.write("<script src='/public/js/json2.js'>\x3C/script>")</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.1.6/underscore-min.js"></script>
+  <script>window._ || document.write("<script src='/public/js/underscore.min.js'>\x3C/script>")</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/0.5.0/backbone-min.js"></script>
+  <script>window.Backbone || document.write("<script src='/public/js/backbone.min.js'>\x3C/script>")</script>
+
+  <script src="/public/js/script.js"></script>
+
+</body>
+</html>

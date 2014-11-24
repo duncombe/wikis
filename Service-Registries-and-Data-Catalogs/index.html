@@ -1,0 +1,241 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en-us" dir="ltr" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en-us" dir="ltr" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-us" dir="ltr" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-us" dir="ltr" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-us" dir="ltr" class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" >
+  <meta charset="utf-8">
+
+  <title>Service Registries and Data Catalogs || HTML5 Boilerplate - A rock-solid default template for HTML5 awesome.</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/public/css/style.css" >
+  <link rel="stylesheet" href="/public/css/docs.css" >
+
+</head>
+<body>
+  <div id="container" class="wikiconvertor"> 
+    <b class="border-a"></b>
+    <b class="border-b"></b>
+    <b class="border-c"></b>
+    <b class="border-d"></b>
+
+    <div id="header">
+         <p class="lang">
+           <a href="/">Return to the HTML5 Boilerplate website &#8618;</a>
+         </p>
+         <h1>HTML5  <i>&#x2605;</i> <b>Boilerplate Docs</b></h1> 
+         <h2>A rock-solid default for HTML5 awesome.</h2>  
+    </div>
+
+    <div id="body">
+      <div class="wikiconvertor-pages">
+        <ul>
+            <li><a href="&#x2F;_Sidebar&#x2F;">_Sidebar</a></li>
+            <li><a href="&#x2F;Contributing-to-the-Project&#x2F;">Contributing to the Project</a></li>
+            <li><a href="&#x2F;Development-of-Test-Themes&#x2F;">Development of Test Themes</a></li>
+            <li><a href="&#x2F;Environment-Wrangling-in-Wakari&#x2F;">Environment Wrangling in Wakari</a></li>
+            <li><a href="&#x2F;Final Report Draft&#x2F;">Final Report Draft</a></li>
+            <li><a href="&#x2F;Hannah-Weekly-Updates&#x2F;">Hannah Weekly Updates</a></li>
+            <li><a href="&#x2F;">Home</a></li>
+            <li><a href="&#x2F;Meeting-Notes&#x2F;">Meeting Notes</a></li>
+            <li><a href="&#x2F;Notebooks By Theme&#x2F;">Notebooks By Theme</a></li>
+            <li><a href="&#x2F;Project-Management-Plan&#x2F;">Project Management Plan</a></li>
+            <li><a href="&#x2F;References&#x2F;">References</a></li>
+            <li><a href="&#x2F;Running-the-System-Test-notebooks&#x2F;">Running the System Test notebooks</a></li>
+            <li><a href="&#x2F;Service-Registries-and-Data-Catalogs&#x2F;">Service Registries and Data Catalogs</a></li>
+            <li><a href="&#x2F;system-test-development-workflow&#x2F;">system test development workflow</a></li>
+            <li><a href="&#x2F;Weekly Stand Up Reports&#x2F;">Weekly Stand Up Reports</a></li>
+        </ul>
+      </div>
+
+      <div class="wikiconvertor-content wikistyle relative">
+        <p class="dwn">
+          <span class="right"><a class="edit-page" href="http://github.com/h5bp/html5-boilerplate/wiki/Service-Registries-and-Data-Catalogs/_edit">Edit this page</a></span>
+        </P>
+
+        <h3 id="workflow-for-this-page">Workflow for This Page</h3>
+<ol>
+<li>List all of the catalog/registries we will include as part of the test.</li>
+<li>List the service interfaces they provide.</li>
+<li>Are the registries domain specific?</li>
+<li>List a short description of each for inclusion in the final report.  What is the registry?  Who sponsors it?  Any domain specific issues?  </li>
+</ol>
+<h4 id="list-of-catalogs-and-registries">List of Catalogs and Registries</h4>
+<ul>
+<li>IOOS <a href="https://geo-ide.noaa.gov/wiki/index.php?title=ESRI_Geoportal#IOOS_WAFs">Service Registry</a> at NGDC<ul>
+<li>csw: <a href="http://www.ngdc.noaa.gov/geoportal/csw">http://www.ngdc.noaa.gov/geoportal/csw</a></li>
+</ul>
+</li>
+<li>NGDC Geoportal aka IOOS Registry<ul>
+<li>csw: <a href="http://www.ngdc.noaa.gov/geoportal/csw">http://www.ngdc.noaa.gov/geoportal/csw</a></li>
+</ul>
+</li>
+<li>NODC Geoportal: granule level (aka UAF Geoportal)<ul>
+<li>csw: <a href="http://www.nodc.noaa.gov/geoportal/csw">http://www.nodc.noaa.gov/geoportal/csw</a> </li>
+</ul>
+</li>
+<li>NODC Geoportal: collection level <ul>
+<li>csw: <a href="http://data.nodc.noaa.gov/geoportal/csw">http://data.nodc.noaa.gov/geoportal/csw</a>  </li>
+</ul>
+</li>
+<li>data.noaa.gov<ul>
+<li>ckan api: <a href="https://data.noaa.gov/api">https://data.noaa.gov/api</a></li>
+<li>csw: <a href="https://data.noaa.gov/csw">https://data.noaa.gov/csw</a></li>
+</ul>
+</li>
+<li>data.gov<ul>
+<li>ckan: <a href="http://geo.gov.ckan.org/csw">http://geo.gov.ckan.org/csw</a>&#39;  # CKAN testing site for new Data.gov</li>
+<li>csw: <a href="http://catalog.data.gov/csw">http://catalog.data.gov/csw</a>  (collections)</li>
+<li>csw: <a href="http://catalog.data.gov/csw-all">http://catalog.data.gov/csw-all</a>  (granules)</li>
+</ul>
+</li>
+<li>NRCAN CUSTOM<ul>
+<li>csw: <a href="http://geodiscover.cgdi.ca/wes/serviceManagerCSW/csw">http://geodiscover.cgdi.ca/wes/serviceManagerCSW/csw</a></li>
+</ul>
+</li>
+<li>USGS Woods Hole GI_CAT<ul>
+<li>csw: <a href="http://geoport.whoi.edu/gi-cat/services/cswiso">http://geoport.whoi.edu/gi-cat/services/cswiso</a></li>
+</ul>
+</li>
+<li>USGS CIDA Geonetwork<ul>
+<li>csw: <a href="http://cida.usgs.gov/gdp/geonetwork/srv/en/csw">http://cida.usgs.gov/gdp/geonetwork/srv/en/csw</a></li>
+</ul>
+</li>
+<li>USGS Coastal and Marine Program<ul>
+<li>csw: <a href="http://cmgds.marine.usgs.gov/geonetwork/srv/en/csw">http://cmgds.marine.usgs.gov/geonetwork/srv/en/csw</a> </li>
+</ul>
+</li>
+<li>USGS Woods Hole Geoportal<ul>
+<li>csw: <a href="http://geoport.whoi.edu/geoportal/csw">http://geoport.whoi.edu/geoportal/csw</a></li>
+</ul>
+</li>
+<li>CKAN testing site for new Data.gov<ul>
+<li>csw: <a href="http://geo.gov.ckan.org/csw">http://geo.gov.ckan.org/csw</a>  </li>
+</ul>
+</li>
+<li>EPA<ul>
+<li>csw: <a href="https://edg.epa.gov/metadata/csw">https://edg.epa.gov/metadata/csw</a></li>
+<li>csw: <a href="https://edg.epa.gov/metadata/catalog/main/home.page">https://edg.epa.gov/metadata/catalog/main/home.page</a>  from epa.gov/data</li>
+</ul>
+</li>
+<li>CWIC<ul>
+<li>csw: <a href="http://cwic.csiss.gmu.edu/cwicv1/discovery">http://cwic.csiss.gmu.edu/cwicv1/discovery</a></li>
+</ul>
+</li>
+<li>West Coast Governors Alliance (Based on ESRI Geoportal back end)<ul>
+<li>api information: <a href="http://portal.westcoastoceans.org/connect/">http://portal.westcoastoceans.org/connect/</a></li>
+</ul>
+</li>
+<li>NCEP Global Atmospheric Model/Best Time Series<ul>
+<li><a href="http://ferret.pmel.noaa.gov/geoide/CleanCatalogs/oos.soest.hawaii.edu/thredds/catalog/hioos/model/atm/ncep_global/catalog.html">http://ferret.pmel.noaa.gov/geoide/CleanCatalogs/oos.soest.hawaii.edu/thredds/catalog/hioos/model/atm/ncep_global/catalog.html</a></li>
+</ul>
+</li>
+<li>Climate.data.gov<ul>
+<li>NOAA Climate Data CSW: <a href="http://gis.ncdc.noaa.gov/geoportal/csw202/discovery?request=GetCapabilities&amp;service=CSW&amp;version=2.0.2">http://gis.ncdc.noaa.gov/geoportal/csw202/discovery?request=GetCapabilities&amp;service=CSW&amp;version=2.0.2</a></li>
+<li>See also NCDC Web Services/Climate: <a href="http://www.ncdc.noaa.gov/cdo-web/webservices">http://www.ncdc.noaa.gov/cdo-web/webservices</a></li>
+</ul>
+</li>
+<li><a href="http://gcmdsrv.gsfc.nasa.gov/csw">NASA&#39;s Global Change Master Directory (GCMD) CSW Service</a><ul>
+<li>Updated: <a href="http://gcmdsrv3.gsfc.nasa.gov/csw">NASA&#39;s Global Change Master Directory (GCMD) CSW Service(3)</a></li>
+<li>These CSWs require Authorization to Access.</li>
+</ul>
+</li>
+</ul>
+<h4 id="additional-data-sources">Additional Data Sources</h4>
+<ul>
+<li><a href="http://nca2009.globalchange.gov/data-sets">Global Climate Change Impacts in the U.S. 2009 Report(Data Sets)</a></li>
+</ul>
+<h4 id="references-for-creating-and-documenting-baseline-test">References For Creating and Documenting Baseline Test</h4>
+<ul>
+<li><p>Rich&#39;s <a href="http://rsignell-usgs.github.io/blog/blog/2014/01/15/csw_ngdc_dap/">blog</a></p>
+</li>
+<li><p>Initial Baseline Approach: <a href="http://arxiv.org/ftp/arxiv/papers/1109/1109.4503.pdf">Empirical Study of Sensor Observation Services Server Instances</a></p>
+</li>
+<li><p><a href="https://drive.google.com/file/d/0B8p4sUXIeKn1WFdYOXhqRFNUZXc/edit?usp=sharing">Reference Document for Accessing and Examining CSWs</a></p>
+<ul>
+<li><a href="http://www.ogcnetwork.net/node/630">Reference for Setting up a CSW</a> (This provides a good overview of how search terms map to each other, OGC:Dublin Core:XML).</li>
+</ul>
+</li>
+<li><p><a href="http://pycsw.org/publications/foss4g2013/#/">A Useful Slideshow about using Python to harvest CWS metadata</a> and <a href="https://github.com/geopython/pycsw/wiki">Associated Wiki Page</a></p>
+</li>
+<li><p>The NOAA/NGDC supported customizations for the ESRI Geoportal Server are available on the <a href="https://geo-ide.noaa.gov/wiki/index.php?title=ESRI_Geoportal#ISO_19115-2_support">NOAA EDM wiki</a>.  Check with Dave N to make certain they are up to date.</p>
+</li>
+</ul>
+
+      </div>
+
+    </div>
+    <div id="footer">
+      <p>
+        <em class="focus">Brought to you by</em>
+        <a href="http://paulirish.com">Paul Irish <i>Google Chrome, jQuery</i></a>
+        <a href="http://nimbupani.com">Divya Manian <i>Web Opener @ Opera</i></a>
+        <a href="http://www.blog.highub.com/">Shichuan <i>Open Web Developer</i></a>
+      </p>
+      <ul>
+        <li><a href="http://blog.mklog.fr/">Mickael Daniel</a></li>
+        <li>Dave Kirk</li> 
+        <li><a href="http://mths.be/"></a>Mathias Byenens</li>
+        <li><a href="http://www.html5-css3.fr/">Jonathan Verrecchia</a></li>
+        <li><a href="https://github.com/nlogax">nlogax</a></li>
+        <li><a href="http://htmlcssjavascript.com/">Rob Larsen</a></li>
+        <li><a href="http://www.vervestudios.co/">David Murdoch</a></li>
+        <li><a href="http://www.ad7six.com/">Andy Dawson</a></li>
+        <li><a href="http://www.michael-van-laar.de/">Michael van Laar</a></li>
+        <li><a href="https://github.com/paulirish/html5-boilerplate/contributors">More Contributors</a></li>
+      </ul> <br>
+      <p>It would not have been possible without the efforts of these superheroes:</p>
+      <ul>
+        <li><a href="http://www.phpied.com">Stoyan Stefanov</a></li>
+        <li><a href="http://mathiasbynens.be/">Mathias Bynens</a></li>
+        <li><a href="http://meyerweb.com/">Eric Meyer</a></li>
+        <li><a href="http://richclarkdesign.com/">Richard Clark</a></li>
+        <li><a href="http://www.aestheticallyloyal.com/">Anthony Kolber</a></li>
+        <li><a href="http://www.splintered.co.uk/">Patrick H Lauke</a></li>
+        <li><a href="http://timvandamme.com">Tim Van Damme</a></li>
+        <li><a href="http://farukat.es/">Faruk Ate&#351;</a></li>
+        <li><a href="http://remysharp.com/">Remy Sharp</a></li>
+        <li><a href="http://www.dillerdesign.com/">Drew Diller</a></li>
+        <li><a href="http://blog.amodernfable.com/">Adam McIntyre</a></li>
+        <li><a href="http://tjkdesign.com/">Thierry Koblentz</a></li>
+        <li><a href="http://miketaylr.com">Mike Taylor</a></li>
+        <li><a href="http://iecss.com">Jonathan Neal</a></li>
+        <li><a href="http://camendesign.com">Kroc Camen</a></li>
+        <li><a href="http://fontsquirrel.com">Ethan Dunham</a></li>
+        <li><a href="http://peter.sh">Peter Beverloo</a></li>
+        <li><a href="http://code.flickr.com/blog/">Flickr</a></li>
+        <li><a href="http://www.viget.com/inspire/">Viget</a></li>
+        <li><a href="http://stevesouders.com/">Steve Souders</a></li>
+        <li><a href="http://stuffandnonsense.co.uk/blog">Andy Clarke</a>
+        <li><a href="http://na.isobar.com">Isobar Interface Development team</a></li>
+      </ul>
+      <p>
+        Pretty docs brought to you by <a href="http://github.com/mklabs" style="color:hsl(18, 74%, 54%)">Mickael Daniel</a>
+      </p>
+    </div>
+
+    <img id="html5logo" src="//html5boilerplate.com/images/HTML5_Logo.svg" height="60">
+
+
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js"></script>
+  <script>window.jQuery || document.write('<script src="/public/js/jquery.min.js"><\/script>')</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/json2/20110223/json2.js"></script>
+  <script>window.JSON || document.write("<script src='/public/js/json2.js'>\x3C/script>")</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.1.6/underscore-min.js"></script>
+  <script>window._ || document.write("<script src='/public/js/underscore.min.js'>\x3C/script>")</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/0.5.0/backbone-min.js"></script>
+  <script>window.Backbone || document.write("<script src='/public/js/backbone.min.js'>\x3C/script>")</script>
+
+  <script src="/public/js/script.js"></script>
+
+</body>
+</html>

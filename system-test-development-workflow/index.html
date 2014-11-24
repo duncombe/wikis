@@ -1,0 +1,272 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en-us" dir="ltr" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en-us" dir="ltr" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-us" dir="ltr" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-us" dir="ltr" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-us" dir="ltr" class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" >
+  <meta charset="utf-8">
+
+  <title>system test development workflow || HTML5 Boilerplate - A rock-solid default template for HTML5 awesome.</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/public/css/style.css" >
+  <link rel="stylesheet" href="/public/css/docs.css" >
+
+</head>
+<body>
+  <div id="container" class="wikiconvertor"> 
+    <b class="border-a"></b>
+    <b class="border-b"></b>
+    <b class="border-c"></b>
+    <b class="border-d"></b>
+
+    <div id="header">
+         <p class="lang">
+           <a href="/">Return to the HTML5 Boilerplate website &#8618;</a>
+         </p>
+         <h1>HTML5  <i>&#x2605;</i> <b>Boilerplate Docs</b></h1> 
+         <h2>A rock-solid default for HTML5 awesome.</h2>  
+    </div>
+
+    <div id="body">
+      <div class="wikiconvertor-pages">
+        <ul>
+            <li><a href="&#x2F;_Sidebar&#x2F;">_Sidebar</a></li>
+            <li><a href="&#x2F;Contributing-to-the-Project&#x2F;">Contributing to the Project</a></li>
+            <li><a href="&#x2F;Development-of-Test-Themes&#x2F;">Development of Test Themes</a></li>
+            <li><a href="&#x2F;Environment-Wrangling-in-Wakari&#x2F;">Environment Wrangling in Wakari</a></li>
+            <li><a href="&#x2F;Final Report Draft&#x2F;">Final Report Draft</a></li>
+            <li><a href="&#x2F;Hannah-Weekly-Updates&#x2F;">Hannah Weekly Updates</a></li>
+            <li><a href="&#x2F;">Home</a></li>
+            <li><a href="&#x2F;Meeting-Notes&#x2F;">Meeting Notes</a></li>
+            <li><a href="&#x2F;Notebooks By Theme&#x2F;">Notebooks By Theme</a></li>
+            <li><a href="&#x2F;Project-Management-Plan&#x2F;">Project Management Plan</a></li>
+            <li><a href="&#x2F;References&#x2F;">References</a></li>
+            <li><a href="&#x2F;Running-the-System-Test-notebooks&#x2F;">Running the System Test notebooks</a></li>
+            <li><a href="&#x2F;Service-Registries-and-Data-Catalogs&#x2F;">Service Registries and Data Catalogs</a></li>
+            <li><a href="&#x2F;system-test-development-workflow&#x2F;">system test development workflow</a></li>
+            <li><a href="&#x2F;Weekly Stand Up Reports&#x2F;">Weekly Stand Up Reports</a></li>
+        </ul>
+      </div>
+
+      <div class="wikiconvertor-content wikistyle relative">
+        <p class="dwn">
+          <span class="right"><a class="edit-page" href="http://github.com/h5bp/html5-boilerplate/wiki/system-test-development-workflow/_edit">Edit this page</a></span>
+        </P>
+
+        <h1 id="system-test-workflow-guide">system-test workflow guide</h1>
+<h2 id="introduction">Introduction</h2>
+<p>This wiki describe a <a href="http://git-scm.com/">git</a> and
+<a href="https://github.com/">github</a> workflow for the
+<a href="https://github.com/ioos/system-test/">ioos/system-test</a>
+project.</p>
+<p>If you never used git before consider trying
+<a href="https://try.github.io/levels/1/challenges/1">this</a>.
+If you are familiar with <code><span class="pln">git</span></code> jump to Step 1.  If you
+already know how to fork go straight to Step 2.</p>
+<h2 id="step-0-set-up-and-configure-a-github-account">Step 0: set up and configure a github account</h2>
+<p>If you don&#39;t have a github account, go to the github
+<a href="https://github.com">page</a>, and make one.</p>
+<p>You then need to configure your account to allow write access, see
+the Generating SSH keys
+<a href="https://help.github.com/articles/generating-ssh-keys">help</a>.</p>
+<p>You can use <code><span class="pln">https</span></code>, but I strongly recommend <code><span class="pln">SSH keys</span></code> instead.
+Also, consider enabling the <code><span class="typ">Two</span><span class="pun">-</span><span class="typ">Factor</span><span class="pln"> </span><span class="typ">Authentication</span></code>
+<a href="https://help.github.com/articles/about-two-factor-authentication">(2FA)</a>.</p>
+<h3 id="configuring-git">Configuring git</h3>
+<p>Your personal git configurations are saved in the <code><span class="pun">.</span><span class="pln">gitconfig</span></code> file in
+your home directory.</p>
+<p>Here is my <code><span class="pun">.</span><span class="pln">gitconfig</span></code> file as an example:</p>
+<pre><code><span class="pun">[</span><span class="pln">user</span><span class="pun">]</span><span class="pln"><br />&nbsp; &nbsp; name </span><span class="pun">=</span><span class="pln"> ocefpaf<br />&nbsp; &nbsp; email </span><span class="pun">=</span><span class="pln"> ocefpaf@gmail</span><span class="pun">.</span><span class="pln">com<br /></span><span class="pun">[</span><span class="pln">push</span><span class="pun">]</span><span class="pln"><br />&nbsp; &nbsp; </span><span class="kwd">default</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> simple<br /></span><span class="pun">[</span><span class="kwd">alias</span><span class="pun">]</span><span class="pln"><br />&nbsp; &nbsp; pull </span><span class="pun">=</span><span class="pln"> pull </span><span class="pun">--</span><span class="pln">ff</span><span class="pun">-</span><span class="pln">only<br />&nbsp; &nbsp; st </span><span class="pun">=</span><span class="pln"> status </span><span class="pun">-</span><span class="pln">s<br />&nbsp; &nbsp; ci </span><span class="pun">=</span><span class="pln"> commit<br />&nbsp; &nbsp; co </span><span class="pun">=</span><span class="pln"> checkout<br />&nbsp; &nbsp; diff </span><span class="pun">=</span><span class="pln"> diff </span><span class="pun">--</span><span class="pln">word</span><span class="pun">-</span><span class="pln">diff<br />&nbsp; &nbsp; ll </span><span class="pun">=</span><span class="pln"> log </span><span class="pun">--</span><span class="pln">pretty</span><span class="pun">=</span><span class="pln">format</span><span class="pun">:</span><span class="str">"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]"</span><span class="pln"> </span><span class="pun">--</span><span class="pln">decorate </span><span class="pun">--</span><span class="pln">numstat<br />&nbsp; &nbsp; ls </span><span class="pun">=</span><span class="pln"> log </span><span class="pun">--</span><span class="pln">pretty</span><span class="pun">=</span><span class="pln">format</span><span class="pun">:</span><span class="str">"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]"</span><span class="pln"> </span><span class="pun">--</span><span class="pln">decorate </span><span class="pun">--</span><span class="pln">date</span><span class="pun">=</span><span class="pln">relative<br />&nbsp; &nbsp; filelog </span><span class="pun">=</span><span class="pln"> log </span><span class="pun">-</span><span class="pln">u<br /></span></code></pre><p>You can edit this file directly or you can use the <code><span class="pln">git config </span><span class="pun">--</span><span class="kwd">global</span></code>
+command::</p>
+<pre><code><span class="pln">&nbsp; git config </span><span class="pun">--</span><span class="kwd">global</span><span class="pln"> user</span><span class="pun">.</span><span class="pln">name </span><span class="str">"Your Name"</span><span class="pln"><br />&nbsp; git config </span><span class="pun">--</span><span class="kwd">global</span><span class="pln"> user</span><span class="pun">.</span><span class="pln">email you@yourdomain</span><span class="pun">.</span><span class="pln">example</span><span class="pun">.</span><span class="pln">com<br /></span></code></pre><p><strong>Note 1</strong>: To set up on another computer, you can copy your <code><span class="pun">~/.</span><span class="pln">gitconfig</span></code> file.
+I keep my config in a Dropbox folder.</p>
+<p><strong>Note 2</strong>: Try my aliases out.  You may find <code><span class="pln">git ls</span></code> and <code><span class="pln">git ll</span></code> helpful.</p>
+<h2 id="step-1-forking">Step 1: forking</h2>
+<p>Your fork will be where you&#39;ll work, not the main repository!</p>
+<ol>
+<li>Log into your github account.</li>
+<li>Go to the <code><span class="pln">system</span><span class="pun">-</span><span class="pln">test</span></code> github home at
+<a href="https://github.com/ioos/system-test">ioos github</a></li>
+<li><p>Click on the <em>fork</em> button:</p>
+<p><img src="http://scitools.org.uk/iris/docs/latest/_images/forking_button.png" alt="Fork"></p>
+</li>
+</ol>
+<p>You should find yourself at the home page for your own forked copy of
+<a href="https://github.com/ioos/system-test">system-test</a>.  Now you can clone your
+fork.</p>
+<pre><code><span class="pln">git clone git@github</span><span class="pun">.</span><span class="pln">com</span><span class="pun">:</span><span class="pln">your</span><span class="pun">-</span><span class="pln">user</span><span class="pun">-</span><span class="pln">name</span><span class="pun">/</span><span class="pln">system</span><span class="pun">-</span><span class="pln">test</span><span class="pun">.</span><span class="pln">git<br /></span></code></pre><p>Change directory to your new repo: <code><span class="pln">cd system</span><span class="pun">-</span><span class="pln">test</span></code>.  Then test it by typing
+<code><span class="pln">git branch </span><span class="pun">-</span><span class="pln">a</span></code> to show you all branches and <code><span class="pln">git remote </span><span class="pun">-</span><span class="pln">v</span></code> to show the URLs.</p>
+<p>You will notice that this fork has no connection to the main system-test repo.
+You need to add <code><span class="pln">system</span><span class="pun">-</span><span class="pln">test</span></code> main repository as your <code><span class="pln">upstream</span></code>.</p>
+<pre><code><span class="pln">git remote add upstream github</span><span class="pun">.</span><span class="pln">com</span><span class="pun">/</span><span class="pln">ioos</span><span class="pun">/</span><span class="pln">system</span><span class="pun">-</span><span class="pln">test</span><span class="pun">.</span><span class="pln">git<br /></span></code></pre><p>You need to do all this only once!  Repeat the commands <code><span class="pln">git branch </span><span class="pun">-</span><span class="pln">a</span></code> and
+<code><span class="pln">git branch </span><span class="pun">-</span><span class="pln">v</span></code> and check if you have your <strong>origin</strong> pointing to your repo and
+<strong>upstream</strong> pointing to system-test main repo.</p>
+<p>You should see something like this:
+    origin  git@github.com:ocefpaf/system-test.git (fetch)
+    origin  git@github.com:ocefpaf/system-test.git (push)
+    upstream        github.com/ioos/system-test.git (fetch)
+    upstream        github.com/ioos/system-test.git (push)</p>
+<p>We added the upstream using <code><span class="pln">git</span><span class="pun">:</span><span class="com">//</span></code> for the URL rather than <code><span class="pln">git@</span></code>.  The
+<code><span class="pln">git</span><span class="pun">:</span><span class="com">//</span></code> URL is read only.  This means that we can&#39;t accidentally
+(or deliberately) write to the upstream repo, and we are only going to
+use it to merge into our own code and send PRs.</p>
+<p>Note 1: <code><span class="pln">upstream</span></code> is a recommended name, but you may call it whatever you
+want, as long as you remember that it points to system-test main repo!</p>
+<p>Note 2: Even the administrators should fork from the main repository and
+<strong>never</strong> clone them using the <code><span class="pln">git@</span></code>!</p>
+<p>Please see <a href="http://help.github.com/forking/">http://help.github.com/forking/</a> for more detail.</p>
+<h2 id="step-2-development-workflow">Step 2: Development workflow</h2>
+<p>You already have your own forked copy of the <code><span class="pln">system</span><span class="pun">-</span><span class="pln">test</span></code> repository and you
+have configured git.  Now you are ready for some real work.</p>
+<p><strong>Don&#39;t use your <code><span class="pln">master</span></code> branch for anything.</strong></p>
+<ol>
+<li>Before you start a new notebook or modify an existing one, fetch any changes
+from <code><span class="pln">upstream</span></code> with <code><span class="pln">git fetch upstream</span></code>.  Then merge into you <code><span class="pln">master</span></code>
+with <code><span class="pln">git merge upstream</span><span class="pun">/</span><span class="pln">master</span></code>.  You can then <code><span class="pln">git push</span></code> to your fork to
+keep your fork updated.</li>
+<li>Start a new <em>feature branch</em> with: <code><span class="pln">git branch branch_name</span></code> and
+change to the branch with <code><span class="pln">git co branch_name</span></code>.  (You should Consider
+using a prompt that is git
+<a href="https://github.com/magicmonty/bash-git-prompt">aware</a>).
+Always make a new branch for each separable set of changes &quot;one task, one
+branch&quot;, similar to the
+<a href="http://mail.scipy.org/pipermail/ipython-dev/2010-October/006746.html">ipython git workflow</a>.
+Name your branch for the purpose of the changes - e.g.
+<code><span class="pln">bugfix</span><span class="pun">-</span><span class="kwd">for</span><span class="pun">-</span><span class="pln">issue</span><span class="pun">-</span><span class="lit">42</span></code> or <code><span class="pln">new_cool_feature_X</span></code>.
+Check my <a href="https://github.com/ocefpaf/system-test/tree/remove_pylab">remove_pylab</a> PR.</li>
+<li>Keep working normally, committing code, and pushing to your branch.  Git is
+smart enough to tell you that, during the first <code><span class="pln">push</span></code>, there is nothing pointing
+to your branch, just follow git instructions.  It should be something like:
+<code><span class="pln">git push </span><span class="pun">--</span><span class="kwd">set</span><span class="pun">-</span><span class="pln">upstream origin branch_name</span></code>, then keep pushing.</li>
+<li>When you are ready, go to the URL of your forked repo
+<code><span class="pln">http</span><span class="pun">:</span><span class="com">//github.com/your-user-name/system-test</span></code>.  Use the &#39;Switch Branches&#39;
+dropdown menu near the top left of the page to select the branch with your
+changes:
+<img src="http://scitools.org.uk/iris/docs/latest/_images/branch_dropdown.png" alt="Branch">
+Click on the &#39;Pull request&#39; button:
+<img src="http://scitools.org.uk/iris/docs/latest/_images/pull_button.png" alt="PR"></li>
+<li>Ask for people to review and merge your modifications.  We can elect a
+maintainer to be the &quot;merging&quot; guy, but all should help for the review.
+Try to call the reviewers by interest, tagging their username in the PR (like
+@ocefpaf check my code!!! :smile:).</li>
+</ol>
+<p>This way of working helps to keep work well organized, with readable history.
+This in turn makes it easier for project maintainers (that might be you) to see
+what you&#39;ve done, and why you did it.</p>
+<p><strong>Always</strong> repeat step 1 before starting a new branch.  This will pull down
+any commits you don&#39;t have.</p>
+<p>Feel free to ask me for help and clarifications.</p>
+<p>For more details read the iris
+<a href="http://scitools.org.uk/iris/docs/latest/developers_guide/gitwash/development_workflow.html">Development workflow</a>.</p>
+<p>This wiki was a rip-off of the <a href="http://scitools.org.uk/iris/docs/latest/developers_guide/index.html">Iris Development Guide</a></p>
+<!--
+ LICENSE
+=========
+
+We release the documents under the Creative Commons attribution license:
+http://creativecommons.org/licenses/by/3.0/
+
+We release the code under the simplified BSD license:
+
+Copyright (c) 2010, Matthew Brett
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+* Redistributions of source code must retain the above copyright notice,
+  this list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright
+  notice, this list of conditions and the following disclaimer in the
+  documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
+IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
+TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
+TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+      </div>
+
+    </div>
+    <div id="footer">
+      <p>
+        <em class="focus">Brought to you by</em>
+        <a href="http://paulirish.com">Paul Irish <i>Google Chrome, jQuery</i></a>
+        <a href="http://nimbupani.com">Divya Manian <i>Web Opener @ Opera</i></a>
+        <a href="http://www.blog.highub.com/">Shichuan <i>Open Web Developer</i></a>
+      </p>
+      <ul>
+        <li><a href="http://blog.mklog.fr/">Mickael Daniel</a></li>
+        <li>Dave Kirk</li> 
+        <li><a href="http://mths.be/"></a>Mathias Byenens</li>
+        <li><a href="http://www.html5-css3.fr/">Jonathan Verrecchia</a></li>
+        <li><a href="https://github.com/nlogax">nlogax</a></li>
+        <li><a href="http://htmlcssjavascript.com/">Rob Larsen</a></li>
+        <li><a href="http://www.vervestudios.co/">David Murdoch</a></li>
+        <li><a href="http://www.ad7six.com/">Andy Dawson</a></li>
+        <li><a href="http://www.michael-van-laar.de/">Michael van Laar</a></li>
+        <li><a href="https://github.com/paulirish/html5-boilerplate/contributors">More Contributors</a></li>
+      </ul> <br>
+      <p>It would not have been possible without the efforts of these superheroes:</p>
+      <ul>
+        <li><a href="http://www.phpied.com">Stoyan Stefanov</a></li>
+        <li><a href="http://mathiasbynens.be/">Mathias Bynens</a></li>
+        <li><a href="http://meyerweb.com/">Eric Meyer</a></li>
+        <li><a href="http://richclarkdesign.com/">Richard Clark</a></li>
+        <li><a href="http://www.aestheticallyloyal.com/">Anthony Kolber</a></li>
+        <li><a href="http://www.splintered.co.uk/">Patrick H Lauke</a></li>
+        <li><a href="http://timvandamme.com">Tim Van Damme</a></li>
+        <li><a href="http://farukat.es/">Faruk Ate&#351;</a></li>
+        <li><a href="http://remysharp.com/">Remy Sharp</a></li>
+        <li><a href="http://www.dillerdesign.com/">Drew Diller</a></li>
+        <li><a href="http://blog.amodernfable.com/">Adam McIntyre</a></li>
+        <li><a href="http://tjkdesign.com/">Thierry Koblentz</a></li>
+        <li><a href="http://miketaylr.com">Mike Taylor</a></li>
+        <li><a href="http://iecss.com">Jonathan Neal</a></li>
+        <li><a href="http://camendesign.com">Kroc Camen</a></li>
+        <li><a href="http://fontsquirrel.com">Ethan Dunham</a></li>
+        <li><a href="http://peter.sh">Peter Beverloo</a></li>
+        <li><a href="http://code.flickr.com/blog/">Flickr</a></li>
+        <li><a href="http://www.viget.com/inspire/">Viget</a></li>
+        <li><a href="http://stevesouders.com/">Steve Souders</a></li>
+        <li><a href="http://stuffandnonsense.co.uk/blog">Andy Clarke</a>
+        <li><a href="http://na.isobar.com">Isobar Interface Development team</a></li>
+      </ul>
+      <p>
+        Pretty docs brought to you by <a href="http://github.com/mklabs" style="color:hsl(18, 74%, 54%)">Mickael Daniel</a>
+      </p>
+    </div>
+
+    <img id="html5logo" src="//html5boilerplate.com/images/HTML5_Logo.svg" height="60">
+
+
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js"></script>
+  <script>window.jQuery || document.write('<script src="/public/js/jquery.min.js"><\/script>')</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/json2/20110223/json2.js"></script>
+  <script>window.JSON || document.write("<script src='/public/js/json2.js'>\x3C/script>")</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.1.6/underscore-min.js"></script>
+  <script>window._ || document.write("<script src='/public/js/underscore.min.js'>\x3C/script>")</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/0.5.0/backbone-min.js"></script>
+  <script>window.Backbone || document.write("<script src='/public/js/backbone.min.js'>\x3C/script>")</script>
+
+  <script src="/public/js/script.js"></script>
+
+</body>
+</html>

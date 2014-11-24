@@ -1,0 +1,176 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en-us" dir="ltr" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en-us" dir="ltr" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-us" dir="ltr" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-us" dir="ltr" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-us" dir="ltr" class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" >
+  <meta charset="utf-8">
+
+  <title>Meeting Notes || HTML5 Boilerplate - A rock-solid default template for HTML5 awesome.</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/public/css/style.css" >
+  <link rel="stylesheet" href="/public/css/docs.css" >
+
+</head>
+<body>
+  <div id="container" class="wikiconvertor"> 
+    <b class="border-a"></b>
+    <b class="border-b"></b>
+    <b class="border-c"></b>
+    <b class="border-d"></b>
+
+    <div id="header">
+         <p class="lang">
+           <a href="/">Return to the HTML5 Boilerplate website &#8618;</a>
+         </p>
+         <h1>HTML5  <i>&#x2605;</i> <b>Boilerplate Docs</b></h1> 
+         <h2>A rock-solid default for HTML5 awesome.</h2>  
+    </div>
+
+    <div id="body">
+      <div class="wikiconvertor-pages">
+        <ul>
+            <li><a href="&#x2F;_Sidebar&#x2F;">_Sidebar</a></li>
+            <li><a href="&#x2F;Contributing-to-the-Project&#x2F;">Contributing to the Project</a></li>
+            <li><a href="&#x2F;Development-of-Test-Themes&#x2F;">Development of Test Themes</a></li>
+            <li><a href="&#x2F;Environment-Wrangling-in-Wakari&#x2F;">Environment Wrangling in Wakari</a></li>
+            <li><a href="&#x2F;Final Report Draft&#x2F;">Final Report Draft</a></li>
+            <li><a href="&#x2F;Hannah-Weekly-Updates&#x2F;">Hannah Weekly Updates</a></li>
+            <li><a href="&#x2F;">Home</a></li>
+            <li><a href="&#x2F;Meeting-Notes&#x2F;">Meeting Notes</a></li>
+            <li><a href="&#x2F;Notebooks By Theme&#x2F;">Notebooks By Theme</a></li>
+            <li><a href="&#x2F;Project-Management-Plan&#x2F;">Project Management Plan</a></li>
+            <li><a href="&#x2F;References&#x2F;">References</a></li>
+            <li><a href="&#x2F;Running-the-System-Test-notebooks&#x2F;">Running the System Test notebooks</a></li>
+            <li><a href="&#x2F;Service-Registries-and-Data-Catalogs&#x2F;">Service Registries and Data Catalogs</a></li>
+            <li><a href="&#x2F;system-test-development-workflow&#x2F;">system test development workflow</a></li>
+            <li><a href="&#x2F;Weekly Stand Up Reports&#x2F;">Weekly Stand Up Reports</a></li>
+        </ul>
+      </div>
+
+      <div class="wikiconvertor-content wikistyle relative">
+        <p class="dwn">
+          <span class="right"><a class="edit-page" href="http://github.com/h5bp/html5-boilerplate/wiki/Meeting-Notes/_edit">Edit this page</a></span>
+        </P>
+
+        <h1 id="dmac-it-testing-status-meeting-notes">DMAC IT Testing Status Meeting Notes</h1>
+<h2 id="30-may-2014">30 May 2014</h2>
+<h2 id="attendees">Attendees</h2>
+<ul>
+<li>For ASA:  Kelly Knee, Andy Bird, David Foster, Bob Fratantonio</li>
+<li>For Axiom:  Will Koeppen, Kyle Wilcox</li>
+<li>For USGS: Rich Signell</li>
+<li>For LMI/IOOS:  John Kupiec</li>
+</ul>
+<h2 id="topics">Topics</h2>
+<h3 id="how-to-organize-various-notebooks">How to Organize Various Notebooks</h3>
+<p>The discussion included several topics.  One topic was whether Python notebooks that are related to the same scenario should be merged into one notebook as testing progresses.  The decision was to keep notebooks separate, enabling a modular approach in which a given notebook could be used to test the same functionality across various scenarios and themes.  The second topic was, given that notebooks will remain separate and be used in modular fashion, how should they be organized under the test scenarios and larger test themes. Kyle Wilcox offered to enhance the directory tree structure under which notebooks are currently organized.  The directory tree will have three levels:</p>
+<ul>
+<li>Test Theme</li>
+<li>Test Scenario</li>
+<li>Notebook</li>
+</ul>
+<p>Additionally the notebooks should be given descriptive names that do not include the original developer&#39;s name.</p>
+<h3 id="how-to-document-a-test">How to Document a Test</h3>
+<p>This discussion proceeded from an earlier discussion between Rich Signell and Derrick Snowden over how best to document a test procedure and its results.  Derrick had suggested to Rich that tests should be documented either within a wiki or within Python notebooks.    Rich attempted these approaches and found drawbacks to each.  He settled on using a GitHub issue to document test results including summary of successes, issues, etc.  He showed the group and example of this approach, and noted its advantages:</p>
+<ul>
+<li>Unlike a Python notebook or a wiki, GitHub enables a tester to draw and drop images and graphics. This approach is much easier and quicker than the alternative of copying and pasting a link within a notebook or on a wiki page.  </li>
+<li>The image displays within the GitHub issue.  A reader does not have to click on a link to see an image.</li>
+<li>Formatting is easier within a GitHub issue than within a Google document…at least for Rich….</li>
+<li>A GitHub issue title can include the name of the notebook that was run and the run date.</li>
+<li>Unlike a wiki page or a Python notebook, a GitHub issue can have a discussion thread.</li>
+</ul>
+<p>Rich demonstrated that searching for test results within GitHub is easy when an appropriate label is supplied.  Rich suggested the label “Progress,” and no other attendee had a better suggestion.  “Progress” it is. See issue #82 as <a href="https://github.com/ioos/system-test/issues/82">an example</a>.</p>
+<p>Further discussion centered on how to enable traceability between a particular test report issue within GitHub and the associated Python notebook. Andy suggested embedding the issues within the notebook as an HTML frame; the link would be to an associated test report issue within GitHub.    Andy’s suggestion was adopted.</p>
+<h3 id="configuration-management-of-notebooks">Configuration Management of Notebooks</h3>
+<p>There were several minutes of discussion on the appropriate configuration protocols to use so that different developers could work on their own notebooks and commit them at the appropriate time without overwriting similar efforts by other developers.  In other words, the discussion chewed on questions always encountered when using Git for configuration management.  Such questions included, but were not limited to:</p>
+<ul>
+<li>Should each developer clone a complete copy of the code base and work on it independently?</li>
+<li>Do different versions of a given notebook constitute branches or forks?</li>
+<li>Should different developers work within designated branches to keep their work separate?</li>
+<li>Can the team implement a continuous build process?</li>
+</ul>
+<p>To the best of this scribe’s knowledge, only one decision was made: for the immediate future, individual pull requests will not be merged.  At some future point, one of the developers who are skilled in GitHub may merge the pull requests.  The issues associated with using Git to manage configuration need to be discussed further.  </p>
+<p>A straw man proposal was written <a href="https://github.com/ioos/system-test/wiki/Contributing-to-the-Project">https://github.com/ioos/system-test/wiki/Contributing-to-the-Project</a> and comments are needed.</p>
+<h3 id="iris">Iris</h3>
+<p>Iris is currently not working on Python notebooks running off the OSX platforms. Rich said that he would troubleshoot this issue by using a build from NYU.  Kyle said that he would assist Rich in this effort.  Rich also said that he would attempt to confirm that Iris works on Anaconda.  Rich stressed that it is reasonable for members of the scientific community to expect that Python notebooks would run successfully within Anaconda, since Anaconda is a subset of Python that is customized for use in scientific analyses.</p>
+<h3 id="weekly-taskings">Weekly Taskings</h3>
+<p>There was a general request for some way to document the essential elements of an Agile stand-up for each team.  Rich suggested using GitHub Markdown file to compile stand-up information for each status meeting.  Rich’s suggestion was received tepidly. An alternative would be for each team to document their stand-up elements within the <a href="https://github.com/ioos/system-test/wiki/Contributing-to-the-Project">How You Can Contribute wiki page</a>.  There was not much enthusiasm for this alternative.  The need for each team to document their agile stand-up lists (Accomplishments, Underway, and Issues) remains, but is unresolved.</p>
+
+      </div>
+
+    </div>
+    <div id="footer">
+      <p>
+        <em class="focus">Brought to you by</em>
+        <a href="http://paulirish.com">Paul Irish <i>Google Chrome, jQuery</i></a>
+        <a href="http://nimbupani.com">Divya Manian <i>Web Opener @ Opera</i></a>
+        <a href="http://www.blog.highub.com/">Shichuan <i>Open Web Developer</i></a>
+      </p>
+      <ul>
+        <li><a href="http://blog.mklog.fr/">Mickael Daniel</a></li>
+        <li>Dave Kirk</li> 
+        <li><a href="http://mths.be/"></a>Mathias Byenens</li>
+        <li><a href="http://www.html5-css3.fr/">Jonathan Verrecchia</a></li>
+        <li><a href="https://github.com/nlogax">nlogax</a></li>
+        <li><a href="http://htmlcssjavascript.com/">Rob Larsen</a></li>
+        <li><a href="http://www.vervestudios.co/">David Murdoch</a></li>
+        <li><a href="http://www.ad7six.com/">Andy Dawson</a></li>
+        <li><a href="http://www.michael-van-laar.de/">Michael van Laar</a></li>
+        <li><a href="https://github.com/paulirish/html5-boilerplate/contributors">More Contributors</a></li>
+      </ul> <br>
+      <p>It would not have been possible without the efforts of these superheroes:</p>
+      <ul>
+        <li><a href="http://www.phpied.com">Stoyan Stefanov</a></li>
+        <li><a href="http://mathiasbynens.be/">Mathias Bynens</a></li>
+        <li><a href="http://meyerweb.com/">Eric Meyer</a></li>
+        <li><a href="http://richclarkdesign.com/">Richard Clark</a></li>
+        <li><a href="http://www.aestheticallyloyal.com/">Anthony Kolber</a></li>
+        <li><a href="http://www.splintered.co.uk/">Patrick H Lauke</a></li>
+        <li><a href="http://timvandamme.com">Tim Van Damme</a></li>
+        <li><a href="http://farukat.es/">Faruk Ate&#351;</a></li>
+        <li><a href="http://remysharp.com/">Remy Sharp</a></li>
+        <li><a href="http://www.dillerdesign.com/">Drew Diller</a></li>
+        <li><a href="http://blog.amodernfable.com/">Adam McIntyre</a></li>
+        <li><a href="http://tjkdesign.com/">Thierry Koblentz</a></li>
+        <li><a href="http://miketaylr.com">Mike Taylor</a></li>
+        <li><a href="http://iecss.com">Jonathan Neal</a></li>
+        <li><a href="http://camendesign.com">Kroc Camen</a></li>
+        <li><a href="http://fontsquirrel.com">Ethan Dunham</a></li>
+        <li><a href="http://peter.sh">Peter Beverloo</a></li>
+        <li><a href="http://code.flickr.com/blog/">Flickr</a></li>
+        <li><a href="http://www.viget.com/inspire/">Viget</a></li>
+        <li><a href="http://stevesouders.com/">Steve Souders</a></li>
+        <li><a href="http://stuffandnonsense.co.uk/blog">Andy Clarke</a>
+        <li><a href="http://na.isobar.com">Isobar Interface Development team</a></li>
+      </ul>
+      <p>
+        Pretty docs brought to you by <a href="http://github.com/mklabs" style="color:hsl(18, 74%, 54%)">Mickael Daniel</a>
+      </p>
+    </div>
+
+    <img id="html5logo" src="//html5boilerplate.com/images/HTML5_Logo.svg" height="60">
+
+
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.js"></script>
+  <script>window.jQuery || document.write('<script src="/public/js/jquery.min.js"><\/script>')</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/json2/20110223/json2.js"></script>
+  <script>window.JSON || document.write("<script src='/public/js/json2.js'>\x3C/script>")</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.1.6/underscore-min.js"></script>
+  <script>window._ || document.write("<script src='/public/js/underscore.min.js'>\x3C/script>")</script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/0.5.0/backbone-min.js"></script>
+  <script>window.Backbone || document.write("<script src='/public/js/backbone.min.js'>\x3C/script>")</script>
+
+  <script src="/public/js/script.js"></script>
+
+</body>
+</html>
